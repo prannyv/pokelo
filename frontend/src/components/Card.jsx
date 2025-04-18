@@ -70,37 +70,39 @@ const Card = ({
             onError={handleImageError}
           />
         )}
-      </div>
-      
-      {showDetails && (
-        <div className="card-details">
-          <h3>{card.name}</h3>
-          <div className="card-stats">
-            <div className="stat">
-              <span className="stat-label">Elo:</span>
-              <span className="stat-value">{Math.round(card.elo)}</span>
-            </div>
-            <div className="stat">
-              <span className="stat-label">Matches:</span>
-              <span className="stat-value">{card.matches}</span>
-            </div>
-            <div className="stat">
-              <span className="stat-label">Win Rate:</span>
-              <span className="stat-value">
-                {card.matches > 0 
-                  ? `${Math.round((card.wins / card.matches) * 100)}%` 
-                  : 'N/A'}
-              </span>
-            </div>
-            {showMarketPrice && (
-              <div className="stat">
-                <span className="stat-label">Price:</span>
-                <span className="stat-value price">{getMarketPrice()}</span>
+        
+        {showDetails && (
+          <div className="card-details-overlay">
+            <div className="card-details">
+              <h3>{card.name}</h3>
+              <div className="card-stats">
+                <div className="stat">
+                  <span className="stat-label">Elo:</span>
+                  <span className="stat-value">{Math.round(card.elo)}</span>
+                </div>
+                <div className="stat">
+                  <span className="stat-label">Matches:</span>
+                  <span className="stat-value">{card.matches}</span>
+                </div>
+                <div className="stat">
+                  <span className="stat-label">Win Rate:</span>
+                  <span className="stat-value">
+                    {card.matches > 0 
+                      ? `${Math.round((card.wins / card.matches) * 100)}%` 
+                      : 'N/A'}
+                  </span>
+                </div>
+                {showMarketPrice && (
+                  <div className="stat">
+                    <span className="stat-label">Price:</span>
+                    <span className="stat-value price">{getMarketPrice()}</span>
+                  </div>
+                )}
               </div>
-            )}
+            </div>
           </div>
-        </div>
-      )}
+        )}
+      </div>
     </div>
   );
 };
