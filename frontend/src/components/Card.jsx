@@ -98,11 +98,6 @@ const Card = ({
                 <span className="stat-value price">{getMarketPrice()}</span>
               </div>
             )}
-            {!isComparisonMode && (
-              <div className="view-store-hint">
-                <small>Click to view on TCGplayer</small>
-              </div>
-            )}
           </div>
         </div>
       )}
