@@ -1,0 +1,3641 @@
+{
+  "cards": [
+    {
+      "id": "sv6pt5-65",
+      "name": "Tapu Bulu",
+      "supertype": "Pok\u00e9mon",
+      "subtypes": [
+        "Basic"
+      ],
+      "hp": "140",
+      "types": [
+        "Grass"
+      ],
+      "attacks": [
+        {
+          "name": "Wood Hammer",
+          "cost": [
+            "Grass",
+            "Grass",
+            "Colorless",
+            "Colorless"
+          ],
+          "convertedEnergyCost": 4,
+          "damage": "220",
+          "text": "This Pok\u00e9mon also does 30 damage to itself."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "Fire",
+          "value": "\u00d72"
+        }
+      ],
+      "retreatCost": [
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedRetreatCost": 3,
+      "set": {
+        "id": "sv6pt5",
+        "name": "Shrouded Fable",
+        "series": "Scarlet & Violet",
+        "printedTotal": 64,
+        "total": 99,
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "ptcgoCode": "SFA",
+        "releaseDate": "2024/08/02",
+        "updatedAt": "2024/08/02 15:00:00",
+        "images": {
+          "symbol": "https://images.pokemontcg.io/sv6pt5/symbol.png",
+          "logo": "https://images.pokemontcg.io/sv6pt5/logo.png"
+        }
+      },
+      "number": "65",
+      "rarity": "Illustration Rare",
+      "legalities": {
+        "unlimited": "Legal",
+        "standard": "Legal",
+        "expanded": "Legal"
+      },
+      "regulationMark": "H",
+      "images": {
+        "small": "https://images.pokemontcg.io/sv6pt5/65.png",
+        "large": "https://images.pokemontcg.io/sv6pt5/65_hires.png"
+      },
+      "tcgplayer": {
+        "url": "https://prices.pokemontcg.io/tcgplayer/sv6pt5-65",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "holofoil": {
+            "low": 4.6,
+            "mid": 6.87,
+            "high": 21.0,
+            "market": 5.83,
+            "directLow": 7.99
+          }
+        }
+      },
+      "cardmarket": {
+        "url": "https://prices.pokemontcg.io/cardmarket/sv6pt5-65",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "averageSellPrice": 5.78,
+          "lowPrice": 3.89,
+          "trendPrice": 5.9,
+          "germanProLow": 0.0,
+          "suggestedPrice": 0.0,
+          "reverseHoloSell": 0.0,
+          "reverseHoloLow": 0.0,
+          "reverseHoloTrend": 0.0,
+          "lowPriceExPlus": 3.89,
+          "avg1": 6.64,
+          "avg7": 6.37,
+          "avg30": 5.97,
+          "reverseHoloAvg1": 0.0,
+          "reverseHoloAvg7": 0.0,
+          "reverseHoloAvg30": 0.0
+        }
+      }
+    },
+    {
+      "id": "sv6pt5-66",
+      "name": "Houndoom",
+      "supertype": "Pok\u00e9mon",
+      "subtypes": [
+        "Stage 1"
+      ],
+      "hp": "120",
+      "types": [
+        "Fire"
+      ],
+      "evolvesFrom": "Houndour",
+      "attacks": [
+        {
+          "name": "Bite",
+          "cost": [
+            "Colorless",
+            "Colorless"
+          ],
+          "convertedEnergyCost": 2,
+          "damage": "50",
+          "text": ""
+        },
+        {
+          "name": "Snarl",
+          "cost": [
+            "Fire",
+            "Colorless",
+            "Colorless"
+          ],
+          "convertedEnergyCost": 3,
+          "damage": "100",
+          "text": "During your opponent's next turn, attacks used by the Defending Pok\u00e9mon do 100 less damage (before applying Weakness and Resistance)."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "Water",
+          "value": "\u00d72"
+        }
+      ],
+      "retreatCost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedRetreatCost": 2,
+      "set": {
+        "id": "sv6pt5",
+        "name": "Shrouded Fable",
+        "series": "Scarlet & Violet",
+        "printedTotal": 64,
+        "total": 99,
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "ptcgoCode": "SFA",
+        "releaseDate": "2024/08/02",
+        "updatedAt": "2024/08/02 15:00:00",
+        "images": {
+          "symbol": "https://images.pokemontcg.io/sv6pt5/symbol.png",
+          "logo": "https://images.pokemontcg.io/sv6pt5/logo.png"
+        }
+      },
+      "number": "66",
+      "rarity": "Illustration Rare",
+      "nationalPokedexNumbers": [
+        229
+      ],
+      "legalities": {
+        "unlimited": "Legal",
+        "standard": "Legal",
+        "expanded": "Legal"
+      },
+      "regulationMark": "H",
+      "images": {
+        "small": "https://images.pokemontcg.io/sv6pt5/66.png",
+        "large": "https://images.pokemontcg.io/sv6pt5/66_hires.png"
+      },
+      "tcgplayer": {
+        "url": "https://prices.pokemontcg.io/tcgplayer/sv6pt5-66",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "holofoil": {
+            "low": 30.0,
+            "mid": 40.77,
+            "high": 144.0,
+            "market": 36.35,
+            "directLow": 41.62
+          }
+        }
+      },
+      "cardmarket": {
+        "url": "https://prices.pokemontcg.io/cardmarket/sv6pt5-66",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "averageSellPrice": 30.86,
+          "lowPrice": 20.0,
+          "trendPrice": 27.49,
+          "germanProLow": 0.0,
+          "suggestedPrice": 0.0,
+          "reverseHoloSell": 0.0,
+          "reverseHoloLow": 0.0,
+          "reverseHoloTrend": 0.0,
+          "lowPriceExPlus": 21.0,
+          "avg1": 37.31,
+          "avg7": 28.06,
+          "avg30": 28.88,
+          "reverseHoloAvg1": 0.0,
+          "reverseHoloAvg7": 0.0,
+          "reverseHoloAvg30": 0.0
+        }
+      }
+    },
+    {
+      "id": "sv6pt5-67",
+      "name": "Horsea",
+      "supertype": "Pok\u00e9mon",
+      "subtypes": [
+        "Basic"
+      ],
+      "hp": "60",
+      "types": [
+        "Water"
+      ],
+      "evolvesTo": [
+        "Seadra"
+      ],
+      "attacks": [
+        {
+          "name": "Hold Still",
+          "cost": [
+            "Water"
+          ],
+          "convertedEnergyCost": 1,
+          "damage": "",
+          "text": "Heal 30 damage from this Pok\u00e9mon."
+        },
+        {
+          "name": "Razor Fin",
+          "cost": [
+            "Colorless",
+            "Colorless"
+          ],
+          "convertedEnergyCost": 2,
+          "damage": "20",
+          "text": ""
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "Lightning",
+          "value": "\u00d72"
+        }
+      ],
+      "retreatCost": [
+        "Colorless"
+      ],
+      "convertedRetreatCost": 1,
+      "set": {
+        "id": "sv6pt5",
+        "name": "Shrouded Fable",
+        "series": "Scarlet & Violet",
+        "printedTotal": 64,
+        "total": 99,
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "ptcgoCode": "SFA",
+        "releaseDate": "2024/08/02",
+        "updatedAt": "2024/08/02 15:00:00",
+        "images": {
+          "symbol": "https://images.pokemontcg.io/sv6pt5/symbol.png",
+          "logo": "https://images.pokemontcg.io/sv6pt5/logo.png"
+        }
+      },
+      "number": "67",
+      "rarity": "Illustration Rare",
+      "nationalPokedexNumbers": [
+        116
+      ],
+      "legalities": {
+        "unlimited": "Legal",
+        "standard": "Legal",
+        "expanded": "Legal"
+      },
+      "regulationMark": "H",
+      "images": {
+        "small": "https://images.pokemontcg.io/sv6pt5/67.png",
+        "large": "https://images.pokemontcg.io/sv6pt5/67_hires.png"
+      },
+      "tcgplayer": {
+        "url": "https://prices.pokemontcg.io/tcgplayer/sv6pt5-67",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "holofoil": {
+            "low": 16.56,
+            "mid": 20.02,
+            "high": 60.0,
+            "market": 18.92,
+            "directLow": 24.77
+          }
+        }
+      },
+      "cardmarket": {
+        "url": "https://prices.pokemontcg.io/cardmarket/sv6pt5-67",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "averageSellPrice": 18.05,
+          "lowPrice": 13.0,
+          "trendPrice": 20.63,
+          "germanProLow": 0.0,
+          "suggestedPrice": 0.0,
+          "reverseHoloSell": 0.0,
+          "reverseHoloLow": 0.0,
+          "reverseHoloTrend": 0.0,
+          "lowPriceExPlus": 13.0,
+          "avg1": 17.57,
+          "avg7": 20.14,
+          "avg30": 18.51,
+          "reverseHoloAvg1": 0.0,
+          "reverseHoloAvg7": 0.0,
+          "reverseHoloAvg30": 0.0
+        }
+      }
+    },
+    {
+      "id": "sv6pt5-68",
+      "name": "Duskull",
+      "supertype": "Pok\u00e9mon",
+      "subtypes": [
+        "Basic"
+      ],
+      "hp": "60",
+      "types": [
+        "Psychic"
+      ],
+      "evolvesTo": [
+        "Dusclops"
+      ],
+      "attacks": [
+        {
+          "name": "Come and Get You",
+          "cost": [
+            "Psychic"
+          ],
+          "convertedEnergyCost": 1,
+          "damage": "",
+          "text": "Put up to 3 Duskull from your discard pile onto your Bench."
+        },
+        {
+          "name": "Mumble",
+          "cost": [
+            "Psychic",
+            "Psychic"
+          ],
+          "convertedEnergyCost": 2,
+          "damage": "30",
+          "text": ""
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "Darkness",
+          "value": "\u00d72"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "Fighting",
+          "value": "-30"
+        }
+      ],
+      "retreatCost": [
+        "Colorless"
+      ],
+      "convertedRetreatCost": 1,
+      "set": {
+        "id": "sv6pt5",
+        "name": "Shrouded Fable",
+        "series": "Scarlet & Violet",
+        "printedTotal": 64,
+        "total": 99,
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "ptcgoCode": "SFA",
+        "releaseDate": "2024/08/02",
+        "updatedAt": "2024/08/02 15:00:00",
+        "images": {
+          "symbol": "https://images.pokemontcg.io/sv6pt5/symbol.png",
+          "logo": "https://images.pokemontcg.io/sv6pt5/logo.png"
+        }
+      },
+      "number": "68",
+      "rarity": "Illustration Rare",
+      "nationalPokedexNumbers": [
+        355
+      ],
+      "legalities": {
+        "unlimited": "Legal",
+        "standard": "Legal",
+        "expanded": "Legal"
+      },
+      "regulationMark": "H",
+      "images": {
+        "small": "https://images.pokemontcg.io/sv6pt5/68.png",
+        "large": "https://images.pokemontcg.io/sv6pt5/68_hires.png"
+      },
+      "tcgplayer": {
+        "url": "https://prices.pokemontcg.io/tcgplayer/sv6pt5-68",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "holofoil": {
+            "low": 29.0,
+            "mid": 39.94,
+            "high": 110.0,
+            "market": 32.47,
+            "directLow": 39.94
+          }
+        }
+      },
+      "cardmarket": {
+        "url": "https://prices.pokemontcg.io/cardmarket/sv6pt5-68",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "averageSellPrice": 23.45,
+          "lowPrice": 18.99,
+          "trendPrice": 20.31,
+          "germanProLow": 0.0,
+          "suggestedPrice": 0.0,
+          "reverseHoloSell": 0.0,
+          "reverseHoloLow": 0.0,
+          "reverseHoloTrend": 0.0,
+          "lowPriceExPlus": 18.99,
+          "avg1": 18.5,
+          "avg7": 20.9,
+          "avg30": 22.76,
+          "reverseHoloAvg1": 0.0,
+          "reverseHoloAvg7": 0.0,
+          "reverseHoloAvg30": 0.0
+        }
+      }
+    },
+    {
+      "id": "sv6pt5-69",
+      "name": "Dusclops",
+      "supertype": "Pok\u00e9mon",
+      "subtypes": [
+        "Stage 1"
+      ],
+      "hp": "90",
+      "types": [
+        "Psychic"
+      ],
+      "evolvesFrom": "Duskull",
+      "evolvesTo": [
+        "Dusknoir"
+      ],
+      "abilities": [
+        {
+          "name": "Cursed Blast",
+          "text": "Once during your turn, you may put 5 damage counters on 1 of your opponent's Pok\u00e9mon. If you use this Ability, this Pok\u00e9mon is Knocked Out.",
+          "type": "Ability"
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Will-O-Wisp",
+          "cost": [
+            "Psychic",
+            "Psychic"
+          ],
+          "convertedEnergyCost": 2,
+          "damage": "50",
+          "text": ""
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "Darkness",
+          "value": "\u00d72"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "Fighting",
+          "value": "-30"
+        }
+      ],
+      "retreatCost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedRetreatCost": 2,
+      "set": {
+        "id": "sv6pt5",
+        "name": "Shrouded Fable",
+        "series": "Scarlet & Violet",
+        "printedTotal": 64,
+        "total": 99,
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "ptcgoCode": "SFA",
+        "releaseDate": "2024/08/02",
+        "updatedAt": "2024/08/02 15:00:00",
+        "images": {
+          "symbol": "https://images.pokemontcg.io/sv6pt5/symbol.png",
+          "logo": "https://images.pokemontcg.io/sv6pt5/logo.png"
+        }
+      },
+      "number": "69",
+      "rarity": "Illustration Rare",
+      "nationalPokedexNumbers": [
+        356
+      ],
+      "legalities": {
+        "unlimited": "Legal",
+        "standard": "Legal",
+        "expanded": "Legal"
+      },
+      "regulationMark": "H",
+      "images": {
+        "small": "https://images.pokemontcg.io/sv6pt5/69.png",
+        "large": "https://images.pokemontcg.io/sv6pt5/69_hires.png"
+      },
+      "tcgplayer": {
+        "url": "https://prices.pokemontcg.io/tcgplayer/sv6pt5-69",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "holofoil": {
+            "low": 18.0,
+            "mid": 23.5,
+            "high": 70.0,
+            "market": 20.85,
+            "directLow": null
+          }
+        }
+      },
+      "cardmarket": {
+        "url": "https://prices.pokemontcg.io/cardmarket/sv6pt5-69",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "averageSellPrice": 18.9,
+          "lowPrice": 15.0,
+          "trendPrice": 18.09,
+          "germanProLow": 0.0,
+          "suggestedPrice": 0.0,
+          "reverseHoloSell": 0.0,
+          "reverseHoloLow": 0.0,
+          "reverseHoloTrend": 0.0,
+          "lowPriceExPlus": 15.0,
+          "avg1": 18.87,
+          "avg7": 17.74,
+          "avg30": 18.25,
+          "reverseHoloAvg1": 0.0,
+          "reverseHoloAvg7": 0.0,
+          "reverseHoloAvg30": 0.0
+        }
+      }
+    },
+    {
+      "id": "sv6pt5-70",
+      "name": "Dusknoir",
+      "supertype": "Pok\u00e9mon",
+      "subtypes": [
+        "Stage 2"
+      ],
+      "hp": "160",
+      "types": [
+        "Psychic"
+      ],
+      "evolvesFrom": "Dusclops",
+      "abilities": [
+        {
+          "name": "Cursed Blast",
+          "text": "Once during your turn, you may put 13 damage counters on 1 of your opponent's Pok\u00e9mon. If you use this Ability, this Pok\u00e9mon is Knocked Out.",
+          "type": "Ability"
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Shadow Bind",
+          "cost": [
+            "Psychic",
+            "Psychic",
+            "Colorless"
+          ],
+          "convertedEnergyCost": 3,
+          "damage": "150",
+          "text": "During your opponent's next turn, the Defending Pok\u00e9mon can't retreat."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "Darkness",
+          "value": "\u00d72"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "Fighting",
+          "value": "-30"
+        }
+      ],
+      "retreatCost": [
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedRetreatCost": 3,
+      "set": {
+        "id": "sv6pt5",
+        "name": "Shrouded Fable",
+        "series": "Scarlet & Violet",
+        "printedTotal": 64,
+        "total": 99,
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "ptcgoCode": "SFA",
+        "releaseDate": "2024/08/02",
+        "updatedAt": "2024/08/02 15:00:00",
+        "images": {
+          "symbol": "https://images.pokemontcg.io/sv6pt5/symbol.png",
+          "logo": "https://images.pokemontcg.io/sv6pt5/logo.png"
+        }
+      },
+      "number": "70",
+      "rarity": "Illustration Rare",
+      "nationalPokedexNumbers": [
+        477
+      ],
+      "legalities": {
+        "unlimited": "Legal",
+        "standard": "Legal",
+        "expanded": "Legal"
+      },
+      "regulationMark": "H",
+      "images": {
+        "small": "https://images.pokemontcg.io/sv6pt5/70.png",
+        "large": "https://images.pokemontcg.io/sv6pt5/70_hires.png"
+      },
+      "tcgplayer": {
+        "url": "https://prices.pokemontcg.io/tcgplayer/sv6pt5-70",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "holofoil": {
+            "low": 21.0,
+            "mid": 27.43,
+            "high": 80.0,
+            "market": 22.55,
+            "directLow": 22.98
+          }
+        }
+      },
+      "cardmarket": {
+        "url": "https://prices.pokemontcg.io/cardmarket/sv6pt5-70",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "averageSellPrice": 20.08,
+          "lowPrice": 14.0,
+          "trendPrice": 17.95,
+          "germanProLow": 0.0,
+          "suggestedPrice": 0.0,
+          "reverseHoloSell": 0.0,
+          "reverseHoloLow": 0.0,
+          "reverseHoloTrend": 0.0,
+          "lowPriceExPlus": 14.0,
+          "avg1": 16.2,
+          "avg7": 17.91,
+          "avg30": 18.86,
+          "reverseHoloAvg1": 0.0,
+          "reverseHoloAvg7": 0.0,
+          "reverseHoloAvg30": 0.0
+        }
+      }
+    },
+    {
+      "id": "sv6pt5-71",
+      "name": "Cresselia",
+      "supertype": "Pok\u00e9mon",
+      "subtypes": [
+        "Basic"
+      ],
+      "hp": "120",
+      "types": [
+        "Psychic"
+      ],
+      "attacks": [
+        {
+          "name": "Healing Pirouette",
+          "cost": [
+            "Psychic"
+          ],
+          "convertedEnergyCost": 1,
+          "damage": "",
+          "text": "Heal 20 damage from each of your Pok\u00e9mon."
+        },
+        {
+          "name": "Crescent Purge",
+          "cost": [
+            "Psychic",
+            "Psychic",
+            "Psychic"
+          ],
+          "convertedEnergyCost": 3,
+          "damage": "80+",
+          "text": "You may turn 1 of your face-down Prize cards face up. If you do, this attack does 80 more damage. (That Prize card remains face up for the rest of the game.)"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "Darkness",
+          "value": "\u00d72"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "Fighting",
+          "value": "-30"
+        }
+      ],
+      "retreatCost": [
+        "Colorless"
+      ],
+      "convertedRetreatCost": 1,
+      "set": {
+        "id": "sv6pt5",
+        "name": "Shrouded Fable",
+        "series": "Scarlet & Violet",
+        "printedTotal": 64,
+        "total": 99,
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "ptcgoCode": "SFA",
+        "releaseDate": "2024/08/02",
+        "updatedAt": "2024/08/02 15:00:00",
+        "images": {
+          "symbol": "https://images.pokemontcg.io/sv6pt5/symbol.png",
+          "logo": "https://images.pokemontcg.io/sv6pt5/logo.png"
+        }
+      },
+      "number": "71",
+      "rarity": "Illustration Rare",
+      "nationalPokedexNumbers": [
+        488
+      ],
+      "legalities": {
+        "unlimited": "Legal",
+        "standard": "Legal",
+        "expanded": "Legal"
+      },
+      "regulationMark": "H",
+      "images": {
+        "small": "https://images.pokemontcg.io/sv6pt5/71.png",
+        "large": "https://images.pokemontcg.io/sv6pt5/71_hires.png"
+      },
+      "tcgplayer": {
+        "url": "https://prices.pokemontcg.io/tcgplayer/sv6pt5-71",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "holofoil": {
+            "low": 18.99,
+            "mid": 22.99,
+            "high": 4321.0,
+            "market": 22.0,
+            "directLow": 23.95
+          }
+        }
+      },
+      "cardmarket": {
+        "url": "https://prices.pokemontcg.io/cardmarket/sv6pt5-71",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "averageSellPrice": 19.99,
+          "lowPrice": 15.0,
+          "trendPrice": 19.08,
+          "germanProLow": 0.0,
+          "suggestedPrice": 0.0,
+          "reverseHoloSell": 0.0,
+          "reverseHoloLow": 0.0,
+          "reverseHoloTrend": 0.0,
+          "lowPriceExPlus": 15.0,
+          "avg1": 19.2,
+          "avg7": 19.43,
+          "avg30": 19.27,
+          "reverseHoloAvg1": 0.0,
+          "reverseHoloAvg7": 0.0,
+          "reverseHoloAvg30": 0.0
+        }
+      }
+    },
+    {
+      "id": "sv6pt5-72",
+      "name": "Munkidori",
+      "supertype": "Pok\u00e9mon",
+      "subtypes": [
+        "Basic"
+      ],
+      "hp": "110",
+      "types": [
+        "Psychic"
+      ],
+      "abilities": [
+        {
+          "name": "Adrena-Brain",
+          "text": "Once during your turn, if this Pok\u00e9mon has any Darkness Energy attached, you may move up to 3 damage counters from 1 of your Pok\u00e9mon to 1 of your opponent's Pok\u00e9mon.",
+          "type": "Ability"
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Mind Bend",
+          "cost": [
+            "Psychic",
+            "Colorless"
+          ],
+          "convertedEnergyCost": 2,
+          "damage": "60",
+          "text": "Your opponent's Active Pok\u00e9mon is now Confused."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "Darkness",
+          "value": "\u00d72"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "Fighting",
+          "value": "-30"
+        }
+      ],
+      "retreatCost": [
+        "Colorless"
+      ],
+      "convertedRetreatCost": 1,
+      "set": {
+        "id": "sv6pt5",
+        "name": "Shrouded Fable",
+        "series": "Scarlet & Violet",
+        "printedTotal": 64,
+        "total": 99,
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "ptcgoCode": "SFA",
+        "releaseDate": "2024/08/02",
+        "updatedAt": "2024/08/02 15:00:00",
+        "images": {
+          "symbol": "https://images.pokemontcg.io/sv6pt5/symbol.png",
+          "logo": "https://images.pokemontcg.io/sv6pt5/logo.png"
+        }
+      },
+      "number": "72",
+      "rarity": "Illustration Rare",
+      "legalities": {
+        "unlimited": "Legal",
+        "standard": "Legal",
+        "expanded": "Legal"
+      },
+      "regulationMark": "H",
+      "images": {
+        "small": "https://images.pokemontcg.io/sv6pt5/72.png",
+        "large": "https://images.pokemontcg.io/sv6pt5/72_hires.png"
+      },
+      "tcgplayer": {
+        "url": "https://prices.pokemontcg.io/tcgplayer/sv6pt5-72",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "holofoil": {
+            "low": 20.0,
+            "mid": 24.99,
+            "high": 49.99,
+            "market": 24.26,
+            "directLow": 35.9
+          }
+        }
+      },
+      "cardmarket": {
+        "url": "https://prices.pokemontcg.io/cardmarket/sv6pt5-72",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "averageSellPrice": 15.76,
+          "lowPrice": 15.0,
+          "trendPrice": 18.32,
+          "germanProLow": 0.0,
+          "suggestedPrice": 0.0,
+          "reverseHoloSell": 0.0,
+          "reverseHoloLow": 0.0,
+          "reverseHoloTrend": 0.0,
+          "lowPriceExPlus": 15.0,
+          "avg1": 16.6,
+          "avg7": 18.69,
+          "avg30": 16.8,
+          "reverseHoloAvg1": 0.0,
+          "reverseHoloAvg7": 0.0,
+          "reverseHoloAvg30": 0.0
+        }
+      }
+    },
+    {
+      "id": "sv6pt5-73",
+      "name": "Fezandipiti",
+      "supertype": "Pok\u00e9mon",
+      "subtypes": [
+        "Basic"
+      ],
+      "hp": "120",
+      "types": [
+        "Psychic"
+      ],
+      "abilities": [
+        {
+          "name": "Adrena-Pheromone",
+          "text": "If this Pok\u00e9mon has any Darkness Energy attached and is damaged by an attack, flip a coin. If heads, prevent that damage.",
+          "type": "Ability"
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Energy Feather",
+          "cost": [
+            "Psychic"
+          ],
+          "convertedEnergyCost": 1,
+          "damage": "30\u00d7",
+          "text": "This attack does 30 damage for each Energy attached to this Pok\u00e9mon."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "Metal",
+          "value": "\u00d72"
+        }
+      ],
+      "retreatCost": [
+        "Colorless"
+      ],
+      "convertedRetreatCost": 1,
+      "set": {
+        "id": "sv6pt5",
+        "name": "Shrouded Fable",
+        "series": "Scarlet & Violet",
+        "printedTotal": 64,
+        "total": 99,
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "ptcgoCode": "SFA",
+        "releaseDate": "2024/08/02",
+        "updatedAt": "2024/08/02 15:00:00",
+        "images": {
+          "symbol": "https://images.pokemontcg.io/sv6pt5/symbol.png",
+          "logo": "https://images.pokemontcg.io/sv6pt5/logo.png"
+        }
+      },
+      "number": "73",
+      "rarity": "Illustration Rare",
+      "legalities": {
+        "unlimited": "Legal",
+        "standard": "Legal",
+        "expanded": "Legal"
+      },
+      "regulationMark": "H",
+      "images": {
+        "small": "https://images.pokemontcg.io/sv6pt5/73.png",
+        "large": "https://images.pokemontcg.io/sv6pt5/73_hires.png"
+      },
+      "tcgplayer": {
+        "url": "https://prices.pokemontcg.io/tcgplayer/sv6pt5-73",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "holofoil": {
+            "low": 6.4,
+            "mid": 9.5,
+            "high": 100.0,
+            "market": 9.06,
+            "directLow": 12.23
+          }
+        }
+      },
+      "cardmarket": {
+        "url": "https://prices.pokemontcg.io/cardmarket/sv6pt5-73",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "averageSellPrice": 8.61,
+          "lowPrice": 6.49,
+          "trendPrice": 7.99,
+          "germanProLow": 0.0,
+          "suggestedPrice": 0.0,
+          "reverseHoloSell": 0.0,
+          "reverseHoloLow": 0.0,
+          "reverseHoloTrend": 0.0,
+          "lowPriceExPlus": 6.49,
+          "avg1": 7.08,
+          "avg7": 8.14,
+          "avg30": 8.52,
+          "reverseHoloAvg1": 0.0,
+          "reverseHoloAvg7": 0.0,
+          "reverseHoloAvg30": 0.0
+        }
+      }
+    },
+    {
+      "id": "sv6pt5-74",
+      "name": "Okidogi",
+      "supertype": "Pok\u00e9mon",
+      "subtypes": [
+        "Basic"
+      ],
+      "hp": "130",
+      "types": [
+        "Fighting"
+      ],
+      "abilities": [
+        {
+          "name": "Adrena-Power",
+          "text": "If this Pok\u00e9mon has any Darkness Energy attached, it gets +100 HP, and the attacks it uses do 100 more damage to your opponent's Active Pok\u00e9mon (before applying Weakness and Resistance).",
+          "type": "Ability"
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Good Punch",
+          "cost": [
+            "Fighting",
+            "Fighting"
+          ],
+          "convertedEnergyCost": 2,
+          "damage": "70",
+          "text": ""
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "Psychic",
+          "value": "\u00d72"
+        }
+      ],
+      "retreatCost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedRetreatCost": 2,
+      "set": {
+        "id": "sv6pt5",
+        "name": "Shrouded Fable",
+        "series": "Scarlet & Violet",
+        "printedTotal": 64,
+        "total": 99,
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "ptcgoCode": "SFA",
+        "releaseDate": "2024/08/02",
+        "updatedAt": "2024/08/02 15:00:00",
+        "images": {
+          "symbol": "https://images.pokemontcg.io/sv6pt5/symbol.png",
+          "logo": "https://images.pokemontcg.io/sv6pt5/logo.png"
+        }
+      },
+      "number": "74",
+      "rarity": "Illustration Rare",
+      "legalities": {
+        "unlimited": "Legal",
+        "standard": "Legal",
+        "expanded": "Legal"
+      },
+      "regulationMark": "H",
+      "images": {
+        "small": "https://images.pokemontcg.io/sv6pt5/74.png",
+        "large": "https://images.pokemontcg.io/sv6pt5/74_hires.png"
+      },
+      "tcgplayer": {
+        "url": "https://prices.pokemontcg.io/tcgplayer/sv6pt5-74",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "holofoil": {
+            "low": 6.5,
+            "mid": 9.91,
+            "high": 65.0,
+            "market": 7.96,
+            "directLow": 10.39
+          }
+        }
+      },
+      "cardmarket": {
+        "url": "https://prices.pokemontcg.io/cardmarket/sv6pt5-74",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "averageSellPrice": 8.14,
+          "lowPrice": 4.99,
+          "trendPrice": 7.53,
+          "germanProLow": 0.0,
+          "suggestedPrice": 0.0,
+          "reverseHoloSell": 0.0,
+          "reverseHoloLow": 0.0,
+          "reverseHoloTrend": 0.0,
+          "lowPriceExPlus": 4.99,
+          "avg1": 7.48,
+          "avg7": 7.34,
+          "avg30": 7.85,
+          "reverseHoloAvg1": 0.0,
+          "reverseHoloAvg7": 0.0,
+          "reverseHoloAvg30": 0.0
+        }
+      }
+    },
+    {
+      "id": "sv6pt5-75",
+      "name": "Zorua",
+      "supertype": "Pok\u00e9mon",
+      "subtypes": [
+        "Basic"
+      ],
+      "hp": "70",
+      "types": [
+        "Darkness"
+      ],
+      "evolvesTo": [
+        "Zoroark"
+      ],
+      "attacks": [
+        {
+          "name": "Stampede",
+          "cost": [
+            "Colorless"
+          ],
+          "convertedEnergyCost": 1,
+          "damage": "10",
+          "text": ""
+        },
+        {
+          "name": "Double Scratch",
+          "cost": [
+            "Darkness",
+            "Colorless"
+          ],
+          "convertedEnergyCost": 2,
+          "damage": "20\u00d7",
+          "text": "Flip 2 coins. This attack does 20 damage for each heads."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "Grass",
+          "value": "\u00d72"
+        }
+      ],
+      "retreatCost": [
+        "Colorless"
+      ],
+      "convertedRetreatCost": 1,
+      "set": {
+        "id": "sv6pt5",
+        "name": "Shrouded Fable",
+        "series": "Scarlet & Violet",
+        "printedTotal": 64,
+        "total": 99,
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "ptcgoCode": "SFA",
+        "releaseDate": "2024/08/02",
+        "updatedAt": "2024/08/02 15:00:00",
+        "images": {
+          "symbol": "https://images.pokemontcg.io/sv6pt5/symbol.png",
+          "logo": "https://images.pokemontcg.io/sv6pt5/logo.png"
+        }
+      },
+      "number": "75",
+      "rarity": "Illustration Rare",
+      "nationalPokedexNumbers": [
+        570
+      ],
+      "legalities": {
+        "unlimited": "Legal",
+        "standard": "Legal",
+        "expanded": "Legal"
+      },
+      "regulationMark": "H",
+      "images": {
+        "small": "https://images.pokemontcg.io/sv6pt5/75.png",
+        "large": "https://images.pokemontcg.io/sv6pt5/75_hires.png"
+      },
+      "tcgplayer": {
+        "url": "https://prices.pokemontcg.io/tcgplayer/sv6pt5-75",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "holofoil": {
+            "low": 11.01,
+            "mid": 17.89,
+            "high": 50.0,
+            "market": 15.77,
+            "directLow": 16.99
+          }
+        }
+      },
+      "cardmarket": {
+        "url": "https://prices.pokemontcg.io/cardmarket/sv6pt5-75",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "averageSellPrice": 14.73,
+          "lowPrice": 8.49,
+          "trendPrice": 15.45,
+          "germanProLow": 0.0,
+          "suggestedPrice": 0.0,
+          "reverseHoloSell": 0.0,
+          "reverseHoloLow": 0.0,
+          "reverseHoloTrend": 0.0,
+          "lowPriceExPlus": 9.94,
+          "avg1": 14.11,
+          "avg7": 17.09,
+          "avg30": 15.32,
+          "reverseHoloAvg1": 0.0,
+          "reverseHoloAvg7": 0.0,
+          "reverseHoloAvg30": 0.0
+        }
+      }
+    },
+    {
+      "id": "sv6pt5-76",
+      "name": "Cufant",
+      "supertype": "Pok\u00e9mon",
+      "subtypes": [
+        "Basic"
+      ],
+      "hp": "100",
+      "types": [
+        "Metal"
+      ],
+      "evolvesTo": [
+        "Copperajah"
+      ],
+      "attacks": [
+        {
+          "name": "Tackle",
+          "cost": [
+            "Metal",
+            "Colorless"
+          ],
+          "convertedEnergyCost": 2,
+          "damage": "30",
+          "text": ""
+        },
+        {
+          "name": "Confront",
+          "cost": [
+            "Metal",
+            "Metal",
+            "Colorless"
+          ],
+          "convertedEnergyCost": 3,
+          "damage": "70",
+          "text": ""
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "Fire",
+          "value": "\u00d72"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "Grass",
+          "value": "-30"
+        }
+      ],
+      "retreatCost": [
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedRetreatCost": 3,
+      "set": {
+        "id": "sv6pt5",
+        "name": "Shrouded Fable",
+        "series": "Scarlet & Violet",
+        "printedTotal": 64,
+        "total": 99,
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "ptcgoCode": "SFA",
+        "releaseDate": "2024/08/02",
+        "updatedAt": "2024/08/02 15:00:00",
+        "images": {
+          "symbol": "https://images.pokemontcg.io/sv6pt5/symbol.png",
+          "logo": "https://images.pokemontcg.io/sv6pt5/logo.png"
+        }
+      },
+      "number": "76",
+      "rarity": "Illustration Rare",
+      "nationalPokedexNumbers": [
+        878
+      ],
+      "legalities": {
+        "unlimited": "Legal",
+        "standard": "Legal",
+        "expanded": "Legal"
+      },
+      "regulationMark": "H",
+      "images": {
+        "small": "https://images.pokemontcg.io/sv6pt5/76.png",
+        "large": "https://images.pokemontcg.io/sv6pt5/76_hires.png"
+      },
+      "tcgplayer": {
+        "url": "https://prices.pokemontcg.io/tcgplayer/sv6pt5-76",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "holofoil": {
+            "low": 7.25,
+            "mid": 10.2,
+            "high": 29.95,
+            "market": 8.67,
+            "directLow": 13.12
+          }
+        }
+      },
+      "cardmarket": {
+        "url": "https://prices.pokemontcg.io/cardmarket/sv6pt5-76",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "averageSellPrice": 9.53,
+          "lowPrice": 6.0,
+          "trendPrice": 9.04,
+          "germanProLow": 0.0,
+          "suggestedPrice": 0.0,
+          "reverseHoloSell": 0.0,
+          "reverseHoloLow": 0.0,
+          "reverseHoloTrend": 0.0,
+          "lowPriceExPlus": 6.0,
+          "avg1": 7.5,
+          "avg7": 8.82,
+          "avg30": 9.28,
+          "reverseHoloAvg1": 0.0,
+          "reverseHoloAvg7": 0.0,
+          "reverseHoloAvg30": 0.0
+        }
+      }
+    },
+    {
+      "id": "sv6pt5-77",
+      "name": "Fraxure",
+      "supertype": "Pok\u00e9mon",
+      "subtypes": [
+        "Stage 1"
+      ],
+      "hp": "100",
+      "types": [
+        "Dragon"
+      ],
+      "evolvesFrom": "Axew",
+      "evolvesTo": [
+        "Haxorus"
+      ],
+      "abilities": [
+        {
+          "name": "Unnerve",
+          "text": "Whenever your opponent plays an Item or Supporter card from their hand, prevent all effects of that card done to this Pok\u00e9mon.",
+          "type": "Ability"
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Dragon Pulse",
+          "cost": [
+            "Fighting",
+            "Metal"
+          ],
+          "convertedEnergyCost": 2,
+          "damage": "80",
+          "text": "Discard the top card of your deck."
+        }
+      ],
+      "retreatCost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedRetreatCost": 2,
+      "set": {
+        "id": "sv6pt5",
+        "name": "Shrouded Fable",
+        "series": "Scarlet & Violet",
+        "printedTotal": 64,
+        "total": 99,
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "ptcgoCode": "SFA",
+        "releaseDate": "2024/08/02",
+        "updatedAt": "2024/08/02 15:00:00",
+        "images": {
+          "symbol": "https://images.pokemontcg.io/sv6pt5/symbol.png",
+          "logo": "https://images.pokemontcg.io/sv6pt5/logo.png"
+        }
+      },
+      "number": "77",
+      "rarity": "Illustration Rare",
+      "nationalPokedexNumbers": [
+        611
+      ],
+      "legalities": {
+        "unlimited": "Legal",
+        "standard": "Legal",
+        "expanded": "Legal"
+      },
+      "regulationMark": "H",
+      "images": {
+        "small": "https://images.pokemontcg.io/sv6pt5/77.png",
+        "large": "https://images.pokemontcg.io/sv6pt5/77_hires.png"
+      },
+      "tcgplayer": {
+        "url": "https://prices.pokemontcg.io/tcgplayer/sv6pt5-77",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "holofoil": {
+            "low": 8.99,
+            "mid": 12.18,
+            "high": 34.95,
+            "market": 12.16,
+            "directLow": 16.24
+          }
+        }
+      },
+      "cardmarket": {
+        "url": "https://prices.pokemontcg.io/cardmarket/sv6pt5-77",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "averageSellPrice": 9.22,
+          "lowPrice": 5.8,
+          "trendPrice": 8.75,
+          "germanProLow": 0.0,
+          "suggestedPrice": 0.0,
+          "reverseHoloSell": 0.0,
+          "reverseHoloLow": 0.0,
+          "reverseHoloTrend": 0.0,
+          "lowPriceExPlus": 5.8,
+          "avg1": 6.7,
+          "avg7": 8.46,
+          "avg30": 9.18,
+          "reverseHoloAvg1": 0.0,
+          "reverseHoloAvg7": 0.0,
+          "reverseHoloAvg30": 0.0
+        }
+      }
+    },
+    {
+      "id": "sv6pt5-78",
+      "name": "Persian",
+      "supertype": "Pok\u00e9mon",
+      "subtypes": [
+        "Stage 1"
+      ],
+      "hp": "110",
+      "types": [
+        "Colorless"
+      ],
+      "evolvesFrom": "Meowth",
+      "attacks": [
+        {
+          "name": "Fury Swipes",
+          "cost": [
+            "Colorless",
+            "Colorless"
+          ],
+          "convertedEnergyCost": 2,
+          "damage": "50\u00d7",
+          "text": "Flip 3 coins. This attack does 50 damage for each heads."
+        },
+        {
+          "name": "Slashing Claw",
+          "cost": [
+            "Colorless",
+            "Colorless",
+            "Colorless"
+          ],
+          "convertedEnergyCost": 3,
+          "damage": "100",
+          "text": ""
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "Fighting",
+          "value": "\u00d72"
+        }
+      ],
+      "retreatCost": [
+        "Colorless"
+      ],
+      "convertedRetreatCost": 1,
+      "set": {
+        "id": "sv6pt5",
+        "name": "Shrouded Fable",
+        "series": "Scarlet & Violet",
+        "printedTotal": 64,
+        "total": 99,
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "ptcgoCode": "SFA",
+        "releaseDate": "2024/08/02",
+        "updatedAt": "2024/08/02 15:00:00",
+        "images": {
+          "symbol": "https://images.pokemontcg.io/sv6pt5/symbol.png",
+          "logo": "https://images.pokemontcg.io/sv6pt5/logo.png"
+        }
+      },
+      "number": "78",
+      "rarity": "Illustration Rare",
+      "nationalPokedexNumbers": [
+        53
+      ],
+      "legalities": {
+        "unlimited": "Legal",
+        "standard": "Legal",
+        "expanded": "Legal"
+      },
+      "regulationMark": "H",
+      "images": {
+        "small": "https://images.pokemontcg.io/sv6pt5/78.png",
+        "large": "https://images.pokemontcg.io/sv6pt5/78_hires.png"
+      },
+      "tcgplayer": {
+        "url": "https://prices.pokemontcg.io/tcgplayer/sv6pt5-78",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "holofoil": {
+            "low": 44.0,
+            "mid": 56.0,
+            "high": 149.95,
+            "market": 48.19,
+            "directLow": 50.0
+          }
+        }
+      },
+      "cardmarket": {
+        "url": "https://prices.pokemontcg.io/cardmarket/sv6pt5-78",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "averageSellPrice": 52.65,
+          "lowPrice": 32.0,
+          "trendPrice": 53.07,
+          "germanProLow": 0.0,
+          "suggestedPrice": 0.0,
+          "reverseHoloSell": 0.0,
+          "reverseHoloLow": 0.0,
+          "reverseHoloTrend": 0.0,
+          "lowPriceExPlus": 32.0,
+          "avg1": 65.5,
+          "avg7": 52.43,
+          "avg30": 51.11,
+          "reverseHoloAvg1": 0.0,
+          "reverseHoloAvg7": 0.0,
+          "reverseHoloAvg30": 0.0
+        }
+      }
+    },
+    {
+      "id": "sv6pt5-79",
+      "name": "Bewear",
+      "supertype": "Pok\u00e9mon",
+      "subtypes": [
+        "Stage 1"
+      ],
+      "hp": "130",
+      "types": [
+        "Colorless"
+      ],
+      "evolvesFrom": "Stufful",
+      "attacks": [
+        {
+          "name": "Power Charger",
+          "cost": [
+            "Colorless"
+          ],
+          "convertedEnergyCost": 1,
+          "damage": "30",
+          "text": "Search your deck for a Basic Energy card and attach it to this Pok\u00e9mon. Then, shuffle your deck."
+        },
+        {
+          "name": "Hammer In",
+          "cost": [
+            "Colorless",
+            "Colorless",
+            "Colorless"
+          ],
+          "convertedEnergyCost": 3,
+          "damage": "130",
+          "text": ""
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "Fighting",
+          "value": "\u00d72"
+        }
+      ],
+      "retreatCost": [
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedRetreatCost": 3,
+      "set": {
+        "id": "sv6pt5",
+        "name": "Shrouded Fable",
+        "series": "Scarlet & Violet",
+        "printedTotal": 64,
+        "total": 99,
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "ptcgoCode": "SFA",
+        "releaseDate": "2024/08/02",
+        "updatedAt": "2024/08/02 15:00:00",
+        "images": {
+          "symbol": "https://images.pokemontcg.io/sv6pt5/symbol.png",
+          "logo": "https://images.pokemontcg.io/sv6pt5/logo.png"
+        }
+      },
+      "number": "79",
+      "rarity": "Illustration Rare",
+      "nationalPokedexNumbers": [
+        760
+      ],
+      "legalities": {
+        "unlimited": "Legal",
+        "standard": "Legal",
+        "expanded": "Legal"
+      },
+      "regulationMark": "H",
+      "images": {
+        "small": "https://images.pokemontcg.io/sv6pt5/79.png",
+        "large": "https://images.pokemontcg.io/sv6pt5/79_hires.png"
+      },
+      "tcgplayer": {
+        "url": "https://prices.pokemontcg.io/tcgplayer/sv6pt5-79",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "holofoil": {
+            "low": 8.9,
+            "mid": 10.96,
+            "high": 32.0,
+            "market": 10.26,
+            "directLow": 13.0
+          }
+        }
+      },
+      "cardmarket": {
+        "url": "https://prices.pokemontcg.io/cardmarket/sv6pt5-79",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "averageSellPrice": 6.17,
+          "lowPrice": 4.5,
+          "trendPrice": 6.03,
+          "germanProLow": 0.0,
+          "suggestedPrice": 0.0,
+          "reverseHoloSell": 0.0,
+          "reverseHoloLow": 0.0,
+          "reverseHoloTrend": 0.0,
+          "lowPriceExPlus": 4.5,
+          "avg1": 7.66,
+          "avg7": 6.17,
+          "avg30": 6.18,
+          "reverseHoloAvg1": 0.0,
+          "reverseHoloAvg7": 0.0,
+          "reverseHoloAvg30": 0.0
+        }
+      }
+    },
+    {
+      "id": "sv6pt5-80",
+      "name": "Kingdra ex",
+      "supertype": "Pok\u00e9mon",
+      "subtypes": [
+        "Stage 2",
+        "ex"
+      ],
+      "hp": "310",
+      "types": [
+        "Water"
+      ],
+      "evolvesFrom": "Seadra",
+      "rules": [
+        "Pok\u00e9mon ex rule: When your Pok\u00e9mon ex is Knocked Out, your opponent takes 2 Prize cards."
+      ],
+      "attacks": [
+        {
+          "name": "King's Order",
+          "cost": [
+            "Water"
+          ],
+          "convertedEnergyCost": 1,
+          "damage": "",
+          "text": "Put up to 3 Water Pok\u00e9mon from your discard pile onto your Bench."
+        },
+        {
+          "name": "Hydro Pump",
+          "cost": [
+            "Colorless",
+            "Colorless"
+          ],
+          "convertedEnergyCost": 2,
+          "damage": "50+",
+          "text": "This attack does 50 more damage for each Water Energy attached to this Pok\u00e9mon."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "Lightning",
+          "value": "\u00d72"
+        }
+      ],
+      "retreatCost": [
+        "Colorless"
+      ],
+      "convertedRetreatCost": 1,
+      "set": {
+        "id": "sv6pt5",
+        "name": "Shrouded Fable",
+        "series": "Scarlet & Violet",
+        "printedTotal": 64,
+        "total": 99,
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "ptcgoCode": "SFA",
+        "releaseDate": "2024/08/02",
+        "updatedAt": "2024/08/02 15:00:00",
+        "images": {
+          "symbol": "https://images.pokemontcg.io/sv6pt5/symbol.png",
+          "logo": "https://images.pokemontcg.io/sv6pt5/logo.png"
+        }
+      },
+      "number": "80",
+      "rarity": "Ultra Rare",
+      "nationalPokedexNumbers": [
+        230
+      ],
+      "legalities": {
+        "unlimited": "Legal",
+        "standard": "Legal",
+        "expanded": "Legal"
+      },
+      "regulationMark": "H",
+      "images": {
+        "small": "https://images.pokemontcg.io/sv6pt5/80.png",
+        "large": "https://images.pokemontcg.io/sv6pt5/80_hires.png"
+      },
+      "tcgplayer": {
+        "url": "https://prices.pokemontcg.io/tcgplayer/sv6pt5-80",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "holofoil": {
+            "low": 1.61,
+            "mid": 2.65,
+            "high": 30.0,
+            "market": 2.58,
+            "directLow": 2.39
+          }
+        }
+      },
+      "cardmarket": {
+        "url": "https://prices.pokemontcg.io/cardmarket/sv6pt5-80",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "averageSellPrice": 3.12,
+          "lowPrice": 1.5,
+          "trendPrice": 2.89,
+          "germanProLow": 0.0,
+          "suggestedPrice": 0.0,
+          "reverseHoloSell": 0.0,
+          "reverseHoloLow": 0.0,
+          "reverseHoloTrend": 0.0,
+          "lowPriceExPlus": 1.5,
+          "avg1": 2.85,
+          "avg7": 3.11,
+          "avg30": 3.08,
+          "reverseHoloAvg1": 0.0,
+          "reverseHoloAvg7": 0.0,
+          "reverseHoloAvg30": 0.0
+        }
+      }
+    },
+    {
+      "id": "sv6pt5-81",
+      "name": "Revavroom ex",
+      "supertype": "Pok\u00e9mon",
+      "subtypes": [
+        "Stage 1",
+        "Tera",
+        "ex"
+      ],
+      "hp": "280",
+      "types": [
+        "Lightning"
+      ],
+      "evolvesFrom": "Varoom",
+      "rules": [
+        "As long as this Pok\u00e9mon is on your Bench, prevent all damage done to this Pok\u00e9mon by attacks (both yours and your opponent's).",
+        "Pok\u00e9mon ex rule: When your Pok\u00e9mon ex is Knocked Out, your opponent takes 2 Prize cards."
+      ],
+      "attacks": [
+        {
+          "name": "Accelerator Flash",
+          "cost": [
+            "Metal"
+          ],
+          "convertedEnergyCost": 1,
+          "damage": "20+",
+          "text": "If this Pok\u00e9mon moved from your Bench to the Active Spot this turn, this attack does 120 more damage."
+        },
+        {
+          "name": "Shattering Speed",
+          "cost": [
+            "Metal",
+            "Metal",
+            "Metal"
+          ],
+          "convertedEnergyCost": 3,
+          "damage": "250",
+          "text": "Discard this Pok\u00e9mon and all attached cards."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "Fighting",
+          "value": "\u00d72"
+        }
+      ],
+      "retreatCost": [
+        "Colorless"
+      ],
+      "convertedRetreatCost": 1,
+      "set": {
+        "id": "sv6pt5",
+        "name": "Shrouded Fable",
+        "series": "Scarlet & Violet",
+        "printedTotal": 64,
+        "total": 99,
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "ptcgoCode": "SFA",
+        "releaseDate": "2024/08/02",
+        "updatedAt": "2024/08/02 15:00:00",
+        "images": {
+          "symbol": "https://images.pokemontcg.io/sv6pt5/symbol.png",
+          "logo": "https://images.pokemontcg.io/sv6pt5/logo.png"
+        }
+      },
+      "number": "81",
+      "rarity": "Ultra Rare",
+      "nationalPokedexNumbers": [
+        966
+      ],
+      "legalities": {
+        "unlimited": "Legal",
+        "standard": "Legal",
+        "expanded": "Legal"
+      },
+      "regulationMark": "H",
+      "images": {
+        "small": "https://images.pokemontcg.io/sv6pt5/81.png",
+        "large": "https://images.pokemontcg.io/sv6pt5/81_hires.png"
+      },
+      "tcgplayer": {
+        "url": "https://prices.pokemontcg.io/tcgplayer/sv6pt5-81",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "holofoil": {
+            "low": 0.9,
+            "mid": 1.5,
+            "high": 14.99,
+            "market": 1.59,
+            "directLow": null
+          }
+        }
+      },
+      "cardmarket": {
+        "url": "https://prices.pokemontcg.io/cardmarket/sv6pt5-81",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "averageSellPrice": 1.68,
+          "lowPrice": 0.99,
+          "trendPrice": 1.8,
+          "germanProLow": 0.0,
+          "suggestedPrice": 0.0,
+          "reverseHoloSell": 0.0,
+          "reverseHoloLow": 0.0,
+          "reverseHoloTrend": 0.0,
+          "lowPriceExPlus": 1.0,
+          "avg1": 1.7,
+          "avg7": 1.78,
+          "avg30": 1.68,
+          "reverseHoloAvg1": 0.0,
+          "reverseHoloAvg7": 0.0,
+          "reverseHoloAvg30": 0.0
+        }
+      }
+    },
+    {
+      "id": "sv6pt5-82",
+      "name": "Okidogi ex",
+      "supertype": "Pok\u00e9mon",
+      "subtypes": [
+        "Basic",
+        "ex"
+      ],
+      "hp": "250",
+      "types": [
+        "Darkness"
+      ],
+      "rules": [
+        "Pok\u00e9mon ex rule: When your Pok\u00e9mon ex is Knocked Out, your opponent takes 2 Prize cards."
+      ],
+      "attacks": [
+        {
+          "name": "Poisonous Musculature",
+          "cost": [
+            "Colorless"
+          ],
+          "convertedEnergyCost": 1,
+          "damage": "",
+          "text": "Search your deck for up to 2 Basic Darkness Energy cards and attach them to this Pok\u00e9mon. Then, shuffle your deck. If you attached Energy to a Pok\u00e9mon in this way, this Pok\u00e9mon is now Poisoned."
+        },
+        {
+          "name": "Chain-Crazed",
+          "cost": [
+            "Darkness",
+            "Darkness",
+            "Colorless"
+          ],
+          "convertedEnergyCost": 3,
+          "damage": "130+",
+          "text": "If this Pok\u00e9mon is Poisoned, this attack does 130 more damage."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "Fighting",
+          "value": "\u00d72"
+        }
+      ],
+      "retreatCost": [
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedRetreatCost": 3,
+      "set": {
+        "id": "sv6pt5",
+        "name": "Shrouded Fable",
+        "series": "Scarlet & Violet",
+        "printedTotal": 64,
+        "total": 99,
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "ptcgoCode": "SFA",
+        "releaseDate": "2024/08/02",
+        "updatedAt": "2024/08/02 15:00:00",
+        "images": {
+          "symbol": "https://images.pokemontcg.io/sv6pt5/symbol.png",
+          "logo": "https://images.pokemontcg.io/sv6pt5/logo.png"
+        }
+      },
+      "number": "82",
+      "rarity": "Ultra Rare",
+      "legalities": {
+        "unlimited": "Legal",
+        "standard": "Legal",
+        "expanded": "Legal"
+      },
+      "regulationMark": "H",
+      "images": {
+        "small": "https://images.pokemontcg.io/sv6pt5/82.png",
+        "large": "https://images.pokemontcg.io/sv6pt5/82_hires.png"
+      },
+      "tcgplayer": {
+        "url": "https://prices.pokemontcg.io/tcgplayer/sv6pt5-82",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "holofoil": {
+            "low": 1.74,
+            "mid": 2.5,
+            "high": 15.0,
+            "market": 2.37,
+            "directLow": null
+          }
+        }
+      },
+      "cardmarket": {
+        "url": "https://prices.pokemontcg.io/cardmarket/sv6pt5-82",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "averageSellPrice": 2.54,
+          "lowPrice": 1.49,
+          "trendPrice": 2.38,
+          "germanProLow": 0.0,
+          "suggestedPrice": 0.0,
+          "reverseHoloSell": 0.0,
+          "reverseHoloLow": 0.0,
+          "reverseHoloTrend": 0.0,
+          "lowPriceExPlus": 1.49,
+          "avg1": 2.72,
+          "avg7": 2.47,
+          "avg30": 2.48,
+          "reverseHoloAvg1": 0.0,
+          "reverseHoloAvg7": 0.0,
+          "reverseHoloAvg30": 0.0
+        }
+      }
+    },
+    {
+      "id": "sv6pt5-83",
+      "name": "Munkidori ex",
+      "supertype": "Pok\u00e9mon",
+      "subtypes": [
+        "Basic",
+        "ex"
+      ],
+      "hp": "210",
+      "types": [
+        "Darkness"
+      ],
+      "rules": [
+        "Pok\u00e9mon ex rule: When your Pok\u00e9mon ex is Knocked Out, your opponent takes 2 Prize cards."
+      ],
+      "abilities": [
+        {
+          "name": "Oh No You Don't",
+          "text": "If this Pok\u00e9mon is Knocked Out by damage from an attack from your opponent's Pok\u00e9mon, and if you have any Pecharunt ex in play, your opponent takes 1 fewer Prize card.",
+          "type": "Ability"
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Dirty Headbutt",
+          "cost": [
+            "Darkness",
+            "Darkness",
+            "Colorless"
+          ],
+          "convertedEnergyCost": 3,
+          "damage": "190",
+          "text": "During your next turn, this Pok\u00e9mon can't use Dirty Headbutt."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "Fighting",
+          "value": "\u00d72"
+        }
+      ],
+      "retreatCost": [
+        "Colorless"
+      ],
+      "convertedRetreatCost": 1,
+      "set": {
+        "id": "sv6pt5",
+        "name": "Shrouded Fable",
+        "series": "Scarlet & Violet",
+        "printedTotal": 64,
+        "total": 99,
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "ptcgoCode": "SFA",
+        "releaseDate": "2024/08/02",
+        "updatedAt": "2024/08/02 15:00:00",
+        "images": {
+          "symbol": "https://images.pokemontcg.io/sv6pt5/symbol.png",
+          "logo": "https://images.pokemontcg.io/sv6pt5/logo.png"
+        }
+      },
+      "number": "83",
+      "rarity": "Ultra Rare",
+      "legalities": {
+        "unlimited": "Legal",
+        "standard": "Legal",
+        "expanded": "Legal"
+      },
+      "regulationMark": "H",
+      "images": {
+        "small": "https://images.pokemontcg.io/sv6pt5/83.png",
+        "large": "https://images.pokemontcg.io/sv6pt5/83_hires.png"
+      },
+      "tcgplayer": {
+        "url": "https://prices.pokemontcg.io/tcgplayer/sv6pt5-83",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "holofoil": {
+            "low": 1.0,
+            "mid": 1.92,
+            "high": 100.0,
+            "market": 1.81,
+            "directLow": null
+          }
+        }
+      },
+      "cardmarket": {
+        "url": "https://prices.pokemontcg.io/cardmarket/sv6pt5-83",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "averageSellPrice": 2.36,
+          "lowPrice": 1.19,
+          "trendPrice": 2.09,
+          "germanProLow": 0.0,
+          "suggestedPrice": 0.0,
+          "reverseHoloSell": 0.0,
+          "reverseHoloLow": 0.0,
+          "reverseHoloTrend": 0.0,
+          "lowPriceExPlus": 1.19,
+          "avg1": 2.4,
+          "avg7": 2.19,
+          "avg30": 2.27,
+          "reverseHoloAvg1": 0.0,
+          "reverseHoloAvg7": 0.0,
+          "reverseHoloAvg30": 0.0
+        }
+      }
+    },
+    {
+      "id": "sv6pt5-84",
+      "name": "Fezandipiti ex",
+      "supertype": "Pok\u00e9mon",
+      "subtypes": [
+        "Basic",
+        "ex"
+      ],
+      "hp": "210",
+      "types": [
+        "Darkness"
+      ],
+      "rules": [
+        "Pok\u00e9mon ex rule: When your Pok\u00e9mon ex is Knocked Out, your opponent takes 2 Prize cards."
+      ],
+      "abilities": [
+        {
+          "name": "Flip the Script",
+          "text": "Once during your turn, if any of your Pok\u00e9mon were Knocked Out during your opponent's last turn, you may draw 3 cards. You can't use more than 1 Flip the Script Ability each turn.",
+          "type": "Ability"
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Cruel Arrow",
+          "cost": [
+            "Colorless",
+            "Colorless",
+            "Colorless"
+          ],
+          "convertedEnergyCost": 3,
+          "damage": "",
+          "text": "This attack does 100 damage to 1 of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "Fighting",
+          "value": "\u00d72"
+        }
+      ],
+      "retreatCost": [
+        "Colorless"
+      ],
+      "convertedRetreatCost": 1,
+      "set": {
+        "id": "sv6pt5",
+        "name": "Shrouded Fable",
+        "series": "Scarlet & Violet",
+        "printedTotal": 64,
+        "total": 99,
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "ptcgoCode": "SFA",
+        "releaseDate": "2024/08/02",
+        "updatedAt": "2024/08/02 15:00:00",
+        "images": {
+          "symbol": "https://images.pokemontcg.io/sv6pt5/symbol.png",
+          "logo": "https://images.pokemontcg.io/sv6pt5/logo.png"
+        }
+      },
+      "number": "84",
+      "rarity": "Ultra Rare",
+      "legalities": {
+        "unlimited": "Legal",
+        "standard": "Legal",
+        "expanded": "Legal"
+      },
+      "regulationMark": "H",
+      "images": {
+        "small": "https://images.pokemontcg.io/sv6pt5/84.png",
+        "large": "https://images.pokemontcg.io/sv6pt5/84_hires.png"
+      },
+      "tcgplayer": {
+        "url": "https://prices.pokemontcg.io/tcgplayer/sv6pt5-84",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "holofoil": {
+            "low": 14.79,
+            "mid": 18.44,
+            "high": 42.0,
+            "market": 16.08,
+            "directLow": 22.08
+          }
+        }
+      },
+      "cardmarket": {
+        "url": "https://prices.pokemontcg.io/cardmarket/sv6pt5-84",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "averageSellPrice": 8.0,
+          "lowPrice": 6.0,
+          "trendPrice": 8.04,
+          "germanProLow": 0.0,
+          "suggestedPrice": 0.0,
+          "reverseHoloSell": 0.0,
+          "reverseHoloLow": 0.0,
+          "reverseHoloTrend": 0.0,
+          "lowPriceExPlus": 6.0,
+          "avg1": 8.82,
+          "avg7": 8.1,
+          "avg30": 7.91,
+          "reverseHoloAvg1": 0.0,
+          "reverseHoloAvg7": 0.0,
+          "reverseHoloAvg30": 0.0
+        }
+      }
+    },
+    {
+      "id": "sv6pt5-85",
+      "name": "Pecharunt ex",
+      "supertype": "Pok\u00e9mon",
+      "subtypes": [
+        "Basic",
+        "ex"
+      ],
+      "hp": "190",
+      "types": [
+        "Darkness"
+      ],
+      "rules": [
+        "Pok\u00e9mon ex rule: When your Pok\u00e9mon ex is Knocked Out, your opponent takes 2 Prize cards."
+      ],
+      "abilities": [
+        {
+          "name": "Subjugating Chains",
+          "text": "Once during your turn, you may switch 1 of your Benched Darkness Pok\u00e9mon, except any Pecharunt ex, with your Active Pok\u00e9mon. If you do, the new Active Pok\u00e9mon is now Poisoned. You can't use more than 1 Subjugating Chains Ability each turn.",
+          "type": "Ability"
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Irritated Outburst",
+          "cost": [
+            "Darkness",
+            "Darkness"
+          ],
+          "convertedEnergyCost": 2,
+          "damage": "60\u00d7",
+          "text": "This attack does 60 damage for each Prize card your opponent has taken."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "Fighting",
+          "value": "\u00d72"
+        }
+      ],
+      "retreatCost": [
+        "Colorless"
+      ],
+      "convertedRetreatCost": 1,
+      "set": {
+        "id": "sv6pt5",
+        "name": "Shrouded Fable",
+        "series": "Scarlet & Violet",
+        "printedTotal": 64,
+        "total": 99,
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "ptcgoCode": "SFA",
+        "releaseDate": "2024/08/02",
+        "updatedAt": "2024/08/02 15:00:00",
+        "images": {
+          "symbol": "https://images.pokemontcg.io/sv6pt5/symbol.png",
+          "logo": "https://images.pokemontcg.io/sv6pt5/logo.png"
+        }
+      },
+      "number": "85",
+      "rarity": "Ultra Rare",
+      "legalities": {
+        "unlimited": "Legal",
+        "standard": "Legal",
+        "expanded": "Legal"
+      },
+      "regulationMark": "H",
+      "images": {
+        "small": "https://images.pokemontcg.io/sv6pt5/85.png",
+        "large": "https://images.pokemontcg.io/sv6pt5/85_hires.png"
+      },
+      "tcgplayer": {
+        "url": "https://prices.pokemontcg.io/tcgplayer/sv6pt5-85",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "holofoil": {
+            "low": 2.0,
+            "mid": 3.21,
+            "high": 25.0,
+            "market": 3.28,
+            "directLow": 3.28
+          }
+        }
+      },
+      "cardmarket": {
+        "url": "https://prices.pokemontcg.io/cardmarket/sv6pt5-85",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "averageSellPrice": 2.52,
+          "lowPrice": 1.45,
+          "trendPrice": 2.6,
+          "germanProLow": 0.0,
+          "suggestedPrice": 0.0,
+          "reverseHoloSell": 0.0,
+          "reverseHoloLow": 0.0,
+          "reverseHoloTrend": 0.0,
+          "lowPriceExPlus": 1.45,
+          "avg1": 2.45,
+          "avg7": 2.56,
+          "avg30": 2.51,
+          "reverseHoloAvg1": 0.0,
+          "reverseHoloAvg7": 0.0,
+          "reverseHoloAvg30": 0.0
+        }
+      }
+    },
+    {
+      "id": "sv6pt5-86",
+      "name": "Cassiopeia",
+      "supertype": "Trainer",
+      "subtypes": [
+        "Supporter"
+      ],
+      "rules": [
+        "You can use this card only when it is the last card in your hand.  Search your deck for up to 2 cards and put them into your hand. Then, shuffle your deck.",
+        "You may play only 1 Supporter card during your turn."
+      ],
+      "set": {
+        "id": "sv6pt5",
+        "name": "Shrouded Fable",
+        "series": "Scarlet & Violet",
+        "printedTotal": 64,
+        "total": 99,
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "ptcgoCode": "SFA",
+        "releaseDate": "2024/08/02",
+        "updatedAt": "2024/08/02 15:00:00",
+        "images": {
+          "symbol": "https://images.pokemontcg.io/sv6pt5/symbol.png",
+          "logo": "https://images.pokemontcg.io/sv6pt5/logo.png"
+        }
+      },
+      "number": "86",
+      "rarity": "Ultra Rare",
+      "legalities": {
+        "unlimited": "Legal",
+        "standard": "Legal",
+        "expanded": "Legal"
+      },
+      "regulationMark": "H",
+      "images": {
+        "small": "https://images.pokemontcg.io/sv6pt5/86.png",
+        "large": "https://images.pokemontcg.io/sv6pt5/86_hires.png"
+      },
+      "tcgplayer": {
+        "url": "https://prices.pokemontcg.io/tcgplayer/sv6pt5-86",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "holofoil": {
+            "low": 1.65,
+            "mid": 3.34,
+            "high": 20.0,
+            "market": 2.81,
+            "directLow": 3.95
+          }
+        }
+      },
+      "cardmarket": {
+        "url": "https://prices.pokemontcg.io/cardmarket/sv6pt5-86",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "averageSellPrice": 3.23,
+          "lowPrice": 1.99,
+          "trendPrice": 3.19,
+          "germanProLow": 0.0,
+          "suggestedPrice": 0.0,
+          "reverseHoloSell": 0.0,
+          "reverseHoloLow": 0.0,
+          "reverseHoloTrend": 0.0,
+          "lowPriceExPlus": 1.99,
+          "avg1": 3.5,
+          "avg7": 3.19,
+          "avg30": 3.16,
+          "reverseHoloAvg1": 0.0,
+          "reverseHoloAvg7": 0.0,
+          "reverseHoloAvg30": 0.0
+        }
+      }
+    },
+    {
+      "id": "sv6pt5-87",
+      "name": "Colress's Tenacity",
+      "supertype": "Trainer",
+      "subtypes": [
+        "Supporter"
+      ],
+      "rules": [
+        "Search your deck for a Stadium card and an Energy card, reveal them, and put them into your hand. Then, shuffle your deck.",
+        "You may play only 1 Supporter card during your turn."
+      ],
+      "set": {
+        "id": "sv6pt5",
+        "name": "Shrouded Fable",
+        "series": "Scarlet & Violet",
+        "printedTotal": 64,
+        "total": 99,
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "ptcgoCode": "SFA",
+        "releaseDate": "2024/08/02",
+        "updatedAt": "2024/08/02 15:00:00",
+        "images": {
+          "symbol": "https://images.pokemontcg.io/sv6pt5/symbol.png",
+          "logo": "https://images.pokemontcg.io/sv6pt5/logo.png"
+        }
+      },
+      "number": "87",
+      "rarity": "Ultra Rare",
+      "legalities": {
+        "unlimited": "Legal",
+        "standard": "Legal",
+        "expanded": "Legal"
+      },
+      "regulationMark": "H",
+      "images": {
+        "small": "https://images.pokemontcg.io/sv6pt5/87.png",
+        "large": "https://images.pokemontcg.io/sv6pt5/87_hires.png"
+      },
+      "tcgplayer": {
+        "url": "https://prices.pokemontcg.io/tcgplayer/sv6pt5-87",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "holofoil": {
+            "low": 3.47,
+            "mid": 5.01,
+            "high": 16.0,
+            "market": 4.92,
+            "directLow": 6.8
+          }
+        }
+      },
+      "cardmarket": {
+        "url": "https://prices.pokemontcg.io/cardmarket/sv6pt5-87",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "averageSellPrice": 3.47,
+          "lowPrice": 2.22,
+          "trendPrice": 3.61,
+          "germanProLow": 0.0,
+          "suggestedPrice": 0.0,
+          "reverseHoloSell": 0.0,
+          "reverseHoloLow": 0.0,
+          "reverseHoloTrend": 0.0,
+          "lowPriceExPlus": 2.22,
+          "avg1": 3.31,
+          "avg7": 3.46,
+          "avg30": 3.44,
+          "reverseHoloAvg1": 0.0,
+          "reverseHoloAvg7": 0.0,
+          "reverseHoloAvg30": 0.0
+        }
+      }
+    },
+    {
+      "id": "sv6pt5-88",
+      "name": "Janine's Secret Art",
+      "supertype": "Trainer",
+      "subtypes": [
+        "Supporter"
+      ],
+      "rules": [
+        "Choose up to 2 of your Darkness Pok\u00e9mon. For each of those Pok\u00e9mon, search your deck for a Basic Darkness Energy card and attach it to that Pok\u00e9mon. Then, shuffle your deck. If you attached Energy to your Active Pok\u00e9mon in this way, it is now Poisoned.",
+        "You may play only 1 Supporter card during your turn."
+      ],
+      "set": {
+        "id": "sv6pt5",
+        "name": "Shrouded Fable",
+        "series": "Scarlet & Violet",
+        "printedTotal": 64,
+        "total": 99,
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "ptcgoCode": "SFA",
+        "releaseDate": "2024/08/02",
+        "updatedAt": "2024/08/02 15:00:00",
+        "images": {
+          "symbol": "https://images.pokemontcg.io/sv6pt5/symbol.png",
+          "logo": "https://images.pokemontcg.io/sv6pt5/logo.png"
+        }
+      },
+      "number": "88",
+      "rarity": "Ultra Rare",
+      "legalities": {
+        "unlimited": "Legal",
+        "standard": "Legal",
+        "expanded": "Legal"
+      },
+      "regulationMark": "H",
+      "images": {
+        "small": "https://images.pokemontcg.io/sv6pt5/88.png",
+        "large": "https://images.pokemontcg.io/sv6pt5/88_hires.png"
+      },
+      "tcgplayer": {
+        "url": "https://prices.pokemontcg.io/tcgplayer/sv6pt5-88",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "holofoil": {
+            "low": 2.24,
+            "mid": 3.71,
+            "high": 24.0,
+            "market": 3.61,
+            "directLow": null
+          }
+        }
+      },
+      "cardmarket": {
+        "url": "https://prices.pokemontcg.io/cardmarket/sv6pt5-88",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "averageSellPrice": 2.91,
+          "lowPrice": 1.5,
+          "trendPrice": 3.07,
+          "germanProLow": 0.0,
+          "suggestedPrice": 0.0,
+          "reverseHoloSell": 0.0,
+          "reverseHoloLow": 0.0,
+          "reverseHoloTrend": 0.0,
+          "lowPriceExPlus": 1.5,
+          "avg1": 3.22,
+          "avg7": 2.98,
+          "avg30": 2.98,
+          "reverseHoloAvg1": 0.0,
+          "reverseHoloAvg7": 0.0,
+          "reverseHoloAvg30": 0.0
+        }
+      }
+    },
+    {
+      "id": "sv6pt5-89",
+      "name": "Xerosic's Machinations",
+      "supertype": "Trainer",
+      "subtypes": [
+        "Supporter"
+      ],
+      "rules": [
+        "Your opponent discards cards from their hand until they have 3 cards in their hand.",
+        "You may play only 1 Supporter card during your turn."
+      ],
+      "set": {
+        "id": "sv6pt5",
+        "name": "Shrouded Fable",
+        "series": "Scarlet & Violet",
+        "printedTotal": 64,
+        "total": 99,
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "ptcgoCode": "SFA",
+        "releaseDate": "2024/08/02",
+        "updatedAt": "2024/08/02 15:00:00",
+        "images": {
+          "symbol": "https://images.pokemontcg.io/sv6pt5/symbol.png",
+          "logo": "https://images.pokemontcg.io/sv6pt5/logo.png"
+        }
+      },
+      "number": "89",
+      "rarity": "Ultra Rare",
+      "legalities": {
+        "unlimited": "Legal",
+        "standard": "Legal",
+        "expanded": "Legal"
+      },
+      "regulationMark": "H",
+      "images": {
+        "small": "https://images.pokemontcg.io/sv6pt5/89.png",
+        "large": "https://images.pokemontcg.io/sv6pt5/89_hires.png"
+      },
+      "tcgplayer": {
+        "url": "https://prices.pokemontcg.io/tcgplayer/sv6pt5-89",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "holofoil": {
+            "low": 1.0,
+            "mid": 2.5,
+            "high": 33.0,
+            "market": 2.08,
+            "directLow": null
+          }
+        }
+      },
+      "cardmarket": {
+        "url": "https://prices.pokemontcg.io/cardmarket/sv6pt5-89",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "averageSellPrice": 2.42,
+          "lowPrice": 1.0,
+          "trendPrice": 2.43,
+          "germanProLow": 0.0,
+          "suggestedPrice": 0.0,
+          "reverseHoloSell": 0.0,
+          "reverseHoloLow": 0.0,
+          "reverseHoloTrend": 0.0,
+          "lowPriceExPlus": 1.5,
+          "avg1": 2.42,
+          "avg7": 2.3,
+          "avg30": 2.39,
+          "reverseHoloAvg1": 0.0,
+          "reverseHoloAvg7": 0.0,
+          "reverseHoloAvg30": 0.0
+        }
+      }
+    },
+    {
+      "id": "sv6pt5-90",
+      "name": "Okidogi ex",
+      "supertype": "Pok\u00e9mon",
+      "subtypes": [
+        "Basic",
+        "ex"
+      ],
+      "hp": "250",
+      "types": [
+        "Darkness"
+      ],
+      "rules": [
+        "Pok\u00e9mon ex rule: When your Pok\u00e9mon ex is Knocked Out, your opponent takes 2 Prize cards."
+      ],
+      "attacks": [
+        {
+          "name": "Poisonous Musculature",
+          "cost": [
+            "Colorless"
+          ],
+          "convertedEnergyCost": 1,
+          "damage": "",
+          "text": "Search your deck for up to 2 Basic Darkness Energy cards and attach them to this Pok\u00e9mon. Then, shuffle your deck. If you attached Energy to a Pok\u00e9mon in this way, this Pok\u00e9mon is now Poisoned."
+        },
+        {
+          "name": "Chain-Crazed",
+          "cost": [
+            "Darkness",
+            "Darkness",
+            "Colorless"
+          ],
+          "convertedEnergyCost": 3,
+          "damage": "130+",
+          "text": "If this Pok\u00e9mon is Poisoned, this attack does 130 more damage."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "Fighting",
+          "value": "\u00d72"
+        }
+      ],
+      "retreatCost": [
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedRetreatCost": 3,
+      "set": {
+        "id": "sv6pt5",
+        "name": "Shrouded Fable",
+        "series": "Scarlet & Violet",
+        "printedTotal": 64,
+        "total": 99,
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "ptcgoCode": "SFA",
+        "releaseDate": "2024/08/02",
+        "updatedAt": "2024/08/02 15:00:00",
+        "images": {
+          "symbol": "https://images.pokemontcg.io/sv6pt5/symbol.png",
+          "logo": "https://images.pokemontcg.io/sv6pt5/logo.png"
+        }
+      },
+      "number": "90",
+      "rarity": "Special Illustration Rare",
+      "legalities": {
+        "unlimited": "Legal",
+        "standard": "Legal",
+        "expanded": "Legal"
+      },
+      "regulationMark": "H",
+      "images": {
+        "small": "https://images.pokemontcg.io/sv6pt5/90.png",
+        "large": "https://images.pokemontcg.io/sv6pt5/90_hires.png"
+      },
+      "tcgplayer": {
+        "url": "https://prices.pokemontcg.io/tcgplayer/sv6pt5-90",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "holofoil": {
+            "low": 17.75,
+            "mid": 22.01,
+            "high": 57.0,
+            "market": 20.55,
+            "directLow": 21.45
+          }
+        }
+      },
+      "cardmarket": {
+        "url": "https://prices.pokemontcg.io/cardmarket/sv6pt5-90",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "averageSellPrice": 21.66,
+          "lowPrice": 17.0,
+          "trendPrice": 21.91,
+          "germanProLow": 0.0,
+          "suggestedPrice": 0.0,
+          "reverseHoloSell": 0.0,
+          "reverseHoloLow": 0.0,
+          "reverseHoloTrend": 0.0,
+          "lowPriceExPlus": 17.49,
+          "avg1": 18.75,
+          "avg7": 22.2,
+          "avg30": 21.39,
+          "reverseHoloAvg1": 0.0,
+          "reverseHoloAvg7": 0.0,
+          "reverseHoloAvg30": 0.0
+        }
+      }
+    },
+    {
+      "id": "sv6pt5-91",
+      "name": "Munkidori ex",
+      "supertype": "Pok\u00e9mon",
+      "subtypes": [
+        "Basic",
+        "ex"
+      ],
+      "hp": "210",
+      "types": [
+        "Darkness"
+      ],
+      "rules": [
+        "Pok\u00e9mon ex rule: When your Pok\u00e9mon ex is Knocked Out, your opponent takes 2 Prize cards."
+      ],
+      "abilities": [
+        {
+          "name": "Oh No You Don't",
+          "text": "If this Pok\u00e9mon is Knocked Out by damage from an attack from your opponent's Pok\u00e9mon, and if you have any Pecharunt ex in play, your opponent takes 1 fewer Prize card.",
+          "type": "Ability"
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Dirty Headbutt",
+          "cost": [
+            "Darkness",
+            "Darkness",
+            "Colorless"
+          ],
+          "convertedEnergyCost": 3,
+          "damage": "190",
+          "text": "During your next turn, this Pok\u00e9mon can't use Dirty Headbutt."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "Fighting",
+          "value": "\u00d72"
+        }
+      ],
+      "retreatCost": [
+        "Colorless"
+      ],
+      "convertedRetreatCost": 1,
+      "set": {
+        "id": "sv6pt5",
+        "name": "Shrouded Fable",
+        "series": "Scarlet & Violet",
+        "printedTotal": 64,
+        "total": 99,
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "ptcgoCode": "SFA",
+        "releaseDate": "2024/08/02",
+        "updatedAt": "2024/08/02 15:00:00",
+        "images": {
+          "symbol": "https://images.pokemontcg.io/sv6pt5/symbol.png",
+          "logo": "https://images.pokemontcg.io/sv6pt5/logo.png"
+        }
+      },
+      "number": "91",
+      "rarity": "Special Illustration Rare",
+      "legalities": {
+        "unlimited": "Legal",
+        "standard": "Legal",
+        "expanded": "Legal"
+      },
+      "regulationMark": "H",
+      "images": {
+        "small": "https://images.pokemontcg.io/sv6pt5/91.png",
+        "large": "https://images.pokemontcg.io/sv6pt5/91_hires.png"
+      },
+      "tcgplayer": {
+        "url": "https://prices.pokemontcg.io/tcgplayer/sv6pt5-91",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "holofoil": {
+            "low": 14.99,
+            "mid": 18.0,
+            "high": 79.99,
+            "market": 16.1,
+            "directLow": 17.71
+          }
+        }
+      },
+      "cardmarket": {
+        "url": "https://prices.pokemontcg.io/cardmarket/sv6pt5-91",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "averageSellPrice": 22.04,
+          "lowPrice": 10.99,
+          "trendPrice": 17.55,
+          "germanProLow": 0.0,
+          "suggestedPrice": 0.0,
+          "reverseHoloSell": 0.0,
+          "reverseHoloLow": 0.0,
+          "reverseHoloTrend": 0.0,
+          "lowPriceExPlus": 10.99,
+          "avg1": 13.43,
+          "avg7": 16.26,
+          "avg30": 20.71,
+          "reverseHoloAvg1": 0.0,
+          "reverseHoloAvg7": 0.0,
+          "reverseHoloAvg30": 0.0
+        }
+      }
+    },
+    {
+      "id": "sv6pt5-92",
+      "name": "Fezandipiti ex",
+      "supertype": "Pok\u00e9mon",
+      "subtypes": [
+        "Basic",
+        "ex"
+      ],
+      "hp": "210",
+      "types": [
+        "Darkness"
+      ],
+      "rules": [
+        "Pok\u00e9mon ex rule: When your Pok\u00e9mon ex is Knocked Out, your opponent takes 2 Prize cards."
+      ],
+      "abilities": [
+        {
+          "name": "Flip the Script",
+          "text": "Once during your turn, if any of your Pok\u00e9mon were Knocked Out during your opponent's last turn, you may draw 3 cards. You can't use more than 1 Flip the Script Ability each turn.",
+          "type": "Ability"
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Cruel Arrow",
+          "cost": [
+            "Colorless",
+            "Colorless",
+            "Colorless"
+          ],
+          "convertedEnergyCost": 3,
+          "damage": "",
+          "text": "This attack does 100 damage to 1 of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "Fighting",
+          "value": "\u00d72"
+        }
+      ],
+      "retreatCost": [
+        "Colorless"
+      ],
+      "convertedRetreatCost": 1,
+      "set": {
+        "id": "sv6pt5",
+        "name": "Shrouded Fable",
+        "series": "Scarlet & Violet",
+        "printedTotal": 64,
+        "total": 99,
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "ptcgoCode": "SFA",
+        "releaseDate": "2024/08/02",
+        "updatedAt": "2024/08/02 15:00:00",
+        "images": {
+          "symbol": "https://images.pokemontcg.io/sv6pt5/symbol.png",
+          "logo": "https://images.pokemontcg.io/sv6pt5/logo.png"
+        }
+      },
+      "number": "92",
+      "rarity": "Special Illustration Rare",
+      "legalities": {
+        "unlimited": "Legal",
+        "standard": "Legal",
+        "expanded": "Legal"
+      },
+      "regulationMark": "H",
+      "images": {
+        "small": "https://images.pokemontcg.io/sv6pt5/92.png",
+        "large": "https://images.pokemontcg.io/sv6pt5/92_hires.png"
+      },
+      "tcgplayer": {
+        "url": "https://prices.pokemontcg.io/tcgplayer/sv6pt5-92",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "holofoil": {
+            "low": 42.99,
+            "mid": 51.39,
+            "high": 124.95,
+            "market": 47.34,
+            "directLow": null
+          }
+        }
+      },
+      "cardmarket": {
+        "url": "https://prices.pokemontcg.io/cardmarket/sv6pt5-92",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "averageSellPrice": 37.2,
+          "lowPrice": 30.0,
+          "trendPrice": 36.81,
+          "germanProLow": 0.0,
+          "suggestedPrice": 0.0,
+          "reverseHoloSell": 0.0,
+          "reverseHoloLow": 0.0,
+          "reverseHoloTrend": 0.0,
+          "lowPriceExPlus": 30.0,
+          "avg1": 32.16,
+          "avg7": 37.51,
+          "avg30": 36.34,
+          "reverseHoloAvg1": 0.0,
+          "reverseHoloAvg7": 0.0,
+          "reverseHoloAvg30": 0.0
+        }
+      }
+    },
+    {
+      "id": "sv6pt5-93",
+      "name": "Pecharunt ex",
+      "supertype": "Pok\u00e9mon",
+      "subtypes": [
+        "Basic",
+        "ex"
+      ],
+      "hp": "190",
+      "types": [
+        "Darkness"
+      ],
+      "rules": [
+        "Pok\u00e9mon ex rule: When your Pok\u00e9mon ex is Knocked Out, your opponent takes 2 Prize cards."
+      ],
+      "abilities": [
+        {
+          "name": "Subjugating Chains",
+          "text": "Once during your turn, you may switch 1 of your Benched Darkness Pok\u00e9mon, except any Pecharunt ex, with your Active Pok\u00e9mon. If you do, the new Active Pok\u00e9mon is now Poisoned. You can't use more than 1 Subjugating Chains Ability each turn.",
+          "type": "Ability"
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Irritated Outburst",
+          "cost": [
+            "Darkness",
+            "Darkness"
+          ],
+          "convertedEnergyCost": 2,
+          "damage": "60\u00d7",
+          "text": "This attack does 60 damage for each Prize card your opponent has taken."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "Fighting",
+          "value": "\u00d72"
+        }
+      ],
+      "retreatCost": [
+        "Colorless"
+      ],
+      "convertedRetreatCost": 1,
+      "set": {
+        "id": "sv6pt5",
+        "name": "Shrouded Fable",
+        "series": "Scarlet & Violet",
+        "printedTotal": 64,
+        "total": 99,
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "ptcgoCode": "SFA",
+        "releaseDate": "2024/08/02",
+        "updatedAt": "2024/08/02 15:00:00",
+        "images": {
+          "symbol": "https://images.pokemontcg.io/sv6pt5/symbol.png",
+          "logo": "https://images.pokemontcg.io/sv6pt5/logo.png"
+        }
+      },
+      "number": "93",
+      "rarity": "Special Illustration Rare",
+      "legalities": {
+        "unlimited": "Legal",
+        "standard": "Legal",
+        "expanded": "Legal"
+      },
+      "regulationMark": "H",
+      "images": {
+        "small": "https://images.pokemontcg.io/sv6pt5/93.png",
+        "large": "https://images.pokemontcg.io/sv6pt5/93_hires.png"
+      },
+      "tcgplayer": {
+        "url": "https://prices.pokemontcg.io/tcgplayer/sv6pt5-93",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "holofoil": {
+            "low": 20.0,
+            "mid": 24.0,
+            "high": 59.95,
+            "market": 22.02,
+            "directLow": 24.99
+          }
+        }
+      },
+      "cardmarket": {
+        "url": "https://prices.pokemontcg.io/cardmarket/sv6pt5-93",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "averageSellPrice": 21.7,
+          "lowPrice": 16.5,
+          "trendPrice": 20.22,
+          "germanProLow": 0.0,
+          "suggestedPrice": 0.0,
+          "reverseHoloSell": 0.0,
+          "reverseHoloLow": 0.0,
+          "reverseHoloTrend": 0.0,
+          "lowPriceExPlus": 16.95,
+          "avg1": 17.5,
+          "avg7": 19.91,
+          "avg30": 21.71,
+          "reverseHoloAvg1": 0.0,
+          "reverseHoloAvg7": 0.0,
+          "reverseHoloAvg30": 0.0
+        }
+      }
+    },
+    {
+      "id": "sv6pt5-94",
+      "name": "Cassiopeia",
+      "supertype": "Trainer",
+      "subtypes": [
+        "Supporter"
+      ],
+      "rules": [
+        "You can use this card only when it is the last card in your hand.  Search your deck for up to 2 cards and put them into your hand. Then, shuffle your deck.",
+        "You may play only 1 Supporter card during your turn."
+      ],
+      "set": {
+        "id": "sv6pt5",
+        "name": "Shrouded Fable",
+        "series": "Scarlet & Violet",
+        "printedTotal": 64,
+        "total": 99,
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "ptcgoCode": "SFA",
+        "releaseDate": "2024/08/02",
+        "updatedAt": "2024/08/02 15:00:00",
+        "images": {
+          "symbol": "https://images.pokemontcg.io/sv6pt5/symbol.png",
+          "logo": "https://images.pokemontcg.io/sv6pt5/logo.png"
+        }
+      },
+      "number": "94",
+      "rarity": "Special Illustration Rare",
+      "legalities": {
+        "unlimited": "Legal",
+        "standard": "Legal",
+        "expanded": "Legal"
+      },
+      "regulationMark": "H",
+      "images": {
+        "small": "https://images.pokemontcg.io/sv6pt5/94.png",
+        "large": "https://images.pokemontcg.io/sv6pt5/94_hires.png"
+      },
+      "tcgplayer": {
+        "url": "https://prices.pokemontcg.io/tcgplayer/sv6pt5-94",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "holofoil": {
+            "low": 34.95,
+            "mid": 49.99,
+            "high": 124.95,
+            "market": 42.04,
+            "directLow": 50.0
+          }
+        }
+      },
+      "cardmarket": {
+        "url": "https://prices.pokemontcg.io/cardmarket/sv6pt5-94",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "averageSellPrice": 38.93,
+          "lowPrice": 25.0,
+          "trendPrice": 33.06,
+          "germanProLow": 0.0,
+          "suggestedPrice": 0.0,
+          "reverseHoloSell": 0.0,
+          "reverseHoloLow": 0.0,
+          "reverseHoloTrend": 0.0,
+          "lowPriceExPlus": 25.0,
+          "avg1": 33.25,
+          "avg7": 33.11,
+          "avg30": 37.52,
+          "reverseHoloAvg1": 0.0,
+          "reverseHoloAvg7": 0.0,
+          "reverseHoloAvg30": 0.0
+        }
+      }
+    },
+    {
+      "id": "sv6pt5-95",
+      "name": "Pecharunt ex",
+      "supertype": "Pok\u00e9mon",
+      "subtypes": [
+        "Basic",
+        "ex"
+      ],
+      "hp": "190",
+      "types": [
+        "Darkness"
+      ],
+      "rules": [
+        "Pok\u00e9mon ex rule: When your Pok\u00e9mon ex is Knocked Out, your opponent takes 2 Prize cards."
+      ],
+      "abilities": [
+        {
+          "name": "Subjugating Chains",
+          "text": "Once during your turn, you may switch 1 of your Benched Darkness Pok\u00e9mon, except any Pecharunt ex, with your Active Pok\u00e9mon. If you do, the new Active Pok\u00e9mon is now Poisoned. You can't use more than 1 Subjugating Chains Ability each turn.",
+          "type": "Ability"
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Irritated Outburst",
+          "cost": [
+            "Darkness",
+            "Darkness"
+          ],
+          "convertedEnergyCost": 2,
+          "damage": "60\u00d7",
+          "text": "This attack does 60 damage for each Prize card your opponent has taken."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "Fighting",
+          "value": "\u00d72"
+        }
+      ],
+      "retreatCost": [
+        "Colorless"
+      ],
+      "convertedRetreatCost": 1,
+      "set": {
+        "id": "sv6pt5",
+        "name": "Shrouded Fable",
+        "series": "Scarlet & Violet",
+        "printedTotal": 64,
+        "total": 99,
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "ptcgoCode": "SFA",
+        "releaseDate": "2024/08/02",
+        "updatedAt": "2024/08/02 15:00:00",
+        "images": {
+          "symbol": "https://images.pokemontcg.io/sv6pt5/symbol.png",
+          "logo": "https://images.pokemontcg.io/sv6pt5/logo.png"
+        }
+      },
+      "number": "95",
+      "rarity": "Hyper Rare",
+      "legalities": {
+        "unlimited": "Legal",
+        "standard": "Legal",
+        "expanded": "Legal"
+      },
+      "regulationMark": "H",
+      "images": {
+        "small": "https://images.pokemontcg.io/sv6pt5/95.png",
+        "large": "https://images.pokemontcg.io/sv6pt5/95_hires.png"
+      },
+      "tcgplayer": {
+        "url": "https://prices.pokemontcg.io/tcgplayer/sv6pt5-95",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "holofoil": {
+            "low": 22.0,
+            "mid": 25.45,
+            "high": 59.95,
+            "market": 24.88,
+            "directLow": 37.35
+          }
+        }
+      },
+      "cardmarket": {
+        "url": "https://prices.pokemontcg.io/cardmarket/sv6pt5-95",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "averageSellPrice": 30.68,
+          "lowPrice": 18.0,
+          "trendPrice": 41.5,
+          "germanProLow": 0.0,
+          "suggestedPrice": 0.0,
+          "reverseHoloSell": 0.0,
+          "reverseHoloLow": 0.0,
+          "reverseHoloTrend": 0.0,
+          "lowPriceExPlus": 18.0,
+          "avg1": 59.0,
+          "avg7": 38.8,
+          "avg30": 32.44,
+          "reverseHoloAvg1": 0.0,
+          "reverseHoloAvg7": 0.0,
+          "reverseHoloAvg30": 0.0
+        }
+      }
+    },
+    {
+      "id": "sv6pt5-96",
+      "name": "Earthen Vessel",
+      "supertype": "Trainer",
+      "subtypes": [
+        "Item",
+        "Ancient"
+      ],
+      "rules": [
+        "You can use this card only if you discard another card from your hand.  Search your deck for up to 2 Basic Energy cards, reveal them, and put them into your hand. Then, shuffle your deck.",
+        "You may play any number of Item cards during your turn."
+      ],
+      "set": {
+        "id": "sv6pt5",
+        "name": "Shrouded Fable",
+        "series": "Scarlet & Violet",
+        "printedTotal": 64,
+        "total": 99,
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "ptcgoCode": "SFA",
+        "releaseDate": "2024/08/02",
+        "updatedAt": "2024/08/02 15:00:00",
+        "images": {
+          "symbol": "https://images.pokemontcg.io/sv6pt5/symbol.png",
+          "logo": "https://images.pokemontcg.io/sv6pt5/logo.png"
+        }
+      },
+      "number": "96",
+      "rarity": "Hyper Rare",
+      "legalities": {
+        "unlimited": "Legal",
+        "standard": "Legal",
+        "expanded": "Legal"
+      },
+      "regulationMark": "G",
+      "images": {
+        "small": "https://images.pokemontcg.io/sv6pt5/96.png",
+        "large": "https://images.pokemontcg.io/sv6pt5/96_hires.png"
+      },
+      "tcgplayer": {
+        "url": "https://prices.pokemontcg.io/tcgplayer/sv6pt5-96",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "holofoil": {
+            "low": 42.79,
+            "mid": 55.71,
+            "high": 134.0,
+            "market": 45.78,
+            "directLow": 60.15
+          }
+        }
+      },
+      "cardmarket": {
+        "url": "https://prices.pokemontcg.io/cardmarket/sv6pt5-96",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "averageSellPrice": 40.92,
+          "lowPrice": 34.95,
+          "trendPrice": 38.0,
+          "germanProLow": 0.0,
+          "suggestedPrice": 0.0,
+          "reverseHoloSell": 0.0,
+          "reverseHoloLow": 0.0,
+          "reverseHoloTrend": 0.0,
+          "lowPriceExPlus": 34.95,
+          "avg1": 38.0,
+          "avg7": 37.59,
+          "avg30": 39.95,
+          "reverseHoloAvg1": 0.0,
+          "reverseHoloAvg7": 0.0,
+          "reverseHoloAvg30": 0.0
+        }
+      }
+    },
+    {
+      "id": "sv6pt5-97",
+      "name": "Powerglass",
+      "supertype": "Trainer",
+      "subtypes": [
+        "Pok\u00e9mon Tool"
+      ],
+      "rules": [
+        "At the end of your turn (after your attack), if the Pok\u00e9mon this card is attached to is in the Active Spot, you may attach a Basic Energy card from your discard pile to it.",
+        "You may attach any number of Pok\u00e9mon Tools to your Pok\u00e9mon during your turn. You may attach only 1 Pok\u00e9mon Tool to each Pok\u00e9mon, and it stays attached."
+      ],
+      "set": {
+        "id": "sv6pt5",
+        "name": "Shrouded Fable",
+        "series": "Scarlet & Violet",
+        "printedTotal": 64,
+        "total": 99,
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "ptcgoCode": "SFA",
+        "releaseDate": "2024/08/02",
+        "updatedAt": "2024/08/02 15:00:00",
+        "images": {
+          "symbol": "https://images.pokemontcg.io/sv6pt5/symbol.png",
+          "logo": "https://images.pokemontcg.io/sv6pt5/logo.png"
+        }
+      },
+      "number": "97",
+      "rarity": "Hyper Rare",
+      "legalities": {
+        "unlimited": "Legal",
+        "standard": "Legal",
+        "expanded": "Legal"
+      },
+      "regulationMark": "H",
+      "images": {
+        "small": "https://images.pokemontcg.io/sv6pt5/97.png",
+        "large": "https://images.pokemontcg.io/sv6pt5/97_hires.png"
+      },
+      "tcgplayer": {
+        "url": "https://prices.pokemontcg.io/tcgplayer/sv6pt5-97",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "holofoil": {
+            "low": 16.0,
+            "mid": 19.68,
+            "high": 44.95,
+            "market": 20.18,
+            "directLow": 29.06
+          }
+        }
+      },
+      "cardmarket": {
+        "url": "https://prices.pokemontcg.io/cardmarket/sv6pt5-97",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "averageSellPrice": 23.28,
+          "lowPrice": 13.99,
+          "trendPrice": 22.48,
+          "germanProLow": 0.0,
+          "suggestedPrice": 0.0,
+          "reverseHoloSell": 0.0,
+          "reverseHoloLow": 0.0,
+          "reverseHoloTrend": 0.0,
+          "lowPriceExPlus": 16.99,
+          "avg1": 31.5,
+          "avg7": 21.74,
+          "avg30": 22.72,
+          "reverseHoloAvg1": 0.0,
+          "reverseHoloAvg7": 0.0,
+          "reverseHoloAvg30": 0.0
+        }
+      }
+    },
+    {
+      "id": "sv6pt5-98",
+      "name": "Basic Darkness Energy",
+      "supertype": "Energy",
+      "subtypes": [
+        "Basic"
+      ],
+      "types": [
+        "Darkness"
+      ],
+      "set": {
+        "id": "sv6pt5",
+        "name": "Shrouded Fable",
+        "series": "Scarlet & Violet",
+        "printedTotal": 64,
+        "total": 99,
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "ptcgoCode": "SFA",
+        "releaseDate": "2024/08/02",
+        "updatedAt": "2024/08/02 15:00:00",
+        "images": {
+          "symbol": "https://images.pokemontcg.io/sv6pt5/symbol.png",
+          "logo": "https://images.pokemontcg.io/sv6pt5/logo.png"
+        }
+      },
+      "number": "98",
+      "rarity": "Hyper Rare",
+      "legalities": {
+        "unlimited": "Legal",
+        "standard": "Legal",
+        "expanded": "Legal"
+      },
+      "images": {
+        "small": "https://images.pokemontcg.io/sv6pt5/98.png",
+        "large": "https://images.pokemontcg.io/sv6pt5/98_hires.png"
+      },
+      "tcgplayer": {
+        "url": "https://prices.pokemontcg.io/tcgplayer/sv6pt5-98",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "holofoil": {
+            "low": 29.99,
+            "mid": 36.5,
+            "high": 79.95,
+            "market": 33.99,
+            "directLow": 49.67
+          }
+        }
+      },
+      "cardmarket": {
+        "url": "https://prices.pokemontcg.io/cardmarket/sv6pt5-98",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "averageSellPrice": 32.73,
+          "lowPrice": 23.0,
+          "trendPrice": 30.49,
+          "germanProLow": 0.0,
+          "suggestedPrice": 0.0,
+          "reverseHoloSell": 0.0,
+          "reverseHoloLow": 0.0,
+          "reverseHoloTrend": 0.0,
+          "lowPriceExPlus": 23.0,
+          "avg1": 33.23,
+          "avg7": 32.81,
+          "avg30": 30.92,
+          "reverseHoloAvg1": 0.0,
+          "reverseHoloAvg7": 0.0,
+          "reverseHoloAvg30": 0.0
+        }
+      }
+    },
+    {
+      "id": "sv6pt5-99",
+      "name": "Basic Metal Energy",
+      "supertype": "Energy",
+      "subtypes": [
+        "Basic"
+      ],
+      "types": [
+        "Metal"
+      ],
+      "set": {
+        "id": "sv6pt5",
+        "name": "Shrouded Fable",
+        "series": "Scarlet & Violet",
+        "printedTotal": 64,
+        "total": 99,
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "ptcgoCode": "SFA",
+        "releaseDate": "2024/08/02",
+        "updatedAt": "2024/08/02 15:00:00",
+        "images": {
+          "symbol": "https://images.pokemontcg.io/sv6pt5/symbol.png",
+          "logo": "https://images.pokemontcg.io/sv6pt5/logo.png"
+        }
+      },
+      "number": "99",
+      "rarity": "Hyper Rare",
+      "legalities": {
+        "unlimited": "Legal",
+        "standard": "Legal",
+        "expanded": "Legal"
+      },
+      "images": {
+        "small": "https://images.pokemontcg.io/sv6pt5/99.png",
+        "large": "https://images.pokemontcg.io/sv6pt5/99_hires.png"
+      },
+      "tcgplayer": {
+        "url": "https://prices.pokemontcg.io/tcgplayer/sv6pt5-99",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "holofoil": {
+            "low": 25.0,
+            "mid": 33.78,
+            "high": 69.95,
+            "market": 31.34,
+            "directLow": 43.76
+          }
+        }
+      },
+      "cardmarket": {
+        "url": "https://prices.pokemontcg.io/cardmarket/sv6pt5-99",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "averageSellPrice": 29.71,
+          "lowPrice": 23.0,
+          "trendPrice": 30.26,
+          "germanProLow": 0.0,
+          "suggestedPrice": 0.0,
+          "reverseHoloSell": 0.0,
+          "reverseHoloLow": 0.0,
+          "reverseHoloTrend": 0.0,
+          "lowPriceExPlus": 23.0,
+          "avg1": 31.95,
+          "avg7": 27.99,
+          "avg30": 29.28,
+          "reverseHoloAvg1": 0.0,
+          "reverseHoloAvg7": 0.0,
+          "reverseHoloAvg30": 0.0
+        }
+      }
+    }
+  ]
+}

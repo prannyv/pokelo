@@ -1,0 +1,3486 @@
+{
+  "cards": [
+    {
+      "id": "sv3-198",
+      "name": "Gloom",
+      "supertype": "Pok\u00e9mon",
+      "subtypes": [
+        "Stage 1"
+      ],
+      "hp": "80",
+      "types": [
+        "Grass"
+      ],
+      "evolvesFrom": "Oddish",
+      "evolvesTo": [
+        "Vileplume",
+        "Bellossom"
+      ],
+      "attacks": [
+        {
+          "name": "Inviting Scent",
+          "cost": [
+            "Colorless"
+          ],
+          "convertedEnergyCost": 1,
+          "damage": "",
+          "text": "Switch in 1 of your opponent's Benched Pok\u00e9mon to the Active Spot."
+        },
+        {
+          "name": "Leaf Step",
+          "cost": [
+            "Grass"
+          ],
+          "convertedEnergyCost": 1,
+          "damage": "20",
+          "text": ""
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "Fire",
+          "value": "\u00d72"
+        }
+      ],
+      "retreatCost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedRetreatCost": 2,
+      "set": {
+        "id": "sv3",
+        "name": "Obsidian Flames",
+        "series": "Scarlet & Violet",
+        "printedTotal": 197,
+        "total": 230,
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "releaseDate": "2023/08/11",
+        "updatedAt": "2023/08/11 15:00:00",
+        "images": {
+          "symbol": "https://images.pokemontcg.io/sv3/symbol.png",
+          "logo": "https://images.pokemontcg.io/sv3/logo.png"
+        }
+      },
+      "number": "198",
+      "artist": "Masako Tomii",
+      "rarity": "Illustration Rare",
+      "flavorText": "What appears to be drool is actually sweet honey. It is very sticky and clings stubbornly if touched.",
+      "nationalPokedexNumbers": [
+        44
+      ],
+      "legalities": {
+        "unlimited": "Legal",
+        "standard": "Legal",
+        "expanded": "Legal"
+      },
+      "regulationMark": "G",
+      "images": {
+        "small": "https://images.pokemontcg.io/sv3/198.png",
+        "large": "https://images.pokemontcg.io/sv3/198_hires.png"
+      },
+      "tcgplayer": {
+        "url": "https://prices.pokemontcg.io/tcgplayer/sv3-198",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "holofoil": {
+            "low": 7.99,
+            "mid": 13.0,
+            "high": 115.99,
+            "market": 10.67,
+            "directLow": 12.1
+          }
+        }
+      },
+      "cardmarket": {
+        "url": "https://prices.pokemontcg.io/cardmarket/sv3-198",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "averageSellPrice": 16.64,
+          "lowPrice": 6.99,
+          "trendPrice": 12.45,
+          "germanProLow": 0.0,
+          "suggestedPrice": 0.0,
+          "reverseHoloSell": 0.0,
+          "reverseHoloLow": 0.0,
+          "reverseHoloTrend": 0.0,
+          "lowPriceExPlus": 6.99,
+          "avg1": 13.41,
+          "avg7": 12.78,
+          "avg30": 15.25,
+          "reverseHoloAvg1": 0.0,
+          "reverseHoloAvg7": 0.0,
+          "reverseHoloAvg30": 0.0
+        }
+      }
+    },
+    {
+      "id": "sv3-199",
+      "name": "Ninetales",
+      "supertype": "Pok\u00e9mon",
+      "subtypes": [
+        "Stage 1"
+      ],
+      "hp": "120",
+      "types": [
+        "Fire"
+      ],
+      "evolvesFrom": "Vulpix",
+      "attacks": [
+        {
+          "name": "Will-O-Wisp",
+          "cost": [
+            "Fire"
+          ],
+          "convertedEnergyCost": 1,
+          "damage": "20",
+          "text": ""
+        },
+        {
+          "name": "Nine-Tailed Dance",
+          "cost": [
+            "Fire",
+            "Fire"
+          ],
+          "convertedEnergyCost": 2,
+          "damage": "",
+          "text": "Put 9 damage counters on 1 of your opponent's Pok\u00e9mon. During your next turn, this Pok\u00e9mon can't attack."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "Water",
+          "value": "\u00d72"
+        }
+      ],
+      "retreatCost": [
+        "Colorless"
+      ],
+      "convertedRetreatCost": 1,
+      "set": {
+        "id": "sv3",
+        "name": "Obsidian Flames",
+        "series": "Scarlet & Violet",
+        "printedTotal": 197,
+        "total": 230,
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "releaseDate": "2023/08/11",
+        "updatedAt": "2023/08/11 15:00:00",
+        "images": {
+          "symbol": "https://images.pokemontcg.io/sv3/symbol.png",
+          "logo": "https://images.pokemontcg.io/sv3/logo.png"
+        }
+      },
+      "number": "199",
+      "artist": "SIE NANAHARA",
+      "rarity": "Illustration Rare",
+      "flavorText": "Very smart and very vengeful. Grabbing one of its many tails could result in a 1,000-year curse.",
+      "nationalPokedexNumbers": [
+        38
+      ],
+      "legalities": {
+        "unlimited": "Legal",
+        "standard": "Legal",
+        "expanded": "Legal"
+      },
+      "regulationMark": "G",
+      "images": {
+        "small": "https://images.pokemontcg.io/sv3/199.png",
+        "large": "https://images.pokemontcg.io/sv3/199_hires.png"
+      },
+      "tcgplayer": {
+        "url": "https://prices.pokemontcg.io/tcgplayer/sv3-199",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "holofoil": {
+            "low": 15.0,
+            "mid": 23.99,
+            "high": 100.0,
+            "market": 21.4,
+            "directLow": 20.2
+          }
+        }
+      },
+      "cardmarket": {
+        "url": "https://prices.pokemontcg.io/cardmarket/sv3-199",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "averageSellPrice": 26.16,
+          "lowPrice": 15.0,
+          "trendPrice": 23.56,
+          "germanProLow": 0.0,
+          "suggestedPrice": 0.0,
+          "reverseHoloSell": 0.0,
+          "reverseHoloLow": 0.0,
+          "reverseHoloTrend": 0.0,
+          "lowPriceExPlus": 17.99,
+          "avg1": 24.31,
+          "avg7": 23.64,
+          "avg30": 25.63,
+          "reverseHoloAvg1": 0.0,
+          "reverseHoloAvg7": 0.0,
+          "reverseHoloAvg30": 0.0
+        }
+      }
+    },
+    {
+      "id": "sv3-200",
+      "name": "Palafin",
+      "supertype": "Pok\u00e9mon",
+      "subtypes": [
+        "Stage 1"
+      ],
+      "hp": "150",
+      "types": [
+        "Water"
+      ],
+      "evolvesFrom": "Finizen",
+      "attacks": [
+        {
+          "name": "Jet Punch",
+          "cost": [
+            "Water"
+          ],
+          "convertedEnergyCost": 1,
+          "damage": "30",
+          "text": "This attack also does 30 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
+        },
+        {
+          "name": "Justice Kick",
+          "cost": [
+            "Water",
+            "Water"
+          ],
+          "convertedEnergyCost": 2,
+          "damage": "210",
+          "text": "If this Pok\u00e9mon didn't move from the Bench to the Active Spot this turn, this attack does nothing."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "Lightning",
+          "value": "\u00d72"
+        }
+      ],
+      "retreatCost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedRetreatCost": 2,
+      "set": {
+        "id": "sv3",
+        "name": "Obsidian Flames",
+        "series": "Scarlet & Violet",
+        "printedTotal": 197,
+        "total": 230,
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "releaseDate": "2023/08/11",
+        "updatedAt": "2023/08/11 15:00:00",
+        "images": {
+          "symbol": "https://images.pokemontcg.io/sv3/symbol.png",
+          "logo": "https://images.pokemontcg.io/sv3/logo.png"
+        }
+      },
+      "number": "200",
+      "artist": "Akira Komayama",
+      "rarity": "Illustration Rare",
+      "flavorText": "This Pok\u00e9mon's ancient genes have awakened. It is now so extraordinarily strong that it can easily lift a cruise ship with one fin.",
+      "nationalPokedexNumbers": [
+        964
+      ],
+      "legalities": {
+        "unlimited": "Legal",
+        "standard": "Legal",
+        "expanded": "Legal"
+      },
+      "regulationMark": "G",
+      "images": {
+        "small": "https://images.pokemontcg.io/sv3/200.png",
+        "large": "https://images.pokemontcg.io/sv3/200_hires.png"
+      },
+      "tcgplayer": {
+        "url": "https://prices.pokemontcg.io/tcgplayer/sv3-200",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "holofoil": {
+            "low": 2.06,
+            "mid": 4.23,
+            "high": 75.0,
+            "market": 2.62,
+            "directLow": null
+          }
+        }
+      },
+      "cardmarket": {
+        "url": "https://prices.pokemontcg.io/cardmarket/sv3-200",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "averageSellPrice": 4.15,
+          "lowPrice": 1.9,
+          "trendPrice": 3.83,
+          "germanProLow": 0.0,
+          "suggestedPrice": 0.0,
+          "reverseHoloSell": 0.0,
+          "reverseHoloLow": 0.0,
+          "reverseHoloTrend": 0.0,
+          "lowPriceExPlus": 1.99,
+          "avg1": 3.5,
+          "avg7": 3.67,
+          "avg30": 4.05,
+          "reverseHoloAvg1": 0.0,
+          "reverseHoloAvg7": 0.0,
+          "reverseHoloAvg30": 0.0
+        }
+      }
+    },
+    {
+      "id": "sv3-201",
+      "name": "Bellibolt",
+      "supertype": "Pok\u00e9mon",
+      "subtypes": [
+        "Stage 1"
+      ],
+      "hp": "140",
+      "types": [
+        "Lightning"
+      ],
+      "evolvesFrom": "Tadbulb",
+      "abilities": [
+        {
+          "name": "Insulator",
+          "text": "Prevent all damage done to this Pok\u00e9mon by attacks from your opponent's Lightning Pok\u00e9mon.",
+          "type": "Ability"
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Thunderous Edge",
+          "cost": [
+            "Lightning",
+            "Colorless",
+            "Colorless"
+          ],
+          "convertedEnergyCost": 3,
+          "damage": "100",
+          "text": "This attack's damage isn't affected by any effects on your opponent's Active Pok\u00e9mon."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "Fighting",
+          "value": "\u00d72"
+        }
+      ],
+      "retreatCost": [
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedRetreatCost": 3,
+      "set": {
+        "id": "sv3",
+        "name": "Obsidian Flames",
+        "series": "Scarlet & Violet",
+        "printedTotal": 197,
+        "total": 230,
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "releaseDate": "2023/08/11",
+        "updatedAt": "2023/08/11 15:00:00",
+        "images": {
+          "symbol": "https://images.pokemontcg.io/sv3/symbol.png",
+          "logo": "https://images.pokemontcg.io/sv3/logo.png"
+        }
+      },
+      "number": "201",
+      "artist": "KEIICHIRO ITO",
+      "rarity": "Illustration Rare",
+      "flavorText": "When this Pok\u00e9mon expands and contracts its wobbly body, the belly-button dynamo in its stomach produces a huge amount of electricity.",
+      "nationalPokedexNumbers": [
+        939
+      ],
+      "legalities": {
+        "unlimited": "Legal",
+        "standard": "Legal",
+        "expanded": "Legal"
+      },
+      "regulationMark": "G",
+      "images": {
+        "small": "https://images.pokemontcg.io/sv3/201.png",
+        "large": "https://images.pokemontcg.io/sv3/201_hires.png"
+      },
+      "tcgplayer": {
+        "url": "https://prices.pokemontcg.io/tcgplayer/sv3-201",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "holofoil": {
+            "low": 2.0,
+            "mid": 4.85,
+            "high": 25.0,
+            "market": 3.92,
+            "directLow": 4.85
+          }
+        }
+      },
+      "cardmarket": {
+        "url": "https://prices.pokemontcg.io/cardmarket/sv3-201",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "averageSellPrice": 3.6,
+          "lowPrice": 1.9,
+          "trendPrice": 3.83,
+          "germanProLow": 0.0,
+          "suggestedPrice": 0.0,
+          "reverseHoloSell": 0.0,
+          "reverseHoloLow": 0.0,
+          "reverseHoloTrend": 0.0,
+          "lowPriceExPlus": 1.95,
+          "avg1": 4.11,
+          "avg7": 3.69,
+          "avg30": 3.65,
+          "reverseHoloAvg1": 0.0,
+          "reverseHoloAvg7": 0.0,
+          "reverseHoloAvg30": 0.0
+        }
+      }
+    },
+    {
+      "id": "sv3-202",
+      "name": "Cleffa",
+      "supertype": "Pok\u00e9mon",
+      "subtypes": [
+        "Basic"
+      ],
+      "hp": "30",
+      "types": [
+        "Psychic"
+      ],
+      "evolvesTo": [
+        "Clefairy"
+      ],
+      "attacks": [
+        {
+          "name": "Grasping Draw",
+          "cost": [],
+          "convertedEnergyCost": 0,
+          "damage": "",
+          "text": "Draw cards until you have 7 cards in your hand."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "Metal",
+          "value": "\u00d72"
+        }
+      ],
+      "set": {
+        "id": "sv3",
+        "name": "Obsidian Flames",
+        "series": "Scarlet & Violet",
+        "printedTotal": 197,
+        "total": 230,
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "releaseDate": "2023/08/11",
+        "updatedAt": "2023/08/11 15:00:00",
+        "images": {
+          "symbol": "https://images.pokemontcg.io/sv3/symbol.png",
+          "logo": "https://images.pokemontcg.io/sv3/logo.png"
+        }
+      },
+      "number": "202",
+      "artist": "HYOGONOSUKE",
+      "rarity": "Illustration Rare",
+      "flavorText": "Because of its unusual, starlike silhouette, people believe that it came here on a meteor.",
+      "nationalPokedexNumbers": [
+        173
+      ],
+      "legalities": {
+        "unlimited": "Legal",
+        "standard": "Legal",
+        "expanded": "Legal"
+      },
+      "regulationMark": "G",
+      "images": {
+        "small": "https://images.pokemontcg.io/sv3/202.png",
+        "large": "https://images.pokemontcg.io/sv3/202_hires.png"
+      },
+      "tcgplayer": {
+        "url": "https://prices.pokemontcg.io/tcgplayer/sv3-202",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "holofoil": {
+            "low": 14.49,
+            "mid": 19.33,
+            "high": 100.0,
+            "market": 17.89,
+            "directLow": 18.13
+          }
+        }
+      },
+      "cardmarket": {
+        "url": "https://prices.pokemontcg.io/cardmarket/sv3-202",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "averageSellPrice": 21.57,
+          "lowPrice": 8.0,
+          "trendPrice": 19.24,
+          "germanProLow": 0.0,
+          "suggestedPrice": 0.0,
+          "reverseHoloSell": 0.0,
+          "reverseHoloLow": 0.0,
+          "reverseHoloTrend": 0.0,
+          "lowPriceExPlus": 14.0,
+          "avg1": 18.36,
+          "avg7": 19.08,
+          "avg30": 20.92,
+          "reverseHoloAvg1": 0.0,
+          "reverseHoloAvg7": 0.0,
+          "reverseHoloAvg30": 0.0
+        }
+      }
+    },
+    {
+      "id": "sv3-203",
+      "name": "Larvitar",
+      "supertype": "Pok\u00e9mon",
+      "subtypes": [
+        "Basic"
+      ],
+      "hp": "70",
+      "types": [
+        "Fighting"
+      ],
+      "evolvesTo": [
+        "Pupitar"
+      ],
+      "attacks": [
+        {
+          "name": "Corkscrew Punch",
+          "cost": [
+            "Fighting"
+          ],
+          "convertedEnergyCost": 1,
+          "damage": "10",
+          "text": ""
+        },
+        {
+          "name": "Confront",
+          "cost": [
+            "Fighting",
+            "Fighting"
+          ],
+          "convertedEnergyCost": 2,
+          "damage": "30",
+          "text": ""
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "Grass",
+          "value": "\u00d72"
+        }
+      ],
+      "retreatCost": [
+        "Colorless"
+      ],
+      "convertedRetreatCost": 1,
+      "set": {
+        "id": "sv3",
+        "name": "Obsidian Flames",
+        "series": "Scarlet & Violet",
+        "printedTotal": 197,
+        "total": 230,
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "releaseDate": "2023/08/11",
+        "updatedAt": "2023/08/11 15:00:00",
+        "images": {
+          "symbol": "https://images.pokemontcg.io/sv3/symbol.png",
+          "logo": "https://images.pokemontcg.io/sv3/logo.png"
+        }
+      },
+      "number": "203",
+      "artist": "Miki Tanaka",
+      "rarity": "Illustration Rare",
+      "flavorText": "Born deep underground, this Pok\u00e9mon becomes a pupa after eating enough dirt to make a mountain.",
+      "nationalPokedexNumbers": [
+        246
+      ],
+      "legalities": {
+        "unlimited": "Legal",
+        "standard": "Legal",
+        "expanded": "Legal"
+      },
+      "regulationMark": "G",
+      "images": {
+        "small": "https://images.pokemontcg.io/sv3/203.png",
+        "large": "https://images.pokemontcg.io/sv3/203_hires.png"
+      },
+      "tcgplayer": {
+        "url": "https://prices.pokemontcg.io/tcgplayer/sv3-203",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "holofoil": {
+            "low": 2.95,
+            "mid": 5.0,
+            "high": 100.0,
+            "market": 4.61,
+            "directLow": 3.76
+          }
+        }
+      },
+      "cardmarket": {
+        "url": "https://prices.pokemontcg.io/cardmarket/sv3-203",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "averageSellPrice": 4.43,
+          "lowPrice": 0.99,
+          "trendPrice": 4.17,
+          "germanProLow": 0.0,
+          "suggestedPrice": 0.0,
+          "reverseHoloSell": 0.0,
+          "reverseHoloLow": 0.0,
+          "reverseHoloTrend": 0.0,
+          "lowPriceExPlus": 2.0,
+          "avg1": 5.9,
+          "avg7": 4.18,
+          "avg30": 4.36,
+          "reverseHoloAvg1": 0.0,
+          "reverseHoloAvg7": 0.0,
+          "reverseHoloAvg30": 0.0
+        }
+      }
+    },
+    {
+      "id": "sv3-204",
+      "name": "Houndour",
+      "supertype": "Pok\u00e9mon",
+      "subtypes": [
+        "Basic"
+      ],
+      "hp": "50",
+      "types": [
+        "Darkness"
+      ],
+      "evolvesTo": [
+        "Houndoom"
+      ],
+      "attacks": [
+        {
+          "name": "Coordinated Pack",
+          "cost": [
+            "Darkness"
+          ],
+          "convertedEnergyCost": 1,
+          "damage": "",
+          "text": "For each of your Benched Houndour, search your deck for a Basic Darkness Energy card and attach it to that Houndour. Then, shuffle your deck."
+        },
+        {
+          "name": "Focus Fangs",
+          "cost": [
+            "Darkness",
+            "Colorless"
+          ],
+          "convertedEnergyCost": 2,
+          "damage": "30",
+          "text": "Flip a coin. If tails, this attack does nothing."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "Grass",
+          "value": "\u00d72"
+        }
+      ],
+      "retreatCost": [
+        "Colorless"
+      ],
+      "convertedRetreatCost": 1,
+      "set": {
+        "id": "sv3",
+        "name": "Obsidian Flames",
+        "series": "Scarlet & Violet",
+        "printedTotal": 197,
+        "total": 230,
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "releaseDate": "2023/08/11",
+        "updatedAt": "2023/08/11 15:00:00",
+        "images": {
+          "symbol": "https://images.pokemontcg.io/sv3/symbol.png",
+          "logo": "https://images.pokemontcg.io/sv3/logo.png"
+        }
+      },
+      "number": "204",
+      "artist": "KYUPIYAMA",
+      "rarity": "Illustration Rare",
+      "flavorText": "It is smart enough to hunt in packs. It uses a variety of cries for communicating with others.",
+      "nationalPokedexNumbers": [
+        228
+      ],
+      "legalities": {
+        "unlimited": "Legal",
+        "standard": "Legal",
+        "expanded": "Legal"
+      },
+      "regulationMark": "G",
+      "images": {
+        "small": "https://images.pokemontcg.io/sv3/204.png",
+        "large": "https://images.pokemontcg.io/sv3/204_hires.png"
+      },
+      "tcgplayer": {
+        "url": "https://prices.pokemontcg.io/tcgplayer/sv3-204",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "holofoil": {
+            "low": 5.0,
+            "mid": 9.49,
+            "high": 70.0,
+            "market": 8.38,
+            "directLow": 8.98
+          }
+        }
+      },
+      "cardmarket": {
+        "url": "https://prices.pokemontcg.io/cardmarket/sv3-204",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "averageSellPrice": 11.34,
+          "lowPrice": 4.99,
+          "trendPrice": 8.63,
+          "germanProLow": 0.0,
+          "suggestedPrice": 0.0,
+          "reverseHoloSell": 0.0,
+          "reverseHoloLow": 0.0,
+          "reverseHoloTrend": 0.0,
+          "lowPriceExPlus": 5.5,
+          "avg1": 8.09,
+          "avg7": 9.3,
+          "avg30": 10.49,
+          "reverseHoloAvg1": 0.0,
+          "reverseHoloAvg7": 0.0,
+          "reverseHoloAvg30": 0.0
+        }
+      }
+    },
+    {
+      "id": "sv3-205",
+      "name": "Scizor",
+      "supertype": "Pok\u00e9mon",
+      "subtypes": [
+        "Stage 1"
+      ],
+      "hp": "140",
+      "types": [
+        "Metal"
+      ],
+      "evolvesFrom": "Scyther",
+      "attacks": [
+        {
+          "name": "Punishing Scissors",
+          "cost": [
+            "Metal"
+          ],
+          "convertedEnergyCost": 1,
+          "damage": "10+",
+          "text": "This attack does 50 more damage for each of your opponent's Pok\u00e9mon in play that has an Ability."
+        },
+        {
+          "name": "Cut",
+          "cost": [
+            "Metal",
+            "Metal"
+          ],
+          "convertedEnergyCost": 2,
+          "damage": "70",
+          "text": ""
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "Fire",
+          "value": "\u00d72"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "Grass",
+          "value": "-30"
+        }
+      ],
+      "retreatCost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedRetreatCost": 2,
+      "set": {
+        "id": "sv3",
+        "name": "Obsidian Flames",
+        "series": "Scarlet & Violet",
+        "printedTotal": 197,
+        "total": 230,
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "releaseDate": "2023/08/11",
+        "updatedAt": "2023/08/11 15:00:00",
+        "images": {
+          "symbol": "https://images.pokemontcg.io/sv3/symbol.png",
+          "logo": "https://images.pokemontcg.io/sv3/logo.png"
+        }
+      },
+      "number": "205",
+      "artist": "Oku",
+      "rarity": "Illustration Rare",
+      "flavorText": "This Pok\u00e9mon's pincers, which contain steel, can crush any hard object they get ahold of into bits.",
+      "nationalPokedexNumbers": [
+        212
+      ],
+      "legalities": {
+        "unlimited": "Legal",
+        "standard": "Legal",
+        "expanded": "Legal"
+      },
+      "regulationMark": "G",
+      "images": {
+        "small": "https://images.pokemontcg.io/sv3/205.png",
+        "large": "https://images.pokemontcg.io/sv3/205_hires.png"
+      },
+      "tcgplayer": {
+        "url": "https://prices.pokemontcg.io/tcgplayer/sv3-205",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "holofoil": {
+            "low": 6.95,
+            "mid": 10.72,
+            "high": 50.0,
+            "market": 8.95,
+            "directLow": 10.35
+          }
+        }
+      },
+      "cardmarket": {
+        "url": "https://prices.pokemontcg.io/cardmarket/sv3-205",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "averageSellPrice": 14.96,
+          "lowPrice": 7.0,
+          "trendPrice": 12.96,
+          "germanProLow": 0.0,
+          "suggestedPrice": 0.0,
+          "reverseHoloSell": 0.0,
+          "reverseHoloLow": 0.0,
+          "reverseHoloTrend": 0.0,
+          "lowPriceExPlus": 9.9,
+          "avg1": 13.02,
+          "avg7": 13.85,
+          "avg30": 14.51,
+          "reverseHoloAvg1": 0.0,
+          "reverseHoloAvg7": 0.0,
+          "reverseHoloAvg30": 0.0
+        }
+      }
+    },
+    {
+      "id": "sv3-206",
+      "name": "Varoom",
+      "supertype": "Pok\u00e9mon",
+      "subtypes": [
+        "Basic"
+      ],
+      "hp": "60",
+      "types": [
+        "Metal"
+      ],
+      "evolvesTo": [
+        "Revavroom"
+      ],
+      "attacks": [
+        {
+          "name": "Spinning Draw",
+          "cost": [
+            "Metal"
+          ],
+          "convertedEnergyCost": 1,
+          "damage": "10",
+          "text": "Draw a card."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "Fire",
+          "value": "\u00d72"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "Grass",
+          "value": "-30"
+        }
+      ],
+      "retreatCost": [
+        "Colorless"
+      ],
+      "convertedRetreatCost": 1,
+      "set": {
+        "id": "sv3",
+        "name": "Obsidian Flames",
+        "series": "Scarlet & Violet",
+        "printedTotal": 197,
+        "total": 230,
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "releaseDate": "2023/08/11",
+        "updatedAt": "2023/08/11 15:00:00",
+        "images": {
+          "symbol": "https://images.pokemontcg.io/sv3/symbol.png",
+          "logo": "https://images.pokemontcg.io/sv3/logo.png"
+        }
+      },
+      "number": "206",
+      "artist": "Souichirou Gunjima",
+      "rarity": "Illustration Rare",
+      "flavorText": "It is said that this Pok\u00e9mon was born when an unknown poison Pok\u00e9mon entered and inspirited an engine left at a scrap-processing factory.",
+      "nationalPokedexNumbers": [
+        965
+      ],
+      "legalities": {
+        "unlimited": "Legal",
+        "standard": "Legal",
+        "expanded": "Legal"
+      },
+      "regulationMark": "G",
+      "images": {
+        "small": "https://images.pokemontcg.io/sv3/206.png",
+        "large": "https://images.pokemontcg.io/sv3/206_hires.png"
+      },
+      "tcgplayer": {
+        "url": "https://prices.pokemontcg.io/tcgplayer/sv3-206",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "holofoil": {
+            "low": 1.2,
+            "mid": 2.44,
+            "high": 30.0,
+            "market": 1.78,
+            "directLow": 1.97
+          }
+        }
+      },
+      "cardmarket": {
+        "url": "https://prices.pokemontcg.io/cardmarket/sv3-206",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "averageSellPrice": 2.05,
+          "lowPrice": 0.5,
+          "trendPrice": 2.23,
+          "germanProLow": 0.0,
+          "suggestedPrice": 0.0,
+          "reverseHoloSell": 0.0,
+          "reverseHoloLow": 0.0,
+          "reverseHoloTrend": 0.0,
+          "lowPriceExPlus": 0.89,
+          "avg1": 2.83,
+          "avg7": 2.28,
+          "avg30": 2.1,
+          "reverseHoloAvg1": 0.0,
+          "reverseHoloAvg7": 0.0,
+          "reverseHoloAvg30": 0.0
+        }
+      }
+    },
+    {
+      "id": "sv3-207",
+      "name": "Pidgey",
+      "supertype": "Pok\u00e9mon",
+      "subtypes": [
+        "Basic"
+      ],
+      "hp": "60",
+      "types": [
+        "Colorless"
+      ],
+      "evolvesTo": [
+        "Pidgeotto"
+      ],
+      "attacks": [
+        {
+          "name": "Gust",
+          "cost": [
+            "Colorless"
+          ],
+          "convertedEnergyCost": 1,
+          "damage": "20",
+          "text": ""
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "Lightning",
+          "value": "\u00d72"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "Fighting",
+          "value": "-30"
+        }
+      ],
+      "retreatCost": [
+        "Colorless"
+      ],
+      "convertedRetreatCost": 1,
+      "set": {
+        "id": "sv3",
+        "name": "Obsidian Flames",
+        "series": "Scarlet & Violet",
+        "printedTotal": 197,
+        "total": 230,
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "releaseDate": "2023/08/11",
+        "updatedAt": "2023/08/11 15:00:00",
+        "images": {
+          "symbol": "https://images.pokemontcg.io/sv3/symbol.png",
+          "logo": "https://images.pokemontcg.io/sv3/logo.png"
+        }
+      },
+      "number": "207",
+      "artist": "Jerky",
+      "rarity": "Illustration Rare",
+      "flavorText": "It is docile and prefers to avoid conflict. If disturbed, however, it can ferociously strike back.",
+      "nationalPokedexNumbers": [
+        16
+      ],
+      "legalities": {
+        "unlimited": "Legal",
+        "standard": "Legal",
+        "expanded": "Legal"
+      },
+      "regulationMark": "G",
+      "images": {
+        "small": "https://images.pokemontcg.io/sv3/207.png",
+        "large": "https://images.pokemontcg.io/sv3/207_hires.png"
+      },
+      "tcgplayer": {
+        "url": "https://prices.pokemontcg.io/tcgplayer/sv3-207",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "holofoil": {
+            "low": 6.04,
+            "mid": 9.99,
+            "high": 100.0,
+            "market": 7.98,
+            "directLow": 9.88
+          }
+        }
+      },
+      "cardmarket": {
+        "url": "https://prices.pokemontcg.io/cardmarket/sv3-207",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "averageSellPrice": 11.96,
+          "lowPrice": 6.0,
+          "trendPrice": 9.9,
+          "germanProLow": 0.0,
+          "suggestedPrice": 0.0,
+          "reverseHoloSell": 0.0,
+          "reverseHoloLow": 0.0,
+          "reverseHoloTrend": 0.0,
+          "lowPriceExPlus": 6.0,
+          "avg1": 13.8,
+          "avg7": 11.05,
+          "avg30": 11.77,
+          "reverseHoloAvg1": 0.0,
+          "reverseHoloAvg7": 0.0,
+          "reverseHoloAvg30": 0.0
+        }
+      }
+    },
+    {
+      "id": "sv3-208",
+      "name": "Pidgeotto",
+      "supertype": "Pok\u00e9mon",
+      "subtypes": [
+        "Stage 1"
+      ],
+      "hp": "90",
+      "types": [
+        "Colorless"
+      ],
+      "evolvesFrom": "Pidgey",
+      "evolvesTo": [
+        "Pidgeot"
+      ],
+      "attacks": [
+        {
+          "name": "Wing Attack",
+          "cost": [
+            "Colorless",
+            "Colorless"
+          ],
+          "convertedEnergyCost": 2,
+          "damage": "40",
+          "text": ""
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "Lightning",
+          "value": "\u00d72"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "Fighting",
+          "value": "-30"
+        }
+      ],
+      "retreatCost": [
+        "Colorless"
+      ],
+      "convertedRetreatCost": 1,
+      "set": {
+        "id": "sv3",
+        "name": "Obsidian Flames",
+        "series": "Scarlet & Violet",
+        "printedTotal": 197,
+        "total": 230,
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "releaseDate": "2023/08/11",
+        "updatedAt": "2023/08/11 15:00:00",
+        "images": {
+          "symbol": "https://images.pokemontcg.io/sv3/symbol.png",
+          "logo": "https://images.pokemontcg.io/sv3/logo.png"
+        }
+      },
+      "number": "208",
+      "artist": "Jerky",
+      "rarity": "Illustration Rare",
+      "flavorText": "Very protective of its sprawling territorial area, this Pok\u00e9mon will fiercely peck at any intruder.",
+      "nationalPokedexNumbers": [
+        17
+      ],
+      "legalities": {
+        "unlimited": "Legal",
+        "standard": "Legal",
+        "expanded": "Legal"
+      },
+      "regulationMark": "G",
+      "images": {
+        "small": "https://images.pokemontcg.io/sv3/208.png",
+        "large": "https://images.pokemontcg.io/sv3/208_hires.png"
+      },
+      "tcgplayer": {
+        "url": "https://prices.pokemontcg.io/tcgplayer/sv3-208",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "holofoil": {
+            "low": 4.0,
+            "mid": 6.65,
+            "high": 89.0,
+            "market": 5.1,
+            "directLow": 6.65
+          }
+        }
+      },
+      "cardmarket": {
+        "url": "https://prices.pokemontcg.io/cardmarket/sv3-208",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "averageSellPrice": 7.59,
+          "lowPrice": 3.99,
+          "trendPrice": 7.35,
+          "germanProLow": 0.0,
+          "suggestedPrice": 0.0,
+          "reverseHoloSell": 0.0,
+          "reverseHoloLow": 0.0,
+          "reverseHoloTrend": 0.0,
+          "lowPriceExPlus": 4.5,
+          "avg1": 8.38,
+          "avg7": 7.14,
+          "avg30": 7.58,
+          "reverseHoloAvg1": 0.0,
+          "reverseHoloAvg7": 0.0,
+          "reverseHoloAvg30": 0.0
+        }
+      }
+    },
+    {
+      "id": "sv3-209",
+      "name": "Lechonk",
+      "supertype": "Pok\u00e9mon",
+      "subtypes": [
+        "Basic"
+      ],
+      "hp": "60",
+      "types": [
+        "Colorless"
+      ],
+      "evolvesTo": [
+        "Oinkologne"
+      ],
+      "attacks": [
+        {
+          "name": "Tackle",
+          "cost": [
+            "Colorless"
+          ],
+          "convertedEnergyCost": 1,
+          "damage": "20",
+          "text": ""
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "Fighting",
+          "value": "\u00d72"
+        }
+      ],
+      "retreatCost": [
+        "Colorless"
+      ],
+      "convertedRetreatCost": 1,
+      "set": {
+        "id": "sv3",
+        "name": "Obsidian Flames",
+        "series": "Scarlet & Violet",
+        "printedTotal": 197,
+        "total": 230,
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "releaseDate": "2023/08/11",
+        "updatedAt": "2023/08/11 15:00:00",
+        "images": {
+          "symbol": "https://images.pokemontcg.io/sv3/symbol.png",
+          "logo": "https://images.pokemontcg.io/sv3/logo.png"
+        }
+      },
+      "number": "209",
+      "artist": "Narumi Sato",
+      "rarity": "Illustration Rare",
+      "flavorText": "It searches for food all day. It possesses a keen sense of smell but doesn't use it for anything other than foraging.",
+      "nationalPokedexNumbers": [
+        915
+      ],
+      "legalities": {
+        "unlimited": "Legal",
+        "standard": "Legal",
+        "expanded": "Legal"
+      },
+      "regulationMark": "G",
+      "images": {
+        "small": "https://images.pokemontcg.io/sv3/209.png",
+        "large": "https://images.pokemontcg.io/sv3/209_hires.png"
+      },
+      "tcgplayer": {
+        "url": "https://prices.pokemontcg.io/tcgplayer/sv3-209",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "holofoil": {
+            "low": 3.98,
+            "mid": 6.0,
+            "high": 35.68,
+            "market": 4.88,
+            "directLow": 5.99
+          }
+        }
+      },
+      "cardmarket": {
+        "url": "https://prices.pokemontcg.io/cardmarket/sv3-209",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "averageSellPrice": 5.89,
+          "lowPrice": 1.0,
+          "trendPrice": 5.0,
+          "germanProLow": 0.0,
+          "suggestedPrice": 0.0,
+          "reverseHoloSell": 0.0,
+          "reverseHoloLow": 0.0,
+          "reverseHoloTrend": 0.0,
+          "lowPriceExPlus": 2.0,
+          "avg1": 4.79,
+          "avg7": 5.05,
+          "avg30": 5.62,
+          "reverseHoloAvg1": 0.0,
+          "reverseHoloAvg7": 0.0,
+          "reverseHoloAvg30": 0.0
+        }
+      }
+    },
+    {
+      "id": "sv3-210",
+      "name": "Eiscue ex",
+      "supertype": "Pok\u00e9mon",
+      "subtypes": [
+        "Basic",
+        "ex",
+        "Tera"
+      ],
+      "hp": "210",
+      "types": [
+        "Fire"
+      ],
+      "rules": [
+        "Pok\u00e9mon ex rule: When your Pok\u00e9mon ex is Knocked Out, your opponent takes 2 Prize cards.",
+        "Tera: As long as this Pok\u00e9mon is on your Bench, prevent all damage done to this Pok\u00e9mon by attacks (both yours and your opponent's)."
+      ],
+      "attacks": [
+        {
+          "name": "Scalding Block",
+          "cost": [
+            "Water",
+            "Water",
+            "Water"
+          ],
+          "convertedEnergyCost": 3,
+          "damage": "160",
+          "text": "Discard an Energy from this Pok\u00e9mon. During your opponent's next turn, the Defending Pok\u00e9mon can't attack."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "Water",
+          "value": "\u00d72"
+        }
+      ],
+      "retreatCost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedRetreatCost": 2,
+      "set": {
+        "id": "sv3",
+        "name": "Obsidian Flames",
+        "series": "Scarlet & Violet",
+        "printedTotal": 197,
+        "total": 230,
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "releaseDate": "2023/08/11",
+        "updatedAt": "2023/08/11 15:00:00",
+        "images": {
+          "symbol": "https://images.pokemontcg.io/sv3/symbol.png",
+          "logo": "https://images.pokemontcg.io/sv3/logo.png"
+        }
+      },
+      "number": "210",
+      "artist": "5ban Graphics",
+      "rarity": "Ultra Rare",
+      "nationalPokedexNumbers": [
+        875
+      ],
+      "legalities": {
+        "unlimited": "Legal",
+        "standard": "Legal",
+        "expanded": "Legal"
+      },
+      "regulationMark": "G",
+      "images": {
+        "small": "https://images.pokemontcg.io/sv3/210.png",
+        "large": "https://images.pokemontcg.io/sv3/210_hires.png"
+      },
+      "tcgplayer": {
+        "url": "https://prices.pokemontcg.io/tcgplayer/sv3-210",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "holofoil": {
+            "low": 0.5,
+            "mid": 1.5,
+            "high": 25.0,
+            "market": 1.25,
+            "directLow": 1.31
+          }
+        }
+      },
+      "cardmarket": {
+        "url": "https://prices.pokemontcg.io/cardmarket/sv3-210",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "averageSellPrice": 1.7,
+          "lowPrice": 0.78,
+          "trendPrice": 1.63,
+          "germanProLow": 0.0,
+          "suggestedPrice": 0.0,
+          "reverseHoloSell": 0.0,
+          "reverseHoloLow": 0.0,
+          "reverseHoloTrend": 0.0,
+          "lowPriceExPlus": 0.78,
+          "avg1": 2.24,
+          "avg7": 1.6,
+          "avg30": 1.64,
+          "reverseHoloAvg1": 0.0,
+          "reverseHoloAvg7": 0.0,
+          "reverseHoloAvg30": 0.0
+        }
+      }
+    },
+    {
+      "id": "sv3-211",
+      "name": "Tyranitar ex",
+      "supertype": "Pok\u00e9mon",
+      "subtypes": [
+        "Stage 2",
+        "ex",
+        "Tera"
+      ],
+      "hp": "340",
+      "types": [
+        "Lightning"
+      ],
+      "evolvesFrom": "Pupitar",
+      "rules": [
+        "Pok\u00e9mon ex rule: When your Pok\u00e9mon ex is Knocked Out, your opponent takes 2 Prize cards.",
+        "Tera: As long as this Pok\u00e9mon is on your Bench, prevent all damage done to this Pok\u00e9mon by attacks (both yours and your opponent's)."
+      ],
+      "attacks": [
+        {
+          "name": "Mountain Hurl",
+          "cost": [
+            "Fighting"
+          ],
+          "convertedEnergyCost": 1,
+          "damage": "120",
+          "text": "Discard the top 2 cards of your deck."
+        },
+        {
+          "name": "Lightning Rampage",
+          "cost": [
+            "Fighting",
+            "Fighting"
+          ],
+          "convertedEnergyCost": 2,
+          "damage": "150+",
+          "text": "If your Benched Pok\u00e9mon have any damage counters on them, this attack does 100 more damage."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "Fighting",
+          "value": "\u00d72"
+        }
+      ],
+      "retreatCost": [
+        "Colorless",
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedRetreatCost": 4,
+      "set": {
+        "id": "sv3",
+        "name": "Obsidian Flames",
+        "series": "Scarlet & Violet",
+        "printedTotal": 197,
+        "total": 230,
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "releaseDate": "2023/08/11",
+        "updatedAt": "2023/08/11 15:00:00",
+        "images": {
+          "symbol": "https://images.pokemontcg.io/sv3/symbol.png",
+          "logo": "https://images.pokemontcg.io/sv3/logo.png"
+        }
+      },
+      "number": "211",
+      "artist": "5ban Graphics",
+      "rarity": "Ultra Rare",
+      "nationalPokedexNumbers": [
+        248
+      ],
+      "legalities": {
+        "unlimited": "Legal",
+        "standard": "Legal",
+        "expanded": "Legal"
+      },
+      "regulationMark": "G",
+      "images": {
+        "small": "https://images.pokemontcg.io/sv3/211.png",
+        "large": "https://images.pokemontcg.io/sv3/211_hires.png"
+      },
+      "tcgplayer": {
+        "url": "https://prices.pokemontcg.io/tcgplayer/sv3-211",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "holofoil": {
+            "low": 1.8,
+            "mid": 3.87,
+            "high": 69.95,
+            "market": 3.31,
+            "directLow": 4.43
+          }
+        }
+      },
+      "cardmarket": {
+        "url": "https://prices.pokemontcg.io/cardmarket/sv3-211",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "averageSellPrice": 3.55,
+          "lowPrice": 1.8,
+          "trendPrice": 3.7,
+          "germanProLow": 0.0,
+          "suggestedPrice": 0.0,
+          "reverseHoloSell": 0.0,
+          "reverseHoloLow": 0.0,
+          "reverseHoloTrend": 0.0,
+          "lowPriceExPlus": 1.8,
+          "avg1": 4.76,
+          "avg7": 3.63,
+          "avg30": 3.55,
+          "reverseHoloAvg1": 0.0,
+          "reverseHoloAvg7": 0.0,
+          "reverseHoloAvg30": 0.0
+        }
+      }
+    },
+    {
+      "id": "sv3-212",
+      "name": "Vespiquen ex",
+      "supertype": "Pok\u00e9mon",
+      "subtypes": [
+        "Stage 1",
+        "ex",
+        "Tera"
+      ],
+      "hp": "270",
+      "types": [
+        "Psychic"
+      ],
+      "evolvesFrom": "Combee",
+      "rules": [
+        "Pok\u00e9mon ex rule: When your Pok\u00e9mon ex is Knocked Out, your opponent takes 2 Prize cards.",
+        "Tera: As long as this Pok\u00e9mon is on your Bench, prevent all damage done to this Pok\u00e9mon by attacks (both yours and your opponent's)."
+      ],
+      "attacks": [
+        {
+          "name": "Healing Pheromone",
+          "cost": [
+            "Grass"
+          ],
+          "convertedEnergyCost": 1,
+          "damage": "",
+          "text": "Heal 60 damage from 1 of your Pok\u00e9mon."
+        },
+        {
+          "name": "Phantom Queen",
+          "cost": [
+            "Grass",
+            "Grass",
+            "Grass"
+          ],
+          "convertedEnergyCost": 3,
+          "damage": "200",
+          "text": "Put 3 damage counters on each of your opponent's Benched Pok\u00e9mon that has any damage counters on it."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "Darkness",
+          "value": "\u00d72"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "Fighting",
+          "value": "-30"
+        }
+      ],
+      "retreatCost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedRetreatCost": 2,
+      "set": {
+        "id": "sv3",
+        "name": "Obsidian Flames",
+        "series": "Scarlet & Violet",
+        "printedTotal": 197,
+        "total": 230,
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "releaseDate": "2023/08/11",
+        "updatedAt": "2023/08/11 15:00:00",
+        "images": {
+          "symbol": "https://images.pokemontcg.io/sv3/symbol.png",
+          "logo": "https://images.pokemontcg.io/sv3/logo.png"
+        }
+      },
+      "number": "212",
+      "artist": "5ban Graphics",
+      "rarity": "Ultra Rare",
+      "nationalPokedexNumbers": [
+        416
+      ],
+      "legalities": {
+        "unlimited": "Legal",
+        "standard": "Legal",
+        "expanded": "Legal"
+      },
+      "regulationMark": "G",
+      "images": {
+        "small": "https://images.pokemontcg.io/sv3/212.png",
+        "large": "https://images.pokemontcg.io/sv3/212_hires.png"
+      },
+      "tcgplayer": {
+        "url": "https://prices.pokemontcg.io/tcgplayer/sv3-212",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "holofoil": {
+            "low": 0.4,
+            "mid": 1.48,
+            "high": 15.0,
+            "market": 1.18,
+            "directLow": null
+          }
+        }
+      },
+      "cardmarket": {
+        "url": "https://prices.pokemontcg.io/cardmarket/sv3-212",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "averageSellPrice": 1.67,
+          "lowPrice": 0.6,
+          "trendPrice": 1.43,
+          "germanProLow": 0.0,
+          "suggestedPrice": 0.0,
+          "reverseHoloSell": 0.0,
+          "reverseHoloLow": 0.0,
+          "reverseHoloTrend": 0.0,
+          "lowPriceExPlus": 0.6,
+          "avg1": 2.27,
+          "avg7": 1.46,
+          "avg30": 1.54,
+          "reverseHoloAvg1": 0.0,
+          "reverseHoloAvg7": 0.0,
+          "reverseHoloAvg30": 0.0
+        }
+      }
+    },
+    {
+      "id": "sv3-213",
+      "name": "Glimmora ex",
+      "supertype": "Pok\u00e9mon",
+      "subtypes": [
+        "Stage 1",
+        "ex"
+      ],
+      "hp": "270",
+      "types": [
+        "Fighting"
+      ],
+      "evolvesFrom": "Glimmet",
+      "rules": [
+        "Pok\u00e9mon ex rule: When your Pok\u00e9mon ex is Knocked Out, your opponent takes 2 Prize cards."
+      ],
+      "abilities": [
+        {
+          "name": "Dust Field",
+          "text": "As long as this Pok\u00e9mon is in the Active Spot, your opponent can't have more than 3 Benched Pok\u00e9mon. If they have 4 or more Benched Pok\u00e9mon, they discard Benched Pok\u00e9mon until they have 3 Pok\u00e9mon on the Bench. If more than one effect changes the number of Benched Pok\u00e9mon allowed, use the smaller number.",
+          "type": "Ability"
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Poisonous Gem",
+          "cost": [
+            "Fighting",
+            "Fighting"
+          ],
+          "convertedEnergyCost": 2,
+          "damage": "140",
+          "text": "Your opponent's Active Pok\u00e9mon is now Poisoned."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "Grass",
+          "value": "\u00d72"
+        }
+      ],
+      "retreatCost": [
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedRetreatCost": 3,
+      "set": {
+        "id": "sv3",
+        "name": "Obsidian Flames",
+        "series": "Scarlet & Violet",
+        "printedTotal": 197,
+        "total": 230,
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "releaseDate": "2023/08/11",
+        "updatedAt": "2023/08/11 15:00:00",
+        "images": {
+          "symbol": "https://images.pokemontcg.io/sv3/symbol.png",
+          "logo": "https://images.pokemontcg.io/sv3/logo.png"
+        }
+      },
+      "number": "213",
+      "artist": "5ban Graphics",
+      "rarity": "Ultra Rare",
+      "nationalPokedexNumbers": [
+        970
+      ],
+      "legalities": {
+        "unlimited": "Legal",
+        "standard": "Legal",
+        "expanded": "Legal"
+      },
+      "regulationMark": "G",
+      "images": {
+        "small": "https://images.pokemontcg.io/sv3/213.png",
+        "large": "https://images.pokemontcg.io/sv3/213_hires.png"
+      },
+      "tcgplayer": {
+        "url": "https://prices.pokemontcg.io/tcgplayer/sv3-213",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "holofoil": {
+            "low": 0.42,
+            "mid": 1.05,
+            "high": 25.0,
+            "market": 1.14,
+            "directLow": 1.48
+          }
+        }
+      },
+      "cardmarket": {
+        "url": "https://prices.pokemontcg.io/cardmarket/sv3-213",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "averageSellPrice": 1.28,
+          "lowPrice": 0.3,
+          "trendPrice": 1.16,
+          "germanProLow": 0.0,
+          "suggestedPrice": 0.0,
+          "reverseHoloSell": 0.0,
+          "reverseHoloLow": 0.0,
+          "reverseHoloTrend": 0.0,
+          "lowPriceExPlus": 0.3,
+          "avg1": 0.96,
+          "avg7": 0.96,
+          "avg30": 1.19,
+          "reverseHoloAvg1": 0.0,
+          "reverseHoloAvg7": 0.0,
+          "reverseHoloAvg30": 0.0
+        }
+      }
+    },
+    {
+      "id": "sv3-214",
+      "name": "Absol ex",
+      "supertype": "Pok\u00e9mon",
+      "subtypes": [
+        "Basic",
+        "ex"
+      ],
+      "hp": "210",
+      "types": [
+        "Darkness"
+      ],
+      "rules": [
+        "Pok\u00e9mon ex rule: When your Pok\u00e9mon ex is Knocked Out, your opponent takes 2 Prize cards."
+      ],
+      "attacks": [
+        {
+          "name": "Future Sight",
+          "cost": [
+            "Darkness"
+          ],
+          "convertedEnergyCost": 1,
+          "damage": "",
+          "text": "Look at the top 3 cards of either player's deck and put them back in any order."
+        },
+        {
+          "name": "Cursed Slug",
+          "cost": [
+            "Darkness",
+            "Darkness",
+            "Colorless"
+          ],
+          "convertedEnergyCost": 3,
+          "damage": "100+",
+          "text": "If your opponent has 3 or fewer cards in their hand, this attack does 120 more damage."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "Grass",
+          "value": "\u00d72"
+        }
+      ],
+      "retreatCost": [
+        "Colorless"
+      ],
+      "convertedRetreatCost": 1,
+      "set": {
+        "id": "sv3",
+        "name": "Obsidian Flames",
+        "series": "Scarlet & Violet",
+        "printedTotal": 197,
+        "total": 230,
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "releaseDate": "2023/08/11",
+        "updatedAt": "2023/08/11 15:00:00",
+        "images": {
+          "symbol": "https://images.pokemontcg.io/sv3/symbol.png",
+          "logo": "https://images.pokemontcg.io/sv3/logo.png"
+        }
+      },
+      "number": "214",
+      "artist": "PLANETA Mochizuki",
+      "rarity": "Ultra Rare",
+      "nationalPokedexNumbers": [
+        359
+      ],
+      "legalities": {
+        "unlimited": "Legal",
+        "standard": "Legal",
+        "expanded": "Legal"
+      },
+      "regulationMark": "G",
+      "images": {
+        "small": "https://images.pokemontcg.io/sv3/214.png",
+        "large": "https://images.pokemontcg.io/sv3/214_hires.png"
+      },
+      "tcgplayer": {
+        "url": "https://prices.pokemontcg.io/tcgplayer/sv3-214",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "holofoil": {
+            "low": 1.3,
+            "mid": 2.55,
+            "high": 20.0,
+            "market": 2.46,
+            "directLow": 3.38
+          }
+        }
+      },
+      "cardmarket": {
+        "url": "https://prices.pokemontcg.io/cardmarket/sv3-214",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "averageSellPrice": 2.33,
+          "lowPrice": 0.8,
+          "trendPrice": 2.47,
+          "germanProLow": 0.0,
+          "suggestedPrice": 0.0,
+          "reverseHoloSell": 0.0,
+          "reverseHoloLow": 0.0,
+          "reverseHoloTrend": 0.0,
+          "lowPriceExPlus": 0.8,
+          "avg1": 2.77,
+          "avg7": 2.18,
+          "avg30": 2.38,
+          "reverseHoloAvg1": 0.0,
+          "reverseHoloAvg7": 0.0,
+          "reverseHoloAvg30": 0.0
+        }
+      }
+    },
+    {
+      "id": "sv3-215",
+      "name": "Charizard ex",
+      "supertype": "Pok\u00e9mon",
+      "subtypes": [
+        "Stage 2",
+        "ex",
+        "Tera"
+      ],
+      "hp": "330",
+      "types": [
+        "Darkness"
+      ],
+      "evolvesFrom": "Charmeleon",
+      "rules": [
+        "Pok\u00e9mon ex rule: When your Pok\u00e9mon ex is Knocked Out, your opponent takes 2 Prize cards.",
+        "Tera: As long as this Pok\u00e9mon is on your Bench, prevent all damage done to this Pok\u00e9mon by attacks (both yours and your opponent's)."
+      ],
+      "abilities": [
+        {
+          "name": "Infernal Reign",
+          "text": "When you play this Pok\u00e9mon from your hand to evolve 1 of your Pok\u00e9mon during your turn, you may search your deck for up to 3 Basic Fire Energy cards and attach them to your Pok\u00e9mon in any way you like. Then, shuffle your deck.",
+          "type": "Ability"
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Burning Darkness",
+          "cost": [
+            "Fire",
+            "Fire"
+          ],
+          "convertedEnergyCost": 2,
+          "damage": "180+",
+          "text": "This attack does 30 more damage for each Prize card your opponent has taken."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "Grass",
+          "value": "\u00d72"
+        }
+      ],
+      "retreatCost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedRetreatCost": 2,
+      "set": {
+        "id": "sv3",
+        "name": "Obsidian Flames",
+        "series": "Scarlet & Violet",
+        "printedTotal": 197,
+        "total": 230,
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "releaseDate": "2023/08/11",
+        "updatedAt": "2023/08/11 15:00:00",
+        "images": {
+          "symbol": "https://images.pokemontcg.io/sv3/symbol.png",
+          "logo": "https://images.pokemontcg.io/sv3/logo.png"
+        }
+      },
+      "number": "215",
+      "artist": "5ban Graphics",
+      "rarity": "Ultra Rare",
+      "nationalPokedexNumbers": [
+        6
+      ],
+      "legalities": {
+        "unlimited": "Legal",
+        "standard": "Legal",
+        "expanded": "Legal"
+      },
+      "regulationMark": "G",
+      "images": {
+        "small": "https://images.pokemontcg.io/sv3/215.png",
+        "large": "https://images.pokemontcg.io/sv3/215_hires.png"
+      },
+      "tcgplayer": {
+        "url": "https://prices.pokemontcg.io/tcgplayer/sv3-215",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "holofoil": {
+            "low": 8.22,
+            "mid": 12.0,
+            "high": 44.0,
+            "market": 10.04,
+            "directLow": 10.25
+          }
+        }
+      },
+      "cardmarket": {
+        "url": "https://prices.pokemontcg.io/cardmarket/sv3-215",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "averageSellPrice": 14.18,
+          "lowPrice": 7.5,
+          "trendPrice": 13.93,
+          "germanProLow": 0.0,
+          "suggestedPrice": 0.0,
+          "reverseHoloSell": 0.0,
+          "reverseHoloLow": 0.0,
+          "reverseHoloTrend": 0.0,
+          "lowPriceExPlus": 7.5,
+          "avg1": 14.61,
+          "avg7": 13.65,
+          "avg30": 14.21,
+          "reverseHoloAvg1": 0.0,
+          "reverseHoloAvg7": 0.0,
+          "reverseHoloAvg30": 0.0
+        }
+      }
+    },
+    {
+      "id": "sv3-216",
+      "name": "Revavroom ex",
+      "supertype": "Pok\u00e9mon",
+      "subtypes": [
+        "Stage 1",
+        "ex"
+      ],
+      "hp": "280",
+      "types": [
+        "Metal"
+      ],
+      "evolvesFrom": "Varoom",
+      "rules": [
+        "Pok\u00e9mon ex rule: When your Pok\u00e9mon ex is Knocked Out, your opponent takes 2 Prize cards."
+      ],
+      "abilities": [
+        {
+          "name": "Tune-Up",
+          "text": "This Pok\u00e9mon may have up to 4 Pok\u00e9mon Tools attached to it. If it loses this Ability, discard Pok\u00e9mon Tools from it until only 1 remains.",
+          "type": "Ability"
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Wild Drift",
+          "cost": [
+            "Metal",
+            "Metal",
+            "Colorless"
+          ],
+          "convertedEnergyCost": 3,
+          "damage": "170",
+          "text": "During your opponent's next turn, this Pok\u00e9mon takes 30 less damage from attacks (after applying Weakness and Resistance)."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "Fire",
+          "value": "\u00d72"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "Grass",
+          "value": "-30"
+        }
+      ],
+      "retreatCost": [
+        "Colorless"
+      ],
+      "convertedRetreatCost": 1,
+      "set": {
+        "id": "sv3",
+        "name": "Obsidian Flames",
+        "series": "Scarlet & Violet",
+        "printedTotal": 197,
+        "total": 230,
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "releaseDate": "2023/08/11",
+        "updatedAt": "2023/08/11 15:00:00",
+        "images": {
+          "symbol": "https://images.pokemontcg.io/sv3/symbol.png",
+          "logo": "https://images.pokemontcg.io/sv3/logo.png"
+        }
+      },
+      "number": "216",
+      "artist": "takuyoa",
+      "rarity": "Ultra Rare",
+      "nationalPokedexNumbers": [
+        966
+      ],
+      "legalities": {
+        "unlimited": "Legal",
+        "standard": "Legal",
+        "expanded": "Legal"
+      },
+      "regulationMark": "G",
+      "images": {
+        "small": "https://images.pokemontcg.io/sv3/216.png",
+        "large": "https://images.pokemontcg.io/sv3/216_hires.png"
+      },
+      "tcgplayer": {
+        "url": "https://prices.pokemontcg.io/tcgplayer/sv3-216",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "holofoil": {
+            "low": 0.2,
+            "mid": 1.0,
+            "high": 25.0,
+            "market": 0.97,
+            "directLow": 1.74
+          }
+        }
+      },
+      "cardmarket": {
+        "url": "https://prices.pokemontcg.io/cardmarket/sv3-216",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "averageSellPrice": 1.25,
+          "lowPrice": 0.1,
+          "trendPrice": 1.26,
+          "germanProLow": 0.0,
+          "suggestedPrice": 0.0,
+          "reverseHoloSell": 0.0,
+          "reverseHoloLow": 0.0,
+          "reverseHoloTrend": 0.0,
+          "lowPriceExPlus": 0.1,
+          "avg1": 1.86,
+          "avg7": 1.25,
+          "avg30": 1.26,
+          "reverseHoloAvg1": 0.0,
+          "reverseHoloAvg7": 0.0,
+          "reverseHoloAvg30": 0.0
+        }
+      }
+    },
+    {
+      "id": "sv3-217",
+      "name": "Pidgeot ex",
+      "supertype": "Pok\u00e9mon",
+      "subtypes": [
+        "Stage 2",
+        "ex"
+      ],
+      "hp": "280",
+      "types": [
+        "Colorless"
+      ],
+      "evolvesFrom": "Pidgeotto",
+      "rules": [
+        "Pok\u00e9mon ex rule: When your Pok\u00e9mon ex is Knocked Out, your opponent takes 2 Prize cards."
+      ],
+      "abilities": [
+        {
+          "name": "Quick Search",
+          "text": "Once during your turn, you may search your deck for a card and put it into your hand. Then, shuffle your deck. You can't use more than 1 Quick Search Ability each turn.",
+          "type": "Ability"
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Blustery Wind",
+          "cost": [
+            "Colorless",
+            "Colorless"
+          ],
+          "convertedEnergyCost": 2,
+          "damage": "120",
+          "text": "You may discard a Stadium in play."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "Lightning",
+          "value": "\u00d72"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "Fighting",
+          "value": "-30"
+        }
+      ],
+      "set": {
+        "id": "sv3",
+        "name": "Obsidian Flames",
+        "series": "Scarlet & Violet",
+        "printedTotal": 197,
+        "total": 230,
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "releaseDate": "2023/08/11",
+        "updatedAt": "2023/08/11 15:00:00",
+        "images": {
+          "symbol": "https://images.pokemontcg.io/sv3/symbol.png",
+          "logo": "https://images.pokemontcg.io/sv3/logo.png"
+        }
+      },
+      "number": "217",
+      "artist": "takuyoa",
+      "rarity": "Ultra Rare",
+      "nationalPokedexNumbers": [
+        18
+      ],
+      "legalities": {
+        "unlimited": "Legal",
+        "standard": "Legal",
+        "expanded": "Legal"
+      },
+      "regulationMark": "G",
+      "images": {
+        "small": "https://images.pokemontcg.io/sv3/217.png",
+        "large": "https://images.pokemontcg.io/sv3/217_hires.png"
+      },
+      "tcgplayer": {
+        "url": "https://prices.pokemontcg.io/tcgplayer/sv3-217",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "holofoil": {
+            "low": 2.49,
+            "mid": 3.8,
+            "high": 4321.0,
+            "market": 3.23,
+            "directLow": 4.99
+          }
+        }
+      },
+      "cardmarket": {
+        "url": "https://prices.pokemontcg.io/cardmarket/sv3-217",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "averageSellPrice": 4.28,
+          "lowPrice": 2.5,
+          "trendPrice": 4.23,
+          "germanProLow": 0.0,
+          "suggestedPrice": 0.0,
+          "reverseHoloSell": 0.0,
+          "reverseHoloLow": 0.0,
+          "reverseHoloTrend": 0.0,
+          "lowPriceExPlus": 2.79,
+          "avg1": 4.44,
+          "avg7": 4.23,
+          "avg30": 4.3,
+          "reverseHoloAvg1": 0.0,
+          "reverseHoloAvg7": 0.0,
+          "reverseHoloAvg30": 0.0
+        }
+      }
+    },
+    {
+      "id": "sv3-218",
+      "name": "Geeta",
+      "supertype": "Trainer",
+      "subtypes": [
+        "Supporter"
+      ],
+      "rules": [
+        "Search your deck for up to 2 Basic Energy cards and attach them to 1 of your Pok\u00e9mon. Then, shuffle your deck. During this turn, your Pok\u00e9mon can't attack. (This includes Pok\u00e9mon that come into play this turn.)",
+        "You may play only 1 Supporter card during your turn."
+      ],
+      "set": {
+        "id": "sv3",
+        "name": "Obsidian Flames",
+        "series": "Scarlet & Violet",
+        "printedTotal": 197,
+        "total": 230,
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "releaseDate": "2023/08/11",
+        "updatedAt": "2023/08/11 15:00:00",
+        "images": {
+          "symbol": "https://images.pokemontcg.io/sv3/symbol.png",
+          "logo": "https://images.pokemontcg.io/sv3/logo.png"
+        }
+      },
+      "number": "218",
+      "artist": "kirisAki",
+      "rarity": "Ultra Rare",
+      "legalities": {
+        "unlimited": "Legal",
+        "standard": "Legal",
+        "expanded": "Legal"
+      },
+      "regulationMark": "G",
+      "images": {
+        "small": "https://images.pokemontcg.io/sv3/218.png",
+        "large": "https://images.pokemontcg.io/sv3/218_hires.png"
+      },
+      "tcgplayer": {
+        "url": "https://prices.pokemontcg.io/tcgplayer/sv3-218",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "holofoil": {
+            "low": 0.61,
+            "mid": 1.49,
+            "high": 20.0,
+            "market": 1.25,
+            "directLow": 1.98
+          }
+        }
+      },
+      "cardmarket": {
+        "url": "https://prices.pokemontcg.io/cardmarket/sv3-218",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "averageSellPrice": 1.63,
+          "lowPrice": 0.4,
+          "trendPrice": 1.67,
+          "germanProLow": 0.0,
+          "suggestedPrice": 0.0,
+          "reverseHoloSell": 0.0,
+          "reverseHoloLow": 0.0,
+          "reverseHoloTrend": 0.0,
+          "lowPriceExPlus": 0.4,
+          "avg1": 2.15,
+          "avg7": 1.7,
+          "avg30": 1.65,
+          "reverseHoloAvg1": 0.0,
+          "reverseHoloAvg7": 0.0,
+          "reverseHoloAvg30": 0.0
+        }
+      }
+    },
+    {
+      "id": "sv3-219",
+      "name": "Ortega",
+      "supertype": "Trainer",
+      "subtypes": [
+        "Supporter"
+      ],
+      "rules": [
+        "Your opponent reveals their hand, and you choose a card you find there and put it on the bottom of their deck. If you put a card on the bottom of your opponent's deck in this way, your opponent may draw a card.",
+        "You may play only 1 Supporter card during your turn."
+      ],
+      "set": {
+        "id": "sv3",
+        "name": "Obsidian Flames",
+        "series": "Scarlet & Violet",
+        "printedTotal": 197,
+        "total": 230,
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "releaseDate": "2023/08/11",
+        "updatedAt": "2023/08/11 15:00:00",
+        "images": {
+          "symbol": "https://images.pokemontcg.io/sv3/symbol.png",
+          "logo": "https://images.pokemontcg.io/sv3/logo.png"
+        }
+      },
+      "number": "219",
+      "artist": "Naoki Saito",
+      "rarity": "Ultra Rare",
+      "legalities": {
+        "unlimited": "Legal",
+        "standard": "Legal",
+        "expanded": "Legal"
+      },
+      "regulationMark": "G",
+      "images": {
+        "small": "https://images.pokemontcg.io/sv3/219.png",
+        "large": "https://images.pokemontcg.io/sv3/219_hires.png"
+      },
+      "tcgplayer": {
+        "url": "https://prices.pokemontcg.io/tcgplayer/sv3-219",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "holofoil": {
+            "low": 0.55,
+            "mid": 1.19,
+            "high": 25.0,
+            "market": 1.04,
+            "directLow": null
+          }
+        }
+      },
+      "cardmarket": {
+        "url": "https://prices.pokemontcg.io/cardmarket/sv3-219",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "averageSellPrice": 1.44,
+          "lowPrice": 0.75,
+          "trendPrice": 1.36,
+          "germanProLow": 0.0,
+          "suggestedPrice": 0.0,
+          "reverseHoloSell": 0.0,
+          "reverseHoloLow": 0.0,
+          "reverseHoloTrend": 0.0,
+          "lowPriceExPlus": 0.75,
+          "avg1": 1.72,
+          "avg7": 1.44,
+          "avg30": 1.43,
+          "reverseHoloAvg1": 0.0,
+          "reverseHoloAvg7": 0.0,
+          "reverseHoloAvg30": 0.0
+        }
+      }
+    },
+    {
+      "id": "sv3-220",
+      "name": "Poppy",
+      "supertype": "Trainer",
+      "subtypes": [
+        "Supporter"
+      ],
+      "rules": [
+        "Move up to 2 Energy from 1 of your Pok\u00e9mon to another of your Pok\u00e9mon.",
+        "You may play only 1 Supporter card during your turn."
+      ],
+      "set": {
+        "id": "sv3",
+        "name": "Obsidian Flames",
+        "series": "Scarlet & Violet",
+        "printedTotal": 197,
+        "total": 230,
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "releaseDate": "2023/08/11",
+        "updatedAt": "2023/08/11 15:00:00",
+        "images": {
+          "symbol": "https://images.pokemontcg.io/sv3/symbol.png",
+          "logo": "https://images.pokemontcg.io/sv3/logo.png"
+        }
+      },
+      "number": "220",
+      "artist": "yuu",
+      "rarity": "Ultra Rare",
+      "legalities": {
+        "unlimited": "Legal",
+        "standard": "Legal",
+        "expanded": "Legal"
+      },
+      "regulationMark": "G",
+      "images": {
+        "small": "https://images.pokemontcg.io/sv3/220.png",
+        "large": "https://images.pokemontcg.io/sv3/220_hires.png"
+      },
+      "tcgplayer": {
+        "url": "https://prices.pokemontcg.io/tcgplayer/sv3-220",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "holofoil": {
+            "low": 0.57,
+            "mid": 1.51,
+            "high": 20.0,
+            "market": 1.43,
+            "directLow": 1.43
+          }
+        }
+      },
+      "cardmarket": {
+        "url": "https://prices.pokemontcg.io/cardmarket/sv3-220",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "averageSellPrice": 1.65,
+          "lowPrice": 0.5,
+          "trendPrice": 1.75,
+          "germanProLow": 0.0,
+          "suggestedPrice": 0.0,
+          "reverseHoloSell": 0.0,
+          "reverseHoloLow": 0.0,
+          "reverseHoloTrend": 0.0,
+          "lowPriceExPlus": 0.5,
+          "avg1": 1.49,
+          "avg7": 1.79,
+          "avg30": 1.61,
+          "reverseHoloAvg1": 0.0,
+          "reverseHoloAvg7": 0.0,
+          "reverseHoloAvg30": 0.0
+        }
+      }
+    },
+    {
+      "id": "sv3-221",
+      "name": "Ryme",
+      "supertype": "Trainer",
+      "subtypes": [
+        "Supporter"
+      ],
+      "rules": [
+        "Draw 3 cards. Switch out your opponent's Active Pok\u00e9mon to the Bench. (Your opponent chooses the new Active Pok\u00e9mon.)",
+        "You may play only 1 Supporter card during your turn."
+      ],
+      "set": {
+        "id": "sv3",
+        "name": "Obsidian Flames",
+        "series": "Scarlet & Violet",
+        "printedTotal": 197,
+        "total": 230,
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "releaseDate": "2023/08/11",
+        "updatedAt": "2023/08/11 15:00:00",
+        "images": {
+          "symbol": "https://images.pokemontcg.io/sv3/symbol.png",
+          "logo": "https://images.pokemontcg.io/sv3/logo.png"
+        }
+      },
+      "number": "221",
+      "artist": "nagimiso",
+      "rarity": "Ultra Rare",
+      "legalities": {
+        "unlimited": "Legal",
+        "standard": "Legal",
+        "expanded": "Legal"
+      },
+      "regulationMark": "G",
+      "images": {
+        "small": "https://images.pokemontcg.io/sv3/221.png",
+        "large": "https://images.pokemontcg.io/sv3/221_hires.png"
+      },
+      "tcgplayer": {
+        "url": "https://prices.pokemontcg.io/tcgplayer/sv3-221",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "holofoil": {
+            "low": 0.3,
+            "mid": 1.1,
+            "high": 89.02,
+            "market": 0.81,
+            "directLow": null
+          }
+        }
+      },
+      "cardmarket": {
+        "url": "https://prices.pokemontcg.io/cardmarket/sv3-221",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "averageSellPrice": 1.32,
+          "lowPrice": 0.49,
+          "trendPrice": 1.45,
+          "germanProLow": 0.0,
+          "suggestedPrice": 0.0,
+          "reverseHoloSell": 0.0,
+          "reverseHoloLow": 0.0,
+          "reverseHoloTrend": 0.0,
+          "lowPriceExPlus": 0.49,
+          "avg1": 1.35,
+          "avg7": 1.41,
+          "avg30": 1.33,
+          "reverseHoloAvg1": 0.0,
+          "reverseHoloAvg7": 0.0,
+          "reverseHoloAvg30": 0.0
+        }
+      }
+    },
+    {
+      "id": "sv3-222",
+      "name": "Eiscue ex",
+      "supertype": "Pok\u00e9mon",
+      "subtypes": [
+        "Basic",
+        "ex",
+        "Tera"
+      ],
+      "hp": "210",
+      "types": [
+        "Fire"
+      ],
+      "rules": [
+        "Pok\u00e9mon ex rule: When your Pok\u00e9mon ex is Knocked Out, your opponent takes 2 Prize cards.",
+        "Tera: As long as this Pok\u00e9mon is on your Bench, prevent all damage done to this Pok\u00e9mon by attacks (both yours and your opponent's)."
+      ],
+      "attacks": [
+        {
+          "name": "Scalding Block",
+          "cost": [
+            "Water",
+            "Water",
+            "Water"
+          ],
+          "convertedEnergyCost": 3,
+          "damage": "160",
+          "text": "Discard an Energy from this Pok\u00e9mon. During your opponent's next turn, the Defending Pok\u00e9mon can't attack."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "Water",
+          "value": "\u00d72"
+        }
+      ],
+      "retreatCost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedRetreatCost": 2,
+      "set": {
+        "id": "sv3",
+        "name": "Obsidian Flames",
+        "series": "Scarlet & Violet",
+        "printedTotal": 197,
+        "total": 230,
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "releaseDate": "2023/08/11",
+        "updatedAt": "2023/08/11 15:00:00",
+        "images": {
+          "symbol": "https://images.pokemontcg.io/sv3/symbol.png",
+          "logo": "https://images.pokemontcg.io/sv3/logo.png"
+        }
+      },
+      "number": "222",
+      "artist": "Toshinao Aoki",
+      "rarity": "Special Illustration Rare",
+      "nationalPokedexNumbers": [
+        875
+      ],
+      "legalities": {
+        "unlimited": "Legal",
+        "standard": "Legal",
+        "expanded": "Legal"
+      },
+      "regulationMark": "G",
+      "images": {
+        "small": "https://images.pokemontcg.io/sv3/222.png",
+        "large": "https://images.pokemontcg.io/sv3/222_hires.png"
+      },
+      "tcgplayer": {
+        "url": "https://prices.pokemontcg.io/tcgplayer/sv3-222",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "holofoil": {
+            "low": 3.25,
+            "mid": 6.0,
+            "high": 75.0,
+            "market": 4.37,
+            "directLow": 5.75
+          }
+        }
+      },
+      "cardmarket": {
+        "url": "https://prices.pokemontcg.io/cardmarket/sv3-222",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "averageSellPrice": 4.29,
+          "lowPrice": 1.9,
+          "trendPrice": 4.47,
+          "germanProLow": 0.0,
+          "suggestedPrice": 0.0,
+          "reverseHoloSell": 0.0,
+          "reverseHoloLow": 0.0,
+          "reverseHoloTrend": 0.0,
+          "lowPriceExPlus": 2.0,
+          "avg1": 5.04,
+          "avg7": 4.56,
+          "avg30": 4.4,
+          "reverseHoloAvg1": 0.0,
+          "reverseHoloAvg7": 0.0,
+          "reverseHoloAvg30": 0.0
+        }
+      }
+    },
+    {
+      "id": "sv3-223",
+      "name": "Charizard ex",
+      "supertype": "Pok\u00e9mon",
+      "subtypes": [
+        "Stage 2",
+        "ex",
+        "Tera"
+      ],
+      "hp": "330",
+      "types": [
+        "Darkness"
+      ],
+      "evolvesFrom": "Charmeleon",
+      "rules": [
+        "Pok\u00e9mon ex rule: When your Pok\u00e9mon ex is Knocked Out, your opponent takes 2 Prize cards.",
+        "Tera: As long as this Pok\u00e9mon is on your Bench, prevent all damage done to this Pok\u00e9mon by attacks (both yours and your opponent's)."
+      ],
+      "abilities": [
+        {
+          "name": "Infernal Reign",
+          "text": "When you play this Pok\u00e9mon from your hand to evolve 1 of your Pok\u00e9mon during your turn, you may search your deck for up to 3 Basic Fire Energy cards and attach them to your Pok\u00e9mon in any way you like. Then, shuffle your deck.",
+          "type": "Ability"
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Burning Darkness",
+          "cost": [
+            "Fire",
+            "Fire"
+          ],
+          "convertedEnergyCost": 2,
+          "damage": "180+",
+          "text": "This attack does 30 more damage for each Prize card your opponent has taken."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "Grass",
+          "value": "\u00d72"
+        }
+      ],
+      "retreatCost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedRetreatCost": 2,
+      "set": {
+        "id": "sv3",
+        "name": "Obsidian Flames",
+        "series": "Scarlet & Violet",
+        "printedTotal": 197,
+        "total": 230,
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "releaseDate": "2023/08/11",
+        "updatedAt": "2023/08/11 15:00:00",
+        "images": {
+          "symbol": "https://images.pokemontcg.io/sv3/symbol.png",
+          "logo": "https://images.pokemontcg.io/sv3/logo.png"
+        }
+      },
+      "number": "223",
+      "artist": "AKIRA EGAWA",
+      "rarity": "Special Illustration Rare",
+      "nationalPokedexNumbers": [
+        6
+      ],
+      "legalities": {
+        "unlimited": "Legal",
+        "standard": "Legal",
+        "expanded": "Legal"
+      },
+      "regulationMark": "G",
+      "images": {
+        "small": "https://images.pokemontcg.io/sv3/223.png",
+        "large": "https://images.pokemontcg.io/sv3/223_hires.png"
+      },
+      "tcgplayer": {
+        "url": "https://prices.pokemontcg.io/tcgplayer/sv3-223",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "holofoil": {
+            "low": 52.21,
+            "mid": 68.25,
+            "high": 199.98,
+            "market": 61.92,
+            "directLow": 63.0
+          }
+        }
+      },
+      "cardmarket": {
+        "url": "https://prices.pokemontcg.io/cardmarket/sv3-223",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "averageSellPrice": 81.88,
+          "lowPrice": 65.0,
+          "trendPrice": 87.28,
+          "germanProLow": 0.0,
+          "suggestedPrice": 0.0,
+          "reverseHoloSell": 0.0,
+          "reverseHoloLow": 0.0,
+          "reverseHoloTrend": 0.0,
+          "lowPriceExPlus": 65.0,
+          "avg1": 74.95,
+          "avg7": 84.74,
+          "avg30": 81.78,
+          "reverseHoloAvg1": 0.0,
+          "reverseHoloAvg7": 0.0,
+          "reverseHoloAvg30": 0.0
+        }
+      }
+    },
+    {
+      "id": "sv3-224",
+      "name": "Revavroom ex",
+      "supertype": "Pok\u00e9mon",
+      "subtypes": [
+        "Stage 1",
+        "ex"
+      ],
+      "hp": "280",
+      "types": [
+        "Metal"
+      ],
+      "evolvesFrom": "Varoom",
+      "rules": [
+        "Pok\u00e9mon ex rule: When your Pok\u00e9mon ex is Knocked Out, your opponent takes 2 Prize cards."
+      ],
+      "abilities": [
+        {
+          "name": "Tune-Up",
+          "text": "This Pok\u00e9mon may have up to 4 Pok\u00e9mon Tools attached to it. If it loses this Ability, discard Pok\u00e9mon Tools from it until only 1 remains.",
+          "type": "Ability"
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Wild Drift",
+          "cost": [
+            "Metal",
+            "Metal",
+            "Colorless"
+          ],
+          "convertedEnergyCost": 3,
+          "damage": "170",
+          "text": "During your opponent's next turn, this Pok\u00e9mon takes 30 less damage from attacks (after applying Weakness and Resistance)."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "Fire",
+          "value": "\u00d72"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "Grass",
+          "value": "-30"
+        }
+      ],
+      "retreatCost": [
+        "Colorless"
+      ],
+      "convertedRetreatCost": 1,
+      "set": {
+        "id": "sv3",
+        "name": "Obsidian Flames",
+        "series": "Scarlet & Violet",
+        "printedTotal": 197,
+        "total": 230,
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "releaseDate": "2023/08/11",
+        "updatedAt": "2023/08/11 15:00:00",
+        "images": {
+          "symbol": "https://images.pokemontcg.io/sv3/symbol.png",
+          "logo": "https://images.pokemontcg.io/sv3/logo.png"
+        }
+      },
+      "number": "224",
+      "artist": "Souichirou Gunjima",
+      "rarity": "Special Illustration Rare",
+      "nationalPokedexNumbers": [
+        966
+      ],
+      "legalities": {
+        "unlimited": "Legal",
+        "standard": "Legal",
+        "expanded": "Legal"
+      },
+      "regulationMark": "G",
+      "images": {
+        "small": "https://images.pokemontcg.io/sv3/224.png",
+        "large": "https://images.pokemontcg.io/sv3/224_hires.png"
+      },
+      "tcgplayer": {
+        "url": "https://prices.pokemontcg.io/tcgplayer/sv3-224",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "holofoil": {
+            "low": 2.5,
+            "mid": 4.85,
+            "high": 100.0,
+            "market": 3.99,
+            "directLow": 4.99
+          }
+        }
+      },
+      "cardmarket": {
+        "url": "https://prices.pokemontcg.io/cardmarket/sv3-224",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "averageSellPrice": 3.81,
+          "lowPrice": 1.65,
+          "trendPrice": 3.92,
+          "germanProLow": 0.0,
+          "suggestedPrice": 0.0,
+          "reverseHoloSell": 0.0,
+          "reverseHoloLow": 0.0,
+          "reverseHoloTrend": 0.0,
+          "lowPriceExPlus": 2.5,
+          "avg1": 4.66,
+          "avg7": 3.89,
+          "avg30": 3.85,
+          "reverseHoloAvg1": 0.0,
+          "reverseHoloAvg7": 0.0,
+          "reverseHoloAvg30": 0.0
+        }
+      }
+    },
+    {
+      "id": "sv3-225",
+      "name": "Pidgeot ex",
+      "supertype": "Pok\u00e9mon",
+      "subtypes": [
+        "Stage 2",
+        "ex"
+      ],
+      "hp": "280",
+      "types": [
+        "Colorless"
+      ],
+      "evolvesFrom": "Pidgeotto",
+      "rules": [
+        "Pok\u00e9mon ex rule: When your Pok\u00e9mon ex is Knocked Out, your opponent takes 2 Prize cards."
+      ],
+      "abilities": [
+        {
+          "name": "Quick Search",
+          "text": "Once during your turn, you may search your deck for a card and put it into your hand. Then, shuffle your deck. You can't use more than 1 Quick Search Ability each turn.",
+          "type": "Ability"
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Blustery Wind",
+          "cost": [
+            "Colorless",
+            "Colorless"
+          ],
+          "convertedEnergyCost": 2,
+          "damage": "120",
+          "text": "You may discard a Stadium in play."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "Lightning",
+          "value": "\u00d72"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "Fighting",
+          "value": "-30"
+        }
+      ],
+      "set": {
+        "id": "sv3",
+        "name": "Obsidian Flames",
+        "series": "Scarlet & Violet",
+        "printedTotal": 197,
+        "total": 230,
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "releaseDate": "2023/08/11",
+        "updatedAt": "2023/08/11 15:00:00",
+        "images": {
+          "symbol": "https://images.pokemontcg.io/sv3/symbol.png",
+          "logo": "https://images.pokemontcg.io/sv3/logo.png"
+        }
+      },
+      "number": "225",
+      "artist": "Jerky",
+      "rarity": "Special Illustration Rare",
+      "nationalPokedexNumbers": [
+        18
+      ],
+      "legalities": {
+        "unlimited": "Legal",
+        "standard": "Legal",
+        "expanded": "Legal"
+      },
+      "regulationMark": "G",
+      "images": {
+        "small": "https://images.pokemontcg.io/sv3/225.png",
+        "large": "https://images.pokemontcg.io/sv3/225_hires.png"
+      },
+      "tcgplayer": {
+        "url": "https://prices.pokemontcg.io/tcgplayer/sv3-225",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "holofoil": {
+            "low": 9.0,
+            "mid": 14.6,
+            "high": 63.9,
+            "market": 12.44,
+            "directLow": 11.5
+          }
+        }
+      },
+      "cardmarket": {
+        "url": "https://prices.pokemontcg.io/cardmarket/sv3-225",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "averageSellPrice": 16.49,
+          "lowPrice": 10.0,
+          "trendPrice": 15.54,
+          "germanProLow": 0.0,
+          "suggestedPrice": 0.0,
+          "reverseHoloSell": 0.0,
+          "reverseHoloLow": 0.0,
+          "reverseHoloTrend": 0.0,
+          "lowPriceExPlus": 10.0,
+          "avg1": 16.8,
+          "avg7": 15.57,
+          "avg30": 16.23,
+          "reverseHoloAvg1": 0.0,
+          "reverseHoloAvg7": 0.0,
+          "reverseHoloAvg30": 0.0
+        }
+      }
+    },
+    {
+      "id": "sv3-226",
+      "name": "Geeta",
+      "supertype": "Trainer",
+      "subtypes": [
+        "Supporter"
+      ],
+      "rules": [
+        "Search your deck for up to 2 Basic Energy cards and attach them to 1 of your Pok\u00e9mon. Then, shuffle your deck. During this turn, your Pok\u00e9mon can't attack. (This includes Pok\u00e9mon that come into play this turn.)",
+        "You may play only 1 Supporter card during your turn."
+      ],
+      "set": {
+        "id": "sv3",
+        "name": "Obsidian Flames",
+        "series": "Scarlet & Violet",
+        "printedTotal": 197,
+        "total": 230,
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "releaseDate": "2023/08/11",
+        "updatedAt": "2023/08/11 15:00:00",
+        "images": {
+          "symbol": "https://images.pokemontcg.io/sv3/symbol.png",
+          "logo": "https://images.pokemontcg.io/sv3/logo.png"
+        }
+      },
+      "number": "226",
+      "artist": "DOM",
+      "rarity": "Special Illustration Rare",
+      "legalities": {
+        "unlimited": "Legal",
+        "standard": "Legal",
+        "expanded": "Legal"
+      },
+      "regulationMark": "G",
+      "images": {
+        "small": "https://images.pokemontcg.io/sv3/226.png",
+        "large": "https://images.pokemontcg.io/sv3/226_hires.png"
+      },
+      "tcgplayer": {
+        "url": "https://prices.pokemontcg.io/tcgplayer/sv3-226",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "holofoil": {
+            "low": 2.45,
+            "mid": 3.99,
+            "high": 30.0,
+            "market": 3.2,
+            "directLow": 3.84
+          }
+        }
+      },
+      "cardmarket": {
+        "url": "https://prices.pokemontcg.io/cardmarket/sv3-226",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "averageSellPrice": 3.67,
+          "lowPrice": 2.0,
+          "trendPrice": 4.09,
+          "germanProLow": 0.0,
+          "suggestedPrice": 0.0,
+          "reverseHoloSell": 0.0,
+          "reverseHoloLow": 0.0,
+          "reverseHoloTrend": 0.0,
+          "lowPriceExPlus": 2.0,
+          "avg1": 5.29,
+          "avg7": 3.99,
+          "avg30": 3.77,
+          "reverseHoloAvg1": 0.0,
+          "reverseHoloAvg7": 0.0,
+          "reverseHoloAvg30": 0.0
+        }
+      }
+    },
+    {
+      "id": "sv3-227",
+      "name": "Poppy",
+      "supertype": "Trainer",
+      "subtypes": [
+        "Supporter"
+      ],
+      "rules": [
+        "Move up to 2 Energy from 1 of your Pok\u00e9mon to another of your Pok\u00e9mon.",
+        "You may play only 1 Supporter card during your turn."
+      ],
+      "set": {
+        "id": "sv3",
+        "name": "Obsidian Flames",
+        "series": "Scarlet & Violet",
+        "printedTotal": 197,
+        "total": 230,
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "releaseDate": "2023/08/11",
+        "updatedAt": "2023/08/11 15:00:00",
+        "images": {
+          "symbol": "https://images.pokemontcg.io/sv3/symbol.png",
+          "logo": "https://images.pokemontcg.io/sv3/logo.png"
+        }
+      },
+      "number": "227",
+      "artist": "Ryota Murayama",
+      "rarity": "Special Illustration Rare",
+      "legalities": {
+        "unlimited": "Legal",
+        "standard": "Legal",
+        "expanded": "Legal"
+      },
+      "regulationMark": "G",
+      "images": {
+        "small": "https://images.pokemontcg.io/sv3/227.png",
+        "large": "https://images.pokemontcg.io/sv3/227_hires.png"
+      },
+      "tcgplayer": {
+        "url": "https://prices.pokemontcg.io/tcgplayer/sv3-227",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "holofoil": {
+            "low": 1.75,
+            "mid": 3.12,
+            "high": 40.0,
+            "market": 2.74,
+            "directLow": 2.77
+          }
+        }
+      },
+      "cardmarket": {
+        "url": "https://prices.pokemontcg.io/cardmarket/sv3-227",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "averageSellPrice": 2.71,
+          "lowPrice": 1.4,
+          "trendPrice": 2.91,
+          "germanProLow": 0.0,
+          "suggestedPrice": 0.0,
+          "reverseHoloSell": 0.0,
+          "reverseHoloLow": 0.0,
+          "reverseHoloTrend": 0.0,
+          "lowPriceExPlus": 1.5,
+          "avg1": 3.79,
+          "avg7": 2.9,
+          "avg30": 2.72,
+          "reverseHoloAvg1": 0.0,
+          "reverseHoloAvg7": 0.0,
+          "reverseHoloAvg30": 0.0
+        }
+      }
+    },
+    {
+      "id": "sv3-228",
+      "name": "Charizard ex",
+      "supertype": "Pok\u00e9mon",
+      "subtypes": [
+        "Stage 2",
+        "ex",
+        "Tera"
+      ],
+      "hp": "330",
+      "types": [
+        "Darkness"
+      ],
+      "evolvesFrom": "Charmeleon",
+      "rules": [
+        "Pok\u00e9mon ex rule: When your Pok\u00e9mon ex is Knocked Out, your opponent takes 2 Prize cards.",
+        "Tera: As long as this Pok\u00e9mon is on your Bench, prevent all damage done to this Pok\u00e9mon by attacks (both yours and your opponent's)."
+      ],
+      "abilities": [
+        {
+          "name": "Infernal Reign",
+          "text": "When you play this Pok\u00e9mon from your hand to evolve 1 of your Pok\u00e9mon during your turn, you may search your deck for up to 3 Basic Fire Energy cards and attach them to your Pok\u00e9mon in any way you like. Then, shuffle your deck.",
+          "type": "Ability"
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Burning Darkness",
+          "cost": [
+            "Fire",
+            "Fire"
+          ],
+          "convertedEnergyCost": 2,
+          "damage": "180+",
+          "text": "This attack does 30 more damage for each Prize card your opponent has taken."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "Grass",
+          "value": "\u00d72"
+        }
+      ],
+      "retreatCost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedRetreatCost": 2,
+      "set": {
+        "id": "sv3",
+        "name": "Obsidian Flames",
+        "series": "Scarlet & Violet",
+        "printedTotal": 197,
+        "total": 230,
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "releaseDate": "2023/08/11",
+        "updatedAt": "2023/08/11 15:00:00",
+        "images": {
+          "symbol": "https://images.pokemontcg.io/sv3/symbol.png",
+          "logo": "https://images.pokemontcg.io/sv3/logo.png"
+        }
+      },
+      "number": "228",
+      "artist": "5ban Graphics",
+      "rarity": "Hyper Rare",
+      "nationalPokedexNumbers": [
+        6
+      ],
+      "legalities": {
+        "unlimited": "Legal",
+        "standard": "Legal",
+        "expanded": "Legal"
+      },
+      "regulationMark": "G",
+      "images": {
+        "small": "https://images.pokemontcg.io/sv3/228.png",
+        "large": "https://images.pokemontcg.io/sv3/228_hires.png"
+      },
+      "tcgplayer": {
+        "url": "https://prices.pokemontcg.io/tcgplayer/sv3-228",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "holofoil": {
+            "low": 18.43,
+            "mid": 24.64,
+            "high": 100.0,
+            "market": 21.74,
+            "directLow": 24.99
+          }
+        }
+      },
+      "cardmarket": {
+        "url": "https://prices.pokemontcg.io/cardmarket/sv3-228",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "averageSellPrice": 24.13,
+          "lowPrice": 15.0,
+          "trendPrice": 21.21,
+          "germanProLow": 0.0,
+          "suggestedPrice": 0.0,
+          "reverseHoloSell": 0.0,
+          "reverseHoloLow": 0.0,
+          "reverseHoloTrend": 0.0,
+          "lowPriceExPlus": 15.0,
+          "avg1": 27.0,
+          "avg7": 23.08,
+          "avg30": 24.62,
+          "reverseHoloAvg1": 0.0,
+          "reverseHoloAvg7": 0.0,
+          "reverseHoloAvg30": 0.0
+        }
+      }
+    },
+    {
+      "id": "sv3-229",
+      "name": "Artazon",
+      "supertype": "Trainer",
+      "subtypes": [
+        "Stadium"
+      ],
+      "rules": [
+        "Once during each player's turn, that player may search their deck for a Basic Pok\u00e9mon that doesn't have a Rule Box and put it onto their Bench. Then, that player shuffles their deck. (Pok\u00e9mon ex, Pok\u00e9mon V, etc. have Rule Boxes.)",
+        "You may play only 1 Stadium card during your turn. Put it next to the Active Spot, and discard it if another Stadium comes into play. A Stadium with the same name can't be played."
+      ],
+      "set": {
+        "id": "sv3",
+        "name": "Obsidian Flames",
+        "series": "Scarlet & Violet",
+        "printedTotal": 197,
+        "total": 230,
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "releaseDate": "2023/08/11",
+        "updatedAt": "2023/08/11 15:00:00",
+        "images": {
+          "symbol": "https://images.pokemontcg.io/sv3/symbol.png",
+          "logo": "https://images.pokemontcg.io/sv3/logo.png"
+        }
+      },
+      "number": "229",
+      "artist": "Oswaldo KATO",
+      "rarity": "Hyper Rare",
+      "legalities": {
+        "unlimited": "Legal",
+        "standard": "Legal",
+        "expanded": "Legal"
+      },
+      "regulationMark": "G",
+      "images": {
+        "small": "https://images.pokemontcg.io/sv3/229.png",
+        "large": "https://images.pokemontcg.io/sv3/229_hires.png"
+      },
+      "tcgplayer": {
+        "url": "https://prices.pokemontcg.io/tcgplayer/sv3-229",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "holofoil": {
+            "low": 1.0,
+            "mid": 2.98,
+            "high": 35.0,
+            "market": 2.98,
+            "directLow": 3.73
+          }
+        }
+      },
+      "cardmarket": {
+        "url": "https://prices.pokemontcg.io/cardmarket/sv3-229",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "averageSellPrice": 2.82,
+          "lowPrice": 0.9,
+          "trendPrice": 2.83,
+          "germanProLow": 0.0,
+          "suggestedPrice": 0.0,
+          "reverseHoloSell": 0.0,
+          "reverseHoloLow": 0.0,
+          "reverseHoloTrend": 0.0,
+          "lowPriceExPlus": 0.9,
+          "avg1": 3.11,
+          "avg7": 2.93,
+          "avg30": 2.84,
+          "reverseHoloAvg1": 0.0,
+          "reverseHoloAvg7": 0.0,
+          "reverseHoloAvg30": 0.0
+        }
+      }
+    },
+    {
+      "id": "sv3-230",
+      "name": "Basic Fire Energy",
+      "supertype": "Energy",
+      "subtypes": [
+        "Basic"
+      ],
+      "set": {
+        "id": "sv3",
+        "name": "Obsidian Flames",
+        "series": "Scarlet & Violet",
+        "printedTotal": 197,
+        "total": 230,
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "releaseDate": "2023/08/11",
+        "updatedAt": "2023/08/11 15:00:00",
+        "images": {
+          "symbol": "https://images.pokemontcg.io/sv3/symbol.png",
+          "logo": "https://images.pokemontcg.io/sv3/logo.png"
+        }
+      },
+      "number": "230",
+      "rarity": "Hyper Rare",
+      "legalities": {
+        "unlimited": "Legal",
+        "standard": "Legal",
+        "expanded": "Legal"
+      },
+      "regulationMark": "G",
+      "images": {
+        "small": "https://images.pokemontcg.io/sv3/230.png",
+        "large": "https://images.pokemontcg.io/sv3/230_hires.png"
+      },
+      "tcgplayer": {
+        "url": "https://prices.pokemontcg.io/tcgplayer/sv3-230",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "holofoil": {
+            "low": 2.29,
+            "mid": 4.47,
+            "high": 25.0,
+            "market": 3.42,
+            "directLow": 3.93
+          }
+        }
+      },
+      "cardmarket": {
+        "url": "https://prices.pokemontcg.io/cardmarket/sv3-230",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "averageSellPrice": 4.01,
+          "lowPrice": 1.0,
+          "trendPrice": 3.71,
+          "germanProLow": 0.0,
+          "suggestedPrice": 0.0,
+          "reverseHoloSell": 0.0,
+          "reverseHoloLow": 0.0,
+          "reverseHoloTrend": 0.0,
+          "lowPriceExPlus": 1.5,
+          "avg1": 3.79,
+          "avg7": 3.71,
+          "avg30": 3.93,
+          "reverseHoloAvg1": 0.0,
+          "reverseHoloAvg7": 0.0,
+          "reverseHoloAvg30": 0.0
+        }
+      }
+    }
+  ]
+}

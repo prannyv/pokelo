@@ -1,0 +1,656 @@
+/* App.css */
+/* Import Geist font */
+@import url('https://fonts.googleapis.com/css2?family=Geist+Sans:wght@300;400;500;600;700&family=Geist+Mono:wght@300;400;500&display=swap');
+
+/* Base styles */
+:root {
+  --primary: #e3350d;
+  --secondary: #3c5aa6;
+  --tertiary: #ffcc00;
+  --background: #f9f9f9;
+  --text: #333;
+  --light: #fff;
+  --dark: #222;
+  --shadow: rgba(0, 0, 0, 0.2);
+  --font-family: 'Geist Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  --font-mono: 'Geist Mono', monospace;
+  
+  /* Color states for split sides */
+  --left-side-color: rgba(231, 76, 60, 0.2);  /* Translucent red - normal state */
+  --right-side-color: rgba(52, 152, 219, 0.2); /* Translucent blue - normal state */
+  --left-side-hover: rgba(231, 76, 60, 0.4);  /* More saturated red - hover state */
+  --right-side-hover: rgba(52, 152, 219, 0.4); /* More saturated blue - hover state */
+  --left-side-selected: rgba(231, 76, 60, 0.7);  /* Most saturated red - selected state */
+  --right-side-selected: rgba(52, 152, 219, 0.7); /* Most saturated blue - selected state */
+  --active-nav-bg: rgba(255, 255, 255, 0.2); /* Background for active nav link */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: var(--font-family);
+  background-color: var(--background);
+  color: var(--text);
+  line-height: 1.6;
+  min-height: 100vh;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 100vw;
+  max-width: 100%;
+  font-family: var(--font-family);
+}
+
+/* Header */
+.app-header {
+  background-color: var(--primary);
+  color: var(--light);
+  padding: 1rem;
+  box-shadow: 0 2px 4px var(--shadow);
+  width: 100vw;
+  max-width: 100%;
+  font-family: var(--font-family);
+  border-radius: 0 0 0.7rem 0.7rem;
+}
+
+.app-header h1 {
+  margin-bottom: 0.5rem;
+  text-align: center;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+.app-header nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.app-header nav ul li {
+  margin: 0 1rem;
+}
+
+.app-header nav ul li a {
+  color: var(--light);
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s, background-color 0.3s;
+  padding: 0.3rem 0.8rem;
+  border-radius: 4px;
+}
+
+.app-header nav ul li a:hover {
+  color: var(--tertiary);
+}
+
+/* Active link in navigation */
+.app-header nav ul li a.active-link {
+  background-color: var(--active-nav-bg);
+  color: var(--tertiary);
+}
+
+/* Main content */
+main {
+  flex: 1;
+  width: 100%;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  padding: 0; /* Remove padding to allow full width/height */
+  overflow: hidden; /* Prevent scrolling caused by absolute positioned elements */
+}
+
+/* Footer */
+footer {
+  background-color: var(--dark);
+  color: var(--light);
+  text-align: center;
+  padding: 1rem;
+  margin-top: auto;
+  width: 100vw;
+  max-width: 100%;
+}
+
+/* Comparison View */
+.comparison-container {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.comparison-content {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.title-overlay {
+  position: absolute;
+  top: 2rem;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+  text-align: center;
+}
+
+.title-overlay h1 {
+  color: white;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  font-size: 2.5rem;
+  margin-bottom: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  display: inline-block;
+}
+
+/* Split Screen Container */
+.split-screen-container {
+  display: flex;
+  flex: 1;
+  width: 100%;
+  position: relative;
+}
+
+.split-side {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  position: relative;
+}
+
+.left-side {
+  background-color: var(--left-side-color);
+}
+
+.right-side {
+  background-color: var(--right-side-color);
+}
+
+.left-side.hovered {
+  background-color: var(--left-side-hover);
+  flex: 1.1;
+}
+
+.right-side.hovered {
+  background-color: var(--right-side-hover);
+  flex: 1.1;
+}
+
+.left-side.selected {
+  background-color: var(--left-side-selected);
+  flex: 1.1;
+}
+
+.right-side.selected {
+  background-color: var(--right-side-selected);
+  flex: 1.1;
+}
+
+.split-divider {
+  width: 4px;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+}
+
+.card-container {
+  width: 100%;
+  max-width: 260px;
+  transition: transform 0.3s;
+  z-index: 2;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.split-side:hover .card-container {
+  transform: translateY(-10px) scale(1.05);
+}
+
+/* When selection is made, disable hover effects */
+.split-screen-container.selection-made .split-side:hover .card-container {
+  transform: none; /* Disable the hover animation after selection */
+}
+
+/* Arrow indicators */
+.arrow-indicator {
+  margin-top: 20px;
+  transition: all 0.3s ease;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.6;
+}
+
+.arrow-indicator svg {
+  width: 100%;
+  height: 100%;
+  stroke-width: 1.5; /* Slightly thinner stroke for better appearance at large size */
+}
+
+.arrow-indicator.left {
+  color: #e74c3c; /* Red color for left arrow */
+}
+
+.arrow-indicator.right {
+  color: #3498db; /* Blue color for right arrow */
+}
+
+.arrow-indicator.left.hovered {
+  transform: scale(1.3);
+  opacity: 1;
+}
+
+.arrow-indicator.right.hovered {
+  transform: scale(1.3);
+  opacity: 1;
+}
+
+/* Add selected state for arrow indicators */
+.arrow-indicator.left.selected {
+  transform: scale(1.5);
+  opacity: 1;
+  filter: drop-shadow(0 0 8px rgba(231, 76, 60, 0.6));
+}
+
+.arrow-indicator.right.selected {
+  transform: scale(1.5);
+  opacity: 1;
+  filter: drop-shadow(0 0 8px rgba(52, 152, 219, 0.6));
+}
+
+/* Keyboard hint */
+.keyboard-hint {
+  position: absolute;
+  bottom: 15px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  z-index: 10;
+  font-size: 0.9rem;
+  color: white;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 5px;
+}
+
+.cards-comparison {
+  display: none; /* Hide the old comparison layout */
+}
+
+.result-message-overlay {
+  position: fixed; /* Change to fixed to cover the entire viewport */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer; /* Indicate the entire overlay is clickable */
+  background-color: rgba(0, 0, 0, 0.05); /* Lighter semi-transparent overlay */
+}
+
+.result-message {
+  background-color: var(--tertiary);
+  color: var(--dark);
+  padding: 1rem;
+  border-radius: 8px;
+  font-family: var(--font-family);
+  max-width: 500px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  z-index: 11; /* Ensure the message itself is above any other elements */
+  position: absolute;
+  bottom: 2rem;
+  margin: 0 auto;
+}
+
+.result-message button {
+  background-color: var(--secondary);
+  color: var(--light);
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  margin-top: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-family: var(--font-family);
+  font-weight: 500;
+}
+
+.result-message button:hover {
+  background-color: #2c4a96;
+}
+
+/* Card component */
+.card {
+  background-color: var(--light);
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px var(--shadow);
+  transition: box-shadow 0.3s;
+  width: 100%;
+  /* Adjust card size to be 5% larger than original (15% - 10%) */
+  transform: scale(1.05);
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px var(--shadow);
+}
+
+.comparison-card {
+  cursor: pointer;
+  /* For comparison mode, use original size */
+  transform: scale(1);
+}
+
+.card-image-container {
+  position: relative;
+  padding-top: 140%; /* Aspect ratio for Pokémon cards */
+  overflow: hidden;
+  background-color: #f8f8f8;
+  border-radius: 10px;
+}
+
+.card-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  padding: 0;
+}
+
+.card-image-placeholder {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, var(--tertiary) 0%, var(--secondary) 100%);
+  color: var(--light);
+  font-weight: bold;
+  padding: 1rem;
+  text-align: center;
+}
+
+.card-name-placeholder {
+  font-size: 1.5rem;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+}
+
+.card-details {
+  padding: 1rem;
+  background-color: var(--light);
+}
+
+.card-details h3 {
+  margin-bottom: 0.5rem;
+  color: var(--secondary);
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+.card-stats {
+  display: flex;
+  flex-direction: column;
+  /* Reduce line height to push stats closer together */
+  gap: 0.25rem;
+  font-family: var(--font-family);
+}
+
+.stat {
+  display: flex;
+  justify-content: space-between;
+}
+
+.stat-label {
+  font-weight: 500;
+  color: var(--text);
+}
+
+.stat-value {
+  color: var(--primary);
+  font-weight: 500;
+}
+
+.stat-value.price {
+  color: #2ecc71; /* Green color for price */
+}
+
+/* Card List View */
+.card-list-container {
+  width: 100%;
+  padding: 2rem 0;
+}
+
+.list-content {
+  max-width: 1320px; /* Width to accommodate 6 cards per row with some spacing */
+  margin: 0 auto;
+  width: 100%;
+  padding: 0 1.5rem;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+  gap: 1rem;
+  width: 100%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.search input {
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 8px; /* More rounded corners */
+  width: 300px;
+  font-size: 0.9rem;
+  font-family: var(--font-family);
+}
+
+@media (min-width: 1600px) {
+  .search input {
+    width: 400px;
+    font-size: 1.1rem;
+    padding: 0.85rem;
+  }
+}
+
+.sort-controls {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.sort-controls button {
+  background-color: var(--light);
+  border: 1px solid #ccc;
+  padding: 0.75rem 1.25rem;
+  border-radius: 20px; /* Much more rounded corners for buttons */
+  cursor: pointer;
+  transition: all 0.3s;
+  font-size: 0.9rem;
+  font-family: var(--font-family);
+  font-weight: 500;
+}
+
+@media (min-width: 1600px) {
+  .sort-controls button {
+    padding: 0.85rem 1.5rem;
+    font-size: 1.1rem;
+  }
+}
+
+.sort-controls button:hover {
+  background-color: #f0f0f0;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.sort-controls button.active {
+  background-color: var(--secondary);
+  color: var(--light);
+  border-color: var(--secondary);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card-grid {
+  display: grid;
+  /* Update to 6 cards per row */
+  grid-template-columns: repeat(6, 1fr);
+  gap: 2.5rem;
+  width: 100%;
+  justify-content: center;
+  padding: 1.5rem 0;
+}
+
+.card-list-item {
+  position: relative;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.card-rank {
+  position: absolute;
+  top: -10px;
+  left: 5px;
+  background-color: var(--tertiary);
+  color: var(--dark);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  z-index: 2;
+}
+
+.loading, .no-results {
+  text-align: center;
+  margin: 2rem 0;
+  font-size: 1.2rem;
+  color: var(--secondary);
+  font-family: var(--font-family);
+  font-weight: 500;
+}
+
+/* Responsive design */
+@media (max-width: 1200px) {
+  .card-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (max-width: 900px) {
+  .card-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .split-screen-container {
+    flex-direction: column;
+    height: 100%;
+  }
+  
+  .split-side {
+    height: 50%;
+  }
+  
+  .split-divider {
+    width: 100%;
+    height: 4px;
+  }
+  
+  .card-container {
+    max-width: 220px;
+  }
+  
+  .controls {
+    flex-direction: column;
+  }
+  
+  .card-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .title-overlay h1 {
+    font-size: 1.8rem;
+  }
+  
+  .title-overlay {
+    top: 1rem;
+  }
+  
+  .comparison-content {
+    height: calc(100vh - 100px);
+  }
+}
+
+@media (max-width: 480px) {
+  .card-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+/* Large screen optimizations */
+@media (min-width: 1200px) {
+  .card-container {
+    max-width: 280px; 
+  }
+  
+  .title-overlay h1 {
+    font-size: 3rem;
+  }
+}
+
+@media (min-width: 1600px) {
+  .card-container {
+    max-width: 320px;
+  }
+  
+  .title-overlay h1 {
+    font-size: 3.5rem;
+  }
+}

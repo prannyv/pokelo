@@ -1,0 +1,6267 @@
+{
+  "cards": [
+    {
+      "id": "sv6-168",
+      "name": "Pinsir",
+      "supertype": "Pok\u00e9mon",
+      "subtypes": [
+        "Basic"
+      ],
+      "hp": "110",
+      "types": [
+        "Grass"
+      ],
+      "attacks": [
+        {
+          "name": "Slow Crunch",
+          "cost": [
+            "Grass",
+            "Colorless"
+          ],
+          "convertedEnergyCost": 2,
+          "damage": "",
+          "text": "Discard all Energy from this Pok\u00e9mon. At the end of your opponent's next turn, the Defending Pok\u00e9mon will be Knocked Out."
+        },
+        {
+          "name": "Superpowered Horns",
+          "cost": [
+            "Grass",
+            "Colorless",
+            "Colorless"
+          ],
+          "convertedEnergyCost": 3,
+          "damage": "100",
+          "text": ""
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "Fire",
+          "value": "\u00d72"
+        }
+      ],
+      "retreatCost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedRetreatCost": 2,
+      "set": {
+        "id": "sv6",
+        "name": "Twilight Masquerade",
+        "series": "Scarlet & Violet",
+        "printedTotal": 167,
+        "total": 226,
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "ptcgoCode": "TWM",
+        "releaseDate": "2024/05/24",
+        "updatedAt": "2024/05/23 15:00:00",
+        "images": {
+          "symbol": "https://images.pokemontcg.io/sv6/symbol.png",
+          "logo": "https://images.pokemontcg.io/sv6/logo.png"
+        }
+      },
+      "number": "168",
+      "artist": "Yukihiro Tada",
+      "rarity": "Illustration Rare",
+      "flavorText": "These Pok\u00e9mon judge one another based on pincers. Thicker, more impressive pincers make for more popularity with the opposite gender.",
+      "nationalPokedexNumbers": [
+        127
+      ],
+      "legalities": {
+        "unlimited": "Legal",
+        "standard": "Legal",
+        "expanded": "Legal"
+      },
+      "regulationMark": "H",
+      "images": {
+        "small": "https://images.pokemontcg.io/sv6/168.png",
+        "large": "https://images.pokemontcg.io/sv6/168_hires.png"
+      },
+      "tcgplayer": {
+        "url": "https://prices.pokemontcg.io/tcgplayer/sv6-168",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "holofoil": {
+            "low": 8.69,
+            "mid": 12.99,
+            "high": 49.99,
+            "market": 10.77,
+            "directLow": 11.98
+          }
+        }
+      },
+      "cardmarket": {
+        "url": "https://prices.pokemontcg.io/cardmarket/sv6-168",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "averageSellPrice": 12.96,
+          "lowPrice": 8.97,
+          "trendPrice": 12.79,
+          "germanProLow": 0.0,
+          "suggestedPrice": 0.0,
+          "reverseHoloSell": 0.0,
+          "reverseHoloLow": 0.0,
+          "reverseHoloTrend": 0.0,
+          "lowPriceExPlus": 8.97,
+          "avg1": 10.98,
+          "avg7": 11.51,
+          "avg30": 13.09,
+          "reverseHoloAvg1": 0.0,
+          "reverseHoloAvg7": 0.0,
+          "reverseHoloAvg30": 0.0
+        }
+      }
+    },
+    {
+      "id": "sv6-169",
+      "name": "Sunflora",
+      "supertype": "Pok\u00e9mon",
+      "subtypes": [
+        "Stage 1"
+      ],
+      "hp": "100",
+      "types": [
+        "Grass"
+      ],
+      "evolvesFrom": "Sunkern",
+      "attacks": [
+        {
+          "name": "Redirected Sunlight",
+          "cost": [
+            "Grass"
+          ],
+          "convertedEnergyCost": 1,
+          "damage": "60\u00d7",
+          "text": "This attack does 60 damage for each Fire Energy attached to all of your opponent's Pok\u00e9mon."
+        },
+        {
+          "name": "Mega Drain",
+          "cost": [
+            "Grass",
+            "Colorless"
+          ],
+          "convertedEnergyCost": 2,
+          "damage": "50",
+          "text": "Heal 30 damage from this Pok\u00e9mon."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "Fire",
+          "value": "\u00d72"
+        }
+      ],
+      "retreatCost": [
+        "Colorless"
+      ],
+      "convertedRetreatCost": 1,
+      "set": {
+        "id": "sv6",
+        "name": "Twilight Masquerade",
+        "series": "Scarlet & Violet",
+        "printedTotal": 167,
+        "total": 226,
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "ptcgoCode": "TWM",
+        "releaseDate": "2024/05/24",
+        "updatedAt": "2024/05/23 15:00:00",
+        "images": {
+          "symbol": "https://images.pokemontcg.io/sv6/symbol.png",
+          "logo": "https://images.pokemontcg.io/sv6/logo.png"
+        }
+      },
+      "number": "169",
+      "artist": "Shinya Komatsu",
+      "rarity": "Illustration Rare",
+      "flavorText": "Since it converts sunlight into energy, it is always looking in the direction of the sun.",
+      "nationalPokedexNumbers": [
+        192
+      ],
+      "legalities": {
+        "unlimited": "Legal",
+        "standard": "Legal",
+        "expanded": "Legal"
+      },
+      "regulationMark": "H",
+      "images": {
+        "small": "https://images.pokemontcg.io/sv6/169.png",
+        "large": "https://images.pokemontcg.io/sv6/169_hires.png"
+      },
+      "tcgplayer": {
+        "url": "https://prices.pokemontcg.io/tcgplayer/sv6-169",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "holofoil": {
+            "low": 4.0,
+            "mid": 6.81,
+            "high": 25.0,
+            "market": 5.58,
+            "directLow": null
+          }
+        }
+      },
+      "cardmarket": {
+        "url": "https://prices.pokemontcg.io/cardmarket/sv6-169",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "averageSellPrice": 4.84,
+          "lowPrice": 2.0,
+          "trendPrice": 4.3,
+          "germanProLow": 0.0,
+          "suggestedPrice": 0.0,
+          "reverseHoloSell": 0.0,
+          "reverseHoloLow": 0.0,
+          "reverseHoloTrend": 0.0,
+          "lowPriceExPlus": 2.0,
+          "avg1": 4.09,
+          "avg7": 4.12,
+          "avg30": 4.89,
+          "reverseHoloAvg1": 0.0,
+          "reverseHoloAvg7": 0.0,
+          "reverseHoloAvg30": 0.0
+        }
+      }
+    },
+    {
+      "id": "sv6-170",
+      "name": "Dipplin",
+      "supertype": "Pok\u00e9mon",
+      "subtypes": [
+        "Stage 1"
+      ],
+      "hp": "80",
+      "types": [
+        "Grass"
+      ],
+      "evolvesFrom": "Applin",
+      "abilities": [
+        {
+          "name": "Festival Lead",
+          "text": "If Festival Grounds is in play, this Pok\u00e9mon may use an attack it has twice. If the first attack Knocks Out your opponent's Active Pok\u00e9mon, you may attack again after your opponent chooses a new Active Pok\u00e9mon.",
+          "type": "Ability"
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Do the Wave",
+          "cost": [
+            "Grass"
+          ],
+          "convertedEnergyCost": 1,
+          "damage": "20\u00d7",
+          "text": "This attack does 20 damage for each of your Benched Pok\u00e9mon."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "Fire",
+          "value": "\u00d72"
+        }
+      ],
+      "retreatCost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedRetreatCost": 2,
+      "set": {
+        "id": "sv6",
+        "name": "Twilight Masquerade",
+        "series": "Scarlet & Violet",
+        "printedTotal": 167,
+        "total": 226,
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "ptcgoCode": "TWM",
+        "releaseDate": "2024/05/24",
+        "updatedAt": "2024/05/23 15:00:00",
+        "images": {
+          "symbol": "https://images.pokemontcg.io/sv6/symbol.png",
+          "logo": "https://images.pokemontcg.io/sv6/logo.png"
+        }
+      },
+      "number": "170",
+      "artist": "Akira Komayama",
+      "rarity": "Illustration Rare",
+      "flavorText": "The head sticking out belongs to the fore-wyrm, while the tail belongs to the core-wyrm. The two share one apple and help each other out.",
+      "legalities": {
+        "unlimited": "Legal",
+        "standard": "Legal",
+        "expanded": "Legal"
+      },
+      "regulationMark": "H",
+      "images": {
+        "small": "https://images.pokemontcg.io/sv6/170.png",
+        "large": "https://images.pokemontcg.io/sv6/170_hires.png"
+      },
+      "tcgplayer": {
+        "url": "https://prices.pokemontcg.io/tcgplayer/sv6-170",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "holofoil": {
+            "low": 3.25,
+            "mid": 6.91,
+            "high": 24.99,
+            "market": 6.38,
+            "directLow": 7.98
+          }
+        }
+      },
+      "cardmarket": {
+        "url": "https://prices.pokemontcg.io/cardmarket/sv6-170",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "averageSellPrice": 4.18,
+          "lowPrice": 2.5,
+          "trendPrice": 4.17,
+          "germanProLow": 0.0,
+          "suggestedPrice": 0.0,
+          "reverseHoloSell": 0.0,
+          "reverseHoloLow": 0.0,
+          "reverseHoloTrend": 0.0,
+          "lowPriceExPlus": 2.5,
+          "avg1": 4.0,
+          "avg7": 4.14,
+          "avg30": 4.21,
+          "reverseHoloAvg1": 0.0,
+          "reverseHoloAvg7": 0.0,
+          "reverseHoloAvg30": 0.0
+        }
+      }
+    },
+    {
+      "id": "sv6-171",
+      "name": "Poltchageist",
+      "supertype": "Pok\u00e9mon",
+      "subtypes": [
+        "Basic"
+      ],
+      "hp": "30",
+      "types": [
+        "Grass"
+      ],
+      "abilities": [
+        {
+          "name": "Storehouse Hideaway",
+          "text": "As long as this Pok\u00e9mon is on your Bench, prevent all damage from and effects of attacks from your opponent's Pok\u00e9mon done to this Pok\u00e9mon.",
+          "type": "Ability"
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Hook",
+          "cost": [
+            "Grass"
+          ],
+          "convertedEnergyCost": 1,
+          "damage": "10",
+          "text": ""
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "Fire",
+          "value": "\u00d72"
+        }
+      ],
+      "retreatCost": [
+        "Colorless"
+      ],
+      "convertedRetreatCost": 1,
+      "set": {
+        "id": "sv6",
+        "name": "Twilight Masquerade",
+        "series": "Scarlet & Violet",
+        "printedTotal": 167,
+        "total": 226,
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "ptcgoCode": "TWM",
+        "releaseDate": "2024/05/24",
+        "updatedAt": "2024/05/23 15:00:00",
+        "images": {
+          "symbol": "https://images.pokemontcg.io/sv6/symbol.png",
+          "logo": "https://images.pokemontcg.io/sv6/logo.png"
+        }
+      },
+      "number": "171",
+      "artist": "Saboteri",
+      "rarity": "Illustration Rare",
+      "flavorText": "Poltchageist looks like a regional form of Sinistea, but it was recently discovered that the two Pok\u00e9mon are entirely unrelated.",
+      "legalities": {
+        "unlimited": "Legal",
+        "standard": "Legal",
+        "expanded": "Legal"
+      },
+      "regulationMark": "H",
+      "images": {
+        "small": "https://images.pokemontcg.io/sv6/171.png",
+        "large": "https://images.pokemontcg.io/sv6/171_hires.png"
+      },
+      "tcgplayer": {
+        "url": "https://prices.pokemontcg.io/tcgplayer/sv6-171",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "holofoil": {
+            "low": 2.78,
+            "mid": 4.39,
+            "high": 30.0,
+            "market": 4.05,
+            "directLow": 4.99
+          }
+        }
+      },
+      "cardmarket": {
+        "url": "https://prices.pokemontcg.io/cardmarket/sv6-171",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "averageSellPrice": 2.77,
+          "lowPrice": 1.0,
+          "trendPrice": 2.58,
+          "germanProLow": 0.0,
+          "suggestedPrice": 0.0,
+          "reverseHoloSell": 0.0,
+          "reverseHoloLow": 0.0,
+          "reverseHoloTrend": 0.0,
+          "lowPriceExPlus": 1.8,
+          "avg1": 2.14,
+          "avg7": 2.67,
+          "avg30": 2.77,
+          "reverseHoloAvg1": 0.0,
+          "reverseHoloAvg7": 0.0,
+          "reverseHoloAvg30": 0.0
+        }
+      }
+    },
+    {
+      "id": "sv6-172",
+      "name": "Torkoal",
+      "supertype": "Pok\u00e9mon",
+      "subtypes": [
+        "Basic"
+      ],
+      "hp": "130",
+      "types": [
+        "Fire"
+      ],
+      "attacks": [
+        {
+          "name": "Ramming Shell",
+          "cost": [
+            "Fire",
+            "Colorless"
+          ],
+          "convertedEnergyCost": 2,
+          "damage": "30",
+          "text": "During your opponent's next turn, this Pok\u00e9mon takes 30 less damage from attacks (after applying Weakness and Resistance)."
+        },
+        {
+          "name": "Fire Spin",
+          "cost": [
+            "Fire",
+            "Colorless",
+            "Colorless"
+          ],
+          "convertedEnergyCost": 3,
+          "damage": "110",
+          "text": "Discard 2 Energy from this Pok\u00e9mon."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "Water",
+          "value": "\u00d72"
+        }
+      ],
+      "retreatCost": [
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedRetreatCost": 3,
+      "set": {
+        "id": "sv6",
+        "name": "Twilight Masquerade",
+        "series": "Scarlet & Violet",
+        "printedTotal": 167,
+        "total": 226,
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "ptcgoCode": "TWM",
+        "releaseDate": "2024/05/24",
+        "updatedAt": "2024/05/23 15:00:00",
+        "images": {
+          "symbol": "https://images.pokemontcg.io/sv6/symbol.png",
+          "logo": "https://images.pokemontcg.io/sv6/logo.png"
+        }
+      },
+      "number": "172",
+      "artist": "Masa",
+      "rarity": "Illustration Rare",
+      "flavorText": "Coal is the source of Torkoal's energy. Large amounts of coal can be found in the mountains where they live.",
+      "nationalPokedexNumbers": [
+        324
+      ],
+      "legalities": {
+        "unlimited": "Legal",
+        "standard": "Legal",
+        "expanded": "Legal"
+      },
+      "regulationMark": "H",
+      "images": {
+        "small": "https://images.pokemontcg.io/sv6/172.png",
+        "large": "https://images.pokemontcg.io/sv6/172_hires.png"
+      },
+      "tcgplayer": {
+        "url": "https://prices.pokemontcg.io/tcgplayer/sv6-172",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "holofoil": {
+            "low": 3.47,
+            "mid": 5.5,
+            "high": 100.0,
+            "market": 5.27,
+            "directLow": 5.95
+          }
+        }
+      },
+      "cardmarket": {
+        "url": "https://prices.pokemontcg.io/cardmarket/sv6-172",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "averageSellPrice": 3.48,
+          "lowPrice": 2.0,
+          "trendPrice": 3.67,
+          "germanProLow": 0.0,
+          "suggestedPrice": 0.0,
+          "reverseHoloSell": 0.0,
+          "reverseHoloLow": 0.0,
+          "reverseHoloTrend": 0.0,
+          "lowPriceExPlus": 2.5,
+          "avg1": 3.43,
+          "avg7": 3.61,
+          "avg30": 3.47,
+          "reverseHoloAvg1": 0.0,
+          "reverseHoloAvg7": 0.0,
+          "reverseHoloAvg30": 0.0
+        }
+      }
+    },
+    {
+      "id": "sv6-173",
+      "name": "Infernape",
+      "supertype": "Pok\u00e9mon",
+      "subtypes": [
+        "Stage 2"
+      ],
+      "hp": "140",
+      "types": [
+        "Fire"
+      ],
+      "evolvesFrom": "Monferno",
+      "abilities": [
+        {
+          "name": "Pyro Dance",
+          "text": "Once during your turn, you may attach a Basic Fire Energy card, a Basic Fighting Energy card, or 1 of each from your hand to your Pok\u00e9mon in any way you like.",
+          "type": "Ability"
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Scorching Fire",
+          "cost": [
+            "Fire",
+            "Fire",
+            "Colorless"
+          ],
+          "convertedEnergyCost": 3,
+          "damage": "200",
+          "text": "Discard an Energy from this Pok\u00e9mon."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "Water",
+          "value": "\u00d72"
+        }
+      ],
+      "retreatCost": [
+        "Colorless"
+      ],
+      "convertedRetreatCost": 1,
+      "set": {
+        "id": "sv6",
+        "name": "Twilight Masquerade",
+        "series": "Scarlet & Violet",
+        "printedTotal": 167,
+        "total": 226,
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "ptcgoCode": "TWM",
+        "releaseDate": "2024/05/24",
+        "updatedAt": "2024/05/23 15:00:00",
+        "images": {
+          "symbol": "https://images.pokemontcg.io/sv6/symbol.png",
+          "logo": "https://images.pokemontcg.io/sv6/logo.png"
+        }
+      },
+      "number": "173",
+      "artist": "Krgc",
+      "rarity": "Illustration Rare",
+      "flavorText": "Its crown of fire is indicative of its fiery nature. It is beaten by none in terms of quickness.",
+      "nationalPokedexNumbers": [
+        392
+      ],
+      "legalities": {
+        "unlimited": "Legal",
+        "standard": "Legal",
+        "expanded": "Legal"
+      },
+      "regulationMark": "H",
+      "images": {
+        "small": "https://images.pokemontcg.io/sv6/173.png",
+        "large": "https://images.pokemontcg.io/sv6/173_hires.png"
+      },
+      "tcgplayer": {
+        "url": "https://prices.pokemontcg.io/tcgplayer/sv6-173",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "holofoil": {
+            "low": 8.1,
+            "mid": 14.31,
+            "high": 46.0,
+            "market": 11.07,
+            "directLow": 13.39
+          }
+        }
+      },
+      "cardmarket": {
+        "url": "https://prices.pokemontcg.io/cardmarket/sv6-173",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "averageSellPrice": 13.7,
+          "lowPrice": 5.0,
+          "trendPrice": 13.34,
+          "germanProLow": 0.0,
+          "suggestedPrice": 0.0,
+          "reverseHoloSell": 0.0,
+          "reverseHoloLow": 0.0,
+          "reverseHoloTrend": 0.0,
+          "lowPriceExPlus": 7.5,
+          "avg1": 11.29,
+          "avg7": 14.19,
+          "avg30": 13.77,
+          "reverseHoloAvg1": 0.0,
+          "reverseHoloAvg7": 0.0,
+          "reverseHoloAvg30": 0.0
+        }
+      }
+    },
+    {
+      "id": "sv6-174",
+      "name": "Froslass",
+      "supertype": "Pok\u00e9mon",
+      "subtypes": [
+        "Stage 1"
+      ],
+      "hp": "90",
+      "types": [
+        "Water"
+      ],
+      "evolvesFrom": "Snorunt",
+      "abilities": [
+        {
+          "name": "Freezing Shroud",
+          "text": "During Pok\u00e9mon Checkup, put 1 damage counter on each Pok\u00e9mon that has an Ability (both yours and your opponent's), except any Froslass.",
+          "type": "Ability"
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Frost Smash",
+          "cost": [
+            "Water",
+            "Colorless"
+          ],
+          "convertedEnergyCost": 2,
+          "damage": "60",
+          "text": ""
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "Metal",
+          "value": "\u00d72"
+        }
+      ],
+      "retreatCost": [
+        "Colorless"
+      ],
+      "convertedRetreatCost": 1,
+      "set": {
+        "id": "sv6",
+        "name": "Twilight Masquerade",
+        "series": "Scarlet & Violet",
+        "printedTotal": 167,
+        "total": 226,
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "ptcgoCode": "TWM",
+        "releaseDate": "2024/05/24",
+        "updatedAt": "2024/05/23 15:00:00",
+        "images": {
+          "symbol": "https://images.pokemontcg.io/sv6/symbol.png",
+          "logo": "https://images.pokemontcg.io/sv6/logo.png"
+        }
+      },
+      "number": "174",
+      "artist": "matazo",
+      "rarity": "Illustration Rare",
+      "flavorText": "It freezes prey by blowing its \u221258 degree Fahrenheit breath. It is said to then secretly display its prey.",
+      "nationalPokedexNumbers": [
+        478
+      ],
+      "legalities": {
+        "unlimited": "Legal",
+        "standard": "Legal",
+        "expanded": "Legal"
+      },
+      "regulationMark": "H",
+      "images": {
+        "small": "https://images.pokemontcg.io/sv6/174.png",
+        "large": "https://images.pokemontcg.io/sv6/174_hires.png"
+      },
+      "tcgplayer": {
+        "url": "https://prices.pokemontcg.io/tcgplayer/sv6-174",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "holofoil": {
+            "low": 4.99,
+            "mid": 7.0,
+            "high": 24.95,
+            "market": 6.58,
+            "directLow": 6.55
+          }
+        }
+      },
+      "cardmarket": {
+        "url": "https://prices.pokemontcg.io/cardmarket/sv6-174",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "averageSellPrice": 5.81,
+          "lowPrice": 4.0,
+          "trendPrice": 6.01,
+          "germanProLow": 0.0,
+          "suggestedPrice": 0.0,
+          "reverseHoloSell": 0.0,
+          "reverseHoloLow": 0.0,
+          "reverseHoloTrend": 0.0,
+          "lowPriceExPlus": 4.0,
+          "avg1": 7.25,
+          "avg7": 5.91,
+          "avg30": 5.78,
+          "reverseHoloAvg1": 0.0,
+          "reverseHoloAvg7": 0.0,
+          "reverseHoloAvg30": 0.0
+        }
+      }
+    },
+    {
+      "id": "sv6-175",
+      "name": "Phione",
+      "supertype": "Pok\u00e9mon",
+      "subtypes": [
+        "Basic"
+      ],
+      "hp": "70",
+      "types": [
+        "Water"
+      ],
+      "attacks": [
+        {
+          "name": "Beckon",
+          "cost": [
+            "Colorless"
+          ],
+          "convertedEnergyCost": 1,
+          "damage": "",
+          "text": "Put a Supporter card from your discard pile into your hand."
+        },
+        {
+          "name": "Energy Press",
+          "cost": [
+            "Water"
+          ],
+          "convertedEnergyCost": 1,
+          "damage": "20\u00d7",
+          "text": "This attack does 20 damage for each Energy attached to your opponent's Active Pok\u00e9mon."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "Lightning",
+          "value": "\u00d72"
+        }
+      ],
+      "retreatCost": [
+        "Colorless"
+      ],
+      "convertedRetreatCost": 1,
+      "set": {
+        "id": "sv6",
+        "name": "Twilight Masquerade",
+        "series": "Scarlet & Violet",
+        "printedTotal": 167,
+        "total": 226,
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "ptcgoCode": "TWM",
+        "releaseDate": "2024/05/24",
+        "updatedAt": "2024/05/23 15:00:00",
+        "images": {
+          "symbol": "https://images.pokemontcg.io/sv6/symbol.png",
+          "logo": "https://images.pokemontcg.io/sv6/logo.png"
+        }
+      },
+      "number": "175",
+      "artist": "takashi shiraishi",
+      "rarity": "Illustration Rare",
+      "flavorText": "When the water warms, they inflate the flotation sac on their heads and drift languidly on the sea in packs.",
+      "nationalPokedexNumbers": [
+        489
+      ],
+      "legalities": {
+        "unlimited": "Legal",
+        "standard": "Legal",
+        "expanded": "Legal"
+      },
+      "regulationMark": "H",
+      "images": {
+        "small": "https://images.pokemontcg.io/sv6/175.png",
+        "large": "https://images.pokemontcg.io/sv6/175_hires.png"
+      },
+      "tcgplayer": {
+        "url": "https://prices.pokemontcg.io/tcgplayer/sv6-175",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "holofoil": {
+            "low": 5.53,
+            "mid": 7.99,
+            "high": 40.0,
+            "market": 7.06,
+            "directLow": 7.03
+          }
+        }
+      },
+      "cardmarket": {
+        "url": "https://prices.pokemontcg.io/cardmarket/sv6-175",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "averageSellPrice": 6.54,
+          "lowPrice": 4.5,
+          "trendPrice": 7.14,
+          "germanProLow": 0.0,
+          "suggestedPrice": 0.0,
+          "reverseHoloSell": 0.0,
+          "reverseHoloLow": 0.0,
+          "reverseHoloTrend": 0.0,
+          "lowPriceExPlus": 4.89,
+          "avg1": 9.55,
+          "avg7": 7.38,
+          "avg30": 6.6,
+          "reverseHoloAvg1": 0.0,
+          "reverseHoloAvg7": 0.0,
+          "reverseHoloAvg30": 0.0
+        }
+      }
+    },
+    {
+      "id": "sv6-176",
+      "name": "Cramorant",
+      "supertype": "Pok\u00e9mon",
+      "subtypes": [
+        "Basic"
+      ],
+      "hp": "110",
+      "types": [
+        "Water"
+      ],
+      "attacks": [
+        {
+          "name": "Water Gun",
+          "cost": [
+            "Water"
+          ],
+          "convertedEnergyCost": 1,
+          "damage": "20",
+          "text": ""
+        },
+        {
+          "name": "Spit Shot",
+          "cost": [
+            "Colorless",
+            "Colorless",
+            "Colorless"
+          ],
+          "convertedEnergyCost": 3,
+          "damage": "",
+          "text": "Discard all Energy from this Pok\u00e9mon. This attack does 120 damage to 1 of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "Lightning",
+          "value": "\u00d72"
+        }
+      ],
+      "retreatCost": [
+        "Colorless"
+      ],
+      "convertedRetreatCost": 1,
+      "set": {
+        "id": "sv6",
+        "name": "Twilight Masquerade",
+        "series": "Scarlet & Violet",
+        "printedTotal": 167,
+        "total": 226,
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "ptcgoCode": "TWM",
+        "releaseDate": "2024/05/24",
+        "updatedAt": "2024/05/23 15:00:00",
+        "images": {
+          "symbol": "https://images.pokemontcg.io/sv6/symbol.png",
+          "logo": "https://images.pokemontcg.io/sv6/logo.png"
+        }
+      },
+      "number": "176",
+      "artist": "Fujimoto Gold",
+      "rarity": "Illustration Rare",
+      "flavorText": "It's an incredibly poor learner because it uses the bare minimum amount of energy for its brain. It focuses on battling instead.",
+      "nationalPokedexNumbers": [
+        845
+      ],
+      "legalities": {
+        "unlimited": "Legal",
+        "standard": "Legal",
+        "expanded": "Legal"
+      },
+      "regulationMark": "H",
+      "images": {
+        "small": "https://images.pokemontcg.io/sv6/176.png",
+        "large": "https://images.pokemontcg.io/sv6/176_hires.png"
+      },
+      "tcgplayer": {
+        "url": "https://prices.pokemontcg.io/tcgplayer/sv6-176",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "holofoil": {
+            "low": 2.0,
+            "mid": 4.17,
+            "high": 20.0,
+            "market": 3.83,
+            "directLow": 4.07
+          }
+        }
+      },
+      "cardmarket": {
+        "url": "https://prices.pokemontcg.io/cardmarket/sv6-176",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "averageSellPrice": 2.63,
+          "lowPrice": 1.5,
+          "trendPrice": 2.59,
+          "germanProLow": 0.0,
+          "suggestedPrice": 0.0,
+          "reverseHoloSell": 0.0,
+          "reverseHoloLow": 0.0,
+          "reverseHoloTrend": 0.0,
+          "lowPriceExPlus": 2.0,
+          "avg1": 2.59,
+          "avg7": 2.66,
+          "avg30": 2.64,
+          "reverseHoloAvg1": 0.0,
+          "reverseHoloAvg7": 0.0,
+          "reverseHoloAvg30": 0.0
+        }
+      }
+    },
+    {
+      "id": "sv6-177",
+      "name": "Heliolisk",
+      "supertype": "Pok\u00e9mon",
+      "subtypes": [
+        "Stage 1"
+      ],
+      "hp": "100",
+      "types": [
+        "Lightning"
+      ],
+      "evolvesFrom": "Helioptile",
+      "attacks": [
+        {
+          "name": "Wild Charge",
+          "cost": [
+            "Lightning"
+          ],
+          "convertedEnergyCost": 1,
+          "damage": "70",
+          "text": "This Pok\u00e9mon also does 20 damage to itself."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "Fighting",
+          "value": "\u00d72"
+        }
+      ],
+      "retreatCost": [
+        "Colorless"
+      ],
+      "convertedRetreatCost": 1,
+      "set": {
+        "id": "sv6",
+        "name": "Twilight Masquerade",
+        "series": "Scarlet & Violet",
+        "printedTotal": 167,
+        "total": 226,
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "ptcgoCode": "TWM",
+        "releaseDate": "2024/05/24",
+        "updatedAt": "2024/05/23 15:00:00",
+        "images": {
+          "symbol": "https://images.pokemontcg.io/sv6/symbol.png",
+          "logo": "https://images.pokemontcg.io/sv6/logo.png"
+        }
+      },
+      "number": "177",
+      "artist": "Tonji Matsuno",
+      "rarity": "Illustration Rare",
+      "flavorText": "A now-vanished desert culture treasured these Pok\u00e9mon. Appropriately, when Heliolisk came to the Galar region, treasure came with them.",
+      "nationalPokedexNumbers": [
+        695
+      ],
+      "legalities": {
+        "unlimited": "Legal",
+        "standard": "Legal",
+        "expanded": "Legal"
+      },
+      "regulationMark": "H",
+      "images": {
+        "small": "https://images.pokemontcg.io/sv6/177.png",
+        "large": "https://images.pokemontcg.io/sv6/177_hires.png"
+      },
+      "tcgplayer": {
+        "url": "https://prices.pokemontcg.io/tcgplayer/sv6-177",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "holofoil": {
+            "low": 2.04,
+            "mid": 3.96,
+            "high": 18.0,
+            "market": 3.73,
+            "directLow": 4.93
+          }
+        }
+      },
+      "cardmarket": {
+        "url": "https://prices.pokemontcg.io/cardmarket/sv6-177",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "averageSellPrice": 2.86,
+          "lowPrice": 1.99,
+          "trendPrice": 2.94,
+          "germanProLow": 0.0,
+          "suggestedPrice": 0.0,
+          "reverseHoloSell": 0.0,
+          "reverseHoloLow": 0.0,
+          "reverseHoloTrend": 0.0,
+          "lowPriceExPlus": 2.0,
+          "avg1": 2.73,
+          "avg7": 2.89,
+          "avg30": 2.84,
+          "reverseHoloAvg1": 0.0,
+          "reverseHoloAvg7": 0.0,
+          "reverseHoloAvg30": 0.0
+        }
+      }
+    },
+    {
+      "id": "sv6-178",
+      "name": "Wattrel",
+      "supertype": "Pok\u00e9mon",
+      "subtypes": [
+        "Basic"
+      ],
+      "hp": "60",
+      "types": [
+        "Lightning"
+      ],
+      "attacks": [
+        {
+          "name": "Thunder Shock",
+          "cost": [
+            "Lightning"
+          ],
+          "convertedEnergyCost": 1,
+          "damage": "10",
+          "text": "Flip a coin. If heads, your opponent's Active Pok\u00e9mon is now Paralyzed."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "Lightning",
+          "value": "\u00d72"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "Fighting",
+          "value": "-30"
+        }
+      ],
+      "retreatCost": [
+        "Colorless"
+      ],
+      "convertedRetreatCost": 1,
+      "set": {
+        "id": "sv6",
+        "name": "Twilight Masquerade",
+        "series": "Scarlet & Violet",
+        "printedTotal": 167,
+        "total": 226,
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "ptcgoCode": "TWM",
+        "releaseDate": "2024/05/24",
+        "updatedAt": "2024/05/23 15:00:00",
+        "images": {
+          "symbol": "https://images.pokemontcg.io/sv6/symbol.png",
+          "logo": "https://images.pokemontcg.io/sv6/logo.png"
+        }
+      },
+      "number": "178",
+      "artist": "Mitsuhiro Arita",
+      "rarity": "Illustration Rare",
+      "flavorText": "These Pok\u00e9mon make their nests on coastal cliffs. The nests have a strange, crackling texture, and they're a popular delicacy.",
+      "nationalPokedexNumbers": [
+        940
+      ],
+      "legalities": {
+        "unlimited": "Legal",
+        "standard": "Legal",
+        "expanded": "Legal"
+      },
+      "regulationMark": "H",
+      "images": {
+        "small": "https://images.pokemontcg.io/sv6/178.png",
+        "large": "https://images.pokemontcg.io/sv6/178_hires.png"
+      },
+      "tcgplayer": {
+        "url": "https://prices.pokemontcg.io/tcgplayer/sv6-178",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "holofoil": {
+            "low": 1.95,
+            "mid": 3.96,
+            "high": 30.0,
+            "market": 3.14,
+            "directLow": 3.69
+          }
+        }
+      },
+      "cardmarket": {
+        "url": "https://prices.pokemontcg.io/cardmarket/sv6-178",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "averageSellPrice": 3.14,
+          "lowPrice": 2.03,
+          "trendPrice": 3.01,
+          "germanProLow": 0.0,
+          "suggestedPrice": 0.0,
+          "reverseHoloSell": 0.0,
+          "reverseHoloLow": 0.0,
+          "reverseHoloTrend": 0.0,
+          "lowPriceExPlus": 2.6,
+          "avg1": 2.6,
+          "avg7": 3.05,
+          "avg30": 3.12,
+          "reverseHoloAvg1": 0.0,
+          "reverseHoloAvg7": 0.0,
+          "reverseHoloAvg30": 0.0
+        }
+      }
+    },
+    {
+      "id": "sv6-179",
+      "name": "Chimecho",
+      "supertype": "Pok\u00e9mon",
+      "subtypes": [
+        "Basic"
+      ],
+      "hp": "70",
+      "types": [
+        "Psychic"
+      ],
+      "attacks": [
+        {
+          "name": "Hyper Voice",
+          "cost": [
+            "Psychic"
+          ],
+          "convertedEnergyCost": 1,
+          "damage": "20",
+          "text": ""
+        },
+        {
+          "name": "Homeward Chime",
+          "cost": [
+            "Colorless",
+            "Colorless"
+          ],
+          "convertedEnergyCost": 2,
+          "damage": "",
+          "text": "Shuffle 1 of your Benched Pok\u00e9mon and all attached cards into your deck."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "Darkness",
+          "value": "\u00d72"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "Fighting",
+          "value": "-30"
+        }
+      ],
+      "retreatCost": [
+        "Colorless"
+      ],
+      "convertedRetreatCost": 1,
+      "set": {
+        "id": "sv6",
+        "name": "Twilight Masquerade",
+        "series": "Scarlet & Violet",
+        "printedTotal": 167,
+        "total": 226,
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "ptcgoCode": "TWM",
+        "releaseDate": "2024/05/24",
+        "updatedAt": "2024/05/23 15:00:00",
+        "images": {
+          "symbol": "https://images.pokemontcg.io/sv6/symbol.png",
+          "logo": "https://images.pokemontcg.io/sv6/logo.png"
+        }
+      },
+      "number": "179",
+      "artist": "REND",
+      "rarity": "Illustration Rare",
+      "flavorText": "Its cries echo inside its hollow body to emerge as beautiful notes for startling and repelling foes.",
+      "nationalPokedexNumbers": [
+        358
+      ],
+      "legalities": {
+        "unlimited": "Legal",
+        "standard": "Legal",
+        "expanded": "Legal"
+      },
+      "regulationMark": "H",
+      "images": {
+        "small": "https://images.pokemontcg.io/sv6/179.png",
+        "large": "https://images.pokemontcg.io/sv6/179_hires.png"
+      },
+      "tcgplayer": {
+        "url": "https://prices.pokemontcg.io/tcgplayer/sv6-179",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "holofoil": {
+            "low": 2.1,
+            "mid": 4.27,
+            "high": 55.0,
+            "market": 3.49,
+            "directLow": 4.98
+          }
+        }
+      },
+      "cardmarket": {
+        "url": "https://prices.pokemontcg.io/cardmarket/sv6-179",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "averageSellPrice": 2.7,
+          "lowPrice": 1.8,
+          "trendPrice": 2.56,
+          "germanProLow": 0.0,
+          "suggestedPrice": 0.0,
+          "reverseHoloSell": 0.0,
+          "reverseHoloLow": 0.0,
+          "reverseHoloTrend": 0.0,
+          "lowPriceExPlus": 1.8,
+          "avg1": 2.61,
+          "avg7": 2.65,
+          "avg30": 2.72,
+          "reverseHoloAvg1": 0.0,
+          "reverseHoloAvg7": 0.0,
+          "reverseHoloAvg30": 0.0
+        }
+      }
+    },
+    {
+      "id": "sv6-180",
+      "name": "Enamorus",
+      "supertype": "Pok\u00e9mon",
+      "subtypes": [
+        "Basic"
+      ],
+      "hp": "120",
+      "types": [
+        "Psychic"
+      ],
+      "attacks": [
+        {
+          "name": "Heart Sign",
+          "cost": [
+            "Colorless"
+          ],
+          "convertedEnergyCost": 1,
+          "damage": "30",
+          "text": ""
+        },
+        {
+          "name": "Love Resonance",
+          "cost": [
+            "Psychic",
+            "Colorless",
+            "Colorless"
+          ],
+          "convertedEnergyCost": 3,
+          "damage": "80+",
+          "text": "If any of your Pok\u00e9mon in play are the same type as any of your opponent's Pok\u00e9mon in play, this attack does 120 more damage."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "Metal",
+          "value": "\u00d72"
+        }
+      ],
+      "retreatCost": [
+        "Colorless"
+      ],
+      "convertedRetreatCost": 1,
+      "set": {
+        "id": "sv6",
+        "name": "Twilight Masquerade",
+        "series": "Scarlet & Violet",
+        "printedTotal": 167,
+        "total": 226,
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "ptcgoCode": "TWM",
+        "releaseDate": "2024/05/24",
+        "updatedAt": "2024/05/23 15:00:00",
+        "images": {
+          "symbol": "https://images.pokemontcg.io/sv6/symbol.png",
+          "logo": "https://images.pokemontcg.io/sv6/logo.png"
+        }
+      },
+      "number": "180",
+      "artist": "GOTO minori",
+      "rarity": "Illustration Rare",
+      "flavorText": "When it flies to this land from across the sea, the bitter winter comes to an end. According to legend, this Pok\u00e9mon's love gives rise to the budding of fresh life across Hisui.",
+      "nationalPokedexNumbers": [
+        905
+      ],
+      "legalities": {
+        "unlimited": "Legal",
+        "standard": "Legal",
+        "expanded": "Legal"
+      },
+      "regulationMark": "H",
+      "images": {
+        "small": "https://images.pokemontcg.io/sv6/180.png",
+        "large": "https://images.pokemontcg.io/sv6/180_hires.png"
+      },
+      "tcgplayer": {
+        "url": "https://prices.pokemontcg.io/tcgplayer/sv6-180",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "holofoil": {
+            "low": 3.98,
+            "mid": 5.76,
+            "high": 25.0,
+            "market": 4.69,
+            "directLow": 5.6
+          }
+        }
+      },
+      "cardmarket": {
+        "url": "https://prices.pokemontcg.io/cardmarket/sv6-180",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "averageSellPrice": 3.5,
+          "lowPrice": 1.6,
+          "trendPrice": 3.36,
+          "germanProLow": 0.0,
+          "suggestedPrice": 0.0,
+          "reverseHoloSell": 0.0,
+          "reverseHoloLow": 0.0,
+          "reverseHoloTrend": 0.0,
+          "lowPriceExPlus": 1.6,
+          "avg1": 3.26,
+          "avg7": 3.65,
+          "avg30": 3.44,
+          "reverseHoloAvg1": 0.0,
+          "reverseHoloAvg7": 0.0,
+          "reverseHoloAvg30": 0.0
+        }
+      }
+    },
+    {
+      "id": "sv6-181",
+      "name": "Hisuian Growlithe",
+      "supertype": "Pok\u00e9mon",
+      "subtypes": [
+        "Basic"
+      ],
+      "hp": "80",
+      "types": [
+        "Fighting"
+      ],
+      "evolvesTo": [
+        "Arcanine"
+      ],
+      "attacks": [
+        {
+          "name": "Blazing Destruction",
+          "cost": [
+            "Free"
+          ],
+          "convertedEnergyCost": 1,
+          "damage": "",
+          "text": "Discard a Stadium in play."
+        },
+        {
+          "name": "Take Down",
+          "cost": [
+            "Fighting",
+            "Colorless"
+          ],
+          "convertedEnergyCost": 2,
+          "damage": "40",
+          "text": "This Pok\u00e9mon also does 10 damage to itself."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "Grass",
+          "value": "\u00d72"
+        }
+      ],
+      "retreatCost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedRetreatCost": 2,
+      "set": {
+        "id": "sv6",
+        "name": "Twilight Masquerade",
+        "series": "Scarlet & Violet",
+        "printedTotal": 167,
+        "total": 226,
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "ptcgoCode": "TWM",
+        "releaseDate": "2024/05/24",
+        "updatedAt": "2024/05/23 15:00:00",
+        "images": {
+          "symbol": "https://images.pokemontcg.io/sv6/symbol.png",
+          "logo": "https://images.pokemontcg.io/sv6/logo.png"
+        }
+      },
+      "number": "181",
+      "artist": "GIDORA",
+      "rarity": "Illustration Rare",
+      "flavorText": "They patrol their territory in pairs. I believe the igneous rock components in the fur of this species are the result of volcanic activity in its habitat.",
+      "nationalPokedexNumbers": [
+        58
+      ],
+      "legalities": {
+        "unlimited": "Legal",
+        "standard": "Legal",
+        "expanded": "Legal"
+      },
+      "regulationMark": "H",
+      "images": {
+        "small": "https://images.pokemontcg.io/sv6/181.png",
+        "large": "https://images.pokemontcg.io/sv6/181_hires.png"
+      },
+      "tcgplayer": {
+        "url": "https://prices.pokemontcg.io/tcgplayer/sv6-181",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "holofoil": {
+            "low": 14.0,
+            "mid": 18.96,
+            "high": 75.0,
+            "market": 16.81,
+            "directLow": 18.94
+          }
+        }
+      },
+      "cardmarket": {
+        "url": "https://prices.pokemontcg.io/cardmarket/sv6-181",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "averageSellPrice": 12.74,
+          "lowPrice": 7.5,
+          "trendPrice": 11.44,
+          "germanProLow": 0.0,
+          "suggestedPrice": 0.0,
+          "reverseHoloSell": 0.0,
+          "reverseHoloLow": 0.0,
+          "reverseHoloTrend": 0.0,
+          "lowPriceExPlus": 7.5,
+          "avg1": 11.56,
+          "avg7": 11.64,
+          "avg30": 12.62,
+          "reverseHoloAvg1": 0.0,
+          "reverseHoloAvg7": 0.0,
+          "reverseHoloAvg30": 0.0
+        }
+      }
+    },
+    {
+      "id": "sv6-182",
+      "name": "Probopass",
+      "supertype": "Pok\u00e9mon",
+      "subtypes": [
+        "Stage 1"
+      ],
+      "hp": "140",
+      "types": [
+        "Fighting"
+      ],
+      "evolvesFrom": "Nosepass",
+      "attacks": [
+        {
+          "name": "Assault Laser",
+          "cost": [
+            "Colorless",
+            "Colorless",
+            "Colorless"
+          ],
+          "convertedEnergyCost": 3,
+          "damage": "80+",
+          "text": "If your opponent's Active Pok\u00e9mon has a Pok\u00e9mon Tool attached, this attack does 80 more damage."
+        },
+        {
+          "name": "Land Crush",
+          "cost": [
+            "Fighting",
+            "Colorless",
+            "Colorless",
+            "Colorless"
+          ],
+          "convertedEnergyCost": 4,
+          "damage": "120",
+          "text": ""
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "Grass",
+          "value": "\u00d72"
+        }
+      ],
+      "retreatCost": [
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedRetreatCost": 3,
+      "set": {
+        "id": "sv6",
+        "name": "Twilight Masquerade",
+        "series": "Scarlet & Violet",
+        "printedTotal": 167,
+        "total": 226,
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "ptcgoCode": "TWM",
+        "releaseDate": "2024/05/24",
+        "updatedAt": "2024/05/23 15:00:00",
+        "images": {
+          "symbol": "https://images.pokemontcg.io/sv6/symbol.png",
+          "logo": "https://images.pokemontcg.io/sv6/logo.png"
+        }
+      },
+      "number": "182",
+      "artist": "Kariya",
+      "rarity": "Illustration Rare",
+      "flavorText": "Probopass radiates such a powerful magnetic field that nearby electrical appliances are rendered useless while it's around.",
+      "nationalPokedexNumbers": [
+        476
+      ],
+      "legalities": {
+        "unlimited": "Legal",
+        "standard": "Legal",
+        "expanded": "Legal"
+      },
+      "regulationMark": "H",
+      "images": {
+        "small": "https://images.pokemontcg.io/sv6/182.png",
+        "large": "https://images.pokemontcg.io/sv6/182_hires.png"
+      },
+      "tcgplayer": {
+        "url": "https://prices.pokemontcg.io/tcgplayer/sv6-182",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "holofoil": {
+            "low": 2.0,
+            "mid": 4.0,
+            "high": 33.23,
+            "market": 3.44,
+            "directLow": 5.29
+          }
+        }
+      },
+      "cardmarket": {
+        "url": "https://prices.pokemontcg.io/cardmarket/sv6-182",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "averageSellPrice": 2.45,
+          "lowPrice": 1.5,
+          "trendPrice": 2.55,
+          "germanProLow": 0.0,
+          "suggestedPrice": 0.0,
+          "reverseHoloSell": 0.0,
+          "reverseHoloLow": 0.0,
+          "reverseHoloTrend": 0.0,
+          "lowPriceExPlus": 1.95,
+          "avg1": 2.27,
+          "avg7": 2.52,
+          "avg30": 2.41,
+          "reverseHoloAvg1": 0.0,
+          "reverseHoloAvg7": 0.0,
+          "reverseHoloAvg30": 0.0
+        }
+      }
+    },
+    {
+      "id": "sv6-183",
+      "name": "Timburr",
+      "supertype": "Pok\u00e9mon",
+      "subtypes": [
+        "Basic"
+      ],
+      "hp": "80",
+      "types": [
+        "Fighting"
+      ],
+      "evolvesTo": [
+        "Gurdurr"
+      ],
+      "attacks": [
+        {
+          "name": "Best Punch",
+          "cost": [
+            "Fighting"
+          ],
+          "convertedEnergyCost": 1,
+          "damage": "40",
+          "text": "Flip a coin. If tails, this attack does nothing."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "Psychic",
+          "value": "\u00d72"
+        }
+      ],
+      "retreatCost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedRetreatCost": 2,
+      "set": {
+        "id": "sv6",
+        "name": "Twilight Masquerade",
+        "series": "Scarlet & Violet",
+        "printedTotal": 167,
+        "total": 226,
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "ptcgoCode": "TWM",
+        "releaseDate": "2024/05/24",
+        "updatedAt": "2024/05/23 15:00:00",
+        "images": {
+          "symbol": "https://images.pokemontcg.io/sv6/symbol.png",
+          "logo": "https://images.pokemontcg.io/sv6/logo.png"
+        }
+      },
+      "number": "183",
+      "artist": "Yuriko Akase",
+      "rarity": "Illustration Rare",
+      "flavorText": "It fights by swinging a piece of lumber around. It is close to evolving when it can handle heavy lumber without difficulty.",
+      "nationalPokedexNumbers": [
+        532
+      ],
+      "legalities": {
+        "unlimited": "Legal",
+        "standard": "Legal",
+        "expanded": "Legal"
+      },
+      "regulationMark": "H",
+      "images": {
+        "small": "https://images.pokemontcg.io/sv6/183.png",
+        "large": "https://images.pokemontcg.io/sv6/183_hires.png"
+      },
+      "tcgplayer": {
+        "url": "https://prices.pokemontcg.io/tcgplayer/sv6-183",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "holofoil": {
+            "low": 3.0,
+            "mid": 5.11,
+            "high": 20.0,
+            "market": 4.82,
+            "directLow": 5.11
+          }
+        }
+      },
+      "cardmarket": {
+        "url": "https://prices.pokemontcg.io/cardmarket/sv6-183",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "averageSellPrice": 4.23,
+          "lowPrice": 2.95,
+          "trendPrice": 4.22,
+          "germanProLow": 0.0,
+          "suggestedPrice": 0.0,
+          "reverseHoloSell": 0.0,
+          "reverseHoloLow": 0.0,
+          "reverseHoloTrend": 0.0,
+          "lowPriceExPlus": 2.95,
+          "avg1": 4.49,
+          "avg7": 4.33,
+          "avg30": 4.24,
+          "reverseHoloAvg1": 0.0,
+          "reverseHoloAvg7": 0.0,
+          "reverseHoloAvg30": 0.0
+        }
+      }
+    },
+    {
+      "id": "sv6-184",
+      "name": "Lairon",
+      "supertype": "Pok\u00e9mon",
+      "subtypes": [
+        "Stage 1"
+      ],
+      "hp": "110",
+      "types": [
+        "Metal"
+      ],
+      "evolvesFrom": "Aron",
+      "evolvesTo": [
+        "Aggron"
+      ],
+      "attacks": [
+        {
+          "name": "Steel Tackle",
+          "cost": [
+            "Metal"
+          ],
+          "convertedEnergyCost": 1,
+          "damage": "40",
+          "text": "This Pok\u00e9mon also does 20 damage to itself."
+        },
+        {
+          "name": "Metal Claw",
+          "cost": [
+            "Metal",
+            "Colorless",
+            "Colorless"
+          ],
+          "convertedEnergyCost": 3,
+          "damage": "60",
+          "text": ""
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "Fire",
+          "value": "\u00d72"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "Grass",
+          "value": "-30"
+        }
+      ],
+      "retreatCost": [
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedRetreatCost": 3,
+      "set": {
+        "id": "sv6",
+        "name": "Twilight Masquerade",
+        "series": "Scarlet & Violet",
+        "printedTotal": 167,
+        "total": 226,
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "ptcgoCode": "TWM",
+        "releaseDate": "2024/05/24",
+        "updatedAt": "2024/05/23 15:00:00",
+        "images": {
+          "symbol": "https://images.pokemontcg.io/sv6/symbol.png",
+          "logo": "https://images.pokemontcg.io/sv6/logo.png"
+        }
+      },
+      "number": "184",
+      "artist": "Dsuke",
+      "rarity": "Illustration Rare",
+      "flavorText": "Lairon live in mountains brimming with spring water and iron ore, so these Pok\u00e9mon often came into conflict with humans in the past.",
+      "nationalPokedexNumbers": [
+        305
+      ],
+      "legalities": {
+        "unlimited": "Legal",
+        "standard": "Legal",
+        "expanded": "Legal"
+      },
+      "regulationMark": "H",
+      "images": {
+        "small": "https://images.pokemontcg.io/sv6/184.png",
+        "large": "https://images.pokemontcg.io/sv6/184_hires.png"
+      },
+      "tcgplayer": {
+        "url": "https://prices.pokemontcg.io/tcgplayer/sv6-184",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "holofoil": {
+            "low": 1.0,
+            "mid": 5.35,
+            "high": 100.0,
+            "market": 4.31,
+            "directLow": 5.69
+          }
+        }
+      },
+      "cardmarket": {
+        "url": "https://prices.pokemontcg.io/cardmarket/sv6-184",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "averageSellPrice": 3.52,
+          "lowPrice": 1.99,
+          "trendPrice": 3.38,
+          "germanProLow": 0.0,
+          "suggestedPrice": 0.0,
+          "reverseHoloSell": 0.0,
+          "reverseHoloLow": 0.0,
+          "reverseHoloTrend": 0.0,
+          "lowPriceExPlus": 1.99,
+          "avg1": 3.85,
+          "avg7": 3.48,
+          "avg30": 3.53,
+          "reverseHoloAvg1": 0.0,
+          "reverseHoloAvg7": 0.0,
+          "reverseHoloAvg30": 0.0
+        }
+      }
+    },
+    {
+      "id": "sv6-185",
+      "name": "Applin",
+      "supertype": "Pok\u00e9mon",
+      "subtypes": [
+        "Basic"
+      ],
+      "hp": "40",
+      "types": [
+        "Dragon"
+      ],
+      "evolvesTo": [
+        "Flapple"
+      ],
+      "attacks": [
+        {
+          "name": "Find a Friend",
+          "cost": [
+            "Colorless"
+          ],
+          "convertedEnergyCost": 1,
+          "damage": "",
+          "text": "Search your deck for a Pok\u00e9mon, reveal it, and put it into your hand. Then, shuffle your deck."
+        },
+        {
+          "name": "Rolling Tackle",
+          "cost": [
+            "Grass",
+            "Fire"
+          ],
+          "convertedEnergyCost": 2,
+          "damage": "30",
+          "text": ""
+        }
+      ],
+      "retreatCost": [
+        "Colorless"
+      ],
+      "convertedRetreatCost": 1,
+      "set": {
+        "id": "sv6",
+        "name": "Twilight Masquerade",
+        "series": "Scarlet & Violet",
+        "printedTotal": 167,
+        "total": 226,
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "ptcgoCode": "TWM",
+        "releaseDate": "2024/05/24",
+        "updatedAt": "2024/05/23 15:00:00",
+        "images": {
+          "symbol": "https://images.pokemontcg.io/sv6/symbol.png",
+          "logo": "https://images.pokemontcg.io/sv6/logo.png"
+        }
+      },
+      "number": "185",
+      "artist": "Katsunori Sato",
+      "rarity": "Illustration Rare",
+      "flavorText": "Applin lives inside an apple. When an Applin is separated from its apple, its body loses moisture and the Pok\u00e9mon grows weak.",
+      "nationalPokedexNumbers": [
+        840
+      ],
+      "legalities": {
+        "unlimited": "Legal",
+        "standard": "Legal",
+        "expanded": "Legal"
+      },
+      "regulationMark": "H",
+      "images": {
+        "small": "https://images.pokemontcg.io/sv6/185.png",
+        "large": "https://images.pokemontcg.io/sv6/185_hires.png"
+      },
+      "tcgplayer": {
+        "url": "https://prices.pokemontcg.io/tcgplayer/sv6-185",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "holofoil": {
+            "low": 3.0,
+            "mid": 8.25,
+            "high": 30.0,
+            "market": 6.93,
+            "directLow": 7.02
+          }
+        }
+      },
+      "cardmarket": {
+        "url": "https://prices.pokemontcg.io/cardmarket/sv6-185",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "averageSellPrice": 4.69,
+          "lowPrice": 2.7,
+          "trendPrice": 4.61,
+          "germanProLow": 0.0,
+          "suggestedPrice": 0.0,
+          "reverseHoloSell": 0.0,
+          "reverseHoloLow": 0.0,
+          "reverseHoloTrend": 0.0,
+          "lowPriceExPlus": 2.7,
+          "avg1": 4.72,
+          "avg7": 4.64,
+          "avg30": 4.62,
+          "reverseHoloAvg1": 0.0,
+          "reverseHoloAvg7": 0.0,
+          "reverseHoloAvg30": 0.0
+        }
+      }
+    },
+    {
+      "id": "sv6-186",
+      "name": "Tatsugiri",
+      "supertype": "Pok\u00e9mon",
+      "subtypes": [
+        "Basic"
+      ],
+      "hp": "70",
+      "types": [
+        "Dragon"
+      ],
+      "abilities": [
+        {
+          "name": "Attract Customers",
+          "text": "Once during your turn, if this Pok\u00e9mon is in the Active Spot, you may look at the top 6 cards of your deck, reveal a Supporter card you find there, and put it into your hand. Shuffle the other cards back into your deck.",
+          "type": "Ability"
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Surf",
+          "cost": [
+            "Fire",
+            "Water"
+          ],
+          "convertedEnergyCost": 2,
+          "damage": "50",
+          "text": ""
+        }
+      ],
+      "retreatCost": [
+        "Colorless"
+      ],
+      "convertedRetreatCost": 1,
+      "set": {
+        "id": "sv6",
+        "name": "Twilight Masquerade",
+        "series": "Scarlet & Violet",
+        "printedTotal": 167,
+        "total": 226,
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "ptcgoCode": "TWM",
+        "releaseDate": "2024/05/24",
+        "updatedAt": "2024/05/23 15:00:00",
+        "images": {
+          "symbol": "https://images.pokemontcg.io/sv6/symbol.png",
+          "logo": "https://images.pokemontcg.io/sv6/logo.png"
+        }
+      },
+      "number": "186",
+      "artist": "osare",
+      "rarity": "Illustration Rare",
+      "flavorText": "Tatsugiri is an extremely cunning Pok\u00e9mon. It feigns weakness to lure in prey, then orders its partner to attack.",
+      "nationalPokedexNumbers": [
+        978
+      ],
+      "legalities": {
+        "unlimited": "Legal",
+        "standard": "Legal",
+        "expanded": "Legal"
+      },
+      "regulationMark": "H",
+      "images": {
+        "small": "https://images.pokemontcg.io/sv6/186.png",
+        "large": "https://images.pokemontcg.io/sv6/186_hires.png"
+      },
+      "tcgplayer": {
+        "url": "https://prices.pokemontcg.io/tcgplayer/sv6-186",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "holofoil": {
+            "low": 15.0,
+            "mid": 21.57,
+            "high": 75.0,
+            "market": 18.68,
+            "directLow": 15.99
+          }
+        }
+      },
+      "cardmarket": {
+        "url": "https://prices.pokemontcg.io/cardmarket/sv6-186",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "averageSellPrice": 14.09,
+          "lowPrice": 6.9,
+          "trendPrice": 12.76,
+          "germanProLow": 0.0,
+          "suggestedPrice": 0.0,
+          "reverseHoloSell": 0.0,
+          "reverseHoloLow": 0.0,
+          "reverseHoloTrend": 0.0,
+          "lowPriceExPlus": 7.0,
+          "avg1": 12.0,
+          "avg7": 12.54,
+          "avg30": 14.08,
+          "reverseHoloAvg1": 0.0,
+          "reverseHoloAvg7": 0.0,
+          "reverseHoloAvg30": 0.0
+        }
+      }
+    },
+    {
+      "id": "sv6-187",
+      "name": "Chansey",
+      "supertype": "Pok\u00e9mon",
+      "subtypes": [
+        "Basic"
+      ],
+      "hp": "120",
+      "types": [
+        "Colorless"
+      ],
+      "evolvesTo": [
+        "Blissey"
+      ],
+      "attacks": [
+        {
+          "name": "Lucky Attachment",
+          "cost": [
+            "Colorless"
+          ],
+          "convertedEnergyCost": 1,
+          "damage": "",
+          "text": "Attach a Basic Energy card from your hand to 1 of your Pok\u00e9mon."
+        },
+        {
+          "name": "Boundless Power",
+          "cost": [
+            "Colorless",
+            "Colorless",
+            "Colorless"
+          ],
+          "convertedEnergyCost": 3,
+          "damage": "80",
+          "text": "During your next turn, this Pok\u00e9mon can't attack."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "Fighting",
+          "value": "\u00d72"
+        }
+      ],
+      "retreatCost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedRetreatCost": 2,
+      "set": {
+        "id": "sv6",
+        "name": "Twilight Masquerade",
+        "series": "Scarlet & Violet",
+        "printedTotal": 167,
+        "total": 226,
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "ptcgoCode": "TWM",
+        "releaseDate": "2024/05/24",
+        "updatedAt": "2024/05/23 15:00:00",
+        "images": {
+          "symbol": "https://images.pokemontcg.io/sv6/symbol.png",
+          "logo": "https://images.pokemontcg.io/sv6/logo.png"
+        }
+      },
+      "number": "187",
+      "artist": "Toshinao Aoki",
+      "rarity": "Illustration Rare",
+      "flavorText": "It walks carefully to prevent its egg from breaking. However, it is extremely fast at running away.",
+      "nationalPokedexNumbers": [
+        113
+      ],
+      "legalities": {
+        "unlimited": "Legal",
+        "standard": "Legal",
+        "expanded": "Legal"
+      },
+      "regulationMark": "H",
+      "images": {
+        "small": "https://images.pokemontcg.io/sv6/187.png",
+        "large": "https://images.pokemontcg.io/sv6/187_hires.png"
+      },
+      "tcgplayer": {
+        "url": "https://prices.pokemontcg.io/tcgplayer/sv6-187",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "holofoil": {
+            "low": 17.67,
+            "mid": 24.17,
+            "high": 69.99,
+            "market": 19.36,
+            "directLow": 19.95
+          }
+        }
+      },
+      "cardmarket": {
+        "url": "https://prices.pokemontcg.io/cardmarket/sv6-187",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "averageSellPrice": 19.62,
+          "lowPrice": 10.0,
+          "trendPrice": 17.63,
+          "germanProLow": 0.0,
+          "suggestedPrice": 0.0,
+          "reverseHoloSell": 0.0,
+          "reverseHoloLow": 0.0,
+          "reverseHoloTrend": 0.0,
+          "lowPriceExPlus": 11.0,
+          "avg1": 20.61,
+          "avg7": 16.81,
+          "avg30": 19.71,
+          "reverseHoloAvg1": 0.0,
+          "reverseHoloAvg7": 0.0,
+          "reverseHoloAvg30": 0.0
+        }
+      }
+    },
+    {
+      "id": "sv6-188",
+      "name": "Eevee",
+      "supertype": "Pok\u00e9mon",
+      "subtypes": [
+        "Basic"
+      ],
+      "hp": "50",
+      "types": [
+        "Colorless"
+      ],
+      "evolvesTo": [
+        "Vaporeon",
+        "Jolteon",
+        "Flareon",
+        "Sylveon",
+        "Espeon",
+        "Umbreon",
+        "Leafeon",
+        "Glaceon"
+      ],
+      "attacks": [
+        {
+          "name": "Ascension",
+          "cost": [
+            "Colorless"
+          ],
+          "convertedEnergyCost": 1,
+          "damage": "",
+          "text": "Search your deck for a card that evolves from this Pok\u00e9mon and put it onto this Pok\u00e9mon to evolve it. Then, shuffle your deck."
+        },
+        {
+          "name": "Quick Attack",
+          "cost": [
+            "Colorless",
+            "Colorless",
+            "Colorless"
+          ],
+          "convertedEnergyCost": 3,
+          "damage": "20+",
+          "text": "Flip a coin. If heads, this attack does 20 more damage."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "Fighting",
+          "value": "\u00d72"
+        }
+      ],
+      "retreatCost": [
+        "Colorless"
+      ],
+      "convertedRetreatCost": 1,
+      "set": {
+        "id": "sv6",
+        "name": "Twilight Masquerade",
+        "series": "Scarlet & Violet",
+        "printedTotal": 167,
+        "total": 226,
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "ptcgoCode": "TWM",
+        "releaseDate": "2024/05/24",
+        "updatedAt": "2024/05/23 15:00:00",
+        "images": {
+          "symbol": "https://images.pokemontcg.io/sv6/symbol.png",
+          "logo": "https://images.pokemontcg.io/sv6/logo.png"
+        }
+      },
+      "number": "188",
+      "artist": "Narumi Sato",
+      "rarity": "Illustration Rare",
+      "flavorText": "Its genetic code is irregular. It may mutate if it is exposed to radiation from element stones.",
+      "nationalPokedexNumbers": [
+        133
+      ],
+      "legalities": {
+        "unlimited": "Legal",
+        "standard": "Legal",
+        "expanded": "Legal"
+      },
+      "regulationMark": "H",
+      "images": {
+        "small": "https://images.pokemontcg.io/sv6/188.png",
+        "large": "https://images.pokemontcg.io/sv6/188_hires.png"
+      },
+      "tcgplayer": {
+        "url": "https://prices.pokemontcg.io/tcgplayer/sv6-188",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "holofoil": {
+            "low": 63.67,
+            "mid": 79.74,
+            "high": 237.0,
+            "market": 66.21,
+            "directLow": null
+          }
+        }
+      },
+      "cardmarket": {
+        "url": "https://prices.pokemontcg.io/cardmarket/sv6-188",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "averageSellPrice": 70.89,
+          "lowPrice": 39.0,
+          "trendPrice": 55.37,
+          "germanProLow": 0.0,
+          "suggestedPrice": 0.0,
+          "reverseHoloSell": 0.0,
+          "reverseHoloLow": 0.0,
+          "reverseHoloTrend": 0.0,
+          "lowPriceExPlus": 47.99,
+          "avg1": 57.5,
+          "avg7": 60.01,
+          "avg30": 71.46,
+          "reverseHoloAvg1": 0.0,
+          "reverseHoloAvg7": 0.0,
+          "reverseHoloAvg30": 0.0
+        }
+      }
+    },
+    {
+      "id": "sv6-189",
+      "name": "Sinistcha ex",
+      "supertype": "Pok\u00e9mon",
+      "subtypes": [
+        "Stage 1",
+        "ex"
+      ],
+      "hp": "240",
+      "types": [
+        "Grass"
+      ],
+      "evolvesFrom": "Poltchageist",
+      "rules": [
+        "Pok\u00e9mon ex rule: When your Pok\u00e9mon ex is Knocked Out, your opponent takes 2 Prize cards."
+      ],
+      "attacks": [
+        {
+          "name": "Re-Brew",
+          "cost": [
+            "Colorless"
+          ],
+          "convertedEnergyCost": 1,
+          "damage": "",
+          "text": "Put 2 damage counters on 1 of your opponent's Pok\u00e9mon for each Basic Grass Energy card in your discard pile. Then, shuffle those Energy cards into your deck."
+        },
+        {
+          "name": "Matcha Splash",
+          "cost": [
+            "Grass",
+            "Colorless"
+          ],
+          "convertedEnergyCost": 2,
+          "damage": "120",
+          "text": "Heal 30 damage from each of your Pok\u00e9mon."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "Fire",
+          "value": "\u00d72"
+        }
+      ],
+      "retreatCost": [
+        "Colorless"
+      ],
+      "convertedRetreatCost": 1,
+      "set": {
+        "id": "sv6",
+        "name": "Twilight Masquerade",
+        "series": "Scarlet & Violet",
+        "printedTotal": 167,
+        "total": 226,
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "ptcgoCode": "TWM",
+        "releaseDate": "2024/05/24",
+        "updatedAt": "2024/05/23 15:00:00",
+        "images": {
+          "symbol": "https://images.pokemontcg.io/sv6/symbol.png",
+          "logo": "https://images.pokemontcg.io/sv6/logo.png"
+        }
+      },
+      "number": "189",
+      "artist": "aky CG Works",
+      "rarity": "Ultra Rare",
+      "legalities": {
+        "unlimited": "Legal",
+        "standard": "Legal",
+        "expanded": "Legal"
+      },
+      "regulationMark": "H",
+      "images": {
+        "small": "https://images.pokemontcg.io/sv6/189.png",
+        "large": "https://images.pokemontcg.io/sv6/189_hires.png"
+      },
+      "tcgplayer": {
+        "url": "https://prices.pokemontcg.io/tcgplayer/sv6-189",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "holofoil": {
+            "low": 0.3,
+            "mid": 1.25,
+            "high": 19.99,
+            "market": 1.23,
+            "directLow": 1.72
+          }
+        }
+      },
+      "cardmarket": {
+        "url": "https://prices.pokemontcg.io/cardmarket/sv6-189",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "averageSellPrice": 1.2,
+          "lowPrice": 0.1,
+          "trendPrice": 1.26,
+          "germanProLow": 0.0,
+          "suggestedPrice": 0.0,
+          "reverseHoloSell": 0.0,
+          "reverseHoloLow": 0.0,
+          "reverseHoloTrend": 0.0,
+          "lowPriceExPlus": 0.1,
+          "avg1": 1.21,
+          "avg7": 1.27,
+          "avg30": 1.18,
+          "reverseHoloAvg1": 0.0,
+          "reverseHoloAvg7": 0.0,
+          "reverseHoloAvg30": 0.0
+        }
+      }
+    },
+    {
+      "id": "sv6-190",
+      "name": "Teal Mask Ogerpon ex",
+      "supertype": "Pok\u00e9mon",
+      "subtypes": [
+        "Basic",
+        "Tera",
+        "ex"
+      ],
+      "hp": "210",
+      "types": [
+        "Grass"
+      ],
+      "rules": [
+        "As long as this Pok\u00e9mon is on your Bench, prevent all damage done to this Pok\u00e9mon by attacks (both yours and your opponent's).",
+        "Pok\u00e9mon ex rule: When your Pok\u00e9mon ex is Knocked Out, your opponent takes 2 Prize cards.",
+        "Tera: As long as this Pok\u00e9mon is on your Bench, prevent all damage done to this Pok\u00e9mon by attacks (both yours and your opponent's)."
+      ],
+      "abilities": [
+        {
+          "name": "Teal Dance",
+          "text": "Once during your turn, you may attach a Basic Grass Energy card from your hand to this Pok\u00e9mon. If you attached Energy to a Pok\u00e9mon in this way, draw a card.",
+          "type": "Ability"
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Myriad Leaf Shower",
+          "cost": [
+            "Grass",
+            "Grass",
+            "Grass"
+          ],
+          "convertedEnergyCost": 3,
+          "damage": "30+",
+          "text": "This attack does 30 more damage for each Energy attached to both Active Pok\u00e9mon."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "Fire",
+          "value": "\u00d72"
+        }
+      ],
+      "retreatCost": [
+        "Colorless"
+      ],
+      "convertedRetreatCost": 1,
+      "set": {
+        "id": "sv6",
+        "name": "Twilight Masquerade",
+        "series": "Scarlet & Violet",
+        "printedTotal": 167,
+        "total": 226,
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "ptcgoCode": "TWM",
+        "releaseDate": "2024/05/24",
+        "updatedAt": "2024/05/23 15:00:00",
+        "images": {
+          "symbol": "https://images.pokemontcg.io/sv6/symbol.png",
+          "logo": "https://images.pokemontcg.io/sv6/logo.png"
+        }
+      },
+      "number": "190",
+      "artist": "5ban Graphics",
+      "rarity": "Ultra Rare",
+      "legalities": {
+        "unlimited": "Legal",
+        "standard": "Legal",
+        "expanded": "Legal"
+      },
+      "regulationMark": "H",
+      "images": {
+        "small": "https://images.pokemontcg.io/sv6/190.png",
+        "large": "https://images.pokemontcg.io/sv6/190_hires.png"
+      },
+      "tcgplayer": {
+        "url": "https://prices.pokemontcg.io/tcgplayer/sv6-190",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "holofoil": {
+            "low": 4.75,
+            "mid": 7.14,
+            "high": 31.0,
+            "market": 6.77,
+            "directLow": 6.59
+          }
+        }
+      },
+      "cardmarket": {
+        "url": "https://prices.pokemontcg.io/cardmarket/sv6-190",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "averageSellPrice": 5.28,
+          "lowPrice": 2.99,
+          "trendPrice": 5.18,
+          "germanProLow": 0.0,
+          "suggestedPrice": 0.0,
+          "reverseHoloSell": 0.0,
+          "reverseHoloLow": 0.0,
+          "reverseHoloTrend": 0.0,
+          "lowPriceExPlus": 2.99,
+          "avg1": 6.0,
+          "avg7": 5.3,
+          "avg30": 5.28,
+          "reverseHoloAvg1": 0.0,
+          "reverseHoloAvg7": 0.0,
+          "reverseHoloAvg30": 0.0
+        }
+      }
+    },
+    {
+      "id": "sv6-191",
+      "name": "Magcargo ex",
+      "supertype": "Pok\u00e9mon",
+      "subtypes": [
+        "Stage 1",
+        "Tera",
+        "ex"
+      ],
+      "hp": "270",
+      "types": [
+        "Fire"
+      ],
+      "evolvesFrom": "Slugma",
+      "rules": [
+        "As long as this Pok\u00e9mon is on your Bench, prevent all damage done to this Pok\u00e9mon by attacks (both yours and your opponent's).",
+        "Pok\u00e9mon ex rule: When your Pok\u00e9mon ex is Knocked Out, your opponent takes 2 Prize cards.",
+        "Tera: As long as this Pok\u00e9mon is on your Bench, prevent all damage done to this Pok\u00e9mon by attacks (both yours and your opponent's)."
+      ],
+      "attacks": [
+        {
+          "name": "Hot Magma",
+          "cost": [
+            "Fire",
+            "Colorless"
+          ],
+          "convertedEnergyCost": 2,
+          "damage": "70",
+          "text": "Your opponent's Active Pok\u00e9mon is now Burned."
+        },
+        {
+          "name": "Ground Burn",
+          "cost": [
+            "Fire",
+            "Fire",
+            "Colorless"
+          ],
+          "convertedEnergyCost": 3,
+          "damage": "140+",
+          "text": "Discard the top card of each player's deck. This attack does 140 more damage for each Energy card discarded in this way."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "Water",
+          "value": "\u00d72"
+        }
+      ],
+      "retreatCost": [
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedRetreatCost": 3,
+      "set": {
+        "id": "sv6",
+        "name": "Twilight Masquerade",
+        "series": "Scarlet & Violet",
+        "printedTotal": 167,
+        "total": 226,
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "ptcgoCode": "TWM",
+        "releaseDate": "2024/05/24",
+        "updatedAt": "2024/05/23 15:00:00",
+        "images": {
+          "symbol": "https://images.pokemontcg.io/sv6/symbol.png",
+          "logo": "https://images.pokemontcg.io/sv6/logo.png"
+        }
+      },
+      "number": "191",
+      "artist": "PLANETA Yamashita",
+      "rarity": "Ultra Rare",
+      "nationalPokedexNumbers": [
+        219
+      ],
+      "legalities": {
+        "unlimited": "Legal",
+        "standard": "Legal",
+        "expanded": "Legal"
+      },
+      "regulationMark": "H",
+      "images": {
+        "small": "https://images.pokemontcg.io/sv6/191.png",
+        "large": "https://images.pokemontcg.io/sv6/191_hires.png"
+      },
+      "tcgplayer": {
+        "url": "https://prices.pokemontcg.io/tcgplayer/sv6-191",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "holofoil": {
+            "low": 0.5,
+            "mid": 1.48,
+            "high": 14.99,
+            "market": 1.37,
+            "directLow": 1.34
+          }
+        }
+      },
+      "cardmarket": {
+        "url": "https://prices.pokemontcg.io/cardmarket/sv6-191",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "averageSellPrice": 1.76,
+          "lowPrice": 0.99,
+          "trendPrice": 1.78,
+          "germanProLow": 0.0,
+          "suggestedPrice": 0.0,
+          "reverseHoloSell": 0.0,
+          "reverseHoloLow": 0.0,
+          "reverseHoloTrend": 0.0,
+          "lowPriceExPlus": 0.99,
+          "avg1": 1.85,
+          "avg7": 1.85,
+          "avg30": 1.75,
+          "reverseHoloAvg1": 0.0,
+          "reverseHoloAvg7": 0.0,
+          "reverseHoloAvg30": 0.0
+        }
+      }
+    },
+    {
+      "id": "sv6-192",
+      "name": "Hearthflame Mask Ogerpon ex",
+      "supertype": "Pok\u00e9mon",
+      "subtypes": [
+        "Basic",
+        "Tera",
+        "ex"
+      ],
+      "hp": "210",
+      "types": [
+        "Fire"
+      ],
+      "rules": [
+        "As long as this Pok\u00e9mon is on your Bench, prevent all damage done to this Pok\u00e9mon by attacks (both yours and your opponent's).",
+        "Pok\u00e9mon ex rule: When your Pok\u00e9mon ex is Knocked Out, your opponent takes 2 Prize cards.",
+        "Tera: As long as this Pok\u00e9mon is on your Bench, prevent all damage done to this Pok\u00e9mon by attacks (both yours and your opponent's)."
+      ],
+      "attacks": [
+        {
+          "name": "Wrathful Hearth",
+          "cost": [
+            "Fire",
+            "Colorless",
+            "Colorless"
+          ],
+          "convertedEnergyCost": 3,
+          "damage": "20\u00d7",
+          "text": "This attack does 20 damage for each damage counter on this Pok\u00e9mon."
+        },
+        {
+          "name": "Dynamic Blaze",
+          "cost": [
+            "Fire",
+            "Fire",
+            "Fire"
+          ],
+          "convertedEnergyCost": 3,
+          "damage": "140+",
+          "text": "If your opponent's Active Pok\u00e9mon is an Evolution Pok\u00e9mon, this attack does 140 more damage, and discard all Energy from this Pok\u00e9mon."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "Water",
+          "value": "\u00d72"
+        }
+      ],
+      "retreatCost": [
+        "Colorless"
+      ],
+      "convertedRetreatCost": 1,
+      "set": {
+        "id": "sv6",
+        "name": "Twilight Masquerade",
+        "series": "Scarlet & Violet",
+        "printedTotal": 167,
+        "total": 226,
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "ptcgoCode": "TWM",
+        "releaseDate": "2024/05/24",
+        "updatedAt": "2024/05/23 15:00:00",
+        "images": {
+          "symbol": "https://images.pokemontcg.io/sv6/symbol.png",
+          "logo": "https://images.pokemontcg.io/sv6/logo.png"
+        }
+      },
+      "number": "192",
+      "artist": "5ban Graphics",
+      "rarity": "Ultra Rare",
+      "legalities": {
+        "unlimited": "Legal",
+        "standard": "Legal",
+        "expanded": "Legal"
+      },
+      "regulationMark": "H",
+      "images": {
+        "small": "https://images.pokemontcg.io/sv6/192.png",
+        "large": "https://images.pokemontcg.io/sv6/192_hires.png"
+      },
+      "tcgplayer": {
+        "url": "https://prices.pokemontcg.io/tcgplayer/sv6-192",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "holofoil": {
+            "low": 1.29,
+            "mid": 2.24,
+            "high": 40.0,
+            "market": 2.1,
+            "directLow": 2.02
+          }
+        }
+      },
+      "cardmarket": {
+        "url": "https://prices.pokemontcg.io/cardmarket/sv6-192",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "averageSellPrice": 2.57,
+          "lowPrice": 1.5,
+          "trendPrice": 2.48,
+          "germanProLow": 0.0,
+          "suggestedPrice": 0.0,
+          "reverseHoloSell": 0.0,
+          "reverseHoloLow": 0.0,
+          "reverseHoloTrend": 0.0,
+          "lowPriceExPlus": 1.5,
+          "avg1": 1.97,
+          "avg7": 2.58,
+          "avg30": 2.55,
+          "reverseHoloAvg1": 0.0,
+          "reverseHoloAvg7": 0.0,
+          "reverseHoloAvg30": 0.0
+        }
+      }
+    },
+    {
+      "id": "sv6-193",
+      "name": "Palafin ex",
+      "supertype": "Pok\u00e9mon",
+      "subtypes": [
+        "Stage 1",
+        "ex"
+      ],
+      "hp": "340",
+      "types": [
+        "Water"
+      ],
+      "evolvesFrom": "Finizen",
+      "rules": [
+        "Pok\u00e9mon ex rule: When your Pok\u00e9mon ex is Knocked Out, your opponent takes 2 Prize cards."
+      ],
+      "abilities": [
+        {
+          "name": "Hero's Spirit",
+          "text": "Put this Pok\u00e9mon into play only with the effect of Palafin's Zero to Hero Ability.",
+          "type": "Ability"
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Giga Impact",
+          "cost": [
+            "Water"
+          ],
+          "convertedEnergyCost": 1,
+          "damage": "250",
+          "text": "During your next turn, this Pok\u00e9mon can't attack."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "Lightning",
+          "value": "\u00d72"
+        }
+      ],
+      "retreatCost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedRetreatCost": 2,
+      "set": {
+        "id": "sv6",
+        "name": "Twilight Masquerade",
+        "series": "Scarlet & Violet",
+        "printedTotal": 167,
+        "total": 226,
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "ptcgoCode": "TWM",
+        "releaseDate": "2024/05/24",
+        "updatedAt": "2024/05/23 15:00:00",
+        "images": {
+          "symbol": "https://images.pokemontcg.io/sv6/symbol.png",
+          "logo": "https://images.pokemontcg.io/sv6/logo.png"
+        }
+      },
+      "number": "193",
+      "artist": "PLANETA Mochizuki",
+      "rarity": "Ultra Rare",
+      "nationalPokedexNumbers": [
+        964
+      ],
+      "legalities": {
+        "unlimited": "Legal",
+        "standard": "Legal",
+        "expanded": "Legal"
+      },
+      "regulationMark": "H",
+      "images": {
+        "small": "https://images.pokemontcg.io/sv6/193.png",
+        "large": "https://images.pokemontcg.io/sv6/193_hires.png"
+      },
+      "tcgplayer": {
+        "url": "https://prices.pokemontcg.io/tcgplayer/sv6-193",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "holofoil": {
+            "low": 0.99,
+            "mid": 1.87,
+            "high": 14.99,
+            "market": 1.52,
+            "directLow": 1.52
+          }
+        }
+      },
+      "cardmarket": {
+        "url": "https://prices.pokemontcg.io/cardmarket/sv6-193",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "averageSellPrice": 1.62,
+          "lowPrice": 0.95,
+          "trendPrice": 1.74,
+          "germanProLow": 0.0,
+          "suggestedPrice": 0.0,
+          "reverseHoloSell": 0.0,
+          "reverseHoloLow": 0.0,
+          "reverseHoloTrend": 0.0,
+          "lowPriceExPlus": 0.99,
+          "avg1": 1.46,
+          "avg7": 1.79,
+          "avg30": 1.64,
+          "reverseHoloAvg1": 0.0,
+          "reverseHoloAvg7": 0.0,
+          "reverseHoloAvg30": 0.0
+        }
+      }
+    },
+    {
+      "id": "sv6-194",
+      "name": "Wellspring Mask Ogerpon ex",
+      "supertype": "Pok\u00e9mon",
+      "subtypes": [
+        "Basic",
+        "Tera",
+        "ex"
+      ],
+      "hp": "210",
+      "types": [
+        "Water"
+      ],
+      "rules": [
+        "As long as this Pok\u00e9mon is on your Bench, prevent all damage done to this Pok\u00e9mon by attacks (both yours and your opponent's).",
+        "Pok\u00e9mon ex rule: When your Pok\u00e9mon ex is Knocked Out, your opponent takes 2 Prize cards.",
+        "Tera: As long as this Pok\u00e9mon is on your Bench, prevent all damage done to this Pok\u00e9mon by attacks (both yours and your opponent's)."
+      ],
+      "attacks": [
+        {
+          "name": "Sob",
+          "cost": [
+            "Colorless"
+          ],
+          "convertedEnergyCost": 1,
+          "damage": "20",
+          "text": "During your opponent's next turn, the Defending Pok\u00e9mon can't retreat."
+        },
+        {
+          "name": "Torrential Pump",
+          "cost": [
+            "Water",
+            "Colorless",
+            "Colorless"
+          ],
+          "convertedEnergyCost": 3,
+          "damage": "100",
+          "text": "You may shuffle 3 Energy attached to this Pok\u00e9mon into your deck. If you do, this attack also does 120 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "Lightning",
+          "value": "\u00d72"
+        }
+      ],
+      "retreatCost": [
+        "Colorless"
+      ],
+      "convertedRetreatCost": 1,
+      "set": {
+        "id": "sv6",
+        "name": "Twilight Masquerade",
+        "series": "Scarlet & Violet",
+        "printedTotal": 167,
+        "total": 226,
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "ptcgoCode": "TWM",
+        "releaseDate": "2024/05/24",
+        "updatedAt": "2024/05/23 15:00:00",
+        "images": {
+          "symbol": "https://images.pokemontcg.io/sv6/symbol.png",
+          "logo": "https://images.pokemontcg.io/sv6/logo.png"
+        }
+      },
+      "number": "194",
+      "artist": "5ban Graphics",
+      "rarity": "Ultra Rare",
+      "legalities": {
+        "unlimited": "Legal",
+        "standard": "Legal",
+        "expanded": "Legal"
+      },
+      "regulationMark": "H",
+      "images": {
+        "small": "https://images.pokemontcg.io/sv6/194.png",
+        "large": "https://images.pokemontcg.io/sv6/194_hires.png"
+      },
+      "tcgplayer": {
+        "url": "https://prices.pokemontcg.io/tcgplayer/sv6-194",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "holofoil": {
+            "low": 5.5,
+            "mid": 8.0,
+            "high": 24.99,
+            "market": 7.67,
+            "directLow": 7.82
+          }
+        }
+      },
+      "cardmarket": {
+        "url": "https://prices.pokemontcg.io/cardmarket/sv6-194",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "averageSellPrice": 4.09,
+          "lowPrice": 2.75,
+          "trendPrice": 4.26,
+          "germanProLow": 0.0,
+          "suggestedPrice": 0.0,
+          "reverseHoloSell": 0.0,
+          "reverseHoloLow": 0.0,
+          "reverseHoloTrend": 0.0,
+          "lowPriceExPlus": 2.75,
+          "avg1": 3.8,
+          "avg7": 4.38,
+          "avg30": 4.08,
+          "reverseHoloAvg1": 0.0,
+          "reverseHoloAvg7": 0.0,
+          "reverseHoloAvg30": 0.0
+        }
+      }
+    },
+    {
+      "id": "sv6-195",
+      "name": "Luxray ex",
+      "supertype": "Pok\u00e9mon",
+      "subtypes": [
+        "Stage 2",
+        "ex"
+      ],
+      "hp": "310",
+      "types": [
+        "Lightning"
+      ],
+      "evolvesFrom": "Luxio",
+      "rules": [
+        "Pok\u00e9mon ex rule: When your Pok\u00e9mon ex is Knocked Out, your opponent takes 2 Prize cards."
+      ],
+      "attacks": [
+        {
+          "name": "Piercing Gaze",
+          "cost": [
+            "Colorless",
+            "Colorless"
+          ],
+          "convertedEnergyCost": 2,
+          "damage": "120",
+          "text": "Your opponent reveals their hand. Discard a card you find there."
+        },
+        {
+          "name": "Volt Strike",
+          "cost": [
+            "Lightning",
+            "Lightning"
+          ],
+          "convertedEnergyCost": 2,
+          "damage": "250",
+          "text": "Discard all Energy from this Pok\u00e9mon."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "Fighting",
+          "value": "\u00d72"
+        }
+      ],
+      "retreatCost": [
+        "Colorless"
+      ],
+      "convertedRetreatCost": 1,
+      "set": {
+        "id": "sv6",
+        "name": "Twilight Masquerade",
+        "series": "Scarlet & Violet",
+        "printedTotal": 167,
+        "total": 226,
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "ptcgoCode": "TWM",
+        "releaseDate": "2024/05/24",
+        "updatedAt": "2024/05/23 15:00:00",
+        "images": {
+          "symbol": "https://images.pokemontcg.io/sv6/symbol.png",
+          "logo": "https://images.pokemontcg.io/sv6/logo.png"
+        }
+      },
+      "number": "195",
+      "artist": "PLANETA Yamashita",
+      "rarity": "Ultra Rare",
+      "nationalPokedexNumbers": [
+        405
+      ],
+      "legalities": {
+        "unlimited": "Legal",
+        "standard": "Legal",
+        "expanded": "Legal"
+      },
+      "regulationMark": "H",
+      "images": {
+        "small": "https://images.pokemontcg.io/sv6/195.png",
+        "large": "https://images.pokemontcg.io/sv6/195_hires.png"
+      },
+      "tcgplayer": {
+        "url": "https://prices.pokemontcg.io/tcgplayer/sv6-195",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "holofoil": {
+            "low": 1.5,
+            "mid": 2.55,
+            "high": 4321.0,
+            "market": 2.43,
+            "directLow": 3.74
+          }
+        }
+      },
+      "cardmarket": {
+        "url": "https://prices.pokemontcg.io/cardmarket/sv6-195",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "averageSellPrice": 2.53,
+          "lowPrice": 1.4,
+          "trendPrice": 2.44,
+          "germanProLow": 0.0,
+          "suggestedPrice": 0.0,
+          "reverseHoloSell": 0.0,
+          "reverseHoloLow": 0.0,
+          "reverseHoloTrend": 0.0,
+          "lowPriceExPlus": 1.4,
+          "avg1": 2.85,
+          "avg7": 2.55,
+          "avg30": 2.49,
+          "reverseHoloAvg1": 0.0,
+          "reverseHoloAvg7": 0.0,
+          "reverseHoloAvg30": 0.0
+        }
+      }
+    },
+    {
+      "id": "sv6-196",
+      "name": "Iron Thorns ex",
+      "supertype": "Pok\u00e9mon",
+      "subtypes": [
+        "Basic",
+        "ex",
+        "Future"
+      ],
+      "hp": "230",
+      "types": [
+        "Lightning"
+      ],
+      "rules": [
+        "Pok\u00e9mon ex rule: When your Pok\u00e9mon ex is Knocked Out, your opponent takes 2 Prize cards."
+      ],
+      "abilities": [
+        {
+          "name": "Initialization",
+          "text": "As long as this Pok\u00e9mon is in the Active Spot, Pok\u00e9mon with a Rule Box in play (both yours and your opponent's) have no Abilities, except for Future Pok\u00e9mon. (Pok\u00e9mon ex, Pok\u00e9mon V, etc. have Rule Boxes.)",
+          "type": "Ability"
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Volt Cyclone",
+          "cost": [
+            "Lightning",
+            "Colorless",
+            "Colorless"
+          ],
+          "convertedEnergyCost": 3,
+          "damage": "140",
+          "text": "Move an Energy from this Pok\u00e9mon to 1 of your Benched Pok\u00e9mon."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "Fighting",
+          "value": "\u00d72"
+        }
+      ],
+      "retreatCost": [
+        "Colorless",
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedRetreatCost": 4,
+      "set": {
+        "id": "sv6",
+        "name": "Twilight Masquerade",
+        "series": "Scarlet & Violet",
+        "printedTotal": 167,
+        "total": 226,
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "ptcgoCode": "TWM",
+        "releaseDate": "2024/05/24",
+        "updatedAt": "2024/05/23 15:00:00",
+        "images": {
+          "symbol": "https://images.pokemontcg.io/sv6/symbol.png",
+          "logo": "https://images.pokemontcg.io/sv6/logo.png"
+        }
+      },
+      "number": "196",
+      "artist": "PLANETA Mochizuki",
+      "rarity": "Ultra Rare",
+      "nationalPokedexNumbers": [
+        995
+      ],
+      "legalities": {
+        "unlimited": "Legal",
+        "standard": "Legal",
+        "expanded": "Legal"
+      },
+      "regulationMark": "H",
+      "images": {
+        "small": "https://images.pokemontcg.io/sv6/196.png",
+        "large": "https://images.pokemontcg.io/sv6/196_hires.png"
+      },
+      "tcgplayer": {
+        "url": "https://prices.pokemontcg.io/tcgplayer/sv6-196",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "holofoil": {
+            "low": 2.0,
+            "mid": 4.71,
+            "high": 24.99,
+            "market": 3.13,
+            "directLow": 3.13
+          }
+        }
+      },
+      "cardmarket": {
+        "url": "https://prices.pokemontcg.io/cardmarket/sv6-196",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "averageSellPrice": 3.82,
+          "lowPrice": 1.48,
+          "trendPrice": 3.35,
+          "germanProLow": 0.0,
+          "suggestedPrice": 0.0,
+          "reverseHoloSell": 0.0,
+          "reverseHoloLow": 0.0,
+          "reverseHoloTrend": 0.0,
+          "lowPriceExPlus": 1.48,
+          "avg1": 4.12,
+          "avg7": 3.54,
+          "avg30": 3.86,
+          "reverseHoloAvg1": 0.0,
+          "reverseHoloAvg7": 0.0,
+          "reverseHoloAvg30": 0.0
+        }
+      }
+    },
+    {
+      "id": "sv6-197",
+      "name": "Scream Tail ex",
+      "supertype": "Pok\u00e9mon",
+      "subtypes": [
+        "Basic",
+        "ex",
+        "Ancient"
+      ],
+      "hp": "190",
+      "types": [
+        "Psychic"
+      ],
+      "rules": [
+        "Pok\u00e9mon ex rule: When your Pok\u00e9mon ex is Knocked Out, your opponent takes 2 Prize cards."
+      ],
+      "attacks": [
+        {
+          "name": "Scream",
+          "cost": [
+            "Colorless"
+          ],
+          "convertedEnergyCost": 1,
+          "damage": "",
+          "text": "You can use this attack only if you go second, and only during your first turn. Your opponent can't play any Supporter cards from their hand during their next turn."
+        },
+        {
+          "name": "Crunch",
+          "cost": [
+            "Psychic",
+            "Colorless",
+            "Colorless"
+          ],
+          "convertedEnergyCost": 3,
+          "damage": "120",
+          "text": "Discard an Energy from your opponent's Active Pok\u00e9mon."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "Darkness",
+          "value": "\u00d72"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "Fighting",
+          "value": "-30"
+        }
+      ],
+      "retreatCost": [
+        "Colorless"
+      ],
+      "convertedRetreatCost": 1,
+      "set": {
+        "id": "sv6",
+        "name": "Twilight Masquerade",
+        "series": "Scarlet & Violet",
+        "printedTotal": 167,
+        "total": 226,
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "ptcgoCode": "TWM",
+        "releaseDate": "2024/05/24",
+        "updatedAt": "2024/05/23 15:00:00",
+        "images": {
+          "symbol": "https://images.pokemontcg.io/sv6/symbol.png",
+          "logo": "https://images.pokemontcg.io/sv6/logo.png"
+        }
+      },
+      "number": "197",
+      "artist": "PLANETA Hiiragi",
+      "rarity": "Ultra Rare",
+      "nationalPokedexNumbers": [
+        985
+      ],
+      "legalities": {
+        "unlimited": "Legal",
+        "standard": "Legal",
+        "expanded": "Legal"
+      },
+      "regulationMark": "H",
+      "images": {
+        "small": "https://images.pokemontcg.io/sv6/197.png",
+        "large": "https://images.pokemontcg.io/sv6/197_hires.png"
+      },
+      "tcgplayer": {
+        "url": "https://prices.pokemontcg.io/tcgplayer/sv6-197",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "holofoil": {
+            "low": 1.0,
+            "mid": 1.88,
+            "high": 19.99,
+            "market": 1.85,
+            "directLow": 2.78
+          }
+        }
+      },
+      "cardmarket": {
+        "url": "https://prices.pokemontcg.io/cardmarket/sv6-197",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "averageSellPrice": 1.63,
+          "lowPrice": 0.9,
+          "trendPrice": 1.59,
+          "germanProLow": 0.0,
+          "suggestedPrice": 0.0,
+          "reverseHoloSell": 0.0,
+          "reverseHoloLow": 0.0,
+          "reverseHoloTrend": 0.0,
+          "lowPriceExPlus": 1.0,
+          "avg1": 2.21,
+          "avg7": 1.53,
+          "avg30": 1.62,
+          "reverseHoloAvg1": 0.0,
+          "reverseHoloAvg7": 0.0,
+          "reverseHoloAvg30": 0.0
+        }
+      }
+    },
+    {
+      "id": "sv6-198",
+      "name": "Greninja ex",
+      "supertype": "Pok\u00e9mon",
+      "subtypes": [
+        "Stage 2",
+        "Tera",
+        "ex"
+      ],
+      "hp": "310",
+      "types": [
+        "Fighting"
+      ],
+      "evolvesFrom": "Frogadier",
+      "rules": [
+        "As long as this Pok\u00e9mon is on your Bench, prevent all damage done to this Pok\u00e9mon by attacks (both yours and your opponent's).",
+        "Pok\u00e9mon ex rule: When your Pok\u00e9mon ex is Knocked Out, your opponent takes 2 Prize cards.",
+        "Tera: As long as this Pok\u00e9mon is on your Bench, prevent all damage done to this Pok\u00e9mon by attacks (both yours and your opponent's)."
+      ],
+      "attacks": [
+        {
+          "name": "Shinobi Blade",
+          "cost": [
+            "Water"
+          ],
+          "convertedEnergyCost": 1,
+          "damage": "170",
+          "text": "You may search your deck for a card and put it into your hand. Then, shuffle your deck."
+        },
+        {
+          "name": "Mirage Barrage",
+          "cost": [
+            "Water",
+            "Colorless",
+            "Colorless"
+          ],
+          "convertedEnergyCost": 3,
+          "damage": "",
+          "text": "Discard 2 Energy from this Pok\u00e9mon. This attack does 120 damage to 2 of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "Psychic",
+          "value": "\u00d72"
+        }
+      ],
+      "retreatCost": [
+        "Colorless"
+      ],
+      "convertedRetreatCost": 1,
+      "set": {
+        "id": "sv6",
+        "name": "Twilight Masquerade",
+        "series": "Scarlet & Violet",
+        "printedTotal": 167,
+        "total": 226,
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "ptcgoCode": "TWM",
+        "releaseDate": "2024/05/24",
+        "updatedAt": "2024/05/23 15:00:00",
+        "images": {
+          "symbol": "https://images.pokemontcg.io/sv6/symbol.png",
+          "logo": "https://images.pokemontcg.io/sv6/logo.png"
+        }
+      },
+      "number": "198",
+      "artist": "5ban Graphics",
+      "rarity": "Ultra Rare",
+      "nationalPokedexNumbers": [
+        658
+      ],
+      "legalities": {
+        "unlimited": "Legal",
+        "standard": "Legal",
+        "expanded": "Legal"
+      },
+      "regulationMark": "H",
+      "images": {
+        "small": "https://images.pokemontcg.io/sv6/198.png",
+        "large": "https://images.pokemontcg.io/sv6/198_hires.png"
+      },
+      "tcgplayer": {
+        "url": "https://prices.pokemontcg.io/tcgplayer/sv6-198",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "holofoil": {
+            "low": 7.99,
+            "mid": 11.38,
+            "high": 40.0,
+            "market": 9.11,
+            "directLow": 8.93
+          }
+        }
+      },
+      "cardmarket": {
+        "url": "https://prices.pokemontcg.io/cardmarket/sv6-198",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "averageSellPrice": 5.49,
+          "lowPrice": 3.5,
+          "trendPrice": 5.6,
+          "germanProLow": 0.0,
+          "suggestedPrice": 0.0,
+          "reverseHoloSell": 0.0,
+          "reverseHoloLow": 0.0,
+          "reverseHoloTrend": 0.0,
+          "lowPriceExPlus": 3.5,
+          "avg1": 4.5,
+          "avg7": 5.17,
+          "avg30": 5.48,
+          "reverseHoloAvg1": 0.0,
+          "reverseHoloAvg7": 0.0,
+          "reverseHoloAvg30": 0.0
+        }
+      }
+    },
+    {
+      "id": "sv6-199",
+      "name": "Cornerstone Mask Ogerpon ex",
+      "supertype": "Pok\u00e9mon",
+      "subtypes": [
+        "Basic",
+        "Tera",
+        "ex"
+      ],
+      "hp": "210",
+      "types": [
+        "Fighting"
+      ],
+      "rules": [
+        "As long as this Pok\u00e9mon is on your Bench, prevent all damage done to this Pok\u00e9mon by attacks (both yours and your opponent's).",
+        "Pok\u00e9mon ex rule: When your Pok\u00e9mon ex is Knocked Out, your opponent takes 2 Prize cards.",
+        "Tera: As long as this Pok\u00e9mon is on your Bench, prevent all damage done to this Pok\u00e9mon by attacks (both yours and your opponent's)."
+      ],
+      "abilities": [
+        {
+          "name": "Cornerstone Stance",
+          "text": "Prevent all damage from attacks done to this Pok\u00e9mon by your opponent's Pok\u00e9mon that have an Ability.",
+          "type": "Ability"
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Demolish",
+          "cost": [
+            "Fighting",
+            "Colorless",
+            "Colorless"
+          ],
+          "convertedEnergyCost": 3,
+          "damage": "140",
+          "text": "This attack's damage isn't affected by Weakness or Resistance, or by any effects on your opponent's Active Pok\u00e9mon."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "Grass",
+          "value": "\u00d72"
+        }
+      ],
+      "retreatCost": [
+        "Colorless"
+      ],
+      "convertedRetreatCost": 1,
+      "set": {
+        "id": "sv6",
+        "name": "Twilight Masquerade",
+        "series": "Scarlet & Violet",
+        "printedTotal": 167,
+        "total": 226,
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "ptcgoCode": "TWM",
+        "releaseDate": "2024/05/24",
+        "updatedAt": "2024/05/23 15:00:00",
+        "images": {
+          "symbol": "https://images.pokemontcg.io/sv6/symbol.png",
+          "logo": "https://images.pokemontcg.io/sv6/logo.png"
+        }
+      },
+      "number": "199",
+      "artist": "5ban Graphics",
+      "rarity": "Ultra Rare",
+      "legalities": {
+        "unlimited": "Legal",
+        "standard": "Legal",
+        "expanded": "Legal"
+      },
+      "regulationMark": "H",
+      "images": {
+        "small": "https://images.pokemontcg.io/sv6/199.png",
+        "large": "https://images.pokemontcg.io/sv6/199_hires.png"
+      },
+      "tcgplayer": {
+        "url": "https://prices.pokemontcg.io/tcgplayer/sv6-199",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "holofoil": {
+            "low": 3.2,
+            "mid": 5.99,
+            "high": 25.0,
+            "market": 6.21,
+            "directLow": 8.99
+          }
+        }
+      },
+      "cardmarket": {
+        "url": "https://prices.pokemontcg.io/cardmarket/sv6-199",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "averageSellPrice": 3.79,
+          "lowPrice": 2.5,
+          "trendPrice": 3.94,
+          "germanProLow": 0.0,
+          "suggestedPrice": 0.0,
+          "reverseHoloSell": 0.0,
+          "reverseHoloLow": 0.0,
+          "reverseHoloTrend": 0.0,
+          "lowPriceExPlus": 2.9,
+          "avg1": 4.4,
+          "avg7": 3.82,
+          "avg30": 3.82,
+          "reverseHoloAvg1": 0.0,
+          "reverseHoloAvg7": 0.0,
+          "reverseHoloAvg30": 0.0
+        }
+      }
+    },
+    {
+      "id": "sv6-200",
+      "name": "Dragapult ex",
+      "supertype": "Pok\u00e9mon",
+      "subtypes": [
+        "Stage 2",
+        "Tera",
+        "ex"
+      ],
+      "hp": "320",
+      "types": [
+        "Dragon"
+      ],
+      "evolvesFrom": "Drakloak",
+      "rules": [
+        "As long as this Pok\u00e9mon is on your Bench, prevent all damage done to this Pok\u00e9mon by attacks (both yours and your opponent's).",
+        "Pok\u00e9mon ex rule: When your Pok\u00e9mon ex is Knocked Out, your opponent takes 2 Prize cards.",
+        "Tera: As long as this Pok\u00e9mon is on your Bench, prevent all damage done to this Pok\u00e9mon by attacks (both yours and your opponent's)."
+      ],
+      "attacks": [
+        {
+          "name": "Jet Headbutt",
+          "cost": [
+            "Colorless"
+          ],
+          "convertedEnergyCost": 1,
+          "damage": "70",
+          "text": ""
+        },
+        {
+          "name": "Phantom Dive",
+          "cost": [
+            "Fire",
+            "Psychic"
+          ],
+          "convertedEnergyCost": 2,
+          "damage": "200",
+          "text": "Put 6 damage counters on your opponent's Benched Pok\u00e9mon in any way you like."
+        }
+      ],
+      "retreatCost": [
+        "Colorless"
+      ],
+      "convertedRetreatCost": 1,
+      "set": {
+        "id": "sv6",
+        "name": "Twilight Masquerade",
+        "series": "Scarlet & Violet",
+        "printedTotal": 167,
+        "total": 226,
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "ptcgoCode": "TWM",
+        "releaseDate": "2024/05/24",
+        "updatedAt": "2024/05/23 15:00:00",
+        "images": {
+          "symbol": "https://images.pokemontcg.io/sv6/symbol.png",
+          "logo": "https://images.pokemontcg.io/sv6/logo.png"
+        }
+      },
+      "number": "200",
+      "artist": "5ban Graphics",
+      "rarity": "Ultra Rare",
+      "nationalPokedexNumbers": [
+        887
+      ],
+      "legalities": {
+        "unlimited": "Legal",
+        "standard": "Legal",
+        "expanded": "Legal"
+      },
+      "regulationMark": "H",
+      "images": {
+        "small": "https://images.pokemontcg.io/sv6/200.png",
+        "large": "https://images.pokemontcg.io/sv6/200_hires.png"
+      },
+      "tcgplayer": {
+        "url": "https://prices.pokemontcg.io/tcgplayer/sv6-200",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "holofoil": {
+            "low": 10.0,
+            "mid": 15.0,
+            "high": 50.0,
+            "market": 11.6,
+            "directLow": 14.51
+          }
+        }
+      },
+      "cardmarket": {
+        "url": "https://prices.pokemontcg.io/cardmarket/sv6-200",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "averageSellPrice": 9.69,
+          "lowPrice": 6.99,
+          "trendPrice": 10.2,
+          "germanProLow": 0.0,
+          "suggestedPrice": 0.0,
+          "reverseHoloSell": 0.0,
+          "reverseHoloLow": 0.0,
+          "reverseHoloTrend": 0.0,
+          "lowPriceExPlus": 6.99,
+          "avg1": 9.11,
+          "avg7": 9.43,
+          "avg30": 9.64,
+          "reverseHoloAvg1": 0.0,
+          "reverseHoloAvg7": 0.0,
+          "reverseHoloAvg30": 0.0
+        }
+      }
+    },
+    {
+      "id": "sv6-201",
+      "name": "Blissey ex",
+      "supertype": "Pok\u00e9mon",
+      "subtypes": [
+        "Stage 1",
+        "ex"
+      ],
+      "hp": "300",
+      "types": [
+        "Colorless"
+      ],
+      "evolvesFrom": "Chansey",
+      "rules": [
+        "Pok\u00e9mon ex rule: When your Pok\u00e9mon ex is Knocked Out, your opponent takes 2 Prize cards."
+      ],
+      "abilities": [
+        {
+          "name": "Happy Switch",
+          "text": "Once during your turn, you may move a Basic Energy from 1 of your Pok\u00e9mon to another of your Pok\u00e9mon.",
+          "type": "Ability"
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Return",
+          "cost": [
+            "Colorless",
+            "Colorless",
+            "Colorless"
+          ],
+          "convertedEnergyCost": 3,
+          "damage": "180",
+          "text": "You may draw cards until you have 6 cards in your hand."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "Fighting",
+          "value": "\u00d72"
+        }
+      ],
+      "retreatCost": [
+        "Colorless",
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedRetreatCost": 4,
+      "set": {
+        "id": "sv6",
+        "name": "Twilight Masquerade",
+        "series": "Scarlet & Violet",
+        "printedTotal": 167,
+        "total": 226,
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "ptcgoCode": "TWM",
+        "releaseDate": "2024/05/24",
+        "updatedAt": "2024/05/23 15:00:00",
+        "images": {
+          "symbol": "https://images.pokemontcg.io/sv6/symbol.png",
+          "logo": "https://images.pokemontcg.io/sv6/logo.png"
+        }
+      },
+      "number": "201",
+      "artist": "PLANETA Tsuji",
+      "rarity": "Ultra Rare",
+      "nationalPokedexNumbers": [
+        242
+      ],
+      "legalities": {
+        "unlimited": "Legal",
+        "standard": "Legal",
+        "expanded": "Legal"
+      },
+      "regulationMark": "H",
+      "images": {
+        "small": "https://images.pokemontcg.io/sv6/201.png",
+        "large": "https://images.pokemontcg.io/sv6/201_hires.png"
+      },
+      "tcgplayer": {
+        "url": "https://prices.pokemontcg.io/tcgplayer/sv6-201",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "holofoil": {
+            "low": 2.0,
+            "mid": 3.34,
+            "high": 15.0,
+            "market": 3.44,
+            "directLow": 4.99
+          }
+        }
+      },
+      "cardmarket": {
+        "url": "https://prices.pokemontcg.io/cardmarket/sv6-201",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "averageSellPrice": 2.79,
+          "lowPrice": 1.85,
+          "trendPrice": 2.95,
+          "germanProLow": 0.0,
+          "suggestedPrice": 0.0,
+          "reverseHoloSell": 0.0,
+          "reverseHoloLow": 0.0,
+          "reverseHoloTrend": 0.0,
+          "lowPriceExPlus": 1.85,
+          "avg1": 2.4,
+          "avg7": 2.84,
+          "avg30": 2.76,
+          "reverseHoloAvg1": 0.0,
+          "reverseHoloAvg7": 0.0,
+          "reverseHoloAvg30": 0.0
+        }
+      }
+    },
+    {
+      "id": "sv6-202",
+      "name": "Bloodmoon Ursaluna ex",
+      "supertype": "Pok\u00e9mon",
+      "subtypes": [
+        "Basic",
+        "ex"
+      ],
+      "hp": "260",
+      "types": [
+        "Colorless"
+      ],
+      "rules": [
+        "Pok\u00e9mon ex rule: When your Pok\u00e9mon ex is Knocked Out, your opponent takes 2 Prize cards."
+      ],
+      "abilities": [
+        {
+          "name": "Seasoned Skill",
+          "text": "Blood Moon used by this Pok\u00e9mon costs Colorless less for each Prize card your opponent has taken.",
+          "type": "Ability"
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Blood Moon",
+          "cost": [
+            "Colorless",
+            "Colorless",
+            "Colorless",
+            "Colorless",
+            "Colorless"
+          ],
+          "convertedEnergyCost": 5,
+          "damage": "240",
+          "text": "During your next turn, this Pok\u00e9mon can't attack."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "Fighting",
+          "value": "\u00d72"
+        }
+      ],
+      "retreatCost": [
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedRetreatCost": 3,
+      "set": {
+        "id": "sv6",
+        "name": "Twilight Masquerade",
+        "series": "Scarlet & Violet",
+        "printedTotal": 167,
+        "total": 226,
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "ptcgoCode": "TWM",
+        "releaseDate": "2024/05/24",
+        "updatedAt": "2024/05/23 15:00:00",
+        "images": {
+          "symbol": "https://images.pokemontcg.io/sv6/symbol.png",
+          "logo": "https://images.pokemontcg.io/sv6/logo.png"
+        }
+      },
+      "number": "202",
+      "artist": "aky CG Works",
+      "rarity": "Ultra Rare",
+      "nationalPokedexNumbers": [
+        901
+      ],
+      "legalities": {
+        "unlimited": "Legal",
+        "standard": "Legal",
+        "expanded": "Legal"
+      },
+      "regulationMark": "H",
+      "images": {
+        "small": "https://images.pokemontcg.io/sv6/202.png",
+        "large": "https://images.pokemontcg.io/sv6/202_hires.png"
+      },
+      "tcgplayer": {
+        "url": "https://prices.pokemontcg.io/tcgplayer/sv6-202",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "holofoil": {
+            "low": 1.94,
+            "mid": 3.15,
+            "high": 33.0,
+            "market": 3.26,
+            "directLow": 3.3
+          }
+        }
+      },
+      "cardmarket": {
+        "url": "https://prices.pokemontcg.io/cardmarket/sv6-202",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "averageSellPrice": 2.58,
+          "lowPrice": 1.5,
+          "trendPrice": 2.75,
+          "germanProLow": 0.0,
+          "suggestedPrice": 0.0,
+          "reverseHoloSell": 0.0,
+          "reverseHoloLow": 0.0,
+          "reverseHoloTrend": 0.0,
+          "lowPriceExPlus": 1.5,
+          "avg1": 2.83,
+          "avg7": 2.72,
+          "avg30": 2.58,
+          "reverseHoloAvg1": 0.0,
+          "reverseHoloAvg7": 0.0,
+          "reverseHoloAvg30": 0.0
+        }
+      }
+    },
+    {
+      "id": "sv6-203",
+      "name": "Caretaker",
+      "supertype": "Trainer",
+      "subtypes": [
+        "Supporter"
+      ],
+      "rules": [
+        "Draw 2 cards. If you drew any cards in this way and if Community Center is in play, shuffle this Caretaker into your deck instead of discarding it.",
+        "You may play only 1 Supporter card during your turn."
+      ],
+      "set": {
+        "id": "sv6",
+        "name": "Twilight Masquerade",
+        "series": "Scarlet & Violet",
+        "printedTotal": 167,
+        "total": 226,
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "ptcgoCode": "TWM",
+        "releaseDate": "2024/05/24",
+        "updatedAt": "2024/05/23 15:00:00",
+        "images": {
+          "symbol": "https://images.pokemontcg.io/sv6/symbol.png",
+          "logo": "https://images.pokemontcg.io/sv6/logo.png"
+        }
+      },
+      "number": "203",
+      "artist": "Akira Komayama",
+      "rarity": "Ultra Rare",
+      "legalities": {
+        "unlimited": "Legal",
+        "standard": "Legal",
+        "expanded": "Legal"
+      },
+      "regulationMark": "H",
+      "images": {
+        "small": "https://images.pokemontcg.io/sv6/203.png",
+        "large": "https://images.pokemontcg.io/sv6/203_hires.png"
+      },
+      "tcgplayer": {
+        "url": "https://prices.pokemontcg.io/tcgplayer/sv6-203",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "holofoil": {
+            "low": 0.5,
+            "mid": 1.09,
+            "high": 10.0,
+            "market": 0.97,
+            "directLow": 0.95
+          }
+        }
+      },
+      "cardmarket": {
+        "url": "https://prices.pokemontcg.io/cardmarket/sv6-203",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "averageSellPrice": 1.11,
+          "lowPrice": 0.5,
+          "trendPrice": 1.25,
+          "germanProLow": 0.0,
+          "suggestedPrice": 0.0,
+          "reverseHoloSell": 0.0,
+          "reverseHoloLow": 0.0,
+          "reverseHoloTrend": 0.0,
+          "lowPriceExPlus": 0.5,
+          "avg1": 1.05,
+          "avg7": 1.16,
+          "avg30": 1.12,
+          "reverseHoloAvg1": 0.0,
+          "reverseHoloAvg7": 0.0,
+          "reverseHoloAvg30": 0.0
+        }
+      }
+    },
+    {
+      "id": "sv6-204",
+      "name": "Carmine",
+      "supertype": "Trainer",
+      "subtypes": [
+        "Supporter"
+      ],
+      "rules": [
+        "If you go first, you may use this card during your first turn.    Discard your hand and draw 5 cards.",
+        "You may play only 1 Supporter card during your turn."
+      ],
+      "set": {
+        "id": "sv6",
+        "name": "Twilight Masquerade",
+        "series": "Scarlet & Violet",
+        "printedTotal": 167,
+        "total": 226,
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "ptcgoCode": "TWM",
+        "releaseDate": "2024/05/24",
+        "updatedAt": "2024/05/23 15:00:00",
+        "images": {
+          "symbol": "https://images.pokemontcg.io/sv6/symbol.png",
+          "logo": "https://images.pokemontcg.io/sv6/logo.png"
+        }
+      },
+      "number": "204",
+      "artist": "kantaro",
+      "rarity": "Ultra Rare",
+      "legalities": {
+        "unlimited": "Legal",
+        "standard": "Legal",
+        "expanded": "Legal"
+      },
+      "regulationMark": "H",
+      "images": {
+        "small": "https://images.pokemontcg.io/sv6/204.png",
+        "large": "https://images.pokemontcg.io/sv6/204_hires.png"
+      },
+      "tcgplayer": {
+        "url": "https://prices.pokemontcg.io/tcgplayer/sv6-204",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "holofoil": {
+            "low": 4.0,
+            "mid": 7.99,
+            "high": 57.0,
+            "market": 8.17,
+            "directLow": 12.2
+          }
+        }
+      },
+      "cardmarket": {
+        "url": "https://prices.pokemontcg.io/cardmarket/sv6-204",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "averageSellPrice": 4.73,
+          "lowPrice": 2.99,
+          "trendPrice": 4.74,
+          "germanProLow": 0.0,
+          "suggestedPrice": 0.0,
+          "reverseHoloSell": 0.0,
+          "reverseHoloLow": 0.0,
+          "reverseHoloTrend": 0.0,
+          "lowPriceExPlus": 2.99,
+          "avg1": 4.64,
+          "avg7": 4.43,
+          "avg30": 4.76,
+          "reverseHoloAvg1": 0.0,
+          "reverseHoloAvg7": 0.0,
+          "reverseHoloAvg30": 0.0
+        }
+      }
+    },
+    {
+      "id": "sv6-205",
+      "name": "Hassel",
+      "supertype": "Trainer",
+      "subtypes": [
+        "Supporter"
+      ],
+      "rules": [
+        "You can use this card only if any of your Pok\u00e9mon were Knocked Out during your opponent's last turn.    Look at the top 8 cards of your deck and put up to 3 of them into your hand. Shuffle the other cards back into your deck.",
+        "You may play only 1 Supporter card during your turn."
+      ],
+      "set": {
+        "id": "sv6",
+        "name": "Twilight Masquerade",
+        "series": "Scarlet & Violet",
+        "printedTotal": 167,
+        "total": 226,
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "ptcgoCode": "TWM",
+        "releaseDate": "2024/05/24",
+        "updatedAt": "2024/05/23 15:00:00",
+        "images": {
+          "symbol": "https://images.pokemontcg.io/sv6/symbol.png",
+          "logo": "https://images.pokemontcg.io/sv6/logo.png"
+        }
+      },
+      "number": "205",
+      "artist": "GOSSAN",
+      "rarity": "Ultra Rare",
+      "legalities": {
+        "unlimited": "Legal",
+        "standard": "Legal",
+        "expanded": "Legal"
+      },
+      "regulationMark": "H",
+      "images": {
+        "small": "https://images.pokemontcg.io/sv6/205.png",
+        "large": "https://images.pokemontcg.io/sv6/205_hires.png"
+      },
+      "tcgplayer": {
+        "url": "https://prices.pokemontcg.io/tcgplayer/sv6-205",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "holofoil": {
+            "low": 0.64,
+            "mid": 1.37,
+            "high": 125.0,
+            "market": 1.19,
+            "directLow": 1.47
+          }
+        }
+      },
+      "cardmarket": {
+        "url": "https://prices.pokemontcg.io/cardmarket/sv6-205",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "averageSellPrice": 1.27,
+          "lowPrice": 0.02,
+          "trendPrice": 1.16,
+          "germanProLow": 0.0,
+          "suggestedPrice": 0.0,
+          "reverseHoloSell": 0.0,
+          "reverseHoloLow": 0.0,
+          "reverseHoloTrend": 0.0,
+          "lowPriceExPlus": 0.02,
+          "avg1": 1.26,
+          "avg7": 1.26,
+          "avg30": 1.26,
+          "reverseHoloAvg1": 0.0,
+          "reverseHoloAvg7": 0.0,
+          "reverseHoloAvg30": 0.0
+        }
+      }
+    },
+    {
+      "id": "sv6-206",
+      "name": "Kieran",
+      "supertype": "Trainer",
+      "subtypes": [
+        "Supporter"
+      ],
+      "rules": [
+        "Choose 1:    \u2022 Switch your Active Pok\u00e9mon with 1 of your Benched Pok\u00e9mon.  \u2022 During this turn, attacks used by your Pok\u00e9mon do 30 more damage to your opponent's Active Pok\u00e9mon ex and Active Pok\u00e9mon V (before applying Weakness and Resistance).",
+        "You may play only 1 Supporter card during your turn."
+      ],
+      "set": {
+        "id": "sv6",
+        "name": "Twilight Masquerade",
+        "series": "Scarlet & Violet",
+        "printedTotal": 167,
+        "total": 226,
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "ptcgoCode": "TWM",
+        "releaseDate": "2024/05/24",
+        "updatedAt": "2024/05/23 15:00:00",
+        "images": {
+          "symbol": "https://images.pokemontcg.io/sv6/symbol.png",
+          "logo": "https://images.pokemontcg.io/sv6/logo.png"
+        }
+      },
+      "number": "206",
+      "artist": "GIDORA",
+      "rarity": "Ultra Rare",
+      "legalities": {
+        "unlimited": "Legal",
+        "standard": "Legal",
+        "expanded": "Legal"
+      },
+      "regulationMark": "H",
+      "images": {
+        "small": "https://images.pokemontcg.io/sv6/206.png",
+        "large": "https://images.pokemontcg.io/sv6/206_hires.png"
+      },
+      "tcgplayer": {
+        "url": "https://prices.pokemontcg.io/tcgplayer/sv6-206",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "holofoil": {
+            "low": 2.0,
+            "mid": 3.49,
+            "high": 20.0,
+            "market": 3.44,
+            "directLow": 3.39
+          }
+        }
+      },
+      "cardmarket": {
+        "url": "https://prices.pokemontcg.io/cardmarket/sv6-206",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "averageSellPrice": 2.62,
+          "lowPrice": 1.0,
+          "trendPrice": 2.57,
+          "germanProLow": 0.0,
+          "suggestedPrice": 0.0,
+          "reverseHoloSell": 0.0,
+          "reverseHoloLow": 0.0,
+          "reverseHoloTrend": 0.0,
+          "lowPriceExPlus": 1.3,
+          "avg1": 2.24,
+          "avg7": 2.44,
+          "avg30": 2.63,
+          "reverseHoloAvg1": 0.0,
+          "reverseHoloAvg7": 0.0,
+          "reverseHoloAvg30": 0.0
+        }
+      }
+    },
+    {
+      "id": "sv6-207",
+      "name": "Lana's Aid",
+      "supertype": "Trainer",
+      "subtypes": [
+        "Supporter"
+      ],
+      "rules": [
+        "Put up to 3 in any combination of Pok\u00e9mon that don't have a Rule Box and Basic Energy cards from your discard pile into your hand. (Pok\u00e9mon ex, Pok\u00e9mon V, etc. have Rule Boxes.)",
+        "You may play only 1 Supporter card during your turn."
+      ],
+      "set": {
+        "id": "sv6",
+        "name": "Twilight Masquerade",
+        "series": "Scarlet & Violet",
+        "printedTotal": 167,
+        "total": 226,
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "ptcgoCode": "TWM",
+        "releaseDate": "2024/05/24",
+        "updatedAt": "2024/05/23 15:00:00",
+        "images": {
+          "symbol": "https://images.pokemontcg.io/sv6/symbol.png",
+          "logo": "https://images.pokemontcg.io/sv6/logo.png"
+        }
+      },
+      "number": "207",
+      "artist": "Atsushi Furusawa",
+      "rarity": "Ultra Rare",
+      "legalities": {
+        "unlimited": "Legal",
+        "standard": "Legal",
+        "expanded": "Legal"
+      },
+      "regulationMark": "H",
+      "images": {
+        "small": "https://images.pokemontcg.io/sv6/207.png",
+        "large": "https://images.pokemontcg.io/sv6/207_hires.png"
+      },
+      "tcgplayer": {
+        "url": "https://prices.pokemontcg.io/tcgplayer/sv6-207",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "holofoil": {
+            "low": 3.0,
+            "mid": 5.44,
+            "high": 24.0,
+            "market": 4.72,
+            "directLow": 5.65
+          }
+        }
+      },
+      "cardmarket": {
+        "url": "https://prices.pokemontcg.io/cardmarket/sv6-207",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "averageSellPrice": 3.33,
+          "lowPrice": 1.8,
+          "trendPrice": 3.34,
+          "germanProLow": 0.0,
+          "suggestedPrice": 0.0,
+          "reverseHoloSell": 0.0,
+          "reverseHoloLow": 0.0,
+          "reverseHoloTrend": 0.0,
+          "lowPriceExPlus": 1.8,
+          "avg1": 2.65,
+          "avg7": 3.49,
+          "avg30": 3.36,
+          "reverseHoloAvg1": 0.0,
+          "reverseHoloAvg7": 0.0,
+          "reverseHoloAvg30": 0.0
+        }
+      }
+    },
+    {
+      "id": "sv6-208",
+      "name": "Lucian",
+      "supertype": "Trainer",
+      "subtypes": [
+        "Supporter"
+      ],
+      "rules": [
+        "Each player shuffles their hand and puts it on the bottom of their deck. If either player put any cards on the bottom of their deck in this way, each player flips a coin. If heads, that player draws 6 cards. If tails, they draw 3 cards.",
+        "You may play only 1 Supporter card during your turn."
+      ],
+      "set": {
+        "id": "sv6",
+        "name": "Twilight Masquerade",
+        "series": "Scarlet & Violet",
+        "printedTotal": 167,
+        "total": 226,
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "ptcgoCode": "TWM",
+        "releaseDate": "2024/05/24",
+        "updatedAt": "2024/05/23 15:00:00",
+        "images": {
+          "symbol": "https://images.pokemontcg.io/sv6/symbol.png",
+          "logo": "https://images.pokemontcg.io/sv6/logo.png"
+        }
+      },
+      "number": "208",
+      "artist": "hncl",
+      "rarity": "Ultra Rare",
+      "legalities": {
+        "unlimited": "Legal",
+        "standard": "Legal",
+        "expanded": "Legal"
+      },
+      "regulationMark": "H",
+      "images": {
+        "small": "https://images.pokemontcg.io/sv6/208.png",
+        "large": "https://images.pokemontcg.io/sv6/208_hires.png"
+      },
+      "tcgplayer": {
+        "url": "https://prices.pokemontcg.io/tcgplayer/sv6-208",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "holofoil": {
+            "low": 0.67,
+            "mid": 1.36,
+            "high": 19.99,
+            "market": 1.25,
+            "directLow": 1.91
+          }
+        }
+      },
+      "cardmarket": {
+        "url": "https://prices.pokemontcg.io/cardmarket/sv6-208",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "averageSellPrice": 1.22,
+          "lowPrice": 0.74,
+          "trendPrice": 1.2,
+          "germanProLow": 0.0,
+          "suggestedPrice": 0.0,
+          "reverseHoloSell": 0.0,
+          "reverseHoloLow": 0.0,
+          "reverseHoloTrend": 0.0,
+          "lowPriceExPlus": 0.74,
+          "avg1": 0.9,
+          "avg7": 1.19,
+          "avg30": 1.23,
+          "reverseHoloAvg1": 0.0,
+          "reverseHoloAvg7": 0.0,
+          "reverseHoloAvg30": 0.0
+        }
+      }
+    },
+    {
+      "id": "sv6-209",
+      "name": "Perrin",
+      "supertype": "Trainer",
+      "subtypes": [
+        "Supporter"
+      ],
+      "rules": [
+        "Reveal up to 2 Pok\u00e9mon in your hand and put them into your deck. If you do, search your deck for up to that many Pok\u00e9mon, reveal them, and put them into your hand. Then, shuffle your deck.",
+        "You may play only 1 Supporter card during your turn."
+      ],
+      "set": {
+        "id": "sv6",
+        "name": "Twilight Masquerade",
+        "series": "Scarlet & Violet",
+        "printedTotal": 167,
+        "total": 226,
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "ptcgoCode": "TWM",
+        "releaseDate": "2024/05/24",
+        "updatedAt": "2024/05/23 15:00:00",
+        "images": {
+          "symbol": "https://images.pokemontcg.io/sv6/symbol.png",
+          "logo": "https://images.pokemontcg.io/sv6/logo.png"
+        }
+      },
+      "number": "209",
+      "artist": "Naoki Saito",
+      "rarity": "Ultra Rare",
+      "legalities": {
+        "unlimited": "Legal",
+        "standard": "Legal",
+        "expanded": "Legal"
+      },
+      "regulationMark": "H",
+      "images": {
+        "small": "https://images.pokemontcg.io/sv6/209.png",
+        "large": "https://images.pokemontcg.io/sv6/209_hires.png"
+      },
+      "tcgplayer": {
+        "url": "https://prices.pokemontcg.io/tcgplayer/sv6-209",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "holofoil": {
+            "low": 3.0,
+            "mid": 5.83,
+            "high": 32.0,
+            "market": 5.43,
+            "directLow": 6.97
+          }
+        }
+      },
+      "cardmarket": {
+        "url": "https://prices.pokemontcg.io/cardmarket/sv6-209",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "averageSellPrice": 3.31,
+          "lowPrice": 1.5,
+          "trendPrice": 3.37,
+          "germanProLow": 0.0,
+          "suggestedPrice": 0.0,
+          "reverseHoloSell": 0.0,
+          "reverseHoloLow": 0.0,
+          "reverseHoloTrend": 0.0,
+          "lowPriceExPlus": 1.89,
+          "avg1": 2.98,
+          "avg7": 3.33,
+          "avg30": 3.33,
+          "reverseHoloAvg1": 0.0,
+          "reverseHoloAvg7": 0.0,
+          "reverseHoloAvg30": 0.0
+        }
+      }
+    },
+    {
+      "id": "sv6-210",
+      "name": "Sinistcha ex",
+      "supertype": "Pok\u00e9mon",
+      "subtypes": [
+        "Stage 1",
+        "ex"
+      ],
+      "hp": "240",
+      "types": [
+        "Grass"
+      ],
+      "evolvesFrom": "Poltchageist",
+      "rules": [
+        "Pok\u00e9mon ex rule: When your Pok\u00e9mon ex is Knocked Out, your opponent takes 2 Prize cards."
+      ],
+      "attacks": [
+        {
+          "name": "Re-Brew",
+          "cost": [
+            "Colorless"
+          ],
+          "convertedEnergyCost": 1,
+          "damage": "",
+          "text": "Put 2 damage counters on 1 of your opponent's Pok\u00e9mon for each Basic Grass Energy card in your discard pile. Then, shuffle those Energy cards into your deck."
+        },
+        {
+          "name": "Matcha Splash",
+          "cost": [
+            "Grass",
+            "Colorless"
+          ],
+          "convertedEnergyCost": 2,
+          "damage": "120",
+          "text": "Heal 30 damage from each of your Pok\u00e9mon."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "Fire",
+          "value": "\u00d72"
+        }
+      ],
+      "retreatCost": [
+        "Colorless"
+      ],
+      "convertedRetreatCost": 1,
+      "set": {
+        "id": "sv6",
+        "name": "Twilight Masquerade",
+        "series": "Scarlet & Violet",
+        "printedTotal": 167,
+        "total": 226,
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "ptcgoCode": "TWM",
+        "releaseDate": "2024/05/24",
+        "updatedAt": "2024/05/23 15:00:00",
+        "images": {
+          "symbol": "https://images.pokemontcg.io/sv6/symbol.png",
+          "logo": "https://images.pokemontcg.io/sv6/logo.png"
+        }
+      },
+      "number": "210",
+      "artist": "Saboteri",
+      "rarity": "Special Illustration Rare",
+      "legalities": {
+        "unlimited": "Legal",
+        "standard": "Legal",
+        "expanded": "Legal"
+      },
+      "regulationMark": "H",
+      "images": {
+        "small": "https://images.pokemontcg.io/sv6/210.png",
+        "large": "https://images.pokemontcg.io/sv6/210_hires.png"
+      },
+      "tcgplayer": {
+        "url": "https://prices.pokemontcg.io/tcgplayer/sv6-210",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "holofoil": {
+            "low": 18.5,
+            "mid": 21.18,
+            "high": 49.95,
+            "market": 19.72,
+            "directLow": null
+          }
+        }
+      },
+      "cardmarket": {
+        "url": "https://prices.pokemontcg.io/cardmarket/sv6-210",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "averageSellPrice": 20.0,
+          "lowPrice": 10.0,
+          "trendPrice": 18.5,
+          "germanProLow": 0.0,
+          "suggestedPrice": 0.0,
+          "reverseHoloSell": 0.0,
+          "reverseHoloLow": 0.0,
+          "reverseHoloTrend": 0.0,
+          "lowPriceExPlus": 14.0,
+          "avg1": 17.95,
+          "avg7": 19.83,
+          "avg30": 20.16,
+          "reverseHoloAvg1": 0.0,
+          "reverseHoloAvg7": 0.0,
+          "reverseHoloAvg30": 0.0
+        }
+      }
+    },
+    {
+      "id": "sv6-211",
+      "name": "Teal Mask Ogerpon ex",
+      "supertype": "Pok\u00e9mon",
+      "subtypes": [
+        "Basic",
+        "Tera",
+        "ex"
+      ],
+      "hp": "210",
+      "types": [
+        "Grass"
+      ],
+      "rules": [
+        "As long as this Pok\u00e9mon is on your Bench, prevent all damage done to this Pok\u00e9mon by attacks (both yours and your opponent's).",
+        "Pok\u00e9mon ex rule: When your Pok\u00e9mon ex is Knocked Out, your opponent takes 2 Prize cards.",
+        "Tera: As long as this Pok\u00e9mon is on your Bench, prevent all damage done to this Pok\u00e9mon by attacks (both yours and your opponent's)."
+      ],
+      "abilities": [
+        {
+          "name": "Teal Dance",
+          "text": "Once during your turn, you may attach a Basic Grass Energy card from your hand to this Pok\u00e9mon. If you attached Energy to a Pok\u00e9mon in this way, draw a card.",
+          "type": "Ability"
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Myriad Leaf Shower",
+          "cost": [
+            "Grass",
+            "Grass",
+            "Grass"
+          ],
+          "convertedEnergyCost": 3,
+          "damage": "30+",
+          "text": "This attack does 30 more damage for each Energy attached to both Active Pok\u00e9mon."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "Fire",
+          "value": "\u00d72"
+        }
+      ],
+      "retreatCost": [
+        "Colorless"
+      ],
+      "convertedRetreatCost": 1,
+      "set": {
+        "id": "sv6",
+        "name": "Twilight Masquerade",
+        "series": "Scarlet & Violet",
+        "printedTotal": 167,
+        "total": 226,
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "ptcgoCode": "TWM",
+        "releaseDate": "2024/05/24",
+        "updatedAt": "2024/05/23 15:00:00",
+        "images": {
+          "symbol": "https://images.pokemontcg.io/sv6/symbol.png",
+          "logo": "https://images.pokemontcg.io/sv6/logo.png"
+        }
+      },
+      "number": "211",
+      "artist": "Yano Keiji",
+      "rarity": "Special Illustration Rare",
+      "legalities": {
+        "unlimited": "Legal",
+        "standard": "Legal",
+        "expanded": "Legal"
+      },
+      "regulationMark": "H",
+      "images": {
+        "small": "https://images.pokemontcg.io/sv6/211.png",
+        "large": "https://images.pokemontcg.io/sv6/211_hires.png"
+      },
+      "tcgplayer": {
+        "url": "https://prices.pokemontcg.io/tcgplayer/sv6-211",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "holofoil": {
+            "low": 21.77,
+            "mid": 28.0,
+            "high": 75.0,
+            "market": 23.37,
+            "directLow": 27.99
+          }
+        }
+      },
+      "cardmarket": {
+        "url": "https://prices.pokemontcg.io/cardmarket/sv6-211",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "averageSellPrice": 21.22,
+          "lowPrice": 16.0,
+          "trendPrice": 21.95,
+          "germanProLow": 0.0,
+          "suggestedPrice": 0.0,
+          "reverseHoloSell": 0.0,
+          "reverseHoloLow": 0.0,
+          "reverseHoloTrend": 0.0,
+          "lowPriceExPlus": 16.0,
+          "avg1": 21.84,
+          "avg7": 22.96,
+          "avg30": 21.38,
+          "reverseHoloAvg1": 0.0,
+          "reverseHoloAvg7": 0.0,
+          "reverseHoloAvg30": 0.0
+        }
+      }
+    },
+    {
+      "id": "sv6-212",
+      "name": "Hearthflame Mask Ogerpon ex",
+      "supertype": "Pok\u00e9mon",
+      "subtypes": [
+        "Basic",
+        "Tera",
+        "ex"
+      ],
+      "hp": "210",
+      "types": [
+        "Fire"
+      ],
+      "rules": [
+        "As long as this Pok\u00e9mon is on your Bench, prevent all damage done to this Pok\u00e9mon by attacks (both yours and your opponent's).",
+        "Pok\u00e9mon ex rule: When your Pok\u00e9mon ex is Knocked Out, your opponent takes 2 Prize cards.",
+        "Tera: As long as this Pok\u00e9mon is on your Bench, prevent all damage done to this Pok\u00e9mon by attacks (both yours and your opponent's)."
+      ],
+      "attacks": [
+        {
+          "name": "Wrathful Hearth",
+          "cost": [
+            "Fire",
+            "Colorless",
+            "Colorless"
+          ],
+          "convertedEnergyCost": 3,
+          "damage": "20\u00d7",
+          "text": "This attack does 20 damage for each damage counter on this Pok\u00e9mon."
+        },
+        {
+          "name": "Dynamic Blaze",
+          "cost": [
+            "Fire",
+            "Fire",
+            "Fire"
+          ],
+          "convertedEnergyCost": 3,
+          "damage": "140+",
+          "text": "If your opponent's Active Pok\u00e9mon is an Evolution Pok\u00e9mon, this attack does 140 more damage, and discard all Energy from this Pok\u00e9mon."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "Water",
+          "value": "\u00d72"
+        }
+      ],
+      "retreatCost": [
+        "Colorless"
+      ],
+      "convertedRetreatCost": 1,
+      "set": {
+        "id": "sv6",
+        "name": "Twilight Masquerade",
+        "series": "Scarlet & Violet",
+        "printedTotal": 167,
+        "total": 226,
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "ptcgoCode": "TWM",
+        "releaseDate": "2024/05/24",
+        "updatedAt": "2024/05/23 15:00:00",
+        "images": {
+          "symbol": "https://images.pokemontcg.io/sv6/symbol.png",
+          "logo": "https://images.pokemontcg.io/sv6/logo.png"
+        }
+      },
+      "number": "212",
+      "artist": "Yano Keiji",
+      "rarity": "Special Illustration Rare",
+      "legalities": {
+        "unlimited": "Legal",
+        "standard": "Legal",
+        "expanded": "Legal"
+      },
+      "regulationMark": "H",
+      "images": {
+        "small": "https://images.pokemontcg.io/sv6/212.png",
+        "large": "https://images.pokemontcg.io/sv6/212_hires.png"
+      },
+      "tcgplayer": {
+        "url": "https://prices.pokemontcg.io/tcgplayer/sv6-212",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "holofoil": {
+            "low": 10.9,
+            "mid": 14.5,
+            "high": 40.59,
+            "market": 12.79,
+            "directLow": 13.49
+          }
+        }
+      },
+      "cardmarket": {
+        "url": "https://prices.pokemontcg.io/cardmarket/sv6-212",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "averageSellPrice": 12.8,
+          "lowPrice": 8.99,
+          "trendPrice": 13.3,
+          "germanProLow": 0.0,
+          "suggestedPrice": 0.0,
+          "reverseHoloSell": 0.0,
+          "reverseHoloLow": 0.0,
+          "reverseHoloTrend": 0.0,
+          "lowPriceExPlus": 8.99,
+          "avg1": 11.5,
+          "avg7": 14.75,
+          "avg30": 12.91,
+          "reverseHoloAvg1": 0.0,
+          "reverseHoloAvg7": 0.0,
+          "reverseHoloAvg30": 0.0
+        }
+      }
+    },
+    {
+      "id": "sv6-213",
+      "name": "Wellspring Mask Ogerpon ex",
+      "supertype": "Pok\u00e9mon",
+      "subtypes": [
+        "Basic",
+        "Tera",
+        "ex"
+      ],
+      "hp": "210",
+      "types": [
+        "Water"
+      ],
+      "rules": [
+        "As long as this Pok\u00e9mon is on your Bench, prevent all damage done to this Pok\u00e9mon by attacks (both yours and your opponent's).",
+        "Pok\u00e9mon ex rule: When your Pok\u00e9mon ex is Knocked Out, your opponent takes 2 Prize cards.",
+        "Tera: As long as this Pok\u00e9mon is on your Bench, prevent all damage done to this Pok\u00e9mon by attacks (both yours and your opponent's)."
+      ],
+      "attacks": [
+        {
+          "name": "Sob",
+          "cost": [
+            "Colorless"
+          ],
+          "convertedEnergyCost": 1,
+          "damage": "20",
+          "text": "During your opponent's next turn, the Defending Pok\u00e9mon can't retreat."
+        },
+        {
+          "name": "Torrential Pump",
+          "cost": [
+            "Water",
+            "Colorless",
+            "Colorless"
+          ],
+          "convertedEnergyCost": 3,
+          "damage": "100",
+          "text": "You may shuffle 3 Energy attached to this Pok\u00e9mon into your deck. If you do, this attack also does 120 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "Lightning",
+          "value": "\u00d72"
+        }
+      ],
+      "retreatCost": [
+        "Colorless"
+      ],
+      "convertedRetreatCost": 1,
+      "set": {
+        "id": "sv6",
+        "name": "Twilight Masquerade",
+        "series": "Scarlet & Violet",
+        "printedTotal": 167,
+        "total": 226,
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "ptcgoCode": "TWM",
+        "releaseDate": "2024/05/24",
+        "updatedAt": "2024/05/23 15:00:00",
+        "images": {
+          "symbol": "https://images.pokemontcg.io/sv6/symbol.png",
+          "logo": "https://images.pokemontcg.io/sv6/logo.png"
+        }
+      },
+      "number": "213",
+      "artist": "Yano Keiji",
+      "rarity": "Special Illustration Rare",
+      "legalities": {
+        "unlimited": "Legal",
+        "standard": "Legal",
+        "expanded": "Legal"
+      },
+      "regulationMark": "H",
+      "images": {
+        "small": "https://images.pokemontcg.io/sv6/213.png",
+        "large": "https://images.pokemontcg.io/sv6/213_hires.png"
+      },
+      "tcgplayer": {
+        "url": "https://prices.pokemontcg.io/tcgplayer/sv6-213",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "holofoil": {
+            "low": 19.19,
+            "mid": 22.33,
+            "high": 50.0,
+            "market": 21.9,
+            "directLow": 27.43
+          }
+        }
+      },
+      "cardmarket": {
+        "url": "https://prices.pokemontcg.io/cardmarket/sv6-213",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "averageSellPrice": 17.69,
+          "lowPrice": 13.39,
+          "trendPrice": 18.07,
+          "germanProLow": 0.0,
+          "suggestedPrice": 0.0,
+          "reverseHoloSell": 0.0,
+          "reverseHoloLow": 0.0,
+          "reverseHoloTrend": 0.0,
+          "lowPriceExPlus": 13.39,
+          "avg1": 16.77,
+          "avg7": 17.71,
+          "avg30": 17.57,
+          "reverseHoloAvg1": 0.0,
+          "reverseHoloAvg7": 0.0,
+          "reverseHoloAvg30": 0.0
+        }
+      }
+    },
+    {
+      "id": "sv6-214",
+      "name": "Greninja ex",
+      "supertype": "Pok\u00e9mon",
+      "subtypes": [
+        "Stage 2",
+        "Tera",
+        "ex"
+      ],
+      "hp": "310",
+      "types": [
+        "Fighting"
+      ],
+      "evolvesFrom": "Frogadier",
+      "rules": [
+        "As long as this Pok\u00e9mon is on your Bench, prevent all damage done to this Pok\u00e9mon by attacks (both yours and your opponent's).",
+        "Pok\u00e9mon ex rule: When your Pok\u00e9mon ex is Knocked Out, your opponent takes 2 Prize cards.",
+        "Tera: As long as this Pok\u00e9mon is on your Bench, prevent all damage done to this Pok\u00e9mon by attacks (both yours and your opponent's)."
+      ],
+      "attacks": [
+        {
+          "name": "Shinobi Blade",
+          "cost": [
+            "Water"
+          ],
+          "convertedEnergyCost": 1,
+          "damage": "170",
+          "text": "You may search your deck for a card and put it into your hand. Then, shuffle your deck."
+        },
+        {
+          "name": "Mirage Barrage",
+          "cost": [
+            "Water",
+            "Colorless",
+            "Colorless"
+          ],
+          "convertedEnergyCost": 3,
+          "damage": "",
+          "text": "Discard 2 Energy from this Pok\u00e9mon. This attack does 120 damage to 2 of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "Psychic",
+          "value": "\u00d72"
+        }
+      ],
+      "retreatCost": [
+        "Colorless"
+      ],
+      "convertedRetreatCost": 1,
+      "set": {
+        "id": "sv6",
+        "name": "Twilight Masquerade",
+        "series": "Scarlet & Violet",
+        "printedTotal": 167,
+        "total": 226,
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "ptcgoCode": "TWM",
+        "releaseDate": "2024/05/24",
+        "updatedAt": "2024/05/23 15:00:00",
+        "images": {
+          "symbol": "https://images.pokemontcg.io/sv6/symbol.png",
+          "logo": "https://images.pokemontcg.io/sv6/logo.png"
+        }
+      },
+      "number": "214",
+      "artist": "akagi",
+      "rarity": "Special Illustration Rare",
+      "nationalPokedexNumbers": [
+        658
+      ],
+      "legalities": {
+        "unlimited": "Legal",
+        "standard": "Legal",
+        "expanded": "Legal"
+      },
+      "regulationMark": "H",
+      "images": {
+        "small": "https://images.pokemontcg.io/sv6/214.png",
+        "large": "https://images.pokemontcg.io/sv6/214_hires.png"
+      },
+      "tcgplayer": {
+        "url": "https://prices.pokemontcg.io/tcgplayer/sv6-214",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "holofoil": {
+            "low": 321.74,
+            "mid": 369.54,
+            "high": 800.99,
+            "market": 359.9,
+            "directLow": 355.0
+          }
+        }
+      },
+      "cardmarket": {
+        "url": "https://prices.pokemontcg.io/cardmarket/sv6-214",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "averageSellPrice": 264.05,
+          "lowPrice": 120.0,
+          "trendPrice": 202.99,
+          "germanProLow": 0.0,
+          "suggestedPrice": 0.0,
+          "reverseHoloSell": 0.0,
+          "reverseHoloLow": 0.0,
+          "reverseHoloTrend": 0.0,
+          "lowPriceExPlus": 120.0,
+          "avg1": 152.5,
+          "avg7": 239.73,
+          "avg30": 277.46,
+          "reverseHoloAvg1": 0.0,
+          "reverseHoloAvg7": 0.0,
+          "reverseHoloAvg30": 0.0
+        }
+      }
+    },
+    {
+      "id": "sv6-215",
+      "name": "Cornerstone Mask Ogerpon ex",
+      "supertype": "Pok\u00e9mon",
+      "subtypes": [
+        "Basic",
+        "Tera",
+        "ex"
+      ],
+      "hp": "210",
+      "types": [
+        "Fighting"
+      ],
+      "rules": [
+        "As long as this Pok\u00e9mon is on your Bench, prevent all damage done to this Pok\u00e9mon by attacks (both yours and your opponent's).",
+        "Pok\u00e9mon ex rule: When your Pok\u00e9mon ex is Knocked Out, your opponent takes 2 Prize cards.",
+        "Tera: As long as this Pok\u00e9mon is on your Bench, prevent all damage done to this Pok\u00e9mon by attacks (both yours and your opponent's)."
+      ],
+      "abilities": [
+        {
+          "name": "Cornerstone Stance",
+          "text": "Prevent all damage from attacks done to this Pok\u00e9mon by your opponent's Pok\u00e9mon that have an Ability.",
+          "type": "Ability"
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Demolish",
+          "cost": [
+            "Fighting",
+            "Colorless",
+            "Colorless"
+          ],
+          "convertedEnergyCost": 3,
+          "damage": "140",
+          "text": "This attack's damage isn't affected by Weakness or Resistance, or by any effects on your opponent's Active Pok\u00e9mon."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "Grass",
+          "value": "\u00d72"
+        }
+      ],
+      "retreatCost": [
+        "Colorless"
+      ],
+      "convertedRetreatCost": 1,
+      "set": {
+        "id": "sv6",
+        "name": "Twilight Masquerade",
+        "series": "Scarlet & Violet",
+        "printedTotal": 167,
+        "total": 226,
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "ptcgoCode": "TWM",
+        "releaseDate": "2024/05/24",
+        "updatedAt": "2024/05/23 15:00:00",
+        "images": {
+          "symbol": "https://images.pokemontcg.io/sv6/symbol.png",
+          "logo": "https://images.pokemontcg.io/sv6/logo.png"
+        }
+      },
+      "number": "215",
+      "artist": "Yano Keiji",
+      "rarity": "Special Illustration Rare",
+      "legalities": {
+        "unlimited": "Legal",
+        "standard": "Legal",
+        "expanded": "Legal"
+      },
+      "regulationMark": "H",
+      "images": {
+        "small": "https://images.pokemontcg.io/sv6/215.png",
+        "large": "https://images.pokemontcg.io/sv6/215_hires.png"
+      },
+      "tcgplayer": {
+        "url": "https://prices.pokemontcg.io/tcgplayer/sv6-215",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "holofoil": {
+            "low": 13.99,
+            "mid": 17.5,
+            "high": 44.0,
+            "market": 16.98,
+            "directLow": 22.33
+          }
+        }
+      },
+      "cardmarket": {
+        "url": "https://prices.pokemontcg.io/cardmarket/sv6-215",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "averageSellPrice": 15.67,
+          "lowPrice": 11.5,
+          "trendPrice": 16.05,
+          "germanProLow": 0.0,
+          "suggestedPrice": 0.0,
+          "reverseHoloSell": 0.0,
+          "reverseHoloLow": 0.0,
+          "reverseHoloTrend": 0.0,
+          "lowPriceExPlus": 12.8,
+          "avg1": 16.62,
+          "avg7": 17.06,
+          "avg30": 15.78,
+          "reverseHoloAvg1": 0.0,
+          "reverseHoloAvg7": 0.0,
+          "reverseHoloAvg30": 0.0
+        }
+      }
+    },
+    {
+      "id": "sv6-216",
+      "name": "Bloodmoon Ursaluna ex",
+      "supertype": "Pok\u00e9mon",
+      "subtypes": [
+        "Basic",
+        "ex"
+      ],
+      "hp": "260",
+      "types": [
+        "Colorless"
+      ],
+      "rules": [
+        "Pok\u00e9mon ex rule: When your Pok\u00e9mon ex is Knocked Out, your opponent takes 2 Prize cards."
+      ],
+      "abilities": [
+        {
+          "name": "Seasoned Skill",
+          "text": "Blood Moon used by this Pok\u00e9mon costs Colorless less for each Prize card your opponent has taken.",
+          "type": "Ability"
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Blood Moon",
+          "cost": [
+            "Colorless",
+            "Colorless",
+            "Colorless",
+            "Colorless",
+            "Colorless"
+          ],
+          "convertedEnergyCost": 5,
+          "damage": "240",
+          "text": "During your next turn, this Pok\u00e9mon can't attack."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "Fighting",
+          "value": "\u00d72"
+        }
+      ],
+      "retreatCost": [
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedRetreatCost": 3,
+      "set": {
+        "id": "sv6",
+        "name": "Twilight Masquerade",
+        "series": "Scarlet & Violet",
+        "printedTotal": 167,
+        "total": 226,
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "ptcgoCode": "TWM",
+        "releaseDate": "2024/05/24",
+        "updatedAt": "2024/05/23 15:00:00",
+        "images": {
+          "symbol": "https://images.pokemontcg.io/sv6/symbol.png",
+          "logo": "https://images.pokemontcg.io/sv6/logo.png"
+        }
+      },
+      "number": "216",
+      "artist": "MINAMINAMI Take",
+      "rarity": "Special Illustration Rare",
+      "nationalPokedexNumbers": [
+        901
+      ],
+      "legalities": {
+        "unlimited": "Legal",
+        "standard": "Legal",
+        "expanded": "Legal"
+      },
+      "regulationMark": "H",
+      "images": {
+        "small": "https://images.pokemontcg.io/sv6/216.png",
+        "large": "https://images.pokemontcg.io/sv6/216_hires.png"
+      },
+      "tcgplayer": {
+        "url": "https://prices.pokemontcg.io/tcgplayer/sv6-216",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "holofoil": {
+            "low": 35.0,
+            "mid": 42.05,
+            "high": 110.0,
+            "market": 40.26,
+            "directLow": 42.05
+          }
+        }
+      },
+      "cardmarket": {
+        "url": "https://prices.pokemontcg.io/cardmarket/sv6-216",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "averageSellPrice": 35.27,
+          "lowPrice": 29.0,
+          "trendPrice": 39.51,
+          "germanProLow": 0.0,
+          "suggestedPrice": 0.0,
+          "reverseHoloSell": 0.0,
+          "reverseHoloLow": 0.0,
+          "reverseHoloTrend": 0.0,
+          "lowPriceExPlus": 29.0,
+          "avg1": 34.13,
+          "avg7": 40.13,
+          "avg30": 35.65,
+          "reverseHoloAvg1": 0.0,
+          "reverseHoloAvg7": 0.0,
+          "reverseHoloAvg30": 0.0
+        }
+      }
+    },
+    {
+      "id": "sv6-217",
+      "name": "Carmine",
+      "supertype": "Trainer",
+      "subtypes": [
+        "Supporter"
+      ],
+      "rules": [
+        "If you go first, you may use this card during your first turn.    Discard your hand and draw 5 cards.",
+        "You may play only 1 Supporter card during your turn."
+      ],
+      "set": {
+        "id": "sv6",
+        "name": "Twilight Masquerade",
+        "series": "Scarlet & Violet",
+        "printedTotal": 167,
+        "total": 226,
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "ptcgoCode": "TWM",
+        "releaseDate": "2024/05/24",
+        "updatedAt": "2024/05/23 15:00:00",
+        "images": {
+          "symbol": "https://images.pokemontcg.io/sv6/symbol.png",
+          "logo": "https://images.pokemontcg.io/sv6/logo.png"
+        }
+      },
+      "number": "217",
+      "artist": "En Morikura",
+      "rarity": "Special Illustration Rare",
+      "legalities": {
+        "unlimited": "Legal",
+        "standard": "Legal",
+        "expanded": "Legal"
+      },
+      "regulationMark": "H",
+      "images": {
+        "small": "https://images.pokemontcg.io/sv6/217.png",
+        "large": "https://images.pokemontcg.io/sv6/217_hires.png"
+      },
+      "tcgplayer": {
+        "url": "https://prices.pokemontcg.io/tcgplayer/sv6-217",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "holofoil": {
+            "low": 77.01,
+            "mid": 85.23,
+            "high": 185.0,
+            "market": 82.07,
+            "directLow": null
+          }
+        }
+      },
+      "cardmarket": {
+        "url": "https://prices.pokemontcg.io/cardmarket/sv6-217",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "averageSellPrice": 53.87,
+          "lowPrice": 38.0,
+          "trendPrice": 45.19,
+          "germanProLow": 0.0,
+          "suggestedPrice": 0.0,
+          "reverseHoloSell": 0.0,
+          "reverseHoloLow": 0.0,
+          "reverseHoloTrend": 0.0,
+          "lowPriceExPlus": 38.0,
+          "avg1": 63.95,
+          "avg7": 48.07,
+          "avg30": 54.16,
+          "reverseHoloAvg1": 0.0,
+          "reverseHoloAvg7": 0.0,
+          "reverseHoloAvg30": 0.0
+        }
+      }
+    },
+    {
+      "id": "sv6-218",
+      "name": "Kieran",
+      "supertype": "Trainer",
+      "subtypes": [
+        "Supporter"
+      ],
+      "rules": [
+        "Choose 1:    \u2022 Switch your Active Pok\u00e9mon with 1 of your Benched Pok\u00e9mon.  \u2022 During this turn, attacks used by your Pok\u00e9mon do 30 more damage to your opponent's Active Pok\u00e9mon ex and Active Pok\u00e9mon V (before applying Weakness and Resistance).",
+        "You may play only 1 Supporter card during your turn."
+      ],
+      "set": {
+        "id": "sv6",
+        "name": "Twilight Masquerade",
+        "series": "Scarlet & Violet",
+        "printedTotal": 167,
+        "total": 226,
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "ptcgoCode": "TWM",
+        "releaseDate": "2024/05/24",
+        "updatedAt": "2024/05/23 15:00:00",
+        "images": {
+          "symbol": "https://images.pokemontcg.io/sv6/symbol.png",
+          "logo": "https://images.pokemontcg.io/sv6/logo.png"
+        }
+      },
+      "number": "218",
+      "artist": "Teeziro",
+      "rarity": "Special Illustration Rare",
+      "legalities": {
+        "unlimited": "Legal",
+        "standard": "Legal",
+        "expanded": "Legal"
+      },
+      "regulationMark": "H",
+      "images": {
+        "small": "https://images.pokemontcg.io/sv6/218.png",
+        "large": "https://images.pokemontcg.io/sv6/218_hires.png"
+      },
+      "tcgplayer": {
+        "url": "https://prices.pokemontcg.io/tcgplayer/sv6-218",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "holofoil": {
+            "low": 24.38,
+            "mid": 30.0,
+            "high": 69.95,
+            "market": 27.45,
+            "directLow": 32.75
+          }
+        }
+      },
+      "cardmarket": {
+        "url": "https://prices.pokemontcg.io/cardmarket/sv6-218",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "averageSellPrice": 26.2,
+          "lowPrice": 23.0,
+          "trendPrice": 26.22,
+          "germanProLow": 0.0,
+          "suggestedPrice": 0.0,
+          "reverseHoloSell": 0.0,
+          "reverseHoloLow": 0.0,
+          "reverseHoloTrend": 0.0,
+          "lowPriceExPlus": 23.0,
+          "avg1": 24.93,
+          "avg7": 28.63,
+          "avg30": 26.54,
+          "reverseHoloAvg1": 0.0,
+          "reverseHoloAvg7": 0.0,
+          "reverseHoloAvg30": 0.0
+        }
+      }
+    },
+    {
+      "id": "sv6-219",
+      "name": "Lana's Aid",
+      "supertype": "Trainer",
+      "subtypes": [
+        "Supporter"
+      ],
+      "rules": [
+        "Put up to 3 in any combination of Pok\u00e9mon that don't have a Rule Box and Basic Energy cards from your discard pile into your hand. (Pok\u00e9mon ex, Pok\u00e9mon V, etc. have Rule Boxes.)",
+        "You may play only 1 Supporter card during your turn."
+      ],
+      "set": {
+        "id": "sv6",
+        "name": "Twilight Masquerade",
+        "series": "Scarlet & Violet",
+        "printedTotal": 167,
+        "total": 226,
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "ptcgoCode": "TWM",
+        "releaseDate": "2024/05/24",
+        "updatedAt": "2024/05/23 15:00:00",
+        "images": {
+          "symbol": "https://images.pokemontcg.io/sv6/symbol.png",
+          "logo": "https://images.pokemontcg.io/sv6/logo.png"
+        }
+      },
+      "number": "219",
+      "artist": "Toshinao Aoki",
+      "rarity": "Special Illustration Rare",
+      "legalities": {
+        "unlimited": "Legal",
+        "standard": "Legal",
+        "expanded": "Legal"
+      },
+      "regulationMark": "H",
+      "images": {
+        "small": "https://images.pokemontcg.io/sv6/219.png",
+        "large": "https://images.pokemontcg.io/sv6/219_hires.png"
+      },
+      "tcgplayer": {
+        "url": "https://prices.pokemontcg.io/tcgplayer/sv6-219",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "holofoil": {
+            "low": 20.0,
+            "mid": 28.9,
+            "high": 80.0,
+            "market": 23.96,
+            "directLow": 29.93
+          }
+        }
+      },
+      "cardmarket": {
+        "url": "https://prices.pokemontcg.io/cardmarket/sv6-219",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "averageSellPrice": 22.18,
+          "lowPrice": 18.99,
+          "trendPrice": 20.46,
+          "germanProLow": 0.0,
+          "suggestedPrice": 0.0,
+          "reverseHoloSell": 0.0,
+          "reverseHoloLow": 0.0,
+          "reverseHoloTrend": 0.0,
+          "lowPriceExPlus": 18.99,
+          "avg1": 20.49,
+          "avg7": 21.26,
+          "avg30": 22.28,
+          "reverseHoloAvg1": 0.0,
+          "reverseHoloAvg7": 0.0,
+          "reverseHoloAvg30": 0.0
+        }
+      }
+    },
+    {
+      "id": "sv6-220",
+      "name": "Perrin",
+      "supertype": "Trainer",
+      "subtypes": [
+        "Supporter"
+      ],
+      "rules": [
+        "Reveal up to 2 Pok\u00e9mon in your hand and put them into your deck. If you do, search your deck for up to that many Pok\u00e9mon, reveal them, and put them into your hand. Then, shuffle your deck.",
+        "You may play only 1 Supporter card during your turn."
+      ],
+      "set": {
+        "id": "sv6",
+        "name": "Twilight Masquerade",
+        "series": "Scarlet & Violet",
+        "printedTotal": 167,
+        "total": 226,
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "ptcgoCode": "TWM",
+        "releaseDate": "2024/05/24",
+        "updatedAt": "2024/05/23 15:00:00",
+        "images": {
+          "symbol": "https://images.pokemontcg.io/sv6/symbol.png",
+          "logo": "https://images.pokemontcg.io/sv6/logo.png"
+        }
+      },
+      "number": "220",
+      "artist": "GIDORA",
+      "rarity": "Special Illustration Rare",
+      "legalities": {
+        "unlimited": "Legal",
+        "standard": "Legal",
+        "expanded": "Legal"
+      },
+      "regulationMark": "H",
+      "images": {
+        "small": "https://images.pokemontcg.io/sv6/220.png",
+        "large": "https://images.pokemontcg.io/sv6/220_hires.png"
+      },
+      "tcgplayer": {
+        "url": "https://prices.pokemontcg.io/tcgplayer/sv6-220",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "holofoil": {
+            "low": 101.99,
+            "mid": 110.93,
+            "high": 249.95,
+            "market": 105.72,
+            "directLow": null
+          }
+        }
+      },
+      "cardmarket": {
+        "url": "https://prices.pokemontcg.io/cardmarket/sv6-220",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "averageSellPrice": 61.84,
+          "lowPrice": 47.99,
+          "trendPrice": 62.74,
+          "germanProLow": 0.0,
+          "suggestedPrice": 0.0,
+          "reverseHoloSell": 0.0,
+          "reverseHoloLow": 0.0,
+          "reverseHoloTrend": 0.0,
+          "lowPriceExPlus": 49.99,
+          "avg1": 46.63,
+          "avg7": 66.03,
+          "avg30": 62.14,
+          "reverseHoloAvg1": 0.0,
+          "reverseHoloAvg7": 0.0,
+          "reverseHoloAvg30": 0.0
+        }
+      }
+    },
+    {
+      "id": "sv6-221",
+      "name": "Teal Mask Ogerpon ex",
+      "supertype": "Pok\u00e9mon",
+      "subtypes": [
+        "Basic",
+        "Tera",
+        "ex"
+      ],
+      "hp": "210",
+      "types": [
+        "Grass"
+      ],
+      "rules": [
+        "As long as this Pok\u00e9mon is on your Bench, prevent all damage done to this Pok\u00e9mon by attacks (both yours and your opponent's).",
+        "Pok\u00e9mon ex rule: When your Pok\u00e9mon ex is Knocked Out, your opponent takes 2 Prize cards.",
+        "Tera: As long as this Pok\u00e9mon is on your Bench, prevent all damage done to this Pok\u00e9mon by attacks (both yours and your opponent's)."
+      ],
+      "abilities": [
+        {
+          "name": "Teal Dance",
+          "text": "Once during your turn, you may attach a Basic Grass Energy card from your hand to this Pok\u00e9mon. If you attached Energy to a Pok\u00e9mon in this way, draw a card.",
+          "type": "Ability"
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Myriad Leaf Shower",
+          "cost": [
+            "Grass",
+            "Grass",
+            "Grass"
+          ],
+          "convertedEnergyCost": 3,
+          "damage": "30+",
+          "text": "This attack does 30 more damage for each Energy attached to both Active Pok\u00e9mon."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "Fire",
+          "value": "\u00d72"
+        }
+      ],
+      "retreatCost": [
+        "Colorless"
+      ],
+      "convertedRetreatCost": 1,
+      "set": {
+        "id": "sv6",
+        "name": "Twilight Masquerade",
+        "series": "Scarlet & Violet",
+        "printedTotal": 167,
+        "total": 226,
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "ptcgoCode": "TWM",
+        "releaseDate": "2024/05/24",
+        "updatedAt": "2024/05/23 15:00:00",
+        "images": {
+          "symbol": "https://images.pokemontcg.io/sv6/symbol.png",
+          "logo": "https://images.pokemontcg.io/sv6/logo.png"
+        }
+      },
+      "number": "221",
+      "artist": "5ban Graphics",
+      "rarity": "Hyper Rare",
+      "legalities": {
+        "unlimited": "Legal",
+        "standard": "Legal",
+        "expanded": "Legal"
+      },
+      "regulationMark": "H",
+      "images": {
+        "small": "https://images.pokemontcg.io/sv6/221.png",
+        "large": "https://images.pokemontcg.io/sv6/221_hires.png"
+      },
+      "tcgplayer": {
+        "url": "https://prices.pokemontcg.io/tcgplayer/sv6-221",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "holofoil": {
+            "low": 9.5,
+            "mid": 13.7,
+            "high": 34.95,
+            "market": 11.92,
+            "directLow": null
+          }
+        }
+      },
+      "cardmarket": {
+        "url": "https://prices.pokemontcg.io/cardmarket/sv6-221",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "averageSellPrice": 14.53,
+          "lowPrice": 9.99,
+          "trendPrice": 13.31,
+          "germanProLow": 0.0,
+          "suggestedPrice": 0.0,
+          "reverseHoloSell": 0.0,
+          "reverseHoloLow": 0.0,
+          "reverseHoloTrend": 0.0,
+          "lowPriceExPlus": 11.0,
+          "avg1": 11.99,
+          "avg7": 14.17,
+          "avg30": 14.59,
+          "reverseHoloAvg1": 0.0,
+          "reverseHoloAvg7": 0.0,
+          "reverseHoloAvg30": 0.0
+        }
+      }
+    },
+    {
+      "id": "sv6-222",
+      "name": "Bloodmoon Ursaluna ex",
+      "supertype": "Pok\u00e9mon",
+      "subtypes": [
+        "Basic",
+        "ex"
+      ],
+      "hp": "260",
+      "types": [
+        "Colorless"
+      ],
+      "rules": [
+        "Pok\u00e9mon ex rule: When your Pok\u00e9mon ex is Knocked Out, your opponent takes 2 Prize cards."
+      ],
+      "abilities": [
+        {
+          "name": "Seasoned Skill",
+          "text": "Blood Moon used by this Pok\u00e9mon costs Colorless less for each Prize card your opponent has taken.",
+          "type": "Ability"
+        }
+      ],
+      "attacks": [
+        {
+          "name": "Blood Moon",
+          "cost": [
+            "Colorless",
+            "Colorless",
+            "Colorless",
+            "Colorless",
+            "Colorless"
+          ],
+          "convertedEnergyCost": 5,
+          "damage": "240",
+          "text": "During your next turn, this Pok\u00e9mon can't attack."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "Fighting",
+          "value": "\u00d72"
+        }
+      ],
+      "retreatCost": [
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedRetreatCost": 3,
+      "set": {
+        "id": "sv6",
+        "name": "Twilight Masquerade",
+        "series": "Scarlet & Violet",
+        "printedTotal": 167,
+        "total": 226,
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "ptcgoCode": "TWM",
+        "releaseDate": "2024/05/24",
+        "updatedAt": "2024/05/23 15:00:00",
+        "images": {
+          "symbol": "https://images.pokemontcg.io/sv6/symbol.png",
+          "logo": "https://images.pokemontcg.io/sv6/logo.png"
+        }
+      },
+      "number": "222",
+      "artist": "aky CG Works",
+      "rarity": "Hyper Rare",
+      "nationalPokedexNumbers": [
+        901
+      ],
+      "legalities": {
+        "unlimited": "Legal",
+        "standard": "Legal",
+        "expanded": "Legal"
+      },
+      "regulationMark": "H",
+      "images": {
+        "small": "https://images.pokemontcg.io/sv6/222.png",
+        "large": "https://images.pokemontcg.io/sv6/222_hires.png"
+      },
+      "tcgplayer": {
+        "url": "https://prices.pokemontcg.io/tcgplayer/sv6-222",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "holofoil": {
+            "low": 9.5,
+            "mid": 12.0,
+            "high": 29.95,
+            "market": 10.53,
+            "directLow": 11.47
+          }
+        }
+      },
+      "cardmarket": {
+        "url": "https://prices.pokemontcg.io/cardmarket/sv6-222",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "averageSellPrice": 12.04,
+          "lowPrice": 8.0,
+          "trendPrice": 11.53,
+          "germanProLow": 0.0,
+          "suggestedPrice": 0.0,
+          "reverseHoloSell": 0.0,
+          "reverseHoloLow": 0.0,
+          "reverseHoloTrend": 0.0,
+          "lowPriceExPlus": 8.0,
+          "avg1": 11.16,
+          "avg7": 11.44,
+          "avg30": 12.0,
+          "reverseHoloAvg1": 0.0,
+          "reverseHoloAvg7": 0.0,
+          "reverseHoloAvg30": 0.0
+        }
+      }
+    },
+    {
+      "id": "sv6-223",
+      "name": "Buddy-Buddy Poffin",
+      "supertype": "Trainer",
+      "subtypes": [
+        "Item"
+      ],
+      "rules": [
+        "Search your deck for up to 2 Basic Pok\u00e9mon with 70 HP or less and put them onto your Bench. Then, shuffle your deck.",
+        "You may play any number of Item cards during your turn."
+      ],
+      "set": {
+        "id": "sv6",
+        "name": "Twilight Masquerade",
+        "series": "Scarlet & Violet",
+        "printedTotal": 167,
+        "total": 226,
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "ptcgoCode": "TWM",
+        "releaseDate": "2024/05/24",
+        "updatedAt": "2024/05/23 15:00:00",
+        "images": {
+          "symbol": "https://images.pokemontcg.io/sv6/symbol.png",
+          "logo": "https://images.pokemontcg.io/sv6/logo.png"
+        }
+      },
+      "number": "223",
+      "artist": "AYUMI ODASHIMA",
+      "rarity": "Hyper Rare",
+      "legalities": {
+        "unlimited": "Legal",
+        "standard": "Legal",
+        "expanded": "Legal"
+      },
+      "regulationMark": "H",
+      "images": {
+        "small": "https://images.pokemontcg.io/sv6/223.png",
+        "large": "https://images.pokemontcg.io/sv6/223_hires.png"
+      },
+      "tcgplayer": {
+        "url": "https://prices.pokemontcg.io/tcgplayer/sv6-223",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "holofoil": {
+            "low": 19.94,
+            "mid": 25.03,
+            "high": 79.99,
+            "market": 23.19,
+            "directLow": 29.95
+          }
+        }
+      },
+      "cardmarket": {
+        "url": "https://prices.pokemontcg.io/cardmarket/sv6-223",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "averageSellPrice": 17.32,
+          "lowPrice": 14.0,
+          "trendPrice": 15.72,
+          "germanProLow": 0.0,
+          "suggestedPrice": 0.0,
+          "reverseHoloSell": 0.0,
+          "reverseHoloLow": 0.0,
+          "reverseHoloTrend": 0.0,
+          "lowPriceExPlus": 14.49,
+          "avg1": 16.12,
+          "avg7": 16.1,
+          "avg30": 17.35,
+          "reverseHoloAvg1": 0.0,
+          "reverseHoloAvg7": 0.0,
+          "reverseHoloAvg30": 0.0
+        }
+      }
+    },
+    {
+      "id": "sv6-224",
+      "name": "Enhanced Hammer",
+      "supertype": "Trainer",
+      "subtypes": [
+        "Item"
+      ],
+      "rules": [
+        "Discard a Special Energy from 1 of your opponent's Pok\u00e9mon.",
+        "You may play any number of Item cards during your turn."
+      ],
+      "set": {
+        "id": "sv6",
+        "name": "Twilight Masquerade",
+        "series": "Scarlet & Violet",
+        "printedTotal": 167,
+        "total": 226,
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "ptcgoCode": "TWM",
+        "releaseDate": "2024/05/24",
+        "updatedAt": "2024/05/23 15:00:00",
+        "images": {
+          "symbol": "https://images.pokemontcg.io/sv6/symbol.png",
+          "logo": "https://images.pokemontcg.io/sv6/logo.png"
+        }
+      },
+      "number": "224",
+      "artist": "Eske Yoshinob",
+      "rarity": "Hyper Rare",
+      "legalities": {
+        "unlimited": "Legal",
+        "standard": "Legal",
+        "expanded": "Legal"
+      },
+      "regulationMark": "H",
+      "images": {
+        "small": "https://images.pokemontcg.io/sv6/224.png",
+        "large": "https://images.pokemontcg.io/sv6/224_hires.png"
+      },
+      "tcgplayer": {
+        "url": "https://prices.pokemontcg.io/tcgplayer/sv6-224",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "holofoil": {
+            "low": 3.89,
+            "mid": 5.74,
+            "high": 16.79,
+            "market": 5.77,
+            "directLow": 5.77
+          }
+        }
+      },
+      "cardmarket": {
+        "url": "https://prices.pokemontcg.io/cardmarket/sv6-224",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "averageSellPrice": 6.48,
+          "lowPrice": 4.5,
+          "trendPrice": 6.47,
+          "germanProLow": 0.0,
+          "suggestedPrice": 0.0,
+          "reverseHoloSell": 0.0,
+          "reverseHoloLow": 0.0,
+          "reverseHoloTrend": 0.0,
+          "lowPriceExPlus": 4.5,
+          "avg1": 6.24,
+          "avg7": 6.11,
+          "avg30": 6.5,
+          "reverseHoloAvg1": 0.0,
+          "reverseHoloAvg7": 0.0,
+          "reverseHoloAvg30": 0.0
+        }
+      }
+    },
+    {
+      "id": "sv6-225",
+      "name": "Rescue Board",
+      "supertype": "Trainer",
+      "subtypes": [
+        "Pok\u00e9mon Tool"
+      ],
+      "rules": [
+        "The Retreat Cost of the Pok\u00e9mon this card is attached to is Colorless less. If that Pok\u00e9mon's remaining HP is 30 or less, it has no Retreat Cost.",
+        "You may attach any number of Pok\u00e9mon Tools to your Pok\u00e9mon during your turn. You may attach only 1 Pok\u00e9mon Tool to each Pok\u00e9mon, and it stays attached.",
+        "Attach a Pok\u00e9mon Tool to 1 of your Pok\u00e9mon that doesn't already have a Pok\u00e9mon Tool attached."
+      ],
+      "set": {
+        "id": "sv6",
+        "name": "Twilight Masquerade",
+        "series": "Scarlet & Violet",
+        "printedTotal": 167,
+        "total": 226,
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "ptcgoCode": "TWM",
+        "releaseDate": "2024/05/24",
+        "updatedAt": "2024/05/23 15:00:00",
+        "images": {
+          "symbol": "https://images.pokemontcg.io/sv6/symbol.png",
+          "logo": "https://images.pokemontcg.io/sv6/logo.png"
+        }
+      },
+      "number": "225",
+      "artist": "Toyste Beach",
+      "rarity": "Hyper Rare",
+      "legalities": {
+        "unlimited": "Legal",
+        "standard": "Legal",
+        "expanded": "Legal"
+      },
+      "regulationMark": "H",
+      "images": {
+        "small": "https://images.pokemontcg.io/sv6/225.png",
+        "large": "https://images.pokemontcg.io/sv6/225_hires.png"
+      },
+      "tcgplayer": {
+        "url": "https://prices.pokemontcg.io/tcgplayer/sv6-225",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "holofoil": {
+            "low": 7.5,
+            "mid": 9.06,
+            "high": 24.99,
+            "market": 9.29,
+            "directLow": 11.99
+          }
+        }
+      },
+      "cardmarket": {
+        "url": "https://prices.pokemontcg.io/cardmarket/sv6-225",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "averageSellPrice": 8.27,
+          "lowPrice": 4.99,
+          "trendPrice": 8.21,
+          "germanProLow": 0.0,
+          "suggestedPrice": 0.0,
+          "reverseHoloSell": 0.0,
+          "reverseHoloLow": 0.0,
+          "reverseHoloTrend": 0.0,
+          "lowPriceExPlus": 4.99,
+          "avg1": 9.67,
+          "avg7": 8.13,
+          "avg30": 8.28,
+          "reverseHoloAvg1": 0.0,
+          "reverseHoloAvg7": 0.0,
+          "reverseHoloAvg30": 0.0
+        }
+      }
+    },
+    {
+      "id": "sv6-226",
+      "name": "Luminous Energy",
+      "supertype": "Energy",
+      "subtypes": [
+        "Special"
+      ],
+      "rules": [
+        "As long as this card is attached to a Pok\u00e9mon, it provides every type of Energy but provides only 1 Energy at a time.  If the Pok\u00e9mon this card is attached to has any other Special Energy attached, this card provides Colorless Energy instead."
+      ],
+      "set": {
+        "id": "sv6",
+        "name": "Twilight Masquerade",
+        "series": "Scarlet & Violet",
+        "printedTotal": 167,
+        "total": 226,
+        "legalities": {
+          "unlimited": "Legal",
+          "standard": "Legal",
+          "expanded": "Legal"
+        },
+        "ptcgoCode": "TWM",
+        "releaseDate": "2024/05/24",
+        "updatedAt": "2024/05/23 15:00:00",
+        "images": {
+          "symbol": "https://images.pokemontcg.io/sv6/symbol.png",
+          "logo": "https://images.pokemontcg.io/sv6/logo.png"
+        }
+      },
+      "number": "226",
+      "rarity": "Hyper Rare",
+      "legalities": {
+        "unlimited": "Legal",
+        "standard": "Legal",
+        "expanded": "Legal"
+      },
+      "regulationMark": "H",
+      "images": {
+        "small": "https://images.pokemontcg.io/sv6/226.png",
+        "large": "https://images.pokemontcg.io/sv6/226_hires.png"
+      },
+      "tcgplayer": {
+        "url": "https://prices.pokemontcg.io/tcgplayer/sv6-226",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "holofoil": {
+            "low": 7.39,
+            "mid": 8.49,
+            "high": 19.95,
+            "market": 8.36,
+            "directLow": null
+          }
+        }
+      },
+      "cardmarket": {
+        "url": "https://prices.pokemontcg.io/cardmarket/sv6-226",
+        "updatedAt": "2025/04/15",
+        "prices": {
+          "averageSellPrice": 7.32,
+          "lowPrice": 5.0,
+          "trendPrice": 7.34,
+          "germanProLow": 0.0,
+          "suggestedPrice": 0.0,
+          "reverseHoloSell": 0.0,
+          "reverseHoloLow": 0.0,
+          "reverseHoloTrend": 0.0,
+          "lowPriceExPlus": 5.0,
+          "avg1": 7.12,
+          "avg7": 7.15,
+          "avg30": 7.28,
+          "reverseHoloAvg1": 0.0,
+          "reverseHoloAvg7": 0.0,
+          "reverseHoloAvg30": 0.0
+        }
+      }
+    }
+  ]
+}
