@@ -1,7 +1,8 @@
 // ComparisonView.jsx
 import React, { useState, useEffect } from 'react';
 import Card from './Card';
-import { fetchRandomCards, updateCardElo } from '../services/api';
+import FavoriteButton from './FavoriteButton';
+import { fetchRandomCards, updateCardElo, toggleFavorite } from '../services/api';
 import { calculateNewElos } from '../services/eloCalculator';
 
 const ComparisonView = () => {
@@ -80,7 +81,9 @@ const ComparisonView = () => {
     // Calculate new Elo ratings
     const [newWinnerElo, newLoserElo] = calculateNewElos(
       cards[winnerIndex].elo,
-      cards[loserIndex].elo
+      cards[loserIndex].elo,
+      cards[winnerIndex].matches,
+      cards[loserIndex].matches
     );
     
     // Create updated card objects
@@ -122,6 +125,21 @@ const ComparisonView = () => {
     }
   };
 
+  const handleToggleFavorite = async (cardId) => {
+    try {
+      const updatedCard = await toggleFavorite(cardId);
+      
+      // Update the cards array with the updated card
+      setCards(currentCards => 
+        currentCards.map(card => 
+          card.id === cardId ? { ...card, isFavorite: updatedCard.isFavorite } : card
+        )
+      );
+    } catch (error) {
+      console.error("Failed to toggle favorite:", error);
+    }
+  };
+
   const handleSideHover = (side) => {
     if (selectionMade) return; // Prevent hover changes after selection
     setHoveredSide(side);
@@ -145,8 +163,6 @@ const ComparisonView = () => {
         <div className="loading">Loading cards...</div>
       ) : (
         <div className="comparison-content">
-          {/* Removed the title-overlay div with the "Which card do you prefer?" text */}
-          
           <div className={`split-screen-container ${selectionMade ? 'selection-made' : ''}`}>
             <div 
               className={`split-side left-side ${hoveredSide === 'left' && !selectionMade ? 'hovered' : ''} ${selectionMade && hoveredSide === 'left' ? 'selected' : ''}`}
@@ -154,6 +170,13 @@ const ComparisonView = () => {
               onMouseLeave={handleSideLeave}
               onClick={() => handleSideClick(cards[0].id)}
             >
+              {/* Favorite button for left section */}
+              <FavoriteButton 
+                isFavorited={cards[0]?.isFavorite || false}
+                onClick={() => handleToggleFavorite(cards[0]?.id)}
+                position="section-left"
+              />
+              
               <div className="card-container">
                 <Card 
                   card={cards[0]} 
@@ -175,6 +198,13 @@ const ComparisonView = () => {
               onMouseLeave={handleSideLeave}
               onClick={() => handleSideClick(cards[1].id)}
             >
+              {/* Favorite button for right section */}
+              <FavoriteButton 
+                isFavorited={cards[1]?.isFavorite || false}
+                onClick={() => handleToggleFavorite(cards[1]?.id)}
+                position="section-right"
+              />
+              
               <div className="card-container">
                 <Card 
                   card={cards[1]} 

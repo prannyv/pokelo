@@ -61,36 +61,87 @@ const calculateInitialElo = (card) => {
   return Math.round(initialElo);
 };
 
-// Initialize cards with Elo data on first load
-const initializeCards = () => {
-  if (cards.length === 0) {
-    cards = cardData.cards.map(card => {
-      // Generate initial Elo based on market price
-      const initialElo = calculateInitialElo(card);
-      
-      return {
-        id: card.id,
-        name: card.name,
-        imageUrl: card.images?.large || card.images?.small || '/images/placeholder.jpg',
-        elo: card.elo || initialElo,  // Use existing Elo if provided, otherwise calculate
-        matches: card.matches || 0,
-        wins: card.wins || 0,
-        lastUpdated: card.lastUpdated || new Date().toISOString(),
-        // Add additional card details that might be useful
-        types: card.types || [],
-        supertype: card.supertype,
-        subtypes: card.subtypes,
-        hp: card.hp,
-        rarity: card.rarity,
-        // Add price data for market price display
-        tcgplayer: card.tcgplayer,
-        cardmarket: card.cardmarket
-      };
-    });
+// Function to load Elo data from localStorage
+const loadEloData = () => {
+  try {
+    const savedEloData = localStorage.getItem('pokemonCardEloData');
+    return savedEloData ? JSON.parse(savedEloData) : {};
+  } catch (error) {
+    console.error('Failed to load Elo data from localStorage:', error);
+    return {};
   }
-  return cards;
 };
 
+// Function to save Elo data to localStorage
+const saveEloData = (eloData) => {
+  try {
+    localStorage.setItem('pokemonCardEloData', JSON.stringify(eloData));
+  } catch (error) {
+    console.error('Failed to save Elo data to localStorage:', error);
+  }
+};
+
+// Try to retrieve favorites from localStorage
+const loadFavorites = () => {
+  try {
+    const savedFavorites = localStorage.getItem('pokemonCardFavorites');
+    return savedFavorites ? JSON.parse(savedFavorites) : {};
+  } catch (error) {
+    console.error('Failed to load favorites from localStorage:', error);
+    return {};
+  }
+};
+
+// Save favorites to localStorage
+const saveFavorites = (favorites) => {
+  try {
+    localStorage.setItem('pokemonCardFavorites', JSON.stringify(favorites));
+  } catch (error) {
+    console.error('Failed to save favorites to localStorage:', error);
+  }
+};
+
+// Initialize favorites
+let favorites = loadFavorites();
+
+// Initialize Elo data from localStorage
+let eloData = loadEloData();
+
+// Initialize cards with Elo data on first load
+const initializeCards = () => {
+    if (cards.length === 0) {
+      cards = cardData.cards.map(card => {
+        // Get stored Elo data if available
+        const storedEloData = eloData[card.id];
+        
+        // Generate initial Elo based on market price if no stored data
+        const initialElo = calculateInitialElo(card);
+        
+        return {
+          id: card.id,
+          name: card.name,
+          imageUrl: card.images?.large || card.images?.small || '/images/placeholder.jpg',
+          // Use stored Elo data if available, otherwise use calculated or provided value
+          elo: storedEloData?.elo || card.elo || initialElo,
+          matches: storedEloData?.matches || card.matches || 0,
+          wins: storedEloData?.wins || card.wins || 0,
+          lastUpdated: storedEloData?.lastUpdated || card.lastUpdated || new Date().toISOString(),
+          isFavorite: favorites[card.id] || false, // Add favorite status
+          // Add additional card details that might be useful
+          types: card.types || [],
+          supertype: card.supertype,
+          subtypes: card.subtypes,
+          hp: card.hp,
+          rarity: card.rarity,
+          // Include TCGplayer and Cardmarket data for URL linking
+          tcgplayer: card.tcgplayer || null,
+          cardmarket: card.cardmarket || null
+        };
+      });
+    }
+    return cards;
+  };
+  
 /**
  * Fetch all Pokémon cards with their Elo ratings
  * @returns {Promise<Array>} Array of card objects
@@ -159,10 +210,63 @@ export const updateCardElo = async (cardId, cardData) => {
       lastUpdated: new Date().toISOString()
     };
     
+    // Update Elo data in memory
+    eloData[cardId] = {
+      elo: cardData.elo,
+      matches: cardData.matches,
+      wins: cardData.wins,
+      lastUpdated: new Date().toISOString()
+    };
+    
+    // Save to localStorage
+    saveEloData(eloData);
+    
     // Return a copy of the updated card
     return { ...allCards[cardIndex] };
   } catch (error) {
     console.error(`Failed to update card ${cardId}:`, error);
+    throw error;
+  }
+};
+
+/**
+ * Toggle favorite status for a card
+ * @param {string} cardId - The ID of the card to toggle favorite status
+ * @returns {Promise<Object>} Updated card object
+ */
+export const toggleFavorite = async (cardId) => {
+  // Simulate network delay
+  await new Promise(resolve => setTimeout(resolve, 200));
+  
+  try {
+    const allCards = initializeCards();
+    const cardIndex = allCards.findIndex(card => card.id === cardId);
+    
+    if (cardIndex === -1) {
+      throw new Error(`Card with ID ${cardId} not found`);
+    }
+    
+    // Toggle favorite status
+    const newFavoriteStatus = !allCards[cardIndex].isFavorite;
+    
+    // Update the card
+    allCards[cardIndex] = {
+      ...allCards[cardIndex],
+      isFavorite: newFavoriteStatus
+    };
+    
+    // Update favorites in memory and localStorage
+    if (newFavoriteStatus) {
+      favorites[cardId] = true;
+    } else {
+      delete favorites[cardId];
+    }
+    saveFavorites(favorites);
+    
+    // Return a copy of the updated card
+    return { ...allCards[cardIndex] };
+  } catch (error) {
+    console.error(`Failed to toggle favorite for card ${cardId}:`, error);
     throw error;
   }
 };
@@ -188,6 +292,28 @@ export const fetchCardById = async (cardId) => {
     return { ...card };
   } catch (error) {
     console.error(`Failed to fetch card ${cardId}:`, error);
+    throw error;
+  }
+};
+
+/**
+ * Clear all Elo data from localStorage (for testing/resetting)
+ * @returns {Promise<void>}
+ */
+export const resetAllEloData = async () => {
+  try {
+    // Clear localStorage
+    localStorage.removeItem('pokemonCardEloData');
+    
+    // Reset in-memory data
+    eloData = {};
+    
+    // Reset cards array to force reinitialization
+    cards = [];
+    
+    console.log('All Elo data has been reset');
+  } catch (error) {
+    console.error('Failed to reset Elo data:', error);
     throw error;
   }
 };

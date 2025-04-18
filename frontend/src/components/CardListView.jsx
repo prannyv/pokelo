@@ -1,7 +1,8 @@
 // CardListView.jsx
 import React, { useState, useEffect } from 'react';
 import Card from './Card';
-import { fetchAllCards } from '../services/api';
+import FavoriteButton from './FavoriteButton';
+import { fetchAllCards, toggleFavorite } from '../services/api';
 
 const CardListView = () => {
   const [cards, setCards] = useState([]);
@@ -11,6 +12,7 @@ const CardListView = () => {
     direction: 'desc'
   });
   const [filter, setFilter] = useState('');
+  const [showFavoritesOnly, setShowFavoritesOnly] = useState(false);
 
   useEffect(() => {
     const loadCards = async () => {
@@ -34,14 +36,46 @@ const CardListView = () => {
     setSortConfig({ key, direction });
   };
 
+  const handleToggleFavorite = async (cardId) => {
+    try {
+      const updatedCard = await toggleFavorite(cardId);
+      
+      // Update the cards array with the updated card
+      setCards(currentCards => 
+        currentCards.map(card => 
+          card.id === cardId ? { ...card, isFavorite: updatedCard.isFavorite } : card
+        )
+      );
+    } catch (error) {
+      console.error("Failed to toggle favorite:", error);
+    }
+  };
+
+  // Function to handle card click
+  const handleCardClick = (card) => {
+    // Check if the card has a TCGplayer URL
+    if (card.tcgplayer?.url) {
+      // Open the TCGplayer URL in a new tab
+      window.open(card.tcgplayer.url, '_blank', 'noopener,noreferrer');
+    } else {
+      console.log('No TCGplayer URL available for this card');
+    }
+  };
+
   const sortedCards = React.useMemo(() => {
     if (!cards.length) return [];
     
     const sortableCards = [...cards];
     
-    // First, separate cards with matches from those without
-    const cardsWithMatches = sortableCards.filter(card => card.matches > 0);
-    const cardsWithoutMatches = sortableCards.filter(card => card.matches === 0);
+    // First, separate favorited cards from non-favorited ones
+    const favoritedCards = sortableCards.filter(card => card.isFavorite);
+    const nonFavoritedCards = sortableCards.filter(card => !card.isFavorite);
+    
+    // Within each group, separate cards with matches from those without
+    const favoritedWithMatches = favoritedCards.filter(card => card.matches > 0);
+    const favoritedWithoutMatches = favoritedCards.filter(card => card.matches === 0);
+    const nonFavoritedWithMatches = nonFavoritedCards.filter(card => card.matches > 0);
+    const nonFavoritedWithoutMatches = nonFavoritedCards.filter(card => card.matches === 0);
     
     // Sort each group independently
     const sortFn = (a, b) => {
@@ -54,85 +88,62 @@ const CardListView = () => {
       return 0;
     };
     
-    const sortedWithMatches = cardsWithMatches.sort(sortFn);
-    const sortedWithoutMatches = cardsWithoutMatches.sort(sortFn);
+    const sortedFavoritedWithMatches = favoritedWithMatches.sort(sortFn);
+    const sortedFavoritedWithoutMatches = favoritedWithoutMatches.sort(sortFn);
+    const sortedNonFavoritedWithMatches = nonFavoritedWithMatches.sort(sortFn);
+    const sortedNonFavoritedWithoutMatches = nonFavoritedWithoutMatches.sort(sortFn);
     
-    // Return the combined array with cards with matches first
-    return [...sortedWithMatches, ...sortedWithoutMatches];
+    // Return the combined array with favorited cards first, then each group in order
+    return [
+      ...sortedFavoritedWithMatches, 
+      ...sortedFavoritedWithoutMatches,
+      ...sortedNonFavoritedWithMatches, 
+      ...sortedNonFavoritedWithoutMatches
+    ];
   }, [cards, sortConfig]);
   
   const filteredCards = React.useMemo(() => {
-    if (!filter) return sortedCards;
+    let filtered = sortedCards;
     
-    return sortedCards.filter(card => 
-      card.name.toLowerCase().includes(filter.toLowerCase())
-    );
-  }, [sortedCards, filter]);
-
-  // Add option to sort by price
-  const handlePriceSort = () => {
-    const key = 'price';
-    const direction = 
-      sortConfig.key === key && sortConfig.direction === 'desc' ? 'asc' : 'desc';
-    
-    // Custom sort for price
-    const sortedByPrice = [...cards].sort((a, b) => {
-      const priceA = getCardPrice(a);
-      const priceB = getCardPrice(b);
-      
-      // Handle null/undefined prices
-      if (priceA === null && priceB === null) return 0;
-      if (priceA === null) return direction === 'asc' ? -1 : 1;
-      if (priceB === null) return direction === 'asc' ? 1 : -1;
-      
-      // Normal comparison
-      if (priceA < priceB) {
-        return direction === 'asc' ? -1 : 1;
-      }
-      if (priceA > priceB) {
-        return direction === 'asc' ? 1 : -1;
-      }
-      return 0;
-    });
-    
-    setCards(sortedByPrice);
-    setSortConfig({ key, direction });
-  };
-  
-  // Helper function to get card price for sorting
-  const getCardPrice = (card) => {
-    let price = null;
-    
-    // Try to get price from tcgplayer
-    if (card.tcgplayer?.prices) {
-      const priceTypes = Object.keys(card.tcgplayer.prices);
-      for (const type of priceTypes) {
-        if (card.tcgplayer.prices[type]?.market) {
-          price = card.tcgplayer.prices[type].market;
-          break;
-        }
-      }
+    // Apply name filter
+    if (filter) {
+      filtered = filtered.filter(card => 
+        card.name.toLowerCase().includes(filter.toLowerCase())
+      );
     }
     
-    // If no TCGplayer price, try cardmarket
-    if (price === null && card.cardmarket?.prices?.averageSellPrice) {
-      price = card.cardmarket.prices.averageSellPrice;
+    // Apply favorites-only filter if enabled
+    if (showFavoritesOnly) {
+      filtered = filtered.filter(card => card.isFavorite);
     }
     
-    return price;
-  };
+    return filtered;
+  }, [sortedCards, filter, showFavoritesOnly]);
 
   return (
     <div className="card-list-container">
       <div className="list-content">
         <div className="controls">
-          <div className="search">
-            <input
-              type="text"
-              placeholder="Search by name..."
-              value={filter}
-              onChange={(e) => setFilter(e.target.value)}
-            />
+          <div className="search-and-filter">
+            <div className="search">
+              <input
+                type="text"
+                placeholder="Search by name..."
+                value={filter}
+                onChange={(e) => setFilter(e.target.value)}
+              />
+            </div>
+            
+            <div className="favorites-filter">
+              <label className="favorites-toggle">
+                <input
+                  type="checkbox"
+                  checked={showFavoritesOnly}
+                  onChange={() => setShowFavoritesOnly(!showFavoritesOnly)}
+                />
+                <span>Show favorites only</span>
+              </label>
+            </div>
           </div>
           
           <div className="sort-controls">
@@ -142,7 +153,7 @@ const CardListView = () => {
             >
               Sort by Elo
               {sortConfig.key === 'elo' && (
-                <span>{sortConfig.direction === 'desc' ? ' ↓' : ' ↑'}</span>
+                <span>{sortConfig.direction === 'desc' ? '↓' : '↑'}</span>
               )}
             </button>
             
@@ -152,7 +163,7 @@ const CardListView = () => {
             >
               Sort by Name
               {sortConfig.key === 'name' && (
-                <span>{sortConfig.direction === 'desc' ? ' ↓' : ' ↑'}</span>
+                <span>{sortConfig.direction === 'desc' ? '↓' : '↑'}</span>
               )}
             </button>
             
@@ -162,17 +173,7 @@ const CardListView = () => {
             >
               Sort by Matches
               {sortConfig.key === 'matches' && (
-                <span>{sortConfig.direction === 'desc' ? ' ↓' : ' ↑'}</span>
-              )}
-            </button>
-            
-            <button 
-              onClick={handlePriceSort}
-              className={sortConfig.key === 'price' ? 'active' : ''}
-            >
-              Sort by Price
-              {sortConfig.key === 'price' && (
-                <span>{sortConfig.direction === 'desc' ? ' ↓' : ' ↑'}</span>
+                <span>{sortConfig.direction === 'desc' ? '↓' : '↑'}</span>
               )}
             </button>
           </div>
@@ -185,10 +186,16 @@ const CardListView = () => {
             {filteredCards.map((card, index) => (
               <div key={card.id} className="card-list-item">
                 <div className="card-rank">#{index + 1}</div>
+                <FavoriteButton 
+                  isFavorited={card.isFavorite}
+                  onClick={() => handleToggleFavorite(card.id)}
+                  position="grid-item"
+                />
                 <Card 
                   card={card} 
                   showDetails={true}
-                  showMarketPrice={true} // Explicitly set to true
+                  showMarketPrice={true}
+                  onCardClick={handleCardClick}
                 />
               </div>
             ))}

@@ -318,7 +318,7 @@ footer {
   justify-content: center;
   align-items: center;
   cursor: pointer; /* Indicate the entire overlay is clickable */
-  background-color: rgba(0, 0, 0, 0.05); /* Lighter semi-transparent overlay */
+  background-color: rgba(0, 0, 0, 0.02); /* Lighter semi-transparent overlay */
 }
 
 .result-message {
@@ -653,4 +653,142 @@ footer {
   .title-overlay h1 {
     font-size: 3.5rem;
   }
+}
+
+/* Add these styles to App.css */
+
+/* Favorite Button Styles */
+.favorite-button {
+  position: absolute;
+  border: none;
+  width: 48px;  /* Increased button size */
+  height: 48px; /* Increased button size */
+  display: flex;
+  align-items: center;     /* Center vertically */
+  justify-content: center; /* Center horizontally */
+  cursor: pointer;
+  z-index: 100;
+  transition: all 0.2s ease;
+  background-color: transparent;
+  padding: 0;
+}
+
+.favorite-button svg {
+  width: 44px;  /* Increased SVG size */
+  height: 44px; /* Increased SVG size */
+  transition: transform 0.2s ease;
+  /* Remove any margins that might affect centering */
+  margin: 0;
+  /* Ensure the SVG is a block element for better alignment */
+  display: block;
+}
+
+.favorite-button:hover {
+  transform: scale(1.1);
+}
+
+.favorite-button:active {
+  transform: scale(0.95);
+}
+
+/* Position buttons in the colored sections */
+.section-left {
+  top: 12px;
+  left: 12px;
+}
+
+.section-right {
+  top: 12px;
+  right: 12px;
+}
+
+/* Position for grid items in card list view */
+.grid-item {
+  top: 8px;
+  right: 8px;
+}
+
+/* Add shadow to the SVG rather than the button */
+.favorite-button svg {
+  filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.15));
+}
+
+/* Favorites Filter Styles */
+.search-and-filter {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.favorites-filter {
+  display: flex;
+  align-items: center;
+}
+
+.favorites-toggle {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.favorites-toggle input {
+  cursor: pointer;
+  width: 18px;
+  height: 18px;
+}
+
+@media (min-width: 768px) {
+  .search-and-filter {
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+  }
+}
+
+/* Match layout with Card component's card-container */
+.card-container {
+  position: relative;
+}
+
+/* Make favorite button more visible on smaller screens */
+@media (max-width: 480px) {
+  .favorite-button {
+    width: 32px;
+    height: 32px;
+  }
+  
+  .favorite-button svg {
+    width: 18px;
+    height: 18px;
+  }
+  
+  .favorite-left {
+    top: 5px;
+    left: 5px;
+  }
+  
+  .favorite-right {
+    top: 5px;
+    right: 5px;
+  }
+}
+
+/* Styles for clickable cards in list view */
+.list-card {
+  cursor: pointer;
+  transition: box-shadow 0.25s ease-in-out;
+}
+
+.list-card:hover {
+  box-shadow: 0 6px 12px var(--shadow);
+}
+
+/* Style for the TCGplayer link hint */
+.view-store-hint {
+  margin-top: 8px;
+  text-align: center;
+  color: var(--secondary);
+  font-size: 0.8rem;
 }

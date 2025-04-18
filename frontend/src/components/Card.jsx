@@ -6,7 +6,8 @@ const Card = ({
   onClick, 
   showDetails = false,
   showMarketPrice = false,
-  isComparisonMode = false 
+  isComparisonMode = false,
+  onCardClick = null // New prop for handling card clicks in list view
 }) => {
   const [imageError, setImageError] = useState(false);
   
@@ -16,39 +17,45 @@ const Card = ({
     setImageError(true);
   };
 
-  // Function to get market price with improved error handling
+  // Function to get market price
   const getMarketPrice = () => {
-    try {
-      let marketPrice = null;
-      
-      // Try to get price from tcgplayer data
-      if (card.tcgplayer?.prices) {
-        // Check different price categories (holofoil, normal, etc.)
-        const priceTypes = Object.keys(card.tcgplayer.prices);
-        for (const type of priceTypes) {
-          if (card.tcgplayer.prices[type]?.market) {
-            marketPrice = card.tcgplayer.prices[type].market;
-            break; // Use the first available market price
-          }
+    let marketPrice = null;
+    
+    // Try to get price from tcgplayer data
+    if (card.tcgplayer?.prices) {
+      // Check different price categories (holofoil, normal, etc.)
+      const priceTypes = Object.keys(card.tcgplayer.prices);
+      for (const type of priceTypes) {
+        if (card.tcgplayer.prices[type]?.market) {
+          marketPrice = card.tcgplayer.prices[type].market;
+          break; // Use the first available market price
         }
       }
-      
-      // If no TCGplayer market price, try cardmarket
-      if (marketPrice === null && card.cardmarket?.prices?.averageSellPrice) {
-        marketPrice = card.cardmarket.prices.averageSellPrice;
-      }
-      
-      return marketPrice !== null ? `$${marketPrice.toFixed(2)}` : 'N/A';
-    } catch (error) {
-      console.error("Error getting market price:", error);
-      return 'N/A';
+    }
+    
+    // If no TCGplayer market price, try cardmarket
+    if (marketPrice === null && card.cardmarket?.prices?.averageSellPrice) {
+      marketPrice = card.cardmarket.prices.averageSellPrice;
+    }
+    
+    return marketPrice !== null ? `$${marketPrice.toFixed(2)}` : 'N/A';
+  };
+
+  // Handler for card clicks that checks the context (comparison mode vs list view)
+  const handleCardClick = () => {
+    if (isComparisonMode && onClick) {
+      // In comparison mode, use the existing onClick handler
+      onClick(card.id);
+    } else if (!isComparisonMode && onCardClick) {
+      // In list view mode, use the new onCardClick handler
+      onCardClick(card);
     }
   };
 
   return (
     <div 
-      className={`card ${isComparisonMode ? 'comparison-card' : 'list-card'}`}
-      onClick={() => isComparisonMode && onClick && onClick(card.id)}
+      className={`card ${isComparisonMode ? 'comparison-card' : 'list-card'} ${!isComparisonMode ? 'clickable-card' : ''}`}
+      onClick={handleCardClick}
     >
       <div className="card-image-container">
         {imageError ? (
@@ -89,6 +96,11 @@ const Card = ({
               <div className="stat">
                 <span className="stat-label">Price:</span>
                 <span className="stat-value price">{getMarketPrice()}</span>
+              </div>
+            )}
+            {!isComparisonMode && (
+              <div className="view-store-hint">
+                <small>Click to view on TCGplayer</small>
               </div>
             )}
           </div>
