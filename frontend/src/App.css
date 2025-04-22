@@ -842,3 +842,58 @@ footer {
 .favorite-button:focus {
   outline: none;
 }
+
+/* Result message buttons container */
+.result-buttons {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+/* Base button styles (existing styles from your code) */
+.result-message button {
+  background-color: var(--secondary);
+  color: var(--light);
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-family: var(--font-family);
+  font-weight: 500;
+}
+
+.result-message button:hover {
+  background-color: #2c4a96;
+}
+
+/* Undo button specific styles */
+.undo-button {
+  background-color: #e74c3c !important; /* Red color that matches your left-side color */
+  position: relative;
+}
+
+.undo-button:hover {
+  background-color: #c0392b !important; /* Darker red on hover */
+}
+
+/* Disabled undo button */
+.undo-button:disabled {
+  background-color: #ccc !important;
+  cursor: not-allowed;
+  opacity: 0.7;
+}
+
+/* Next button specific styles */
+.next-button {
+  background-color: var(--secondary); /* Keep the blue color for next button */
+}
+
+/* Responsive adjustments for mobile */
+@media (max-width: 480px) {
+  .result-buttons {
+    flex-direction: column;
+    gap: 8px;
+  }
+}

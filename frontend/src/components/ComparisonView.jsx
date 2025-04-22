@@ -12,6 +12,8 @@ const ComparisonView = () => {
   const [hoveredSide, setHoveredSide] = useState(null);
   const [selectionMade, setSelectionMade] = useState(false);
   const [selectionCount, setSelectionCount] = useState(0);
+  // Add state to store previous card state before selection
+  const [previousCards, setPreviousCards] = useState(null);
 
   // Load two random cards when component mounts
   useEffect(() => {
@@ -38,6 +40,11 @@ const ComparisonView = () => {
       if (result && (event.key === ' ' || event.key === 'Enter')) {
         loadNewComparison();
       }
+
+      // Handle 'u' key for undo
+      if (result && event.key === 'u' && previousCards) {
+        handleUndo();
+      }
     };
 
     window.addEventListener('keydown', handleKeyDown);
@@ -46,13 +53,14 @@ const ComparisonView = () => {
     return () => {
       window.removeEventListener('keydown', handleKeyDown);
     };
-  }, [cards, loading, result, selectionMade]);
+  }, [cards, loading, result, selectionMade, previousCards]);
 
   const loadNewComparison = async () => {
     setLoading(true);
     setResult(null);
     setHoveredSide(null);
     setSelectionMade(false);
+    setPreviousCards(null); // Reset previous cards when loading new comparison
     try {
       const randomCards = await fetchRandomCards(2);
       setCards(randomCards);
@@ -65,6 +73,9 @@ const ComparisonView = () => {
 
   const handleCardSelection = async (selectedCardId) => {
     if (loading || result || selectionMade) return;
+    
+    // Store previous state before updating
+    setPreviousCards([...cards]);
     
     // Lock selection state
     setSelectionMade(true);
@@ -122,6 +133,35 @@ const ComparisonView = () => {
       ]);
     } catch (error) {
       console.error("Failed to update Elo ratings:", error);
+    }
+  };
+
+  // Add undo function
+  const handleUndo = async () => {
+    if (!previousCards) return;
+    
+    try {
+      // Restore the card states to their previous values
+      setCards(previousCards);
+      
+      // Reset the API/localStorage state for both cards
+      await Promise.all([
+        updateCardElo(previousCards[0].id, previousCards[0]),
+        updateCardElo(previousCards[1].id, previousCards[1])
+      ]);
+      
+      // Reset UI state
+      setResult(null);
+      setHoveredSide(null);
+      setSelectionMade(false);
+      
+      // Decrement selection count as we're undoing a selection
+      setSelectionCount(prevCount => Math.max(0, prevCount - 1));
+      
+      // Clear previous cards after successful undo
+      setPreviousCards(null);
+    } catch (error) {
+      console.error("Failed to undo card selection:", error);
     }
   };
 
@@ -232,12 +272,27 @@ const ComparisonView = () => {
                   <strong>{result.winner.name}</strong> wins! 
                   Elo rating increased by {result.eloChange} points.
                 </p>
-                <button onClick={(e) => {
-                  e.stopPropagation(); // Prevent double triggering
-                  loadNewComparison();
-                }}>
-                  Next Comparison {selectionCount < 3 && "(Space/Enter)"}
-                </button>
+                <div className="result-buttons">
+                  <button
+                    className="undo-button"
+                    onClick={(e) => {
+                      e.stopPropagation(); // Prevent double triggering
+                      handleUndo();
+                    }}
+                    disabled={!previousCards}
+                  >
+                    Undo {selectionCount < 3 && "(U)"}
+                  </button>
+                  <button
+                    className="next-button" 
+                    onClick={(e) => {
+                      e.stopPropagation(); // Prevent double triggering
+                      loadNewComparison();
+                    }}
+                  >
+                    Next Comparison {selectionCount < 3 && "(Space/Enter)"}
+                  </button>
+                </div>
               </div>
             </div>
           )}
